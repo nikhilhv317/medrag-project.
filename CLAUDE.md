@@ -1,16 +1,19 @@
 # MedRAG: notes for Claude Code
 
 Retrieval-augmented question answering over hospital imaging records (synthetic patients + public Open-i
-chest X-ray reports + MTSamples transcriptions). Repo: https://github.com/nikhilhv414/medrag (branch main).
+chest X-ray reports + MTSamples transcriptions). Repo: https://github.com/nikhilhv317/medrag-project. (the name ends in a dot; branch main;
+remote `origin` = `https://github.com/nikhilhv317/medrag-project..git`). Push and pull only there: the old
+nikhilhv414/medrag repo is no longer used.
 README.md explains the pipeline; PROJECT_REPORT.md is the full write-up with all evaluation tables.
 
 ## Rules (from the owner, always apply)
 - Never print, echo or commit API keys. Keys live only in the git-ignored `.env`; never ask for keys in chat.
   AWS credentials come from the normal AWS chain only.
 - Never push to GitHub without the owner's OK. Ask before downloading models or data.
-- Data, indexes and reports stay out of git (`data/raw`, `data/clean`, `data/source`, `indexes/`, `reports/`,
-  `users*.json`). Real patient data would need a HIPAA BAA: do not load any.
-- Do not touch or commit the owner's untracked `LLM_Project_report.md` / `.pdf`.
+- The repo is public and holds the code, `data/` (synthetic + Open-i + MTSamples), `reports/` (evaluation
+  results) and the owner's `LLM_Project_report.md`. `indexes/` (too large for GitHub), `.env` and `users*.json`
+  stay out of git. Real patient data would need a HIPAA BAA: never load or commit any.
+- Do not edit the owner's `LLM_Project_report.md` / `.pdf`.
 - Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
 ## Environment
@@ -24,8 +27,8 @@ README.md explains the pipeline; PROJECT_REPORT.md is the full write-up with all
   (`pip install torch --index-url https://download.pytorch.org/whl/cu126`), check
   `torch.cuda.is_available()`. sentence-transformers, CrossEncoder and MedCPTEmbedder use the GPU automatically.
   With 6 GB VRAM keep `EMBED_BATCH_SIZE=64`.
-- Data/indexes/reports are not in git: they come from `medrag_transfer.tar` (unpack in the repo root).
-  Without it, rebuild with the pipeline commands in README.md.
+- Data and reports come with `git pull`. Indexes are not in git: take them from `medrag_transfer.tar` (unpack
+  in the repo root) or rebuild with the pipeline commands in README.md.
 - Many files have CRLF line endings: edit with the Edit tool, not multi-line string replacement scripts.
 - Tests: `.venv/Scripts/python -m pytest -q` (29 pass).
 
