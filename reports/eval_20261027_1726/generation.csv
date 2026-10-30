@@ -1,0 +1,77 @@
+llm,type,id,question,answer,retrieval_s,generation_s,cites_sources,fact_recall,abstain_correct,number_correct
+ollama:qwen2.5:3b,lookup_by_name,0,What did the Mammography breast on 2022-01-21 show for Jennifer Nanda?,"On 2022-01-21, the Mammography breast study for Jennifer Nanda (MRN 0018169, Patient ID 18169) showed suspicious right breast calcifications, BI-RADS 4. The study was urgent and recommended a stereotactic biopsy. [S1]",0.28431010246276855,53.942577838897705,1.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,8,What did the MRI abdomen on 2024-08-12 show for Kim Hegde?,"On 2024-08-12, the MRI abdomen (stat) for Kim Hegde showed an arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma. [S1, S2]",0.17194628715515137,27.831519603729248,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,16,What did the CT abdomen on 2021-10-11 show for Anusha Austin?,The CT abdomen on 2021-10-11 showed a right renal calculus with mild hydronephrosis. [S1],0.14087247848510742,22.33659267425537,1.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,24,What did the MRI spine on 2025-10-12 show for Susan Lyons?,"On MRI spine performed on 2025-10-12, for Susan Lyons (id 17578), the findings showed multilevel degenerative spondylosis. This was a routine MRI performed due to sciatica. [S1, S2]",0.1618640422821045,27.957802295684814,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,32,Summarise the X-ray report for patient MRN0010685 dated 2025-11-05.,"**X-ray Report for Patient MRN0010685 (Vivaan Lewis) dated 2025-11-05:**
+
+- **Modality:** X-ray
+- **Date:** 2025-11-05
+- **Priority:** Urgent
+- **Finding:** Right pneumothorax (measuring approximately 12 mm)
+- **Impression:** Right pneumothorax
+- **Recommendation:** Immediate clinical review; consider chest drain
+
+**Additional Information:**
+- **Previous Findings:** The patient had a left pneumothorax on 2025-06-29 and 2025-04-30, and a right pneumothorax on 2025-11-05.
+- **AI Model Prediction:** Pneumothorax (confidence 0.90)",0.1473252773284912,49.98477745056152,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,40,Summarise the Ultrasound report for patient MRN0002988 dated 2022-03-21.,"**Ultrasound Report for Patient MRN0002988 (Aadi Vaughan) dated 2022-03-21:**
+
+- **Modality:** Ultrasound
+- **Date:** 2022-03-21
+- **Priority:** Routine
+- **Finding:** Hepatic steatosis
+
+**Detailed Findings:**
+- **Technique:** Grey-scale and colour Doppler ultrasound of the abdomen.
+- **Comparison:** Unchanged compared to the prior study from 2020-12-10.
+- **Finding:** Diffusely decreased hepatic attenuation/increased echogenicity in keeping with fatty infiltration.
+- **Impression:** Hepatic steatosis.
+- **Recommendation:** Lifestyle modification and liver function monitoring.
+
+**AI Model (SonoAssist v1.8) Prediction:** Splenomegaly (confidence 0.64).
+
+**Previous Studies:**
+- 2024-11-06 CT abdomen (routine): Hepatic steatosis.
+- 2022-03-21 Ultrasound abdomen (routine): Hepatic steatosis.
+
+**Patient History:**
+- No chronic conditions recorded.
+- 14 imaging studies from 2021-01-19 to 2025-04-21, including X-rays, CT scans, and Ultrasound examinations.
+- Most recent studies: 2025-04-21 X-ray knee (routine): No acute abnormality; 2025-03-26 Ultrasound abdomen (routine): Cholelithiasis without cholecystitis; 2024-12-27 CT chest (stat): Acute right segmental pulmonary embolism; 2024-11-06 CT abdomen (routine): Hepatic steatosis; 2024-04-14 Ultrasound abdomen (routine): Cholelithiasis without cholecystitis; 2023-10-16 CT head (routine): No acute abnormality; 2023-03-25 X-ray spine (routine): No acute abnormality; 2022-08-21 MRI brain (routine): Chronic small vessel ischaemic change, Fazekas grade 2; 2022-03-21 Ultrasound abdomen (routine): Hepatic steatosis; 2021-12-28 X-ray chest (routine): No acute abnormality; 2021-12-09 X-ray knee (routine): No acute abnormality; 2021-08-16 X-ray spine (routine): No acute abnormality; 2021-06-30 MRI brain (routine): Chronic small vessel ischaemic change, Fazekas grade 2; 2021-01-19 CT head (routine): No acute abnormality.",0.14440560340881348,124.43361353874207,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,48,Summarise the X-ray report for patient MRN0000947 dated 2023-01-15.,"**X-ray Report for Patient MRN0000947 (Lauren Boase) dated 2023-01-15:**
+
+- **Modality:** X-ray
+- **Priority:** Routine
+- **Date:** 2023-01-15
+- **Finding:** Centrilobular emphysema predominantly in the upper lobes
+- **Impression:** Centrilobular emphysema
+- **Recommendation:** Correlate with pulmonary function tests
+
+**Additional Information:**
+- The patient has a history of prostate enlargement (BPH).
+- Most recent imaging studies include an ultrasound pelvis in August 2026, a CT chest for pulmonary embolism in April 2023, and a CT chest for a left MCA territory infarct in April 2021.
+- The AI model predicted 'emphysema' with a confidence of 0.85.",0.1629927158355713,50.15968656539917,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,56,Summarise the CT report for patient MRN0001273 dated 2025-11-26.,"**CT Report Summary for Patient MRN0001273 (Mary Black) dated 2025-11-26:**
+
+- **Patient Information:** Female, age 89, MRN: MRN0001273, from Kolkata.
+- **History:** Chronic conditions include Gout and Rheumatoid arthritis. Recent imaging studies: Ultrasound thyroid (urgent), MRI brain (urgent), Ultrasound thyroid (routine), X-ray knee (routine), MRI knee (routine), CT chest (routine), PET-CT whole body (routine), X-ray chest (routine), X-ray chest (routine).
+- **Findings:** Most recent study: 2025-11-26 CT chest (routine): Centrilobular emphysema in the upper lobes.
+- **Technique:** Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+- **Impression:** Centrilobular emphysema.
+- **Recommendation:** Correlate with pulmonary function tests.
+- **AI Model Prediction:** Predicted 'emphysema' with a confidence of 0.77.
+
+**Abnormal Findings:** Centrilobular emphysema (100.0%).",0.15697860717773438,76.3783917427063,0.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,64,What was the most recent imaging study for Jonathon Davis and what did it show?,The most recent imaging study for Jonathon Davis was a CT chest (urgent) performed on 2026-06-12. It showed a right pneumothorax.,0.99711012840271,77.41070628166199,0.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,72,What was the most recent imaging study for Sara Ellis and what did it show?,The most recent imaging study for Sara Ellis was an Ultrasound abdomen performed on 2026-07-29. It showed splenomegaly. [S2],0.3845219612121582,39.0347626209259,1.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,80,What was the most recent imaging study for Travis Sami and what did it show?,"The most recent imaging study for Travis Sami was a CT abdomen performed on 2026-03-21 (priority: stat). It showed an arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma. [S3]",0.829658031463623,68.9992606639862,1.0,0.0,1.0,
+ollama:qwen2.5:3b,latest,88,What was the most recent imaging study for Bahadurjit Thompson and what did it show?,The most recent imaging study for Bahadurjit Thompson was a CT abdomen performed on 2026-01-21. The study showed hepatic steatosis.,1.1164050102233887,76.14460015296936,0.0,1.0,1.0,
+ollama:qwen2.5:3b,count_patient,96,How many X-ray studies does Sean Chadwick have?,There were 3 X-ray studies for Sean Chadwick.,0.28170251846313477,42.24229121208191,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,104,How many CT studies does Malcolm Bawa have?,There were 3 CT studies for Malcolm Bawa.,0.2827150821685791,54.49988555908203,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,112,How many MRI studies does Lisa Ball have?,There were 3 MRI studies for Lisa Ball (ID 8218 and 16883) within the date range of 2021-08-11 to 2026-04-02.,0.34255290031433105,56.560019731521606,0.0,,1.0,0.0
+ollama:qwen2.5:3b,semantic,120,Which patient had a CT on 2021-05-11 showing cardiomegaly?,"There was a CT chest on 2021-05-11 showing cardiomegaly in Kristen Francis, MRN0012674, Patient ID 12674.",0.39755988121032715,47.5503613948822,0.0,1.0,1.0,
+ollama:qwen2.5:3b,semantic,128,Which patient had a Ultrasound on 2025-06-24 showing hepatic steatosis?,"There was one patient, Emily Pillay, who had a Ultrasound on 2025-06-24 showing hepatic steatosis.",0.5431747436523438,57.68932390213013,0.0,0.0,1.0,
+ollama:qwen2.5:3b,semantic,136,Which patient had a Ultrasound on 2023-06-09 showing splenomegaly?,"There was one patient, Erin Ganesan, who had a Ultrasound on 2023-06-09 showing splenomegaly.",0.4710404872894287,53.25881266593933,0.0,1.0,1.0,
+ollama:qwen2.5:3b,semantic,144,Which patient had a X-ray on 2022-09-11 showing cardiomegaly?,"There was no patient with a chest X-ray on 2022-09-11 showing cardiomegaly. [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8]",0.9040882587432861,72.9184319972992,1.0,0.0,1.0,
+ollama:qwen2.5:3b,count_cohort,152,How many stat priority CT studies were performed in 2023?,There were 587 stat priority CT studies performed in 2023.,4.456741809844971,82.20444512367249,0.0,,1.0,1.0

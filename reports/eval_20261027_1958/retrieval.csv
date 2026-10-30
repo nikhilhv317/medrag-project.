@@ -1,0 +1,1247 @@
+config,type,difficulty,id,in_dictionary,latency_s,hit,mrr,recall,ndcg
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,0,,2.4241952896118164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,1,,0.09590792655944824,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,2,,0.10861396789550781,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,3,,0.12126612663269043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,4,,0.12210464477539062,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,5,,0.1249227523803711,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,6,,0.12551474571228027,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,7,,0.12601256370544434,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,8,,0.1227109432220459,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,9,,0.1251845359802246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,10,,0.1387484073638916,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,11,,0.14584040641784668,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,12,,0.14998674392700195,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,13,,0.14023613929748535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,14,,0.12534546852111816,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,15,,0.12360477447509766,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,16,,0.1334688663482666,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,17,,0.143174409866333,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,18,,0.11900568008422852,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_name,easy,19,,0.14567208290100098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,20,,0.1317002773284912,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,21,,0.12855958938598633,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,22,,0.13679170608520508,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,23,,0.11813712120056152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,24,,0.12794089317321777,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,25,,0.12964940071105957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,26,,0.12877893447875977,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,27,,0.13304495811462402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,28,,0.12576651573181152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,29,,0.12651538848876953,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,30,,0.3203411102294922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,31,,0.11152434349060059,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,32,,0.13953018188476562,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,33,,0.12592005729675293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,34,,0.12923192977905273,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,35,,0.12594127655029297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,36,,0.12506842613220215,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,37,,0.1362323760986328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,38,,0.11791038513183594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),lookup_by_mrn,easy,39,,0.13486051559448242,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,40,,0.3023955821990967,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,41,,0.34034276008605957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,42,,0.26210689544677734,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,43,,0.6900458335876465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,44,,0.32824015617370605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,45,,1.0152711868286133,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,46,,0.44999098777770996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,47,,0.3387758731842041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,48,,1.181643009185791,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,49,,0.7327303886413574,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,50,,0.3023240566253662,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,51,,0.5432078838348389,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,52,,0.23118972778320312,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,53,,0.3632848262786865,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,54,,0.28130245208740234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,55,,0.2377779483795166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,56,,0.2851126194000244,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,57,,0.5054938793182373,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,58,,0.5811793804168701,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),latest,easy,59,,0.803666353225708,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,60,,0.17798709869384766,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,61,,0.2813835144042969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,62,,0.1699838638305664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,63,,0.14258790016174316,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,64,,0.1641528606414795,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,65,,0.10428714752197266,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,66,,0.11054491996765137,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,67,,0.16013574600219727,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,68,,0.1475679874420166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,69,,0.14468979835510254,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,70,,0.12346744537353516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,71,,0.18939781188964844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,72,,0.3213348388671875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,73,,0.3979074954986572,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,74,,0.21872305870056152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,75,,0.1639409065246582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,76,,0.20438671112060547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,77,,0.310915470123291,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,78,,0.24546337127685547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),count_patient,easy,79,,0.20139050483703613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,90,,0.6560220718383789,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,91,,0.3390672206878662,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,92,,0.6346101760864258,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,93,,0.6594457626342773,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,94,,0.47548770904541016,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,95,,0.4659721851348877,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,96,,0.6683809757232666,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,97,,0.5462672710418701,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,98,,0.5634200572967529,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,99,,0.1681065559387207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,100,,0.499875545501709,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,101,,0.9061689376831055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,102,,0.7889912128448486,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,103,,0.23236656188964844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,104,,0.4492988586425781,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,105,,0.6249489784240723,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,106,,0.2937319278717041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,107,,0.5161900520324707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,108,,0.13173389434814453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),semantic,easy,109,,0.3937089443206787,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,125,True,0.530057430267334,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,126,True,0.49326372146606445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,127,True,0.1438286304473877,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,128,True,0.23378396034240723,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,129,True,1.0717687606811523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,130,True,0.5791075229644775,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,131,False,0.18183422088623047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,132,True,0.24509596824645996,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,133,True,0.1879427433013916,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,134,True,0.17531609535217285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,135,True,0.19508957862854004,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,136,True,0.22181177139282227,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,137,False,0.17412328720092773,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,138,False,0.7012121677398682,1.0,0.14285714285714285,1.0,0.3333333333333333
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,139,True,2.211167812347412,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,140,True,1.5184521675109863,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,141,True,0.1905806064605713,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,142,True,0.22011494636535645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,143,True,0.2677586078643799,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_paraphrase_patient,hard,144,True,0.6250169277191162,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,145,True,1.0088491439819336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,146,False,1.0764069557189941,1.0,0.3333333333333333,0.6666666666666666,0.39106560501896365
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,147,True,0.6980195045471191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,148,False,0.7746355533599854,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,149,True,1.7108585834503174,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,150,True,1.3641350269317627,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,151,True,0.8164067268371582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,152,True,0.9367718696594238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,153,False,0.7497274875640869,1.0,0.125,1.0,0.31546487678572877
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,154,False,1.4111051559448242,1.0,0.25,0.6666666666666666,0.38364913903790027
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,155,False,0.9226360321044922,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,156,False,1.9436054229736328,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,157,False,0.8987786769866943,1.0,0.3333333333333333,1.0,0.5706417189553201
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,158,True,1.659336805343628,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,159,True,1.2309913635253906,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,160,True,1.5951652526855469,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,161,False,0.751488208770752,1.0,1.0,1.0,0.8179809735263114
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,162,False,0.8328759670257568,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,163,False,1.3426434993743896,1.0,0.5,1.0,0.7328286204777911
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_semantic_cohort,hard,164,False,0.8162829875946045,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,165,False,0.246307373046875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,166,True,0.21546101570129395,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,167,True,0.17704987525939941,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,168,True,0.21898436546325684,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,169,True,0.2612004280090332,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,170,False,0.33820033073425293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,171,False,0.17180848121643066,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,172,True,0.26380419731140137,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,173,True,0.19478297233581543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,174,True,0.1869361400604248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,175,True,0.2614617347717285,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,176,True,0.1888141632080078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,177,True,0.25115299224853516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,178,True,0.23625445365905762,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,179,False,0.24420928955078125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,180,True,0.3099086284637451,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,181,True,0.18120050430297852,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,182,True,0.20941495895385742,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,183,True,0.28189682960510254,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_trend,hard,184,True,0.24130034446716309,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,215,,0.13710451126098633,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,216,,0.13842344284057617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,217,,0.14060688018798828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,218,,0.12488865852355957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,219,,0.12974214553833008,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,220,,0.14731550216674805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,221,,0.14098262786865234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,222,,0.14281296730041504,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,223,,0.14134669303894043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,224,,0.16226410865783691,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,225,,0.13978028297424316,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,226,,0.16552281379699707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,227,,0.1594069004058838,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,228,,0.14483356475830078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,229,,0.12789249420166016,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,230,,0.14098262786865234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,231,,0.14423060417175293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (ms-marco-MiniLM-L-6-v2),hard_typo_name,hard,232,,0.18607282638549805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,0,,5.844793081283569,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,1,,0.4491734504699707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,2,,0.4369807243347168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,3,,0.41523098945617676,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,4,,0.41999077796936035,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,5,,0.44858384132385254,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,6,,0.40582895278930664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,7,,0.41854047775268555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,8,,0.44995665550231934,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,9,,0.415330171585083,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,10,,0.4951961040496826,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,11,,0.41644954681396484,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,12,,0.4411499500274658,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,13,,0.45961499214172363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,14,,0.45522546768188477,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,15,,0.47702789306640625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,16,,0.41181349754333496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,17,,0.42264533042907715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,18,,0.42812061309814453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_name,easy,19,,0.45131611824035645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,20,,0.37430644035339355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,21,,0.4279022216796875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,22,,0.4385673999786377,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,23,,0.41731977462768555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,24,,0.42398691177368164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,25,,0.42599058151245117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,26,,0.4352896213531494,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,27,,0.41935110092163086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,28,,0.40270304679870605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,29,,0.4145927429199219,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,30,,0.4145631790161133,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,31,,0.41852259635925293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,32,,0.4422342777252197,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,33,,0.47716188430786133,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,34,,0.43369150161743164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,35,,0.44152140617370605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,36,,0.4383866786956787,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,37,,0.45027613639831543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,38,,0.44811153411865234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),lookup_by_mrn,easy,39,,0.47814345359802246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,40,,1.8572943210601807,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,41,,1.893540859222412,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,42,,1.5847806930541992,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,43,,3.6589407920837402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,44,,1.9194653034210205,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,45,,6.370029449462891,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,46,,2.268892526626587,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,47,,2.4686543941497803,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,48,,9.672273874282837,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,49,,5.181557893753052,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,50,,1.653573989868164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,51,,3.3538084030151367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,52,,1.5234708786010742,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,53,,2.10603928565979,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,54,,1.8495903015136719,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,55,,1.449211835861206,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,56,,1.7329323291778564,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,57,,2.9539976119995117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,58,,4.51628851890564,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),latest,easy,59,,5.766860246658325,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,60,,1.0099213123321533,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,61,,1.8805105686187744,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,62,,0.9407017230987549,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,63,,0.6782894134521484,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,64,,0.919389009475708,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,65,,0.4051642417907715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,66,,0.3559458255767822,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,67,,0.6683745384216309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,68,,0.626347541809082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,69,,0.3863081932067871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,70,,0.43457460403442383,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,71,,0.9166469573974609,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,72,,1.8385705947875977,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,73,,2.1752238273620605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,74,,1.0187084674835205,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,75,,0.8218393325805664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,76,,1.4651200771331787,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,77,,1.8889186382293701,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,78,,1.5744810104370117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),count_patient,easy,79,,1.2083959579467773,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,90,,4.2036566734313965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,91,,2.001910924911499,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,92,,4.020062208175659,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,93,,5.050739765167236,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,94,,2.7259721755981445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,95,,2.414292335510254,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,96,,4.1318886280059814,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,97,,2.9192392826080322,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,98,,3.537993907928467,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,99,,0.5441701412200928,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,100,,3.1674673557281494,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,101,,5.517749547958374,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,102,,5.117115259170532,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,103,,1.1165707111358643,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,104,,3.2454440593719482,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,105,,3.9477474689483643,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,106,,1.753190517425537,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,107,,3.4405462741851807,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,108,,0.528644323348999,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),semantic,easy,109,,2.2944436073303223,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,125,True,2.9029245376586914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,126,True,2.9678916931152344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,127,True,0.4648876190185547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,128,True,1.2157495021820068,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,129,True,6.913793325424194,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,130,True,3.475602865219116,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,131,False,0.7205076217651367,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,132,True,1.4995362758636475,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,133,True,1.0190675258636475,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,134,True,0.7217190265655518,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,135,True,1.067929983139038,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,136,True,1.2756175994873047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,137,False,0.4646446704864502,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,138,False,3.4967520236968994,1.0,0.25,1.0,0.43067655807339306
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,139,True,12.57847547531128,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,140,True,8.863877773284912,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,141,True,0.5071167945861816,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,142,True,0.82997727394104,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,143,True,1.5601589679718018,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_paraphrase_patient,hard,144,True,4.044010877609253,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,145,True,7.397110939025879,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,146,False,8.90470838546753,1.0,0.5,0.6666666666666666,0.5307212739772434
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,147,True,5.668808460235596,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,148,False,6.491085767745972,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,149,True,12.137527465820312,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,150,True,9.213942766189575,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,151,True,5.627444267272949,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,152,True,7.182750225067139,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,153,False,5.3392462730407715,1.0,0.125,1.0,0.31546487678572877
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,154,False,11.111835718154907,1.0,0.25,0.3333333333333333,0.20210734650054757
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,155,False,7.174341917037964,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,156,False,9.884835243225098,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,157,False,6.226788520812988,1.0,0.25,1.0,0.45749452618986164
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,158,True,11.487313508987427,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,159,True,10.525643587112427,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,160,True,12.306403875350952,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,161,False,5.69693660736084,1.0,0.2,0.6666666666666666,0.34870224750355494
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,162,False,6.722216606140137,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,163,False,11.580695629119873,1.0,1.0,0.6666666666666666,0.6257049680303419
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_semantic_cohort,hard,164,False,6.965064764022827,1.0,0.3333333333333333,1.0,0.5833416105149332
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,165,False,1.130570411682129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,166,True,0.7063097953796387,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,167,True,0.6581897735595703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,168,True,1.0549681186676025,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,169,True,1.145054817199707,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,170,False,2.0394177436828613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,171,False,0.7038500308990479,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,172,True,1.6411738395690918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,173,True,0.66794753074646,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,174,True,0.6836087703704834,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,175,True,1.6067414283752441,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,176,True,0.7046895027160645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,177,True,1.1751160621643066,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,178,True,1.0452094078063965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,179,False,0.9999270439147949,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,180,True,1.967137098312378,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,181,True,0.6808772087097168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,182,True,0.7567884922027588,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,183,True,1.5719268321990967,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_trend,hard,184,True,1.0355479717254639,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,215,,0.5356128215789795,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,216,,0.5532493591308594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,217,,0.5177879333496094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,218,,0.5501964092254639,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,219,,0.5599632263183594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,220,,0.513207197189331,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,221,,0.5292706489562988,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,222,,0.5164949893951416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,223,,0.5362937450408936,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,224,,0.49500465393066406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,225,,0.5208404064178467,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,226,,0.5298817157745361,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,227,,0.5341415405273438,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,228,,0.5279583930969238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,229,,0.5276422500610352,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,230,,0.5217702388763428,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,231,,0.50467848777771,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank (bge-reranker-base),hard_typo_name,hard,232,,0.5855298042297363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,0,,0.10261368751525879,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,1,,0.12142682075500488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,2,,0.12625861167907715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,3,,0.12366318702697754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,4,,0.10802292823791504,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,5,,0.11285066604614258,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,6,,0.1061546802520752,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,7,,0.10939645767211914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,8,,0.10674810409545898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,9,,0.09983038902282715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,10,,0.10357022285461426,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,11,,0.10461306571960449,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,12,,0.09516334533691406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,13,,0.10030841827392578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,14,,0.11190509796142578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,15,,0.10933470726013184,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,16,,0.10982298851013184,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,17,,0.11543774604797363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,18,,0.107086181640625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_name,easy,19,,0.11204051971435547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,20,,0.10833311080932617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,21,,0.1163794994354248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,22,,0.10165929794311523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,23,,0.0943751335144043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,24,,0.15756011009216309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,25,,0.12060260772705078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,26,,0.1127481460571289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,27,,0.10504436492919922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,28,,0.09434747695922852,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,29,,0.0919651985168457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,30,,0.0911097526550293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,31,,0.09282469749450684,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,32,,0.08434391021728516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,33,,0.08640670776367188,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,34,,0.0841672420501709,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,35,,0.0928342342376709,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,36,,0.07804703712463379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,37,,0.08001899719238281,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,38,,0.08316993713378906,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,lookup_by_mrn,easy,39,,0.08779716491699219,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,40,,0.08854341506958008,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,41,,0.11409354209899902,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,42,,0.09144473075866699,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,43,,0.09142947196960449,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,44,,0.1101064682006836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,45,,0.11066460609436035,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,46,,0.10993051528930664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,47,,0.11268234252929688,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,48,,0.10631132125854492,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,49,,0.1062629222869873,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,50,,0.10232400894165039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,51,,0.09805822372436523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,52,,0.1206519603729248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,53,,0.09819769859313965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,54,,0.09737586975097656,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,55,,0.11056184768676758,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,56,,0.09211182594299316,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,57,,0.10285067558288574,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,58,,0.09345579147338867,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,latest,easy,59,,0.09580349922180176,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,60,,0.07098603248596191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,61,,0.07090950012207031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,62,,0.07318258285522461,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,63,,0.06376075744628906,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,64,,0.08120179176330566,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,65,,0.05999183654785156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,66,,0.06871628761291504,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,67,,0.07877421379089355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,68,,0.07166814804077148,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,69,,0.07363224029541016,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,70,,0.06983065605163574,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,71,,0.07248735427856445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,72,,0.07018756866455078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,73,,0.06597447395324707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,74,,0.07507586479187012,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,75,,0.06285810470581055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,76,,0.06165814399719238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,77,,0.07152605056762695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,78,,0.06950020790100098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,count_patient,easy,79,,0.06738042831420898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,90,,0.09194731712341309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,91,,0.07805347442626953,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,92,,0.07366490364074707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,93,,0.07888960838317871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,94,,0.07706212997436523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,95,,0.08753585815429688,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,96,,0.08957338333129883,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,97,,0.0945584774017334,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,98,,0.09620404243469238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,99,,0.09737539291381836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,100,,0.08031272888183594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,101,,0.08474278450012207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,102,,0.08293604850769043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,103,,0.08489465713500977,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,104,,0.07698535919189453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,105,,0.09136795997619629,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,106,,0.07086801528930664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,107,,0.07834434509277344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,108,,0.07734251022338867,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,semantic,easy,109,,0.07221293449401855,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,125,True,0.09470367431640625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,126,True,0.10437941551208496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,127,True,0.10499358177185059,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,128,True,0.09447026252746582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,129,True,0.0937042236328125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,130,True,0.09508419036865234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,131,False,0.1049807071685791,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,132,True,0.10557746887207031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,133,True,0.10553359985351562,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,134,True,0.1078791618347168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,135,True,0.09928202629089355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,136,True,0.10203838348388672,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,137,False,0.3085966110229492,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,138,False,0.10064125061035156,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,139,True,0.09812116622924805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,140,True,0.0938873291015625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,141,True,0.11286211013793945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,142,True,0.08963561058044434,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,143,True,0.10424947738647461,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_paraphrase_patient,hard,144,True,0.09949779510498047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,145,True,0.11468291282653809,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,146,False,0.10095834732055664,1.0,0.25,1.0,0.5065745439910657
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,147,True,0.10126113891601562,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,148,False,0.09269022941589355,1.0,0.14285714285714285,1.0,0.3333333333333333
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,149,True,0.09525036811828613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,150,True,0.09806323051452637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,151,True,0.09276175498962402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,152,True,0.09159088134765625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,153,False,0.10274362564086914,1.0,0.14285714285714285,1.0,0.3333333333333333
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,154,False,0.09833812713623047,1.0,1.0,0.6666666666666666,0.6508205185601091
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,155,False,0.11097073554992676,1.0,0.14285714285714285,1.0,0.39780880120575696
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,156,False,0.10374164581298828,1.0,0.16666666666666666,1.0,0.3562071871080222
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,157,False,0.10236120223999023,1.0,0.5,1.0,0.6934264036172708
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,158,True,0.08638787269592285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,159,True,0.10014915466308594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,160,True,0.09093928337097168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,161,False,0.10371065139770508,1.0,1.0,1.0,0.8385465274895063
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,162,False,0.09488940238952637,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,163,False,0.09057784080505371,1.0,0.3333333333333333,1.0,0.5847876649948583
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_semantic_cohort,hard,164,False,0.09354066848754883,1.0,1.0,1.0,0.7737459235132745
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,165,False,0.14015865325927734,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,166,True,0.12869977951049805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,167,True,0.1255662441253662,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,168,True,0.1323866844177246,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,169,True,0.1484367847442627,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,170,False,0.15060067176818848,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,171,False,0.11104702949523926,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,172,True,0.1245427131652832,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,173,True,0.13083600997924805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,174,True,0.17727112770080566,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,175,True,0.18129467964172363,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,176,True,0.19153451919555664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,177,True,0.14896249771118164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,178,True,0.1547079086303711,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,179,False,0.15749120712280273,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,180,True,0.12055706977844238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,181,True,0.13836669921875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,182,True,0.18481922149658203,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,183,True,0.1275484561920166,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_trend,hard,184,True,0.14514994621276855,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,215,,0.0872187614440918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,216,,0.08363938331604004,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,217,,0.0804281234741211,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,218,,0.08767175674438477,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,219,,0.08947515487670898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,220,,0.08390045166015625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,221,,0.08149933815002441,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,222,,0.08653378486633301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,223,,0.08565664291381836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,224,,0.08018183708190918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,225,,0.08862709999084473,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,226,,0.08356237411499023,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,227,,0.07751035690307617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,228,,0.08313989639282227,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,229,,0.08208441734313965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,230,,0.0912022590637207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,231,,0.08567428588867188,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid,hard_typo_name,hard,232,,0.10713958740234375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,0,,0.08840250968933105,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,1,,0.09334015846252441,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,2,,0.10274767875671387,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,3,,0.0947871208190918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,4,,0.08462667465209961,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,5,,0.10385894775390625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,6,,0.08942365646362305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,7,,0.09359264373779297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,8,,0.08758950233459473,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,9,,0.0856175422668457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,10,,0.0887608528137207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,11,,0.10485553741455078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,12,,0.08959722518920898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,13,,0.08255720138549805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,14,,0.09607553482055664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,15,,0.08539533615112305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,16,,0.0976560115814209,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,17,,0.09540152549743652,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,18,,0.09090852737426758,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_name,easy,19,,0.09590625762939453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,20,,0.08281803131103516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,21,,0.08743476867675781,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,22,,0.08858036994934082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,23,,0.08301067352294922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,24,,0.0774390697479248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,25,,0.08070683479309082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,26,,0.06909465789794922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,27,,0.0844411849975586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,28,,0.07984566688537598,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,29,,0.08327054977416992,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,30,,0.07731032371520996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,31,,0.0797581672668457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,32,,0.07686591148376465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,33,,0.09045028686523438,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,34,,0.08109164237976074,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,35,,0.08875107765197754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,36,,0.07580423355102539,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,37,,0.08434939384460449,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,38,,0.08349370956420898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,lookup_by_mrn,easy,39,,0.09268426895141602,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,40,,0.10717225074768066,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,41,,0.09130334854125977,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,42,,0.10071444511413574,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,43,,0.09802484512329102,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,44,,0.10995984077453613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,45,,0.11569547653198242,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,46,,0.10837960243225098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,47,,0.09920883178710938,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,48,,0.10069489479064941,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,49,,0.09888410568237305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,50,,0.09849357604980469,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,51,,0.10213804244995117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,52,,0.10289692878723145,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,53,,0.10179400444030762,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,54,,0.0959773063659668,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,55,,0.09331059455871582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,56,,0.1038053035736084,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,57,,0.10603046417236328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,58,,0.10231375694274902,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,latest,easy,59,,0.1046295166015625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,60,,0.06673645973205566,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,61,,0.0842125415802002,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,62,,0.07078933715820312,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,63,,0.06356024742126465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,64,,0.06325268745422363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,65,,0.07094264030456543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,66,,0.06956648826599121,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,67,,0.07044649124145508,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,68,,0.06987404823303223,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,69,,0.07802915573120117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,70,,0.06794905662536621,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,71,,0.07425618171691895,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,72,,0.08139157295227051,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,73,,0.07342529296875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,74,,0.06924700736999512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,75,,0.06604504585266113,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,76,,0.06691527366638184,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,77,,0.07388091087341309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,78,,0.0718536376953125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,count_patient,easy,79,,0.06455802917480469,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,90,,0.07756853103637695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,91,,0.07571578025817871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,92,,0.07253813743591309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,93,,0.08524584770202637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,94,,0.08355998992919922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,95,,0.07969927787780762,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,96,,0.08104848861694336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,97,,0.07111358642578125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,98,,0.07394123077392578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,99,,0.08819961547851562,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,100,,0.0802755355834961,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,101,,0.07273745536804199,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,102,,0.06153750419616699,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,103,,0.07168054580688477,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,104,,0.07628750801086426,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,105,,0.07504534721374512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,106,,0.0787360668182373,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,107,,0.07837605476379395,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,108,,0.06949400901794434,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,semantic,easy,109,,0.07418680191040039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,125,True,0.10757207870483398,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,126,True,0.10205626487731934,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,127,True,0.10197234153747559,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,128,True,0.09454941749572754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,129,True,0.0894172191619873,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,130,True,0.08394503593444824,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,131,False,0.10456633567810059,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,132,True,0.09104180335998535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,133,True,0.09775090217590332,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,134,True,0.10378289222717285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,135,True,0.09168243408203125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,136,True,0.10788440704345703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,137,False,0.10178923606872559,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,138,False,0.09575581550598145,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,139,True,0.09638571739196777,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,140,True,0.09491133689880371,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,141,True,0.10788989067077637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,142,True,0.09876298904418945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,143,True,0.10435867309570312,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_paraphrase_patient,hard,144,True,0.09663105010986328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,145,True,0.10751175880432129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,146,False,0.09336280822753906,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,147,True,0.08240842819213867,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,148,False,0.09715032577514648,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,149,True,0.08848786354064941,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,150,True,0.09240293502807617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,151,True,0.08336758613586426,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,152,True,0.0904533863067627,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,153,False,0.1219182014465332,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,154,False,0.08886194229125977,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,155,False,0.10464811325073242,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,156,False,0.11394667625427246,1.0,0.2,1.0,0.38685280723454163
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,157,False,0.12144732475280762,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,158,True,0.11538529396057129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,159,True,0.11041808128356934,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,160,True,0.1220095157623291,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,161,False,0.12024879455566406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,162,False,0.11587929725646973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,163,False,0.11145329475402832,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_semantic_cohort,hard,164,False,0.11017775535583496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,165,False,0.16673493385314941,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,166,True,0.16466116905212402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,167,True,0.16637301445007324,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,168,True,0.16026949882507324,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,169,True,0.1636955738067627,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,170,False,0.17695283889770508,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,171,False,0.1653738021850586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,172,True,0.16577863693237305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,173,True,0.16178417205810547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,174,True,0.16418910026550293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,175,True,0.1746814250946045,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,176,True,0.17786931991577148,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,177,True,0.16840553283691406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,178,True,0.17150211334228516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,179,False,0.18668413162231445,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,180,True,0.1644420623779297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,181,True,0.16630220413208008,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,182,True,0.18391728401184082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,183,True,0.2005481719970703,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_trend,hard,184,True,0.21533560752868652,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,215,,0.12280726432800293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,216,,0.12401723861694336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,217,,0.13968253135681152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,218,,0.13498163223266602,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,219,,0.13518929481506348,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,220,,0.13601946830749512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,221,,0.13183879852294922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,222,,0.1274242401123047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,223,,0.1310276985168457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,224,,0.13906621932983398,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,225,,0.1298694610595703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,226,,0.1239924430847168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,227,,0.12540507316589355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,228,,0.1195380687713623,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,229,,0.11893796920776367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,230,,0.11276912689208984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,231,,0.10544872283935547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | dense,hard_typo_name,hard,232,,0.11633491516113281,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,0,,0.08997035026550293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,1,,0.08429718017578125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,2,,0.06548309326171875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,3,,0.06534600257873535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,4,,0.0613250732421875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,5,,0.06067013740539551,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,6,,0.06566572189331055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,7,,0.06794261932373047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,8,,0.057648420333862305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,9,,0.05805015563964844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,10,,0.06216311454772949,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,11,,0.059906721115112305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,12,,0.058742523193359375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,13,,0.06486630439758301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,14,,0.061394453048706055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,15,,0.05803275108337402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,16,,0.059491634368896484,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,17,,0.06231427192687988,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,18,,0.06530141830444336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_name,easy,19,,0.06254720687866211,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,20,,0.05388951301574707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,21,,0.05093979835510254,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,22,,0.05417370796203613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,23,,0.05338263511657715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,24,,0.05216860771179199,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,25,,0.050583600997924805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,26,,0.0492863655090332,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,27,,0.04944109916687012,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,28,,0.04912614822387695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,29,,0.04919719696044922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,30,,0.04967451095581055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,31,,0.05070853233337402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,32,,0.05211067199707031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,33,,0.05086207389831543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,34,,0.05942654609680176,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,35,,0.06272006034851074,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,36,,0.04845595359802246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,37,,0.049736976623535156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,38,,0.04697275161743164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,lookup_by_mrn,easy,39,,0.0478360652923584,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,40,,0.06854486465454102,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,41,,0.06852126121520996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,42,,0.06594491004943848,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,43,,0.0702507495880127,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,44,,0.07223749160766602,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,45,,0.07643818855285645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,46,,0.06813526153564453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,47,,0.06666874885559082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,48,,0.06517767906188965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,49,,0.07336282730102539,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,50,,0.0725395679473877,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,51,,0.07661986351013184,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,52,,0.06575393676757812,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,53,,0.0664975643157959,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,54,,0.06458854675292969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,55,,0.06487011909484863,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,56,,0.0642244815826416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,57,,0.06748485565185547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,58,,0.06790399551391602,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,latest,easy,59,,0.08726215362548828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,60,,0.03757643699645996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,61,,0.03632950782775879,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,62,,0.03657269477844238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,63,,0.035547494888305664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,64,,0.035749197006225586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,65,,0.03548240661621094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,66,,0.044812679290771484,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,67,,0.03580451011657715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,68,,0.03758049011230469,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,69,,0.03618502616882324,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,70,,0.03624367713928223,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,71,,0.03764963150024414,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,72,,0.039456844329833984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,73,,0.03862810134887695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,74,,0.03749561309814453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,75,,0.038671016693115234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,76,,0.03786063194274902,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,77,,0.037644147872924805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,78,,0.037218570709228516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,count_patient,easy,79,,0.038786888122558594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,90,,0.0397493839263916,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,91,,0.04217529296875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,92,,0.034885406494140625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,93,,0.04383373260498047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,94,,0.03939366340637207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,95,,0.04258227348327637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,96,,0.036025047302246094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,97,,0.039000749588012695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,98,,0.0383608341217041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,99,,0.040462493896484375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,100,,0.03615999221801758,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,101,,0.04076790809631348,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,102,,0.03578615188598633,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,103,,0.04252457618713379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,104,,0.03827404975891113,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,105,,0.041115522384643555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,106,,0.03884077072143555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,107,,0.040305137634277344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,108,,0.04284381866455078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,semantic,easy,109,,0.03882861137390137,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,125,True,0.05355191230773926,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,126,True,0.06087803840637207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,127,True,0.05266690254211426,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,128,True,0.05348968505859375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,129,True,0.05430746078491211,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,130,True,0.052117109298706055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,131,False,0.06033587455749512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,132,True,0.05381488800048828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,133,True,0.05479884147644043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,134,True,0.05791807174682617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,135,True,0.05719614028930664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,136,True,0.05570173263549805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,137,False,0.057595014572143555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,138,False,0.05276966094970703,1.0,0.14285714285714285,1.0,0.3333333333333333
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,139,True,0.048647165298461914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,140,True,0.05483865737915039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,141,True,0.05616164207458496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,142,True,0.05413055419921875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,143,True,0.06454300880432129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_paraphrase_patient,hard,144,True,0.0520176887512207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,145,True,0.057840585708618164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,146,False,0.05727720260620117,1.0,0.5,1.0,0.7328286204777911
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,147,True,0.05224609375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,148,False,0.06434202194213867,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,149,True,0.05307626724243164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,150,True,0.0569915771484375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,151,True,0.05656313896179199,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,152,True,0.05539107322692871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,153,False,0.0752871036529541,1.0,0.16666666666666666,1.0,0.3562071871080222
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,154,False,0.06871676445007324,1.0,0.125,0.3333333333333333,0.1480409554829326
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,155,False,0.08620500564575195,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,156,False,0.0629880428314209,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,157,False,0.0765371322631836,1.0,0.16666666666666666,1.0,0.4227898344066503
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,158,True,0.05724692344665527,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,159,True,0.07986903190612793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,160,True,0.08555316925048828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,161,False,0.08416461944580078,1.0,0.3333333333333333,0.6666666666666666,0.41618115554873086
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,162,False,0.07330489158630371,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,163,False,0.06152749061584473,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_semantic_cohort,hard,164,False,0.06496024131774902,1.0,0.14285714285714285,0.3333333333333333,0.15642624200758548
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,165,False,0.09424519538879395,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,166,True,0.08108973503112793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,167,True,0.07766151428222656,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,168,True,0.0768885612487793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,169,True,0.08440709114074707,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,170,False,0.08630847930908203,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,171,False,0.07150554656982422,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,172,True,0.07048225402832031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,173,True,0.07223987579345703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,174,True,0.07027578353881836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,175,True,0.07272863388061523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,176,True,0.0769965648651123,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,177,True,0.06821680068969727,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,178,True,0.06822419166564941,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,179,False,0.07510709762573242,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,180,True,0.06444573402404785,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,181,True,0.07373666763305664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,182,True,0.08769059181213379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,183,True,0.06705999374389648,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_trend,hard,184,True,0.07565784454345703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,215,,0.04252362251281738,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,216,,0.0424346923828125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,217,,0.04273271560668945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,218,,0.04297828674316406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,219,,0.041788339614868164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,220,,0.04394078254699707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,221,,0.03778648376464844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,222,,0.04263710975646973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,223,,0.042769670486450195,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,224,,0.044583797454833984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,225,,0.03585362434387207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,226,,0.03957629203796387,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,227,,0.041875600814819336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,228,,0.04287242889404297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,229,,0.042447805404663086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,230,,0.043891191482543945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,231,,0.04300642013549805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5 | bm25,hard_typo_name,hard,232,,0.03706097602844238,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,0,,0.10658001899719238,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,1,,0.13385367393493652,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,2,,0.13934946060180664,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,3,,0.14977288246154785,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,4,,0.14751148223876953,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,5,,0.12225031852722168,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,6,,0.1202542781829834,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,7,,0.1351792812347412,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,8,,0.15731072425842285,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,9,,0.15481352806091309,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,10,,0.1661527156829834,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,11,,0.16127657890319824,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,12,,0.14595460891723633,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,13,,0.15621089935302734,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,14,,0.14249920845031738,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,15,,0.14971160888671875,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,16,,0.16127467155456543,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,17,,0.14597201347351074,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,18,,0.1525716781616211,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_name,easy,19,,0.1634211540222168,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,20,,0.1329631805419922,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,21,,0.14737582206726074,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,22,,0.14282441139221191,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,23,,0.1415715217590332,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,24,,0.14641356468200684,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,25,,0.1455540657043457,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,26,,0.16132283210754395,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,27,,0.15902948379516602,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,28,,0.1304795742034912,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,29,,0.13518309593200684,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,30,,0.1357882022857666,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,31,,0.14006733894348145,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,32,,0.1707017421722412,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,33,,0.13892817497253418,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,34,,0.1490497589111328,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,35,,0.14671087265014648,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,36,,0.1221475601196289,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,37,,0.14559030532836914,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,38,,0.14890217781066895,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",lookup_by_mrn,easy,39,,0.16092181205749512,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,40,,0.33660411834716797,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,41,,0.38388967514038086,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,42,,0.2861649990081787,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,43,,0.6956932544708252,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,44,,0.3596768379211426,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,45,,1.0324523448944092,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,46,,0.6064512729644775,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,47,,0.6386582851409912,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,48,,1.3803842067718506,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,49,,0.9194796085357666,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,50,,0.3836345672607422,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,51,,0.7329778671264648,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,52,,0.317018985748291,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,53,,0.47678613662719727,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,54,,0.40851855278015137,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,55,,0.31034278869628906,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,56,,0.36977171897888184,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,57,,0.6170387268066406,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,58,,0.7997641563415527,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",latest,easy,59,,1.0276885032653809,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,60,,0.23145270347595215,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,61,,0.3756296634674072,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,62,,0.22704434394836426,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,63,,0.18772459030151367,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,64,,0.18866276741027832,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,65,,0.16219782829284668,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,66,,0.14508557319641113,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,67,,0.4415881633758545,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,68,,0.18381595611572266,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,69,,0.1504993438720703,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,70,,0.1529393196105957,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,71,,0.22124433517456055,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,72,,0.40586280822753906,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,73,,0.5119442939758301,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,74,,0.2854752540588379,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,75,,0.2222750186920166,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,76,,0.3184218406677246,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,77,,0.43646764755249023,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,78,,0.35604405403137207,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",count_patient,easy,79,,0.24909496307373047,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,90,,0.6324706077575684,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,91,,0.3358287811279297,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,92,,0.6996533870697021,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,93,,0.8528492450714111,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,94,,0.6645729541778564,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,95,,0.4647715091705322,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,96,,0.6932468414306641,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,97,,0.5939044952392578,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,98,,0.6289961338043213,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,99,,0.15313720703125,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,100,,0.579498291015625,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,101,,0.944725513458252,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,102,,0.8391001224517822,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,103,,0.2520754337310791,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,104,,0.6266653537750244,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,105,,0.8837635517120361,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,106,,0.3733823299407959,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,107,,0.702648401260376,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,108,,0.18091058731079102,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",semantic,easy,109,,0.5190486907958984,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,125,True,0.6886451244354248,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,126,True,0.7270324230194092,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,127,True,0.18914055824279785,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,128,True,0.30883193016052246,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,129,True,1.42936110496521,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,130,True,0.7855801582336426,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,131,False,0.28220129013061523,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,132,True,0.35396814346313477,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,133,True,0.23864245414733887,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,134,True,0.18959569931030273,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,135,True,0.293337345123291,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,136,True,0.32258176803588867,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,137,False,0.21938776969909668,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,138,False,0.8224847316741943,1.0,0.14285714285714285,1.0,0.3333333333333333
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,139,True,2.651287078857422,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,140,True,1.8710260391235352,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,141,True,0.22294211387634277,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,142,True,0.24344897270202637,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,143,True,0.3518962860107422,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_paraphrase_patient,hard,144,True,0.8279669284820557,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,145,True,1.2232513427734375,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,146,False,1.555110216140747,1.0,0.3333333333333333,0.6666666666666666,0.39106560501896365
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,147,True,0.9429454803466797,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,148,False,1.236081838607788,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,149,True,1.5721609592437744,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,150,True,1.413567066192627,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,151,True,0.8919627666473389,1.0,0.2,0.3333333333333333,0.18154179253735267
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,152,True,1.0759665966033936,1.0,0.16666666666666666,1.0,0.3562071871080222
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,153,False,0.7940952777862549,1.0,0.125,1.0,0.31546487678572877
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,154,False,1.6852595806121826,1.0,0.25,0.6666666666666666,0.38364913903790027
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,155,False,0.9491276741027832,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,156,False,1.5155353546142578,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,157,False,0.8820304870605469,1.0,0.3333333333333333,1.0,0.5706417189553201
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,158,True,1.4861140251159668,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,159,True,1.1773478984832764,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,160,True,1.997448205947876,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,161,False,1.0398752689361572,1.0,1.0,1.0,0.8179809735263114
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,162,False,1.0005722045898438,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,163,False,1.564680576324463,1.0,0.5,1.0,0.7328286204777911
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_semantic_cohort,hard,164,False,1.2493109703063965,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,165,False,0.3429555892944336,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,166,True,0.2515881061553955,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,167,True,0.2626612186431885,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,168,True,0.27336764335632324,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,169,True,0.2926194667816162,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,170,False,0.41169261932373047,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,171,False,0.28575754165649414,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,172,True,0.40682005882263184,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,173,True,0.24618220329284668,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,174,True,0.23252487182617188,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,175,True,0.3377540111541748,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,176,True,0.21547770500183105,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,177,True,0.27353787422180176,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,178,True,0.2336583137512207,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,179,False,0.25388145446777344,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,180,True,0.34022068977355957,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,181,True,0.2082366943359375,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,182,True,0.21913361549377441,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,183,True,0.29670190811157227,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_trend,hard,184,True,0.31714868545532227,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,215,,0.19581270217895508,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,216,,0.19287490844726562,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,217,,0.1714036464691162,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,218,,0.15438032150268555,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,219,,0.15115618705749512,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,220,,0.15651893615722656,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,221,,0.15515780448913574,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,222,,0.15924596786499023,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,223,,0.14577460289001465,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,224,,0.16132640838623047,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,225,,0.1476128101348877,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,226,,0.1395871639251709,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,227,,0.15205097198486328,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,228,,0.15421533584594727,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,229,,0.15703797340393066,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,230,,0.14846253395080566,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,231,,0.17643237113952637,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no query expansion",hard_typo_name,hard,232,,0.15488600730895996,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,0,,3.06820011138916,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,1,,4.604053258895874,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,2,,2.138436794281006,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,3,,3.542997360229492,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,4,,4.319198846817017,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,5,,3.1239755153656006,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,6,,3.265768051147461,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,7,,4.679296970367432,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,8,,2.9309351444244385,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,9,,4.737375020980835,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,10,,4.820608854293823,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,11,,4.436204195022583,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,12,,3.708894968032837,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,13,,2.102199077606201,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,14,,3.584336280822754,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,15,,4.141626834869385,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,16,,4.718481779098511,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,17,,3.963531017303467,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,18,,4.135092496871948,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_name,easy,19,,5.142313241958618,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,20,,3.0952112674713135,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,21,,2.7647557258605957,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,22,,4.617396831512451,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,23,,2.462738037109375,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,24,,4.920441627502441,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,25,,2.6427578926086426,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,26,,2.1645216941833496,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,27,,2.6647708415985107,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,28,,4.665438890457153,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,29,,5.051119565963745,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,30,,3.6272270679473877,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,31,,2.7894744873046875,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,32,,3.1380245685577393,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,33,,5.027760982513428,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,34,,4.3800365924835205,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,35,,4.969790935516357,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,36,,4.341627359390259,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,37,,2.3973305225372314,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,38,,3.4320428371429443,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",lookup_by_mrn,easy,39,,3.859286308288574,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,40,,3.8072657585144043,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,41,,3.7826528549194336,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,42,,2.761233329772949,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,43,,2.255405902862549,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,44,,1.9974689483642578,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,45,,2.0968143939971924,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,46,,1.7571237087249756,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,47,,3.7934682369232178,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,48,,2.587055206298828,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,49,,2.366896867752075,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,50,,3.2142269611358643,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,51,,2.165642738342285,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,52,,2.610802173614502,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,53,,3.0071046352386475,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,54,,3.6997122764587402,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,55,,2.0417888164520264,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,56,,1.88020658493042,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,57,,2.774197816848755,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,58,,2.0869603157043457,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",latest,easy,59,,3.6935548782348633,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,60,,3.021878480911255,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,61,,3.0239510536193848,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,62,,3.6907403469085693,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,63,,3.297154188156128,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,64,,2.1353769302368164,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,65,,3.684241771697998,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,66,,2.78291654586792,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,67,,3.663130521774292,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,68,,3.726465940475464,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,69,,3.2837069034576416,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,70,,3.7710072994232178,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,71,,3.2502942085266113,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,72,,2.3398005962371826,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,73,,2.699321746826172,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,74,,2.23547101020813,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,75,,2.9904611110687256,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,76,,2.052137613296509,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,77,,2.8702588081359863,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,78,,3.210172414779663,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",count_patient,easy,79,,3.693897008895874,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,90,,3.7323288917541504,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,91,,3.6908106803894043,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,92,,3.361785650253296,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,93,,1.401742935180664,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,94,,1.463252305984497,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,95,,3.3494136333465576,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,96,,3.4193174839019775,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,97,,1.3425886631011963,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,98,,1.6306416988372803,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,99,,3.726422071456909,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,100,,2.4979214668273926,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,101,,3.7036547660827637,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,102,,3.309783458709717,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,103,,3.667771577835083,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,104,,3.729330062866211,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,105,,3.7019875049591064,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,106,,3.763234853744507,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,107,,3.644313097000122,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,108,,2.9769585132598877,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",semantic,easy,109,,3.7193026542663574,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,125,True,1.8249552249908447,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,126,True,3.077609062194824,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,127,True,2.4195914268493652,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,128,True,3.7386040687561035,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,129,True,2.579484462738037,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,130,True,3.8588414192199707,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,131,False,2.6666758060455322,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,132,True,2.7494964599609375,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,133,True,3.7998905181884766,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,134,True,2.4446005821228027,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,135,True,2.238478183746338,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,136,True,3.4811103343963623,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,137,False,2.587763547897339,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,138,False,3.1056604385375977,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,139,True,3.466042995452881,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,140,True,3.100994110107422,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,141,True,2.4133501052856445,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,142,True,3.6876275539398193,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,143,True,3.712858200073242,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_paraphrase_patient,hard,144,True,1.9965910911560059,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,145,True,1.5247442722320557,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,146,False,1.2783479690551758,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,147,True,1.3538932800292969,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,148,False,2.1868348121643066,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,149,True,1.362074851989746,1.0,0.2,0.5,0.23719771276929622
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,150,True,1.3204174041748047,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,151,True,1.863353967666626,1.0,0.25,0.3333333333333333,0.20210734650054757
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,152,True,1.2784039974212646,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,153,False,2.4528629779815674,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,154,False,1.976473093032837,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,155,False,2.657358407974243,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,156,False,1.897808313369751,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,157,False,3.6775012016296387,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,158,True,1.3210670948028564,1.0,0.3333333333333333,0.6666666666666666,0.41618115554873086
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,159,True,1.5593736171722412,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,160,True,1.5119178295135498,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,161,False,2.35624623298645,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,162,False,1.5239248275756836,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,163,False,1.1901676654815674,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_semantic_cohort,hard,164,False,1.5773048400878906,0.0,0.0,0.0,0.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,165,False,3.0958492755889893,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,166,True,2.0427141189575195,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,167,True,2.041612386703491,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,168,True,3.2674286365509033,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,169,True,3.366894483566284,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,170,False,1.9022243022918701,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,171,False,3.4804022312164307,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,172,True,2.4707186222076416,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,173,True,1.545243263244629,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,174,True,2.214540719985962,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,175,True,2.659174919128418,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,176,True,3.3261682987213135,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,177,True,3.7641780376434326,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,178,True,3.713763952255249,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,179,False,2.8896102905273438,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,180,True,3.5895872116088867,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,181,True,2.166821241378784,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,182,True,1.4935615062713623,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,183,True,3.7718372344970703,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_trend,hard,184,True,3.411844491958618,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,215,,3.43064022064209,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,216,,4.230083703994751,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,217,,3.762223958969116,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,218,,3.464919090270996,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,219,,3.699537992477417,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,220,,2.8504791259765625,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,221,,2.671921491622925,1.0,0.5,1.0,0.6309297535714575
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,222,,3.0698587894439697,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,223,,3.7213027477264404,1.0,0.16666666666666666,1.0,0.3562071871080222
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,224,,3.0764753818511963,1.0,0.3333333333333333,1.0,0.5
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,225,,3.270432710647583,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,226,,3.765242576599121,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,227,,3.3103175163269043,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,228,,1.9843494892120361,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,229,,3.741246223449707,1.0,0.25,1.0,0.43067655807339306
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,230,,2.806344985961914,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,231,,3.3138372898101807,1.0,1.0,1.0,1.0
+"sentence-transformers:BAAI/bge-small-en-v1.5 | hybrid+rerank, no filters",hard_typo_name,hard,232,,3.7243764400482178,1.0,1.0,1.0,1.0

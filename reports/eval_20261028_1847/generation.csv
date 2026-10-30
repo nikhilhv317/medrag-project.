@@ -1,0 +1,178 @@
+llm,type,difficulty,id,question,expected,answer,retrieval_s,generation_s,cites_sources,fact_recall,abstain_correct,auto_correct,number_correct,negative_correct,error
+gemini:gemini-3-flash-preview,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen performed on 2020-12-23 for Turvi George showed the following:
+
+*   **Findings**: A dilated, non-compressible appendix measuring 11 mm was identified, accompanied by periappendiceal fat stranding [S2].
+*   **Impression**: Acute appendicitis [S1, S2].
+*   **Recommendation**: Urgent surgical review [S2].
+
+The study was performed stat due to abdominal pain [S2]. An AI model (SonoAssist v1.8) also predicted appendicitis with a confidence of 0.79 [S2].",0.38506269454956055,2.9075794219970703,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for Callum Hurst (MRN0009548) dated 2022-10-29 is summarized below:
+
+*   **Study Type:** X-ray chest (PA and lateral views) [S2].
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Centrilobular emphysematous changes are present, predominantly in the upper lobes [S2].
+*   **Impression:** Centrilobular emphysema [S1, S2].
+*   **Recommendation:** Clinical correlation with pulmonary function tests is recommended [S2].
+*   **AI Analysis:** An AI model predicted pulmonary embolism with a confidence of 0.73 [S2].",0.46094465255737305,2.98873233795166,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine performed on 2026-02-01 [S1, S2].
+
+**Study Details:**
+*   **Indication:** Leg numbness [S2].
+*   **Findings:** Vertebral body heights and alignment are maintained. There is no significant canal or foraminal stenosis [S2].
+*   **Impression:** No acute abnormality [S1, S2].
+*   **Recommendation:** No follow-up imaging required [S2].",9.404215812683105,2.6541600227355957,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,"Holly Ayala has 3 X-ray studies.
+
+*   **2026-01-05**: X-ray chest (routine) [S1, S3]
+*   **2022-04-23**: X-ray chest (urgent) [S1, S4]
+*   **2022-02-10**: X-ray chest (routine) [S1, S2]",0.954857587814331,3.117950916290283,0.0,,1.0,1.0,1.0,,
+gemini:gemini-3-flash-preview,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","There are 4 imaging studies matching the name Niharika Lamb across two different patients.
+
+**Niharika Lamb (MRN MRN0003876)**
+There is 1 imaging study for this patient [S2]:
+*   **2023-03-08**: CT chest. Findings consistent with left lower lobe pneumonia [S2, S4].
+
+**Niharika Lamb (MRN MRN0005439)**
+There are 3 imaging studies for this patient [S1]:
+*   **2024-05-11**: CT chest. Acute right segmental pulmonary embolism [S1, S5].
+*   **2021-11-12**: Ultrasound abdomen. Hepatic steatosis [S1, S3].
+*   **2020-12-09**: CT abdomen. Left renal calculus with mild hydronephrosis [S1, S6].",1.6818480491638184,3.920851230621338,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"Leigh Hensley (MRN: MRN0015373) had a chest X-ray on 2022-06-03 showing a moderate right pleural effusion [S1].
+
+*   **Findings:** Moderate right pleural effusion with adjacent compressive atelectasis [S1].
+*   **Impression:** Moderate right pleural effusion [S1].
+*   **Recommendation:** Consider diagnostic thoracentesis if clinically indicated [S1].",3.187887191772461,2.8894736766815186,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,99,"There were 101 such studies performed across 100 patients between 2023-01-01 and 2023-12-28.
+
+**Study Details:**
+*   **Findings:** 100 studies (99.0%) contained abnormal findings. AI-predicted findings included metastatic disease (52) and lymphoma (42).
+*   **Indications:** Studies were primarily performed for cancer staging [S2, S4, S5, S7, S8] or treatment response assessment [S1, S3, S6].
+*   **Clinical Observations:** Reports frequently noted widespread FDG-avid metastatic disease involving the liver and skeleton [S1, S2, S3, S4, S5, S6, S7, S8].
+
+**Representative Cases:**
+*   2023-02-13: Cancer staging; widespread metastatic disease (SUVmax 9.3) [S7].
+*   2023-05-24: Treatment response assessment; widespread metastatic disease (SUVmax 4.3) [S6].
+*   2023-09-03: Cancer staging; widespread metastatic disease (SUVmax 12.3) [S4].
+*   2023-12-08: Treatment response assessment; widespread metastatic disease (SUVmax 5.7) [S1].",8.386882543563843,50.94765901565552,1.0,,1.0,0.0,0.0,,
+gemini:gemini-3-flash-preview,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,13.78650975227356,5.0067901611328125e-06,0.0,,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"Kate Martin had one imaging study that showed a cerebral infarct:
+
+*   **Date:** 2022-12-11 [S1, S2]
+*   **Scan Type:** Urgent CT head [S1, S2]
+*   **Findings:** Hypodensity in the left middle cerebral artery (MCA) territory, consistent with an acute left MCA territory infarct [S2].
+*   **Recommendation:** Stroke team activation [S2].",2.5260169506073,2.4470434188842773,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Three patients had MRI scans in June 2022 with findings suspicious for hepatocellular carcinoma (LI-RADS 5):
+
+*   **Christine Richards (MRN0016182):** 2022-06-18. MRI showed a 3.7 cm arterially enhancing lesion in segment 2 with washout [S2].
+*   **Baljiwan Valdez (MRN0018798):** 2022-06-26. MRI showed a 5.1 cm arterially enhancing lesion in segment 7 with washout [S1].
+*   **Stewart Castro (MRN0003993):** 2022-06-28. MRI showed a 4.4 cm arterially enhancing lesion in segment 7 with washout [S3].",4.852522134780884,3.9610822200775146,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"On the follow-up scan of 2025-07-31, the fat in the liver (hepatic steatosis) stayed the same [S2].
+
+*   **2025-07-31 Ultrasound:** The report notes the findings were unchanged compared to the prior study of 2025-02-01 [S2].
+*   **Findings:** Both the 2025-02-01 and 2025-07-31 scans showed diffusely increased echogenicity consistent with fatty infiltration [S2, S3].
+*   **Recommendation:** Lifestyle modification and monitoring of liver function were recommended in both instances [S2, S3].",0.6236815452575684,2.872591257095337,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"There were 3,190 such patients across 3,683 matching studies in 2020.
+
+Reported cases of cholelithiasis (gallstones) without cholecystitis include:
+*   **Sophia Bhavsar:** 2020-10-04, ultrasound [S6]
+*   **Ricardo Lala:** 2020-10-18, CT [S8]
+*   **Tina Payne:** 2020-11-10, ultrasound [S2]
+*   **Jenna Hopkins:** 2020-11-25, ultrasound [S4]
+*   **Stephanie Sarna:** 2020-11-28, CT [S7]
+*   **Felicia Garcia:** 2020-12-25, CT [S3, S5]
+*   **Manan Davies:** 2020-12-28, ultrasound [S1]
+
+Imaging findings consistently described multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing and no wall thickening [S1, S2, S4, S5, S6, S7, S8]. Reports recommended surgical consultation if the patients are symptomatic [S1, S2, S4, S5, S6, S7, S8].",14.119965314865112,6.167215824127197,1.0,,1.0,0.0,0.0,,
+gemini:gemini-3-flash-preview,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"There were 0 such studies. The records do not contain evidence of a slipped disc (disc herniation, extrusion, or nerve root compression) for Steven Srinivasan.
+
+His imaging history includes one spine-related study:
+*   **2021-06-05 CT spine:** Performed for low back pain, which showed a wedge compression fracture of the L4 vertebral body with approximately 30% height loss, likely osteoporotic [S1, S2]. No disc herniation was noted in the report [S2].
+
+Other imaging studies for this patient (CT head, CT chest, CT abdomen, X-rays of the hand and knee, and ultrasounds of the abdomen and thyroid) did not identify any disc-related abnormalities [S1, S3, S4, S7, S8].",5.867388010025024,3.876328945159912,1.0,,0.0,1.0,,1.0,
+gemini:gemini-3-flash-preview,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The urgent CT chest performed on 2024-01-30 for Sam Taylor showed the following:
+
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Moderate left pleural effusion with adjacent compressive atelectasis [S1, S2].
+*   **Impression:** Moderate left pleural effusion [S2].
+*   **Recommendation:** Consider diagnostic thoracentesis if clinically indicated [S2].",0.29294872283935547,2.474304437637329,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report for Balendra Balan dated 2022-12-07 concluded the following:
+
+*   **Impression:** Streaky left retrocardiac airspace opacities, which could represent pneumonia in the appropriate clinical setting [S2].
+*   **Findings:** 
+    *   Streaky retrocardiac left lower lobe opacities [S2].
+    *   No pneumothorax or pleural effusion [S2].
+    *   The cardiac silhouette was within normal limits [S2].",0.5842146873474121,2.4675369262695312,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"Patient Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report describing these findings.
+
+*   **Date:** 2026-04-08
+*   **Findings:** The report's impression identifies findings of COPD and left base focal atelectasis [S3].",13.252835273742676,3.218956708908081,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","The neurology note dated 2021-11-15 for Tripti Yogi (a 66-year-old male) summarizes a case of limbic encephalitis [S2, S3].
+
+**Clinical Presentation**
+*   **History:** A 1-year history of progressive anterograde amnesia. At presentation, the patient could not retain information from one minute to the next and had moderate retrograde memory loss (e.g., forgetting grandchildren's names) [S4].
+*   **Examination:** Disoriented to person, place, and time. Initial MMSE was 18/30, later 20/30 [S2, S3]. Findings included moderate naming difficulty, disinhibited affect, and a mild right grasp reflex [S2, S3].
+*   **Medical History:** Coronary artery disease (MIs in 1978, 1979), peripheral vascular disease, hypertension, and a history of heavy smoking (2-3 packs per day) [S4].
+
+**Diagnostic Studies**
+*   **Imaging:** MRI of the brain showed hyperintense T2 signals in the bilateral mesiotemporal regions with mild gadolinium enhancement [S3, S4]. CT of the chest and abdomen showed no evidence of tumor or lymphadenopathy [S3].
+*   **Laboratory/CSF:** EEG, antineuronal antibody screening, and CSF studies (including cytology and viral PCRs) were unremarkable. Extensive lab work (B12, TFT, ANA, etc.) was normal [S3].
+*   **Biopsy:** A stereotactic brain biopsy performed at the Mayo Clinic showed inflammatory changes but no specific organism or etiology [S3].
+
+**Impression and Course**
+*   **Diagnosis:** Limbic encephalitis, suspected to be secondary to cancer of unknown origin [S3].
+*   **Clinical Course:** Described as benign and non-progressive, which was noted as unusual for this diagnosis [S3]. The patient was last seen on 1996-07-26 [S3].",1.7979180812835693,21.405641794204712,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"The records do not contain this information. All provided reports list the indication as ""Low back pain"" only, and none mention hip pain [S1, S2, S3, S4, S5, S6, S7, S8]. One patient, Eugene Barman (MRN0008734), had a recommendation for an orthopaedic review on 2024-02-15 following an L4 compression fracture [S5].",7.442985773086548,3.2246577739715576,1.0,0.0,0.0,0.0,,,
+gemini:gemini-3.1-flash-lite-preview,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen performed on 2020-12-23 for Turvi George showed a dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding [S2]. The impression was acute appendicitis [S1, S2]. 
+
+The report recommends an urgent surgical review [S2].",0.32912564277648926,32.44628190994263,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The records do not contain a study that matches the exact filters provided; however, the following information is available for the X-ray report dated 2022-10-29 for patient Callum Hurst (MRN0009548):
+
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Centrilobular emphysematous changes, predominantly in the upper lobes [S2].
+*   **Impression:** Centrilobular emphysema [S1, S2].
+*   **Recommendation:** Correlate with pulmonary function tests [S2].
+*   **AI Note:** The ChestXR-Vision v3.0 model predicted 'pulmonary embolism' with a confidence of 0.73 [S2].",0.31536412239074707,14.062594413757324,1.0,1.0,0.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,There were 3 such studies [S1].,0.7932097911834717,12.172453880310059,1.0,,1.0,1.0,1.0,,
+gemini:gemini-3.1-flash-lite-preview,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","There are 4 imaging studies across two patients named Niharika Lamb:
+
+*   **Niharika Lamb (MRN MRN0003876):** 1 imaging study [S2].
+    *   2023-03-08: CT chest (routine), findings consistent with left lower lobe pneumonia [S2, S4].
+*   **Niharika Lamb (MRN MRN0005439):** 3 imaging studies [S1].
+    *   2024-05-11: CT chest (stat), acute right segmental pulmonary embolism [S1, S5].
+    *   2021-11-12: Ultrasound abdomen (routine), hepatic steatosis [S1, S3].
+    *   2020-12-09: CT abdomen (urgent), left renal calculus with mild hydronephrosis [S1, S6].",1.3168447017669678,30.770732164382935,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,The patient who had an X-ray on 2022-06-03 showing pleural effusion is Leigh Hensley [S1].,2.5751161575317383,31.746541023254395,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,99,There were 101 such studies.,7.08031153678894,15.67147183418274,0.0,,1.0,0.0,0.0,,
+gemini:gemini-3.1-flash-lite-preview,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,14.702826261520386,3.0994415283203125e-06,0.0,,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"There was 1 such study. Kate Martin had a CT head scan on 2022-12-11 that showed an acute left MCA territory infarct [S1, S2].",2.521286725997925,6.476500749588013,0.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"The following patients had MRI findings in June 2022 suspicious for hepatocellular carcinoma (arterially enhancing liver lesion with washout, LI-RADS 5):
+
+*   **Baljiwan Valdez** (2022-06-26): 5.1 cm lesion in segment 7 [S1].
+*   **Christine Richards** (2022-06-18): 3.7 cm lesion in segment 2 [S2].
+*   **Stewart Castro** (2022-06-28): 4.4 cm lesion in segment 7 [S3].
+
+All three reports recommend a multidisciplinary hepatobiliary review [S1, S2, S3].",5.088592052459717,36.08668875694275,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"On the follow-up scan of 2025-07-31, Jenna Mcclain's hepatic steatosis was noted as unchanged compared to the prior study of 2025-02-01 [S2]. Both studies identified findings consistent with fatty infiltration of the liver [S2, S3].",0.6168398857116699,1.192718267440796,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"The records do not contain this information. While specific instances of cholelithiasis (gallstones) are documented in the provided sources [S1, S2, S3, S4, S5, S6, S7, S8], the total count of unique patients with this finding in 2020 is not available in the computed facts.",14.746289253234863,9.394761085510254,0.0,,0.0,0.0,0.0,,
+gemini:gemini-3.1-flash-lite-preview,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The CT chest performed on 2024-01-30 for Sam Taylor showed a moderate left pleural effusion with adjacent compressive atelectasis [S1, S2]. 
+
+The report recommended considering a diagnostic thoracentesis if clinically indicated [S2].",0.28852367401123047,6.115919589996338,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","Tripti Yogi’s neurology note from 2021-11-15 summarizes a case of limbic encephalitis [S2, S3].
+
+**Clinical Presentation and History**
+*   The patient presented with a one-year history of rapidly progressive anterograde amnesia and some retrograde memory loss [S4].
+*   Initial cognitive testing showed severe deficits in orientation and memory (MMSE 18/30), though language, judgment, and motor functions were largely preserved [S2, S4].
+*   A follow-up assessment noted a benign, non-progressive clinical course with an MMSE of 20/30, disinhibited affect, and a mild right grasp reflex [S3].
+
+**Diagnostic Findings**
+*   **Imaging:** MRI of the brain revealed bilateral hyperintense T2 signals in the mesiotemporal regions with mild gadolinium enhancement [S3, S4]. CT and MRI of the chest and abdomen showed no evidence of tumor or lymphadenopathy [S3].
+*   **Laboratory/Procedures:** EEG, antineuronal antibody screening, and CSF studies (including infectious and cytology panels) were unremarkable [S3]. Extensive metabolic and autoimmune workups were also negative [S3].
+*   **Biopsy:** A stereotactic brain biopsy showed inflammatory changes, but no specific organism or etiology was identified [S3].
+
+**Impression**
+*   The clinical impression is limbic encephalitis secondary to cancer of unknown origin [S3]. The report notes that the non-progressive clinical course is unusual for this diagnosis [S3].",1.9346034526824951,10.498092412948608,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,The records do not contain this information.,6.302035093307495,1.0862576961517334,0.0,0.0,0.0,0.0,,,
+gemini:gemini-3.1-flash-lite-preview,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine performed on 2026-02-01 [S1, S2]. The study showed no acute abnormality, with maintained vertebral body heights and alignment, and no significant canal or foraminal stenosis [S2]. No follow-up imaging was recommended [S2].",9.793392419815063,11.856201648712158,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"There were 0 such studies. The records do not contain any evidence of a slipped disc (disc herniation) for Steven Srinivasan [S1, S2].",5.875786304473877,1.4133687019348145,0.0,,0.0,1.0,,1.0,
+gemini:gemini-3.1-flash-lite-preview,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The chest X-ray report for Balendra Balan dated 2022-12-07 concluded that there were streaky left retrocardiac airspace opacities, which could represent pneumonia in the correct clinical setting [S2].",0.5789942741394043,1.327108383178711,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,The patient with a chest X-ray report describing COPD and left base focal atelectasis is Felicia Wyatt (MRN: MRN0007299) [S3].,14.068960428237915,53.39065361022949,1.0,1.0,1.0,1.0,,,

@@ -1,0 +1,105 @@
+llm,type,difficulty,id,question,expected,answer,retrieval_s,generation_s,cites_sources,fact_recall,abstain_correct,auto_correct,number_correct,negative_correct
+ollama:phi4-mini,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen on 2020-12-23 for Turvi George showed acute appendicitis. [S1], [S2]",0.431093692779541,35.28849124908447,1.0,1.0,1.0,1.0,,
+ollama:phi4-mini,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for patient MRN0009548 dated 2022-10-29 indicates centrilobular emphysema in the upper lobes of the lungs. There was no indication of acute abnormality. The patient, Callum Hurst, is a 65-year-old female with a history of epilepsy and a blood group of B+. There were no other imaging studies for this patient on the specified date. The report recommends correlating the findings with pulmonary function tests. An AI model predicted a 'pulmonary embolism' with a confidence of 0.73, but this was not confirmed by the radiologist. The patient had a previous X-ray on 2021-05-08 showing no acute abnormality.",0.46106648445129395,57.87194538116455,0.0,1.0,1.0,1.0,,
+ollama:phi4-mini,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine on 2026-02-01, which showed no acute abnormality [S1], [S2].",9.036952257156372,114.45820927619934,1.0,1.0,1.0,1.0,,
+ollama:phi4-mini,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,Holly Ayala has 3 X-ray studies.,1.0206482410430908,44.91560077667236,0.0,,1.0,1.0,1.0,
+ollama:phi4-mini,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","Niharika Lamb (MRN MRN0003876) has 1 imaging study.
+
+Niharika Lamb (MRN MRN0005439) has 4 imaging studies.",1.6738951206207275,55.738688707351685,0.0,1.0,1.0,1.0,,
+ollama:phi4-mini,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,Leigh Hensley (MRN: MRN0015373) had an X-ray on 2022-06-03 showing pleural effusion [S1].,3.007535457611084,56.45737314224243,1.0,1.0,1.0,1.0,,
+ollama:phi4-mini,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,99,"101 urgent priority PET-CT studies were performed in 2023 [S1, S2, S3, S4, S5, S6, S7, S8].",8.368980407714844,67.56755876541138,0.0,,1.0,0.0,0.0,
+ollama:phi4-mini,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.980782985687256,1.049041748046875e-05,0.0,,1.0,1.0,,
+ollama:phi4-mini,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"Kate Martin had imaging that showed a cerebral infarct on 2022-12-11, which was a CT head scan.",2.7683305740356445,61.709988594055176,0.0,1.0,1.0,1.0,,
+ollama:phi4-mini,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Two patients had a suspected liver cancer on an MRI scan in June 2022:
+
+- Baljiwan Valdez (MRN0018798, Patient ID: 18798) with a 5.1 cm arterially enhancing lesion in segment 7 of the liver [S1].
+
+- Stewart Castro (MRN0003993, Patient ID: 3993) with a 4.4 cm arterially enhancing lesion in segment 7 of the liver [S3].",5.807730197906494,72.77685904502869,1.0,0.6666666666666666,1.0,0.0,,
+ollama:phi4-mini,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,The records do not contain this information.,0.7750895023345947,29.630008935928345,0.0,0.0,0.0,0.0,,
+ollama:phi4-mini,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,The records do not contain this information.,16.014952182769775,56.65607190132141,0.0,,0.0,0.0,0.0,
+ollama:phi4-mini,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,The records do not contain this information.,6.757236003875732,86.62983632087708,0.0,,0.0,1.0,,1.0
+ollama:phi4-mini,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,The CT on 2024-01-30 for Sam Taylor showed a moderate left pleural effusion [S2].,0.3545036315917969,32.456610441207886,1.0,1.0,1.0,1.0,,
+ollama:phi4-mini,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report from 2022-12-07 for Balendra Balan concluded with streaky left retrocardiac airspace opacities, which could represent a pneumonia [S2].",0.7396011352539062,34.040342807769775,1.0,1.0,1.0,1.0,,
+ollama:phi4-mini,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"The patient with an uploaded chest X-ray report describing COPD left base focal atelectasis is:
+
+- Patient: Felicia Wyatt
+- MRN: MRN0007299
+- Patient ID: 7299
+- Age: 22
+- Document Date: 2026-04-08
+- Source: openi
+
+IMPRESSION: Findings of COPD and left base focal atelectasis.",13.151617765426636,65.26308035850525,0.0,1.0,1.0,1.0,,
+ollama:phi4-mini,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","Tripti Yogi, a 71-year-old male with a history of heart failure, was diagnosed with limbic encephalitis secondary to cancer of unknown origin. His most recent imaging studies, including a CT abdomen and MRI Brain, showed no evidence of lymphadenopathy or tumor. His neuropsychologic testing revealed severe anterograde memory loss, consistent with mesiotemporal dysfunction bilaterally. His clinical course was benign and non-progressive. His last recorded status was on 2021-11-15.",2.1013922691345215,70.33488750457764,0.0,1.0,1.0,1.0,,
+ollama:phi4-mini,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"The patient with an orthopedic document about back and hip pain is Eugene Barman (MRN0008734, Patient ID: 8734), who had an X-ray spine study on 2024-02-15 indicating a wedge compression of the L4 vertebral body with approximately 30% height loss, likely an L4 compression fracture [S5].",7.776752710342407,62.55933618545532,1.0,0.0,1.0,0.0,,
+ollama:llama3.2:3b,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"According to the computed facts and sources, the Ultrasound abdomen on 2020-12-23 showed:
+
+* Acute appendicitis
+* Dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding.
+
+These findings were confirmed by the study report [S2] and the patient's medical history [S1].",0.3943965435028076,48.601627349853516,1.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for patient MRN0009548 dated 2022-10-29 is as follows:
+
+* The study was a routine X-ray of the chest performed on 2022-10-29 (S2).
+* The findings showed centrilobular emphysema predominantly in the upper lobes (S2).
+* The impression was centrilobular emphysema (S2).
+* The AI model ChestXR-Vision v3.0 predicted 'pulmonary embolism' with a confidence level of 0.73 (S2).
+* The patient's history includes chronic conditions such as epilepsy and a previous L1 compression fracture (S1).
+* The patient's previous studies include a routine X-ray chest on 2026-07-07, which showed no acute abnormality (S1).
+* The patient's previous studies also include an MRI spine on 2025-11-11, which showed a L1 compression fracture likely due to osteoporosis (S1).
+
+The records do not contain this information: the patient's current symptoms or the results of any pulmonary function tests.",0.4741232395172119,56.55841779708862,0.0,1.0,0.0,1.0,,
+ollama:llama3.2:3b,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was a 2026-02-01 MRI spine (routine, study 78460) with no acute abnormality.
+
+[S2]",10.330689191818237,93.78821921348572,1.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,There were 3 X-ray studies for Holly Ayala.,1.0593700408935547,37.198978900909424,0.0,,1.0,1.0,1.0,
+ollama:llama3.2:3b,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","For Niharika Lamb (MRN MRN0003876, id 3876), there is 1 imaging study:
+
+* 2023-03-08 CT chest: Findings consistent with left lower lobe pneumonia.
+
+For Niharika Lamb (MRN MRN0005439, id 5439), there are 3 imaging studies:
+
+* 2024-05-11 CT chest: Acute right segmental pulmonary embolism.
+* 2021-11-12 Ultrasound abdomen: Hepatic steatosis.
+* 2020-12-09 CT abdomen: left renal calculus with mild hydronephrosis.",1.7084827423095703,72.20332980155945,0.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"The patient who had a X-ray on 2022-06-03 showing pleural effusion is Leigh Hensley, with MRN: MRN0015373.",3.1400363445281982,50.94399118423462,0.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,99,There were 101 urgent priority PET-CT studies performed in 2023.,8.375255584716797,54.1627995967865,0.0,,1.0,0.0,0.0,
+ollama:llama3.2:3b,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.832003831863403,3.62396240234375e-05,0.0,,1.0,1.0,,
+ollama:llama3.2:3b,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"According to the COMPUTED FACTS, Kate Martin had imaging that showed a cerebral infarct on 2022-12-11. The scan was a CT head, and it was classified as an urgent study.
+
+The records do not contain information on the specific type of cerebral infarct (e.g., ischemic stroke, hemorrhagic stroke).",2.9877638816833496,69.52352094650269,0.0,1.0,0.0,1.0,,
+ollama:llama3.2:3b,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Based on the provided sources, the patients with a suspected liver cancer (arterially enhancing lesion with washout, LI-RADS 5) on a MRI scan in June 2022 are:
+
+* Baljiwan Valdez (study: 85971)
+* Christine Richards (study: 73872)
+* Stewart Castro (study: 17861)
+
+These patients had a final report status and were prioritized as urgent or stat.",6.299479961395264,66.64073657989502,0.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"According to the COMPUTED FACTS, the most recent study (2025-07-31) showed that Jenna Mcclain's fat in the liver remained unchanged compared to the prior study (2025-02-01).",0.855034589767456,40.88286519050598,0.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"There were 3,683 studies across 3,190 patients that reported gallstones in the gallbladder on imaging in 2020.",17.388304710388184,71.5662727355957,0.0,,1.0,0.0,0.0,
+ollama:llama3.2:3b,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"Based on the provided records, there is no evidence of a slipped disc (disc herniation) on any scan for Steven Srinivasan.
+
+The records do not contain any studies or documents that mention a disc herniation or any other indication of a slipped disc. The most recent studies, including the CT spine study on 2021-06-05 (study:21571) and the X-ray knee study on 2024-05-02 (study:21575), do not show any abnormalities related to the spine.
+
+Therefore, the answer is: The records do not contain this information.",8.187976121902466,103.08736872673035,0.0,,0.0,1.0,,1.0
+ollama:llama3.2:3b,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,The CT on 2024-01-30 showed a Moderate left pleural effusion with adjacent compressive atelectasis.,0.49698901176452637,28.42122507095337,0.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report from 2022-12-07 concluded that there were streaky retrocardiac left lower lobe opacities, in the correct clinical setting, this could represent a pneumonia. [S2]",0.7914705276489258,28.59219193458557,1.0,1.0,1.0,1.0,,
+ollama:llama3.2:3b,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"Based on the provided sources, the patient with an uploaded chest X-ray report describing COPD with left base focal atelectasis is:
+
+* Saksham Morrison (MRN: MRN0015934) with a report from [S1] (doc:3605) dated 2020-12-21.
+
+This is the only report that explicitly mentions ""COPD with right lung base focal atelectasis"" as part of the findings.",15.373342990875244,57.643898725509644,1.0,0.0,1.0,0.0,,
+ollama:llama3.2:3b,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","The Limbic Encephalitis note for Tripti Yogi (Patient ID: 6694) is as follows:
+
+* The patient has a 1-year history of progressive anterograde amnesia, with severe deficits in orientation and memory, and moderate difficulty naming.
+* The patient's clinical course is benign and non-progressive, but unusual for such a diagnosis.
+* The patient's MRI brain revealed hyperintense T2 signal in the mesiotemporal regions bilaterally, with mild enhancement on the gadolinium scans.
+* The patient underwent stereotactic brain biopsy at the Mayo Clinic, which showed inflammatory changes, but no organism or etiology was concluded.
+* The patient's neuropsychologic testing revealed severe anterograde memory loss, and less severe retrograde memory loss.
+* The patient's clinical presentation is consistent with mesiotemporal dysfunction bilaterally.
+* The patient's diagnosis is Limbic Encephalitis secondary to cancer of unknown origin.
+* The patient's last seen date is 7/26/96, with an MMSE score of 20/30 and category fluency of 20.
+* The patient's examination revealed disinhibited affect, mild right grasp reflex, and unremarkable results for blood pressure, heart rate, and respiratory rate.
+
+The records do not contain any information on the patient's current status or any updates to their diagnosis or treatment plan.",2.242528200149536,91.8966372013092,0.0,1.0,0.0,1.0,,
+ollama:llama3.2:3b,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"Based on the provided sources, there is no record that matches the exact filter criteria for a patient with orthopedic documents about ""Patient with back and hip pain"".",7.326958179473877,48.249940395355225,0.0,0.0,0.0,0.0,,

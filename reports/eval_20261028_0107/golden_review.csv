@@ -1,0 +1,236 @@
+id,type,question,expected_answer,gold_evidence,reviewer_ok (y/n),reviewer_note
+312,doc_transcription_semantic,Which patient had a radiology document about: MRI Brain & T-spine - Demyelinating disease?,Callum Todd,"Patient: Callum Todd | MRN: MRN0010606 | Patient ID: 10606 | female, age 32
+Document: MRI Brain & T-spine - Demyelinating disease. | Type: Radiology | Date: 2026-09-15 | Source: mtsamples
+Summary: MRI Brain & T-spine - Demyelinating disease.
+CC: ,Sensory loss.,HX: ,25y/o RHF began experiencing pruritus in the RUE, above the elbow and in the right scapular region, on 10/23/92. In addition she had paresthesias in the proximal BLE and toes of the right foot. Her symptoms resolved the following day. On 10/25/92, she awoke in the morning and her legs felt ""asleep"" with decreased sensation. The sensory loss gradually progressed rostrally to the mid chest. She felt unsteady on her feet and had difficulty ambulating. In addition she also began to experience pain in the right scapular region. She denied any heat or cold intolerance, fatigue, weight loss.,
+MEDS: None.,
+PMH: Unremarkable.,FHX: ,GF with CAD, otherwise unremarkable.,
+SHX: Married, unemployed. 2 children. Patient was born and raised in Iowa. Denied any h/o Tobacco/ETOH/illicit drug use.,",,
+265,doc_semantic,Which patient has an uploaded chest X-ray report describing lung volumes crowding left base?,Advik Hogan: Low lung volumes with crowding. Mild left base atelectasis.,"Patient: Advik Hogan | MRN: MRN0004411 | Patient ID: 4411 | male, age 44
+Document: Chest X-ray report | Type: Radiology | Date: 2021-04-29 | Source: openi
+COMPARISON: None
+INDICATION: Shortness of breath
+FINDINGS: PA and lateral views the chest were obtained. There are low lung volumes on the frontal view, which accentuates heart size and lung markings. The heart size is upper limits normal or mildly enlarged. Mediastinum normal width. The pulmonary vasculature is within normal limits. There is left lung base atelectasis on frontal [redacted] [redacted] secondary to low volumes. No pneumothorax, pleural effusion, or focal air space consolidation.
+IMPRESSION: Low lung volumes with crowding. Mild left base atelectasis.",,
+278,doc_transcription_lookup,Summarise Aarnav Parks's Epidural Steroid Block note.,", Left sciatica.,ANESTHESIA: , Intravenous sedation,","Patient: Aarnav Parks | MRN: MRN0016454 | Patient ID: 16454 | male, age 74
+Document: Epidural Steroid Block | Type: Pain Management | Date: 2022-02-14 | Source: mtsamples
+Summary: Transforaminal epidural steroid block with fluoroscopy.
+DIAGNOSIS: , Left sciatica.,ANESTHESIA: , Intravenous sedation,
+NAME OF OPERATION: 1.
+Left L5-S1 transforaminal epidural steroid block with fluoroscopy.,2.
+Left L4-5 transforaminal epidural steroid block with fluoroscopy.,3.
+Monitored intravenous Versed sedation.,PROCEDURE: , The patient was taken to the block room.
+He was placed prone on the fluoroscopy table.
+He was monitored appropriately.
+He was administered Versed 2 mg IV.
+His O2 saturation remained greater than 90%.
+His back was prepped and draped.
+The C-arm was brought in.
+The endplates at L5-S1 were squared off.
+The C-arm was rotated to the left.
+The L5 pedicle, the superior articular process of the L5-S1 facet, and the ""neck of the scotty dog"" were all visualized.
+After adequate local anesthesia, a 22-gauge, 3-1/2-inch spinal needle was inserted using down-the-barrel-of-the-needle technique.
+The needle was advanced into the posterior aspect of the foramen and then advanced anteriorly toward the 6 o'clock position on the pedicle.
+No paresthesias were noted.
+One-half cc of contrast was injected and spread medially around the pedicle and into the epidural space, and the L5 nerve root was visualized.",,
+300,doc_transcription_semantic,Which patient had a surgery document about: The patient was found to have limitations to extension at the IP joint to the right thumb and he had full extension after release of A1 pulley?,Samarth Kala,"Patient: Samarth Kala | MRN: MRN0013247 | Patient ID: 13247 | male, age 83
+Document: Release of A1 Pulley | Type: Surgery | Date: 2023-11-02 | Source: mtsamples
+Summary: The patient was found to have limitations to extension at the IP joint to the right thumb and he had full extension after release of A1 pulley.
+PREOPERATIVE DIAGNOSIS: , Right trigger thumb.,
+POSTOPERATIVE DIAGNOSIS: Right trigger thumb.,SURGERY: , Release of A1 pulley, CPT code 26055.,
+ANESTHESIA: General LMA.,TOURNIQUET TIME: ,9 minutes at 200 torr.,
+FINDINGS: The patient was found to have limitations to extension at the IP joint to the right thumb. He was found to have full extension after release of A1 pulley.,
+INDICATIONS: The patient is 2-1/2-year-old. He has a history of a trigger thumb. This was evaluated in the office. He was indicated for release of A1 pulley to allow for full excursion. Risks and benefits including recurrence, infection, and problems with anesthesia were discussed at length with the family. They wanted to proceed.,
+PROCEDURE: The patient was brought into the operating room and placed on the operating table in supine position.
+General anesthesia was induced without incident.
+He was given a weight-adjusted dose of antibiotics.
+The right upper extremity was then prepped and draped in a standard fashion.
+Limb was exsanguinated with an Esmarch bandage.",,
+236,doc_patient_lookup,What did Elizabeth Malhotra's uploaded chest X-ray report from 2021-02-01 conclude?,Unremarkable chest.,"Patient: Elizabeth Malhotra | MRN: MRN0016703 | Patient ID: 16703 | female, age 55
+Document: Chest X-ray report | Type: Radiology | Date: 2021-02-01 | Source: openi
+COMPARISON: None available
+INDICATION: Chest pain
+FINDINGS: The cardiomediastinal silhouette is normal in size and appearance. There is no pneumothorax or pleural effusion. The lung zones are clear. There are no bony abnormalities
+IMPRESSION: Unremarkable chest.",,
+292,doc_transcription_lookup,Summarise Kabir Young's Renal Failure Evaluation note.,"1. Acute kidney injury of which etiology is unknown at this time, with progressive azotemia unresponsive to IV fluids.,2. Hyperkalemia due to renal failure, slowly improving with Kayexalate.,3. Microscopic hematuria with nephrotic range proteinuria, more consistent with a glomerulonephropathy nephri","Patient: Kabir Young | MRN: MRN0013394 | Patient ID: 13394 | male, age 46
+Document: Renal Failure Evaluation | Type: Nephrology | Date: 2021-06-25 | Source: mtsamples
+Summary: Renal failure evaluation for possible dialysis therapy.  Acute kidney injury of which etiology is unknown at this time, with progressive azotemia unresponsive to IV fluids.
+REASON FOR CONSULTATION: Renal failure evaluation for possible dialysis therapy.,
+HISTORY OF PRESENT ILLNESS: This is a 47-year-old gentleman, who works offshore as a cook, who about 4 days ago noted that he was having some swelling in his ankles and it progressively got worse over the past 3 to 4 days, until he was swelling all the way up to his mid thigh bilaterally.
+He also felt like he could not make much urine, and his wife, who is a nurse instructed him to force fluids.
+While he was there, he was drinking cranberry juice, some Powerade, but he also has a history of weightlifting and had been taking on a creatine protein drink on a daily basis for some time now.
+He presented here with very decreased urine output until a Foley catheter was placed and about 500 mL was noted in his bladder.
+He did have a CPK level of about 234 while his BUN and creatinine on admission were 109 and 6.9.",,
+264,doc_semantic,Which patient has an uploaded chest X-ray report describing cardiomegaly subsegmental atelectasis right lower?,"Eta Badami: Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe.","Patient: Eta Badami | MRN: MRN0019667 | Patient ID: 19667 | male, age 62
+Document: Chest X-ray report | Type: Radiology | Date: 2023-12-14 | Source: openi
+COMPARISON: None.
+INDICATION: [redacted] year old right-sided rib pain after a [redacted] vehicle accident one [redacted] ago.
+FINDINGS: There is mild cardiomegaly. The aorta is tortuous. There is [redacted] opacities noted in the right lower lobe, [redacted] subsegmental atelectasis. There is no pneumothorax or effusion. No displaced rib fractures. If there is high clinical concern, consider dedicated rib views for further evaluation.
+IMPRESSION: Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe.",,
+239,doc_patient_lookup,What did Dylan Bala's uploaded chest X-ray report from 2021-11-24 conclude?,"1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.","Patient: Dylan Bala | MRN: MRN0000374 | Patient ID: 374 | female, age 33
+Document: Chest X-ray report | Type: Radiology | Date: 2021-11-24 | Source: openi
+COMPARISON: [redacted] chest x-[redacted], [redacted] scan
+INDICATION: Metastatic ovarian cancer, evaluate pleural effusion
+FINDINGS: There is a moderate layering left pleural effusion, grossly stable. There is a moderate right pleural effusion, which is partially loculated. There is some pleural fluid tracking along the right [redacted] fissure. There is bibasilar airspace disease, possibly passive atelectasis. No pneumothorax is identified. Heart size is within normal limits. Right PICC tip is at the SVC. There are mild degenerative changes of the spine.
+IMPRESSION: 1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",,
+253,doc_semantic,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"Patient: Felicia Wyatt | MRN: MRN0007299 | Patient ID: 7299 | female, age 22
+Document: Chest X-ray report | Type: Radiology | Date: 2026-04-08 | Source: openi
+COMPARISON: None
+INDICATION: 30 lb [redacted] loss in 4 [redacted], [redacted] term [redacted]
+FINDINGS: Lungs are [redacted]. [redacted] opacities are present in the left lung base. Heart size normal. Mediastinum normal.
+IMPRESSION: Findings of COPD and left base focal atelectasis.",,
+247,doc_patient_lookup,What did Tonya Pierce's uploaded chest X-ray report from 2026-06-28 conclude?,"Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable","Patient: Tonya Pierce | MRN: MRN0003883 | Patient ID: 3883 | female, age 75
+Document: Chest X-ray report | Type: Radiology | Date: 2026-06-28 | Source: openi
+COMPARISON: Portable chest dated [redacted].
+INDICATION: [redacted]-year-old female, status post chest tube removal, evaluate for pneumothorax.
+IMPRESSION: Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable postsurgical changes left axilla. Degenerative changes thoracic spine. Stable streaky opacities right base. [redacted] opacity right midlung, question fluid level, incompletely evaluated, no recent [redacted] for comparison.",,
+280,doc_transcription_lookup,Summarise Russell Clayton's Gen Med Consult - 19 note.,"A 2-year-old with chronic lung disease, doing the sprints, some bowel difficulties, also just weight gain issues because of the high-energy expenditure with the sprints that she is doing.,","Patient: Russell Clayton | MRN: MRN0019921 | Patient ID: 19921 | female, age 88
+Document: Gen Med Consult - 19 | Type: General Medicine | Date: 2023-05-03 | Source: mtsamples
+Summary: 2-year-old female who comes in for just rechecking her weight, her breathing status, and her diet.
+SUBJECTIVE: This is a 2-year-old female who comes in for just rechecking her weight, her breathing status, and her diet.
+The patient is in foster care, has a long history of the prematurity, born at 22 weeks.
+She has chronic lung disease, is on ventilator, but doing sprints, has been doing very well, is up to 4-1/2 hours sprints twice daily and may go up 15 minutes every three days or so; which she has been tolerating fairly well as long as they kind of get her distracted towards the end, otherwise, she does get sort of tachypneic.
+She is on 2-1/2 liters of oxygen and does require that.
+Her diet has been fluctuating.
+They have been trying to figure out what works best with her.
+She has been on some Pediasure for the increased calories but that really makes her distended in the abdomen and constipates her.",,
+293,doc_transcription_semantic,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"Patient: Sara Dey | MRN: MRN0015388 | Patient ID: 15388 | male, age 72
+Document: Orthopedic Consult - 5 | Type: Orthopedic | Date: 2021-04-09 | Source: mtsamples
+Summary: Patient with back and hip pain.
+Chief Complaint:, Back and hip pain.,History of Present Illness:, The patient is a 73 year old Caucasian male with a history of hypertension, end-stage renal disease secondary to reflux nephropathy / restriction of bladder neck requiring hemodialysis and eventual cadaveric renal transplant now on chronic immunosuppression, peripheral vascular disease with non-healing ulcer of right great toe, and peripheral neuropathy who initially presented to his primary care physician in May 2001 with complaints of low back pain and bilateral hip pain.
+The pain was described as a constant pain in the middle to lower back and hips.
+The pain was exacerbated by climbing stairs and in the morning after sleeping.
+He reported occasional radiation of pain from back into buttocks (greatest on the right side).
+He has history of chronic feet and leg numbness and paraesthesias related to his neuropathy, but he denied any recent changes in these symptoms in relation to the back pain.
+He denied any history of trauma.
+He was treated symptomatically with Acetaminophen with only some relief.",,
+306,doc_transcription_semantic,"Which patient had a general medicine document about: The patient complaining of abdominal pain, has a long-standing history of diabetes treated with Micronase daily?",Vansha Valdez,"Patient: Vansha Valdez | MRN: MRN0013109 | Patient ID: 13109 | male, age 46
+Document: Acute Cystitis & Diabetes Type II | Type: General Medicine | Date: 2025-04-28 | Source: mtsamples
+Summary: The patient complaining of abdominal pain, has a long-standing history of diabetes treated with Micronase daily.
+HISTORY OF PRESENT ILLNESS: , The patient is a 45-year-old male complaining of abdominal pain. The patient also has a long-standing history of diabetes which is treated with Micronase daily.,PAST MEDICAL HISTORY: , There is no significant past medical history noted today.,
+PHYSICAL EXAMINATION: HEENT: Patient denies ear abnormalities, nose abnormalities and throat abnormalities.,Cardio: Patient has history of elevated cholesterol, but does not have ASHD, hypertension and PVD.,Resp: Patient denies asthma, lung infections and lung lesions.,GI: Patient denies colon abnormalities, gall bladder problems, liver abnormalities and peptic ulcer disease.,GU: Patient has history of Urinary tract disorder, but does not have Bladder disorder and Kidney disorder.,Endocrine: Patient has history of diabetes, but does not have hormonal irregularities and thyroid abnormalities.,Dermatology: Patient denies allergic reactions, rashes and skin lesions.,
+MEDS: Micronase 2.5 mg Tab PO QAM #30. Bactrim 400/80 Tab PO BID #30.,
+SOCIAL HISTORY: No known history of drug or alcohol abuse. Work, diet, and exercise patterns are within normal limits.,
+FAMILY HISTORY: No significant family history.,",,
+281,doc_transcription_lookup,Summarise Gail Savant's Cardiac Catheterization note.,"1. Moderate-to-severe coronary artery disease with a high-grade lesion seen at the ostium of the first diagonal artery as well as a 60% to 70% lesion seen at the mid portion of the right coronary artery.,2. Moderate-to-severe aortic stenosis with an aortic valve area of 0.89 cm2.,3. 4+ mitral regurg","Patient: Gail Savant | MRN: MRN0002672 | Patient ID: 2672 | male, age 60
+Document: Cardiac Catheterization | Type: Surgery | Date: 2023-04-14 | Source: mtsamples
+Summary: Left heart catheterization, LV cineangiography, selective coronary angiography, and right heart catheterization with cardiac output by thermodilution technique with dual transducer.
+EXAMINATION: , Cardiac catheterization.,PROCEDURE PERFORMED: , Left heart catheterization, LV cineangiography, selective coronary angiography, and right heart catheterization with cardiac output by thermodilution technique with dual transducer.,INDICATION: , Syncope with severe aortic stenosis.,
+COMPLICATIONS: None.,DESCRIPTION OF PROCEDURE: , After informed consent was obtained from the patient, the patient was brought to the cardiac catheterization laboratory in a post observed state.
+The right groin was prepped and draped in the usual sterile fashion.
+After adequate conscious sedation and local anesthesia was obtained, a 6-French sheath was placed in the right common femoral artery and a 8-French sheath was placed in the right common femoral vein.
+Following this, a 7.5-French Swan-Ganz catheter was advanced into the right atrium where the right atrial pressure was 10/7 mmHg.
+The catheter was then manipulated into the right ventricle where the right ventricular pressure was 37/10/4 mmHg.
+The catheter was then manipulated into the wedge position where the wedge pressure was noted to be 22 mmHg.
+The pulmonary arterial pressures w",,
+246,doc_patient_lookup,What did Jeevika Kala's uploaded chest X-ray report from 2026-09-27 conclude?,Left base airspace disease and nodular opacity in the right midlung.,"Patient: Jeevika Kala | MRN: MRN0019761 | Patient ID: 19761 | male, age 22
+Document: Chest X-ray report | Type: Radiology | Date: 2026-09-27 | Source: openi
+COMPARISON: PA and lateral views of the chest from [redacted].
+INDICATION: [redacted]-year-old male with pneumonia.
+FINDINGS: Heart size within normal limits. There is focal left lateral base airspace disease. There is a 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion. No displaced rib fractures. There is an apparent deformity of the right humeral surgical neck. This is not seen on the comparison. Correlate clinically with history of fracture.
+IMPRESSION: Left base airspace disease and nodular opacity in the right midlung.",,
+309,doc_transcription_semantic,"Which patient had a urology document about: Abnormal serum PSA of 16 ng/ml, dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and slow urine stream?",Avi Vincent,"Patient: Avi Vincent | MRN: MRN0005868 | Patient ID: 5868 | male, age 60
+Document: Elevated PSA - H&P | Type: Urology | Date: 2020-12-01 | Source: mtsamples
+Summary: Abnormal serum PSA of 16 ng/ml, dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and slow urine stream.
+CHIEF COMPLAINT: This 61-year-old male presents today with recent finding of abnormal serum PSA of 16 ng/ml. Associated signs and symptoms: Associated signs and symptoms include dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and urine stream is slow. Timing (onset/frequency): Onset was 6 months ago. Patient denies fever and chills and denies flank pain.,ALLERGIES: ,Patient admits allergies to adhesive tape resulting in severe rash. Patient denies an allergy to anesthesia.,
+MEDICATION HISTORY: Patient is not currently taking any medications.,
+PAST MEDICAL HISTORY: Childhood Illnesses: (+) asthma, Cardiovascular Hx: (-) angina, Renal / Urinary Hx: (-) kidney problems.,
+PAST SURGICAL HISTORY: Patient admits past surgical history of appendectomy in 1992.,
+SOCIAL HISTORY: Patient admits alcohol use, Drinking is described as heavy, Patient denies illegal drug use, Patient denies STD history, Patient denies tobacco use.,
+FAMILY HISTORY: Patient admits a family history of gout attacks associated with father.,",,
+234,doc_patient_lookup,What did Vincent Coles's uploaded chest X-ray report from 2025-07-02 conclude?,Decreasing lung volumes. Probable bilateral pleural effusions and elevation of both hemidiaphragms.,"Patient: Vincent Coles | MRN: MRN0013238 | Patient ID: 13238 | female, age 36
+Document: Chest X-ray report | Type: Radiology | Date: 2025-07-02 | Source: openi
+COMPARISON: 2 days prior
+INDICATION: History [redacted]
+IMPRESSION: Decreasing lung volumes. Probable bilateral pleural effusions and elevation of both hemidiaphragms.",,
+279,doc_transcription_lookup,Summarise Hollie Fletcher's Craniotomy - Frontal Zygomatic note.,"Metopic synostosis with trigonocephaly.,PROCEDURES: ,1. Bilateral orbital frontal zygomatic craniotomy (skull base approach).,2. Bilateral orbital advancement with (C-shaped osteotomies down to the inferior orbital rim) with bilateral orbital advancement with bone grafts.,3. Bilateral forehead recon","Patient: Hollie Fletcher | MRN: MRN0019682 | Patient ID: 19682 | male, age 73
+Document: Craniotomy - Frontal Zygomatic | Type: Surgery | Date: 2025-09-27 | Source: mtsamples
+Summary: Bilateral orbital frontal zygomatic craniotomy (skull base approach), bilateral orbital advancement with (C-shaped osteotomies down to the inferior orbital rim) with bilateral orbital advancement with bone grafts, bilateral forehead reconstruction with autologous graft.
+PREOPERATIVE DIAGNOSIS: Metopic synostosis with trigonocephaly.,
+POSTOPERATIVE DIAGNOSIS: Metopic synostosis with trigonocephaly.,PROCEDURES: ,1.
+Bilateral orbital frontal zygomatic craniotomy (skull base approach).,2.
+Bilateral orbital advancement with (C-shaped osteotomies down to the inferior orbital rim) with bilateral orbital advancement with bone grafts.,3.
+Bilateral forehead reconstruction with autologous graft.,4.
+Advancement of the temporalis muscle bilaterally.,5.
+Barrel-stave osteotomies of the parietal bones.,ANESTHESIA: , General.,PROCEDURE: , After induction of general anesthesia, the patient was placed supine on the operating room table with a roll under his shoulders and his head resting on a foam doughnut.
+Scalp was clipped.
+He was prepped with ChloraPrep.
+Incision was infiltrated with 0.5% Xylocaine with epinephrine 1:200,000 and he received antibiotics and he was then reprepped and draped in a sterile manner.,A bicoronal zigzag incision was made and Raney clips used for hemostasis.
+Subcutaneous flaps were develo",,
+298,doc_transcription_semantic,Which patient had a general medicine document about: Patient was found to have decrease in mental alertness?,Lesley Hegde,"Patient: Lesley Hegde | MRN: MRN0018024 | Patient ID: 18024 | female, age 67
+Document: Gen Med Consult - 30 | Type: General Medicine | Date: 2022-05-30 | Source: mtsamples
+Summary: Patient was found to have decrease in mental alertness
+CHIEF COMPLAINT: , Mental changes today.,HISTORY OF PRESENT ILLNESS: , This patient is a resident from Mazatlan, Mexico, visiting her son here in Utah, with a history of diabetes. She usually does not take her meal on time, and also not having her regular meals lately. The patient usually still takes her diabetic medication. Today, the patient was found to have decrease in mental alertness, but no other GI symptoms. Some sweating and agitation, but no fever or chills. No other rash. Because of the above symptoms, the patient was treated in the emergency department here. She was found to glucose in 30 range, and hypertension. There was some question whether she also take her blood pressure medication or not. Because of the above symptoms, the patient was admitted to the hospital for further care. The patient was given labetalol IV and also Norvasc blood pressure, and also some glucose supplement. At this time, the patient's glucose was in the 175 range.,PAST MEDICAL HISTORY: , Diabetes, hypertension.,
+PAST SURGICAL HISTORY: None.,FAMILY HISTORY: , Unremarkable.,ALLERGIES: , No known drug allergies.,",,
+259,doc_semantic,Which patient has an uploaded chest X-ray report describing interval placement dual-lumen dialysis catheter?,Sarthak Gates: 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.,"Patient: Sarthak Gates | MRN: MRN0013967 | Patient ID: 13967 | male, age 58
+Document: Chest X-ray report | Type: Radiology | Date: 2026-05-30 | Source: openi
+COMPARISON: AP and lateral chest [redacted].
+INDICATION: [redacted] year old dialysis catheter placement.
+FINDINGS: There has been interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. Moderate cardiomegaly is identified. There is mild calcification of the transverse [redacted]. [redacted] airspace opacities are identified with bilateral pleural effusions.
+IMPRESSION: 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.",,
+250,doc_patient_lookup,What did Tamara Viswanathan's uploaded chest X-ray report from 2022-04-01 conclude?,"There are 2 ICD leads, one with the tip in the expected region of the right atrium and the other with the tip projected over the midline on frontal view, somewhat atypical. However, on lateral view the [redacted] is in the expected region of right ventricle. Correlate clinically. This is without sig","Patient: Tamara Viswanathan | MRN: MRN0019555 | Patient ID: 19555 | male, age 83
+Document: Chest X-ray report | Type: Radiology | Date: 2022-04-01 | Source: openi
+INDICATION: Question of ICD [redacted] [redacted]
+FINDINGS: There are 2 ICD leads, one with the tip in the expected region of the right atrium and the other with the tip projected over the midline in the expected region of the right ventricle. Calcified granulomas. Normal heart size. Tortuous aorta. There is no pulmonary edema. There is no focal consolidation. There are no [redacted] of a large pleural effusion. There is no evidence of pneumothorax.
+IMPRESSION: There are 2 ICD leads, one with the tip in the expected region of the right atrium and the other with the tip projected over the midline on frontal view, somewhat atypical. However, on lateral view the [redacted] is in the expected region of right ventricle. Correlate clinically. This is without significant change compared to [redacted]. No significant change in position of the device overlying left chest wall. .",,
+244,doc_patient_lookup,What did Leslie Parkinson's uploaded chest X-ray report from 2025-08-28 conclude?,1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above,"Patient: Leslie Parkinson | MRN: MRN0002872 | Patient ID: 2872 | male, age 89
+Document: Chest X-ray report | Type: Radiology | Date: 2025-08-28 | Source: openi
+COMPARISON: None
+INDICATION: Preprocedure evaluation prior to bone marrow transplant
+FINDINGS: The lungs appear clear. The heart and pulmonary [redacted] appear normal. There is severe kyphotic deformity of the chest involving prior fractures of thoracic vertebral bodies and the sternum. There are multiple [redacted] fractures identified involving upper thoracic vertebral bodies and a single upper lumbar vertebral body. The patient is status post vertebroplasty at multiple levels. The pleural spaces appear clear. There is right-sided chest [redacted], the distal tip in the upper right atrium. Mediastinal contours appear normal.
+IMPRESSION: 1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above",,
+288,doc_transcription_lookup,Summarise Louise Subramanian's Mayoview - 2 note.,"1. Normal stress/rest cardiac perfusion with no indication of ischemia.,2. Normal LV function and low likelihood of significant epicardial coronary narrowing.,","Patient: Louise Subramanian | MRN: MRN0010473 | Patient ID: 10473 | male, age 27
+Document: Mayoview - 2 | Type: Radiology | Date: 2025-07-01 | Source: mtsamples
+Summary: Lexiscan myoview stress study.  Chest discomfort.  Normal stress/rest cardiac perfusion with no indication of ischemia.  Normal LV function and low likelihood of significant epicardial coronary narrowing.
+LEXISCAN MYOVIEW STRESS STUDY,REASON FOR THE EXAM: , Chest discomfort.,INTERPRETATION: , The patient exercised according to the Lexiscan study, received a total of 0.4 mg of Lexiscan IV injection.
+At peak hyperemic effect, 24.9 mCi of Myoview were injected for the stress imaging and earlier 8.2 mCi were injected for the resting and the usual SPECT and gated SPECT protocol was followed and the data was analyzed using Cedars-Sinai software.
+The patient did not walk because of prior history of inability to exercise long enough on treadmill.,The resting heart rate was 57 with the resting blood pressure 143/94.
+Maximum heart rate achieved was 90 with a maximum blood pressure unchanged.,EKG at rest showed sinus rhythm with no significant ST-T wave changes of reversible ischemia or injury.
+Subtle nonspecific in III and aVF were seen.
+Maximum stress test EKG showed inverted T wave from V4 to V6.
+Normal response to Lexiscan.,CONCLUSION: ,Maximal Lexiscan perfusion with subtle abnormalities non-conclusive.",,
+282,doc_transcription_lookup,Summarise Caroline Ramirez's Postop Medical Management note.,"1. Right knee arthritis status post right total knee replacement. The patient tolerated the procedure well.,2. Anemia due to stated operative blood loss, would not require transfusion at this point.,3. Hypertension, under control. Continue current home medications.,4. Deep vein thrombosis risk, prop","Patient: Caroline Ramirez | MRN: MRN0012507 | Patient ID: 12507 | female, age 83
+Document: Postop Medical Management | Type: Consult - History and Phy. | Date: 2022-12-12 | Source: mtsamples
+Summary: Post-surgical medical management; right total knee replacement.
+REASON FOR CONSULTATION: , Post-surgical medical management.,PROCEDURE DONE: , Right total knee replacement.,
+MEDICAL HISTORY: 1. Arthritis of the right knee.,2. Hypertension.,PAST SURGICAL HISTORY: , Hysterectomy, Cesarean section, left hip arthroplasty, and breast biopsy.,MEDICATIONS: , Hyzaar 12.5 mg p.o. daily, Femara 2.5 mg p.o. daily, Fosamax 70 mg p.o. every week, aspirin 81 mg p.o. daily, and vitamin.,ALLERGIES: , MORPHINE.,HISTORY OF PRESENT COMPLAINT: , This 84-year-old patient with history of arthritis underwent right total knee replacement yesterday. The patient is admitted today to the surgical floor for postoperative management. The patient tolerated the procedure well.,
+REVIEW OF SYSTEMS: CONSTITUTIONAL: No fever, chills, or malaise.,ENT: Unremarkable.,RESPIRATORY: The patient denies shortness of breath, cough, or wheezing.,CARDIOVASCULAR: No known heart problems. No orthopnea, palpitations, syncopal episode, or pedal swelling.,GASTROINTESTINAL: She denies nausea or vomiting. No history of GI bleed.,GENITOURINARY: No dysuria, no hematuria.,ENDOCRINE: Negative for diabetes or thyroid problems.,NEUROLOGICAL: No history of seizure or TIA. Cognitive function is intact.,SOCIAL HISTORY: ,The patient does not",,
+257,doc_semantic,Which patient has an uploaded chest X-ray report describing bibasilar airspace disease left worse?,"Viraj Parsons: Bibasilar airspace disease, left worse right. Bilateral pleural fluid.","Patient: Viraj Parsons | MRN: MRN0015513 | Patient ID: 15513 | male, age 88
+Document: Chest X-ray report | Type: Radiology | Date: 2024-05-13 | Source: openi
+COMPARISON: None
+INDICATION: Patient with dyspnea and [redacted]
+FINDINGS: Consolidation and some atelectasis are present in the left lower lobe. Patchy interstitial infiltrates are also present in the right lower lobe. Bilateral costophrenic [redacted] blunting is present. Heart and pulmonary [redacted] are normal.
+IMPRESSION: Bibasilar airspace disease, left worse right. Bilateral pleural fluid.",,
+243,doc_patient_lookup,What did Hilary Kelly's uploaded chest X-ray report from 2024-12-13 conclude?,1. Cardiomegaly without overt heart failure. 2. Continued elevation of the left hemidiaphragm. 3. Scattered [redacted] of left base scarring/atelectasis.,"Patient: Hilary Kelly | MRN: MRN0001582 | Patient ID: 1582 | female, age 47
+Document: Chest X-ray report | Type: Radiology | Date: 2024-12-13 | Source: openi
+INDICATION: Hypertension, shortness of breath.
+FINDINGS: Cardiomegaly is present. The pulmonary vascularity appears within normal limits. Some scattered [redacted] opacities are present whose appearance [redacted] scarring or atelectasis. No focal airspace disease is seen. No pleural effusion is noted. No pneumothorax is identified. The left hemidiaphragm is elevated. Scoliosis is present involving the lumbar spine. There has been previous surgical resection of the left 6th rib.
+IMPRESSION: 1. Cardiomegaly without overt heart failure. 2. Continued elevation of the left hemidiaphragm. 3. Scattered [redacted] of left base scarring/atelectasis.",,
+299,doc_transcription_semantic,Which patient had a surgery document about: Repeat low transverse cervical cesarean section with delivery of a viable female neonate.  Bilateral tubal ligation and partial salpingectomy.  Lysis of adhesions?,Mason Faulkner,"Patient: Mason Faulkner | MRN: MRN0003805 | Patient ID: 3805 | female, age 36
+Document: BTL & Salpingectomy | Type: Surgery | Date: 2021-08-15 | Source: mtsamples
+Summary: Repeat low transverse cervical cesarean section with delivery of a viable female neonate.  Bilateral tubal ligation and partial salpingectomy.  Lysis of adhesions.
+PREOPERATIVE DIAGNOSES: 1. Pregnancy at 38 weeks and three days.,2. Previous cesarean section x2.,3. Refusing trial of labor.,4. Multiparity, seeking family planning.,
+POSTOPERATIVE DIAGNOSES: 1. Pregnancy at 38 weeks and three days.,2. Previous cesarean section x2.,3. Refusing trial of labor.,4. Multiparity, seeking family planning.,5. Pelvic adhesions.,
+PROCEDURE PERFORMED: 1. Repeat low transverse cervical cesarean section with delivery of a viable female neonate.,2. Bilateral tubal ligation and partial salpingectomy.,3. Lysis of adhesions.,ANESTHESIA: , Spinal with Astramorph.,COMPLICATIONS: , None.,ESTIMATED BLOOD LOSS: , 800 cc.,FLUIDS: , 1800 cc of crystalloids.,
+URINE OUTPUT: 600 cc of clear urine at the end of the procedure.,INDICATIONS: ,This is a 36-year-old African-American female gravida 4, para-2-0-1-2, who presents for elective repeat cesarean section. The patient has previous cesarean section x2 and refuses trial of labor. The patient also requests a tubal ligation for permanent sterilization and family planning.,
+FINDINGS: A female infant in cephalic presentation in a ROP position.
+Apgars of 9 and 9 at one and five minutes respec",,
+284,doc_transcription_lookup,Summarise Joseph Archer's Gen Med Consult - 32 note.,"We will continue present therapy except we will add Tylenol No. 3 to take 1 tablet before bed as needed for her back pain. If she does develop drowsiness from this, then the CNS side effects will help her sleep. During the day, her daughter likes the patient to remain alert and will use the ibuprofe","Patient: Joseph Archer | MRN: MRN0016713 | Patient ID: 16713 | female, age 34
+Document: Gen Med Consult - 32 | Type: General Medicine | Date: 2026-05-27 | Source: mtsamples
+Summary: Patient with osteoarthritis and osteoporosis with very limited mobility, depression, hypertension, hyperthyroidism, right breast mass, and chronic renal insufficiency
+PROBLEM LIST: 1. Generalized osteoarthritis and osteoporosis with very limited mobility.,2. Adult failure to thrive with history of multiple falls, none recent.,3. Degenerative arthritis of the knees with chronic bilateral knee pain.,4. Chronic depression.,5. Hypertension.,6. Hyperthyroidism.,7. Aortic stenosis with history of CHF and bilateral pleural effusions.,8. Right breast mass, slowly enlarging. Patient refusing workup.,9. Status post ORIF of the right wrist, now healed.,10. Anemia of chronic disease.,11. Hypoalbuminemia.,12. Chronic renal insufficiency.,
+CURRENT MEDICATIONS: Acetaminophen 325 mg 2 tablets twice daily, Coreg 6.25 mg twice daily, Docusate sodium 100 mg 1 cap twice daily, ibuprofen 600 mg twice daily with food, Lidoderm patch 5% to apply 1 patch to both knees every morning and off in the evening, one vitamin daily, ferrous sulfate 325 mg daily, furosemide 20 mg q.a.m., Tapazole 5 mg daily, potassium chloride 10 mEq daily, Zoloft 50 mg daily, Ensure t.i.d., and p.r.n. medications.,
+ALLERGIES: NKDA.,
+CODE STATUS: DNR, healthcare proxy, durable power of attorney.,",,
+237,doc_patient_lookup,What did Bachittar Bawa's uploaded chest X-ray report from 2023-01-15 conclude?,1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.,"Patient: Bachittar Bawa | MRN: MRN0009118 | Patient ID: 9118 | female, age 58
+Document: Chest X-ray report | Type: Radiology | Date: 2023-01-15 | Source: openi
+COMPARISON: None available
+INDICATION: [redacted]
+FINDINGS: There is a moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture. Cardiomediastinal silhouette is within normal limits. Left lung is clear.
+IMPRESSION: 1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",,
+241,doc_patient_lookup,What did Aadi Hartman's uploaded chest X-ray report from 2021-10-12 conclude?,No evidence of active disease.,"Patient: Aadi Hartman | MRN: MRN0012582 | Patient ID: 12582 | female, age 19
+Document: Chest X-ray report | Type: Radiology | Date: 2021-10-12 | Source: openi
+COMPARISON: None available
+INDICATION: [redacted]-year-old female with asthma, recent pneumonia
+FINDINGS: The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. There are multilevel degenerative changes of the spine.
+IMPRESSION: No evidence of active disease.",,

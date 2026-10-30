@@ -1,0 +1,257 @@
+id,type,question,expected_answer,gold_evidence,reviewer_ok (y/n),reviewer_note
+284,doc_transcription_lookup,Summarise Joseph Archer's Gen Med Consult - 32 note.,"We will continue present therapy except we will add Tylenol No. 3 to take 1 tablet before bed as needed for her back pain. If she does develop drowsiness from this, then the CNS side effects will help her sleep. During the day, her daughter likes the patient to remain alert and will use the ibuprofe","Patient: Joseph Archer | MRN: MRN0016713 | Patient ID: 16713 | female, age 34
+Document: Gen Med Consult - 32 | Type: General Medicine | Date: 2026-05-27 | Source: mtsamples
+Summary: Patient with osteoarthritis and osteoporosis with very limited mobility, depression, hypertension, hyperthyroidism, right breast mass, and chronic renal insufficiency
+PROBLEM LIST: 1. Generalized osteoarthritis and osteoporosis with very limited mobility.,2. Adult failure to thrive with history of multiple falls, none recent.,3. Degenerative arthritis of the knees with chronic bilateral knee pain.,4. Chronic depression.,5. Hypertension.,6. Hyperthyroidism.,7. Aortic stenosis with history of CHF and bilateral pleural effusions.,8. Right breast mass, slowly enlarging. Patient refusing workup.,9. Status post ORIF of the right wrist, now healed.,10. Anemia of chronic disease.,11. Hypoalbuminemia.,12. Chronic renal insufficiency.,
+CURRENT MEDICATIONS: Acetaminophen 325 mg 2 tablets twice daily, Coreg 6.25 mg twice daily, Docusate sodium 100 mg 1 cap twice daily, ibuprofen 600 mg twice daily with food, Lidoderm patch 5% to apply 1 patch to both knees every morning and off in the evening, one vitamin daily, ferrous sulfate 325 mg daily, furosemide 20 mg q.a.m., Tapazole 5 mg daily, potassium chloride 10 mEq daily, Zoloft 50 mg daily, Ensure t.i.d., and p.r.n. medications.,
+ALLERGIES: NKDA.,
+CODE STATUS: DNR, healthcare proxy, durable power of attorney.,",,
+190,hard_count_finding,How many patients had a lung infection reported on imaging in 2023?,377,,,
+216,hard_typo_name,What did the MRI on 2025-07-23 show for Scott Spencr?,Acute right MCA territory infarct.,"Patient: Scott Spencer | MRN: MRN0014479 | Patient ID: 14479 | male, age 89
+Study: MRI brain | Date: 2025-07-23 | Accession: ACC000066249 | Priority: stat | Report status: final
+Indication: Chronic headache
+TECHNIQUE: Multiplanar multisequence MRI brain with and without gadolinium (T1, T2, FLAIR, DWI, SWI).
+COMPARISON: None available.
+FINDINGS: Restricted diffusion / hypodensity in the right middle cerebral artery territory.
+IMPRESSION: Acute right MCA territory infarct.
+RECOMMENDATION: Stroke team activation.
+AI MODEL (NeuroMR-Net v2.1): predicted 'ischaemic stroke' (confidence 0.89).",,
+301,doc_transcription_semantic,Which patient had a soap / chart / progress notes document about: The patient is in complaining of headaches and dizzy spells?,Arthur Mistry,"Patient: Arthur Mistry | MRN: MRN0015371 | Patient ID: 15371 | female, age 46
+Document: Gen Med Progress Note - 4 | Type: SOAP / Chart / Progress Notes | Date: 2025-05-01 | Source: mtsamples
+Summary: The patient is in complaining of headaches and dizzy spells.
+SUBJECTIVE: The patient is in complaining of headaches and dizzy spells, as well as a new little rash on the medial right calf. She describes her dizziness as both vertigo and lightheadedness. She does not have a headache at present but has some intermittent headaches, neck pains, and generalized myalgias. She has noticed a few more bruises on her legs. No fever or chills with slight cough. She has had more chest pains but not at present. She does have a little bit of nausea but no vomiting or diarrhea. She complains of some left shoulder tenderness and discomfort. She reports her blood sugar today after lunch was 155.,",,
+291,doc_transcription_lookup,Summarise Georgina Burrows's Gen Med Consult - 14 note.,"1. Serous otitis.,2. Atopic dermatitis.,","Patient: Georgina Burrows | MRN: MRN0008393 | Patient ID: 8393 | female, age 47
+Document: Gen Med Consult - 14 | Type: General Medicine | Date: 2025-11-05 | Source: mtsamples
+Summary: Complaint of left otalgia (serous otitis) and headache.  History of atopic dermatitis.
+HISTORY OF PRESENT ILLNESS: A 49-year-old female with history of atopic dermatitis comes to the clinic with complaint of left otalgia and headache. Symptoms started approximately three weeks ago and she was having difficulty hearing, although that has greatly improved. She is having some left-sided sinus pressure and actually went to the dentist because her teeth were hurting; however, the teeth were okay. She continues to have some left-sided jaw pain. Denies any headache, fever, cough, or sore throat. She had used Cutivate cream in the past for the atopic dermatitis with good results and is needing a refill of that. She has also had problems with sinusitis in the past and chronic left-sided headache.,
+FAMILY HISTORY: Reviewed and unchanged.,ALLERGIES: , To cephalexin.,
+CURRENT MEDICATIONS: Ibuprofen.,
+SOCIAL HISTORY: She is a nonsmoker.,
+REVIEW OF SYSTEMS: As above. No nausea, vomiting, or diarrhea.,",,
+260,doc_semantic,Which patient has an uploaded chest X-ray report describing stable redacted silhouette pneumothorax focal?,"Devika Anderson: Stable [redacted] silhouette. No pneumothorax. No focal consolidation. No large pleural effusion. Unchanged pleural thickening at the visualized lung apices. Mild osteopenia, degenerative changes. No fractures.","Patient: Devika Anderson | MRN: MRN0000746 | Patient ID: 746 | male, age 64
+Document: Chest X-ray report | Type: Radiology | Date: 2026-02-10 | Source: openi
+INDICATION: PAIN;
+IMPRESSION: Stable [redacted] silhouette. No pneumothorax. No focal consolidation. No large pleural effusion. Unchanged pleural thickening at the visualized lung apices. Mild osteopenia, degenerative changes. No fractures.",,
+132,hard_paraphrase_patient,"When did Robert Humphreys have imaging that showed a collapsed lung, and what kind of scan was it?",2023-05-08 CT chest: left pneumothorax.,"Patient: Robert Humphreys | MRN: MRN0003963 | Patient ID: 3963 | male, age 85
+Study: CT chest | Date: 2023-05-08 | Accession: ACC000017733 | Priority: urgent | Report status: amended
+Indication: Haemoptysis
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: A left apical pneumothorax measuring approximately 12 mm.
+IMPRESSION: left pneumothorax.
+RECOMMENDATION: Immediate clinical review; consider chest drain.
+AI MODEL (DeepCT-Seg v4.2): predicted 'lung mass' (confidence 0.53).",,
+244,doc_patient_lookup,What did Leslie Parkinson's uploaded chest X-ray report from 2025-08-28 conclude?,1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above,"Patient: Leslie Parkinson | MRN: MRN0002872 | Patient ID: 2872 | male, age 89
+Document: Chest X-ray report | Type: Radiology | Date: 2025-08-28 | Source: openi
+COMPARISON: None
+INDICATION: Preprocedure evaluation prior to bone marrow transplant
+FINDINGS: The lungs appear clear. The heart and pulmonary [redacted] appear normal. There is severe kyphotic deformity of the chest involving prior fractures of thoracic vertebral bodies and the sternum. There are multiple [redacted] fractures identified involving upper thoracic vertebral bodies and a single upper lumbar vertebral body. The patient is status post vertebroplasty at multiple levels. The pleural spaces appear clear. There is right-sided chest [redacted], the distal tip in the upper right atrium. Mediastinal contours appear normal.
+IMPRESSION: 1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above",,
+188,hard_count_finding,How many patients had a clot in the pulmonary arteries reported on imaging in 2023?,93,,,
+308,doc_transcription_semantic,"Which patient had a surgery document about: Intrauterine pregnancy at 37 plus weeks, nonreassuring fetal heart rate?",Ruth Ben,"Patient: Ruth Ben | MRN: MRN0012397 | Patient ID: 12397 | female, age 20
+Document: Low-Transverse C-Section - 2 | Type: Surgery | Date: 2024-11-03 | Source: mtsamples
+Summary: Intrauterine pregnancy at 37 plus weeks, nonreassuring fetal heart rate.
+PREOPERATIVE DIAGNOSES: 1. Intrauterine pregnancy at 37 plus weeks, nonreassuring fetal heart rate.,2. Protein S low.,3. Oligohydramnios.,
+POSTOPERATIVE: 1. Intrauterine pregnancy at 37 plus weeks, nonreassuring fetal heart rate.,2. Protein S low.,3. Oligohydramnios.,4. Delivery of a viable female, weight 5 pound, 14 ounces. Apgars of 9 and 9 at 1 and 5 minutes respectively and cord pH is 7.314.,
+OPERATION PERFORMED: Low transverse C-section.,ESTIMATED BLOOD LOSS: , 500 mL.,DRAINS: , Foley.,ANESTHESIA: , Spinal with Duramorph.,HISTORY OF PRESENT ILLNESS: ,This is a 21-year-old white female gravida 1, para 0, who had presented to the hospital at 37-3/7 weeks for induction.
+The patient had oligohydramnios and also when placed on the monitor had nonreassuring fetal heart rate with late deceleration.
+Due to the IUGR as well a decision for a C-section was made.,PROCEDURE: , The patient was taken to the operating room and placed in a seated position with standard spinal form of anesthesia administered by the Anesthesia Department.
+The patient was then repositioned, prepped and draped in a slight left lateral tilt.",,
+138,hard_paraphrase_patient,"When did Deanna Raja have imaging that showed secondary tumours, and what kind of scan was it?",2021-06-20 PET-CT whole body: Widespread FDG-avid metastatic disease.,"Patient: Deanna Raja | MRN: MRN0008969 | Patient ID: 8969 | female, age 30
+Study: PET-CT whole body | Date: 2021-06-20 | Accession: ACC000040768 | Priority: stat | Report status: preliminary
+Indication: Unexplained weight loss
+TECHNIQUE: FDG PET-CT from skull base to mid-thigh, 60 minutes after 10 mCi FDG.
+COMPARISON: None available.
+FINDINGS: Multiple FDG-avid lesions in the liver and skeleton, SUVmax 4.3.
+IMPRESSION: Widespread FDG-avid metastatic disease.
+RECOMMENDATION: Oncology review.
+AI MODEL (PET-Lesion v1.3): predicted 'metastatic disease' (confidence 0.99).",,
+165,hard_trend,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"Patient: Jenna Mcclain | MRN: MRN0011424 | Patient ID: 11424 | female, age 59
+Study: Ultrasound abdomen | Date: 2025-07-31 | Accession: ACC000052021 | Priority: routine | Report status: final
+Indication: Follow-up of liver lesion
+TECHNIQUE: Grey-scale and colour Doppler ultrasound of the abdomen.
+COMPARISON: Unchanged compared with the prior study of 2025-02-01.
+FINDINGS: Diffusely decreased hepatic attenuation/increased echogenicity in keeping with fatty infiltration.
+IMPRESSION: Hepatic steatosis.
+RECOMMENDATION: Lifestyle modification and liver function monitoring.
+AI MODEL (SonoAssist v1.8): predicted 'splenomegaly' (confidence 0.52).",,
+153,hard_semantic_cohort,Which patients had a suspicious lump in the breast on a Mammography scan in December 2023?,Upma Jain (2023-12-24),"Patient: Upma Jain | MRN: MRN0011495 | Patient ID: 11495 | female, age 71
+Study: Mammography breast | Date: 2023-12-24 | Accession: ACC000052329 | Priority: stat | Report status: preliminary
+Indication: Nipple discharge
+TECHNIQUE: Bilateral digital mammography with tomosynthesis, CC and MLO views.
+COMPARISON: None available.
+FINDINGS: An irregular 4 mm spiculated mass at the 3 o'clock position of the right breast.
+IMPRESSION: Suspicious right breast mass, BI-RADS 5.
+RECOMMENDATION: Ultrasound-guided core biopsy.
+AI MODEL (MammoScreen-AI v2.5): predicted 'breast mass' (confidence 0.83).",,
+220,hard_typo_name,What did the CT on 2023-11-03 show for Henry Mgee?,Acute left segmental pulmonary embolism.,"Patient: Henry Mcgee | MRN: MRN0013883 | Patient ID: 13883 | female, age 40
+Study: CT chest | Date: 2023-11-03 | Accession: ACC000063457 | Priority: stat | Report status: preliminary
+Indication: Chest pain
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: Filling defects within the left lower lobe segmental pulmonary arteries.
+IMPRESSION: Acute left segmental pulmonary embolism.
+RECOMMENDATION: Immediate anticoagulation per clinical protocol.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pulmonary embolism' (confidence 0.85).",,
+245,doc_patient_lookup,What did Lavanya Varghese's uploaded chest X-ray report from 2023-06-17 conclude?,[redacted] change COPD. Chronic right middle lobe scar and atelectasis. Pulmonary arterial hypertension.,"Patient: Lavanya Varghese | MRN: MRN0005149 | Patient ID: 5149 | female, age 75
+Document: Chest X-ray report | Type: Radiology | Date: 2023-06-17 | Source: openi
+COMPARISON: [redacted], [redacted].
+INDICATION: Dyspnea.
+FINDINGS: Lungs remain hyperexpanded. No change in the right middle lobe opacification. No [redacted] infiltrates or masses. Pulmonary arteries are prominent centrally.
+IMPRESSION: [redacted] change COPD. Chronic right middle lobe scar and atelectasis. Pulmonary arterial hypertension.",,
+304,doc_transcription_semantic,"Which patient had a surgery document about: Lumbar laminectomy for decompression with foraminotomies L3-L4, L4-L5, L5-S1 microtechniques and repair of CSF fistula, microtechniques L5-S1, application of DuraSeal.  Lumbar stenosis and cerebrospinal fluid fistula?",Gareth Sawhney,"Patient: Gareth Sawhney | MRN: MRN0005524 | Patient ID: 5524 | female, age 83
+Document: Lumbar Laminectomy | Type: Surgery | Date: 2026-03-04 | Source: mtsamples
+Summary: Lumbar laminectomy for decompression with foraminotomies L3-L4, L4-L5, L5-S1 microtechniques and repair of CSF fistula, microtechniques L5-S1, application of DuraSeal.  Lumbar stenosis and cerebrospinal fluid fistula.
+PREOPERATIVE DIAGNOSIS: , Lumbar stenosis.,
+POSTOPERATIVE DIAGNOSES: Lumbar stenosis and cerebrospinal fluid fistula.,TITLE OF THE OPERATION,1. Lumbar laminectomy for decompression with foraminotomies L3-L4, L4-L5, L5-S1 microtechniques.,2. Repair of CSF fistula, microtechniques L5-S1, application of DuraSeal.,
+INDICATIONS: The patient is an 82-year-old woman who has about a four-month history now of urinary incontinence and numbness in her legs and hands, and difficulty ambulating.
+She was evaluated with an MRI scan, which showed a very high-grade stenosis in her lumbar spine, and subsequent evaluation included a myelogram, which demonstrated cervical stenosis at C4-C5, C5-C6, and C6-C7 as well as a complete block of the contrast at L4-L5 and no contrast at L5-S1 either and stenosis at L3-L4 and all the way up, but worse at L3-L4, L4-L5, and L5-S1.
+Yesterday, she underwent an anterior cervical discectomy and fusions C4-C5, C5-C6, C6-C7 and had some improvement of her symptoms and increased strength, even in the recovery room.",,
+222,hard_typo_name,What did the CT on 2026-07-08 show for Adya Fullr?,Acute left segmental pulmonary embolism.,"Patient: Adya Fuller | MRN: MRN0018357 | Patient ID: 18357 | male, age 69
+Study: CT chest | Date: 2026-07-08 | Accession: ACC000084136 | Priority: urgent | Report status: final
+Indication: Haemoptysis
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: Filling defects within the left lower lobe segmental pulmonary arteries.
+IMPRESSION: Acute left segmental pulmonary embolism.
+RECOMMENDATION: Immediate anticoagulation per clinical protocol.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pulmonary embolism' (confidence 0.87).",,
+264,doc_semantic,Which patient has an uploaded chest X-ray report describing cardiomegaly subsegmental atelectasis right lower?,"Eta Badami: Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe.","Patient: Eta Badami | MRN: MRN0019667 | Patient ID: 19667 | male, age 62
+Document: Chest X-ray report | Type: Radiology | Date: 2023-12-14 | Source: openi
+COMPARISON: None.
+INDICATION: [redacted] year old right-sided rib pain after a [redacted] vehicle accident one [redacted] ago.
+FINDINGS: There is mild cardiomegaly. The aorta is tortuous. There is [redacted] opacities noted in the right lower lobe, [redacted] subsegmental atelectasis. There is no pneumothorax or effusion. No displaced rib fractures. If there is high clinical concern, consider dedicated rib views for further evaluation.
+IMPRESSION: Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe.",,
+151,hard_semantic_cohort,Which patients had a kidney stone on a MRI scan in April 2021?,Zaitra Bibi (2021-04-04); Frances Skinner (2021-04-07); Lesley Pillay (2021-04-27),"Patient: Zaitra Bibi | MRN: MRN0002541 | Patient ID: 2541 | male, age 37
+Study: MRI abdomen | Date: 2021-04-04 | Accession: ACC000011361 | Priority: routine | Report status: final
+Indication: Right upper quadrant pain
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 20 mm calculus in the right renal pelvis with mild hydronephrosis.
+IMPRESSION: right renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'renal calculus' (confidence 0.72).
+---
+Patient: Frances Skinner | MRN: MRN0010945 | Patient ID: 10945 | male, age 84
+Study: MRI abdomen | Date: 2021-04-07 | Accession: ACC000049900 | Priority: urgent | Report status: final
+Indication: Haematuria
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 20 mm calculus in the left renal pelvis with mild hydronephrosis.
+IMPRESSION: left renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'renal calculus' (confidence 0.90).
+---
+Patient: Lesley Pillay | MRN: MRN0018275 | Patient ID: 18275 | male, age unknown
+Study: MRI abdomen | Date: 2021-04-27 | Accession: ACC000083763 | Priority: urgent | Report status: final
+Indication: Follow-up of liver lesion
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 8 mm ",,
+271,doc_semantic,Which patient has an uploaded chest X-ray report describing very lung volumes definite cardiopulmonary?,Helen Wheeler: 1. Very low lung volumes without definite acute cardiopulmonary finding. .,"Patient: Helen Wheeler | MRN: MRN0015711 | Patient ID: 15711 | male, age 84
+Document: Chest X-ray report | Type: Radiology | Date: 2021-10-08 | Source: openi
+COMPARISON: None.
+INDICATION: [redacted]-year-old male with pain.
+FINDINGS: There are very low lung volumes with associated central bronchovascular crowding. There is elevation of the left hemidiaphragm. There are [redacted]-filled loops of mildly dilated colon in the left upper quadrant. The bowel [redacted] pattern is not well evaluated secondary to incomplete imaging of the abdomen. There is no pneumothorax or definite pleural effusion. The streaky opacities in the lung bases may represent atelectasis. No definite infectious infiltrate is seen. There is scoliosis and exaggeration of the thoracic kyphosis.
+IMPRESSION: 1. Very low lung volumes without definite acute cardiopulmonary finding. .",,
+297,doc_transcription_semantic,Which patient had a nephrology document about: The patient is being discharged for continued hemodialysis and rehab?,Maanav Meyer,"Patient: Maanav Meyer | MRN: MRN0014575 | Patient ID: 14575 | male, age 75
+Document: Discharge Summary - Hemodialysis | Type: Nephrology | Date: 2023-01-14 | Source: mtsamples
+Summary: The patient is being discharged for continued hemodialysis and rehab.
+DISCHARGE DIAGNOSES: 1.
+End-stage renal disease, on hemodialysis.,2.
+History of T9 vertebral fracture.,3.
+Diskitis.,4.
+Thrombocytopenia.,5.
+Congestive heart failure with ejection fraction of approximately 30%.,6.
+Diabetes, type 2.,7.
+Protein malnourishment.,8.
+History of anemia.,HISTORY AND HOSPITAL COURSE: , The patient is a 77-year-old white male who presented to Hospital of Bossier on April 14, 2008.
+The patient was found to have lumbar diskitis and was going to require extensive antibiotic therapy, which was the cause of need for continued hospitalization.
+He also needed to continue with dialysis and he needed to improve his rehabilitation.
+The patient tolerated his medication well and he was going through rehab fairly well without any significant troubles.
+He did have some bouts of issues with constipation on and off throughout his hospitalization, but this seemed to come under control with more aggressive management.
+The patient had remained afebrile.
+He did also have a bout with some episodic confusion problems, which appeared to be more of a sundowner-type of a problem, but this too cleared with his stay here at Promise.",,
+128,hard_paraphrase_patient,"When did Isaiah Ahluwalia have imaging that showed a lung infection, and what kind of scan was it?",2023-04-14 X-ray chest: Findings consistent with left lower lobe pneumonia.,"Patient: Isaiah Ahluwalia | MRN: MRN0007700 | Patient ID: 7700 | male, age 15
+Study: X-ray chest | Date: 2023-04-14 | Accession: ACC000034896 | Priority: urgent | Report status: final
+Indication: Follow-up of lung nodule
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Patchy airspace consolidation in the left lower lobe with air bronchograms.
+IMPRESSION: Findings consistent with left lower lobe pneumonia.
+RECOMMENDATION: Clinical correlation and follow-up radiograph in 6 weeks after treatment.
+AI MODEL (ChestXR-Vision v3.0): predicted 'pneumonia' (confidence 0.90).",,
+180,hard_trend,"On the follow-up scan of 2024-11-30, had Sathvik Casey's enlarged heart improved, worsened or stayed the same?",Interval progression,"Patient: Sathvik Casey | MRN: MRN0006417 | Patient ID: 6417 | female, age 56
+Study: X-ray chest | Date: 2024-11-30 | Accession: ACC000029101 | Priority: routine | Report status: preliminary
+Indication: Follow-up of lung nodule
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: Interval progression compared with the prior study of 2023-08-04.
+FINDINGS: Cardiothoracic ratio is increased at 0.58. Mild pulmonary venous congestion.
+IMPRESSION: Cardiomegaly with mild pulmonary venous congestion.
+RECOMMENDATION: Echocardiography recommended.
+AI MODEL (ChestXR-Vision v3.0): predicted 'cardiomegaly' (confidence 0.97).",,
+229,hard_typo_name,What did the X-ray on 2023-12-03 show for Kristine Hncock?,Cardiomegaly with mild pulmonary venous congestion.,"Patient: Kristine Hancock | MRN: MRN0006472 | Patient ID: 6472 | female, age 46
+Study: X-ray chest | Date: 2023-12-03 | Accession: ACC000029328 | Priority: urgent | Report status: final
+Indication: Haemoptysis
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Cardiothoracic ratio is increased at 0.58. Mild pulmonary venous congestion.
+IMPRESSION: Cardiomegaly with mild pulmonary venous congestion.
+RECOMMENDATION: Echocardiography recommended.
+AI MODEL (ChestXR-Vision v3.0): predicted 'pneumothorax' (confidence 0.63).",,
+196,hard_negative,Has Amol Coles ever had a suspicious lump in the breast on any scan?,No: none of 6 studies report breast mass,,,
+171,hard_trend,"On the follow-up scan of 2023-11-17, had Joyce Evans's crushed vertebra improved, worsened or stayed the same?",Unchanged,"Patient: Joyce Evans | MRN: MRN0012745 | Patient ID: 12745 | male, age 58
+Study: MRI spine | Date: 2023-11-17 | Accession: ACC000058088 | Priority: urgent | Report status: final
+Indication: Sciatica
+TECHNIQUE: MRI lumbar spine, sagittal T1/T2 and axial T2 sequences.
+COMPARISON: Unchanged compared with the prior study of 2020-11-08.
+FINDINGS: Wedge compression of the L1 vertebral body with approximately 30% height loss.
+IMPRESSION: L1 compression fracture, likely osteoporotic.
+RECOMMENDATION: DEXA scan and orthopaedic review.
+AI MODEL (NeuroMR-Net v2.1): predicted 'compression fracture' (confidence 0.82).",,
+224,hard_typo_name,What did the X-ray on 2021-02-03 show for Morgan Senupta?,Cardiomegaly with mild pulmonary venous congestion.,"Patient: Morgan Sengupta | MRN: MRN0013531 | Patient ID: 13531 | female, age 78
+Study: X-ray chest | Date: 2021-02-03 | Accession: ACC000061768 | Priority: urgent | Report status: final
+Indication: Shortness of breath
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Cardiothoracic ratio is increased at 0.58. Mild pulmonary venous congestion.
+IMPRESSION: Cardiomegaly with mild pulmonary venous congestion.
+RECOMMENDATION: Echocardiography recommended.
+AI MODEL (ChestXR-Vision v3.0): predicted 'cardiomegaly' (confidence 0.91).",,
+309,doc_transcription_semantic,"Which patient had a urology document about: Abnormal serum PSA of 16 ng/ml, dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and slow urine stream?",Avi Vincent,"Patient: Avi Vincent | MRN: MRN0005868 | Patient ID: 5868 | male, age 60
+Document: Elevated PSA - H&P | Type: Urology | Date: 2020-12-01 | Source: mtsamples
+Summary: Abnormal serum PSA of 16 ng/ml, dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and slow urine stream.
+CHIEF COMPLAINT: This 61-year-old male presents today with recent finding of abnormal serum PSA of 16 ng/ml. Associated signs and symptoms: Associated signs and symptoms include dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and urine stream is slow. Timing (onset/frequency): Onset was 6 months ago. Patient denies fever and chills and denies flank pain.,ALLERGIES: ,Patient admits allergies to adhesive tape resulting in severe rash. Patient denies an allergy to anesthesia.,
+MEDICATION HISTORY: Patient is not currently taking any medications.,
+PAST MEDICAL HISTORY: Childhood Illnesses: (+) asthma, Cardiovascular Hx: (-) angina, Renal / Urinary Hx: (-) kidney problems.,
+PAST SURGICAL HISTORY: Patient admits past surgical history of appendectomy in 1992.,
+SOCIAL HISTORY: Patient admits alcohol use, Drinking is described as heavy, Patient denies illegal drug use, Patient denies STD history, Patient denies tobacco use.,
+FAMILY HISTORY: Patient admits a family history of gout attacks associated with father.,",,
+143,hard_paraphrase_patient,"When did Krishna Rodgers have imaging that showed a spot on the lung, and what kind of scan was it?",2021-03-27 CT chest: Indeterminate 8 mm pulmonary nodule.,"Patient: Krishna Rodgers | MRN: MRN0012147 | Patient ID: 12147 | male, age 80
+Study: CT chest | Date: 2021-03-27 | Accession: ACC000055300 | Priority: routine | Report status: preliminary
+Indication: Follow-up of lung nodule
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: A 8 mm solid nodule in the right upper lobe, smooth margins.
+IMPRESSION: Indeterminate 8 mm pulmonary nodule.
+RECOMMENDATION: Follow-up CT chest in 6-12 months per Fleischner guidelines.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pulmonary nodule' (confidence 0.77).",,
+160,hard_semantic_cohort,Which patients had a slipped disc on a CT scan in February 2024?,Heather Ratti (2024-02-04); Nikita O'Connor (2024-02-23),"Patient: Heather Ratti | MRN: MRN0010165 | Patient ID: 10165 | unknown, age 69
+Study: CT spine | Date: 2024-02-04 | Accession: ACC000046296 | Priority: routine | Report status: final
+Indication: Low back pain
+TECHNIQUE: Non-contrast CT of the lumbar spine with sagittal and coronal reformats.
+COMPARISON: None available.
+FINDINGS: Posterior disc extrusion at L2-L3 compressing the traversing left nerve root.
+IMPRESSION: L2-L3 disc extrusion with left nerve root compression.
+RECOMMENDATION: Spine clinic referral; consider MRI-guided management.
+AI MODEL (DeepCT-Seg v4.2): predicted 'disc herniation' (confidence 0.82).
+---
+Patient: Nikita O'Connor | MRN: MRN0019529 | Patient ID: 19529 | male, age 57
+Study: CT spine | Date: 2024-02-23 | Accession: ACC000089352 | Priority: routine | Report status: final
+Indication: Sciatica
+TECHNIQUE: Non-contrast CT of the lumbar spine with sagittal and coronal reformats.
+COMPARISON: Interval improvement compared with the prior study of 2021-09-19.
+FINDINGS: Posterior disc extrusion at L3-L4 compressing the traversing right nerve root.
+IMPRESSION: L3-L4 disc extrusion with right nerve root compression.
+RECOMMENDATION: Spine clinic referral; consider MRI-guided management.
+AI MODEL (DeepCT-Seg v4.2): predicted 'disc herniation' (confidence 0.92).",,

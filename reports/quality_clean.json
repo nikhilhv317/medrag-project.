@@ -1,0 +1,224 @@
+{
+  "issues": [
+    {
+      "table": "patients",
+      "check": "duplicate patient_id",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "duplicate MRN (same person, several ids)",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "duplicate name + date of birth",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "name has stray whitespace or wrong case",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "test / dummy record",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "missing name",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "non-standard gender value",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "patients",
+      "check": "missing date of birth",
+      "count": 252,
+      "pct": 1.26,
+      "severity": "warn"
+    },
+    {
+      "table": "patients",
+      "check": "date of birth in the future",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "duplicate study row",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "duplicate study_id",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "orphan (patient does not exist)",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "non-standard modality",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "non-standard priority",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "missing study date",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "study date in the future",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "studies",
+      "check": "missing body part",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "orphan (study does not exist)",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "empty report text",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "contains HTML markup",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "duplicate report for same study",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "non-standard status",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "reports",
+      "check": "missing IMPRESSION section",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "ai_analysis",
+      "check": "orphan (study does not exist)",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "ai_analysis",
+      "check": "missing confidence",
+      "count": 1640,
+      "pct": 1.82,
+      "severity": "warn"
+    },
+    {
+      "table": "ai_analysis",
+      "check": "confidence outside 0-1",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    },
+    {
+      "table": "ai_analysis",
+      "check": "studies without AI analysis",
+      "count": 0,
+      "pct": 0.0,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "rows": {
+      "patients": 20000,
+      "conditions": 35417,
+      "studies": 89868,
+      "ai_analysis": 89868,
+      "reports": 89014
+    },
+    "studies_per_patient": {
+      "count": 19897.0,
+      "mean": 4.52,
+      "std": 4.3,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 6.0,
+      "max": 42.0
+    },
+    "modality_counts": {
+      "XR": 33375,
+      "CT": 22438,
+      "US": 16314,
+      "MRI": 13328,
+      "PET": 2675,
+      "MG": 1738
+    },
+    "date_range": [
+      "2020-10-02 00:43:00",
+      "2026-09-29 23:30:00"
+    ]
+  }
+}

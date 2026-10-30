@@ -1,0 +1,1650 @@
+llm,type,difficulty,id,question,expected,answer,retrieval_s,generation_s,cites_sources,fact_recall,abstain_correct,auto_correct,number_correct,negative_correct,error
+ollama:qwen2.5:3b,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"On 2020-12-23, the ultrasound abdomen for Turvi George (MRN: MRN0016209, Patient ID: 16209) showed acute appendicitis. The study was performed as a stat study to address the patient's abdominal pain. [S1, S2]",0.42620062828063965,39.11338663101196,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"For patient MRN0009548, dated 2022-10-29, the X-ray report indicates centrilobular emphysematous changes predominantly in the upper lobes. The impression is centrilobular emphysema. The AI model predicted 'pulmonary embolism' with a confidence of 0.73. The recommendation is to correlate this finding with pulmonary function tests. There were no other relevant studies found in the database for this specific patient and date.",0.4492068290710449,33.87911009788513,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,The most recent imaging study for Teerth Higgins was an MRI spine performed on 2026-02-01. The MRI spine showed no acute abnormality.,10.050445795059204,113.60483503341675,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,There were 3 X-ray studies for Holly Ayala.,0.954556941986084,41.05871248245239,0.0,,1.0,1.0,1.0,,
+ollama:qwen2.5:3b,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","There were 4 imaging studies for Niharika Lamb (MRN: MRN0005439, id: 5439). The most recent study was a CT chest (stat) on 2024-05-11, which showed Acute right segmental pulmonary embolism.",1.6868276596069336,72.84909892082214,0.0,0.5,1.0,0.0,,,
+ollama:qwen2.5:3b,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,There was no patient with a X-ray on 2022-06-03 showing pleural effusion based on the provided sources.,3.454390048980713,55.56145620346069,0.0,0.0,1.0,0.0,,,
+ollama:qwen2.5:3b,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,There were 101 urgent priority PET-CT studies performed in 2023.,6.896343231201172,64.70276498794556,0.0,,1.0,1.0,1.0,,
+ollama:qwen2.5:3b,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,13.668566942214966,8.58306884765625e-06,0.0,,1.0,1.0,,,
+ollama:qwen2.5:3b,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"Kate Martin had a cerebral infarct, specifically an acute left middle cerebral artery (MCA) territory infarct, on 2022-12-11. The imaging modality used was a CT scan.",2.165693521499634,69.0638837814331,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"There were 3 patients with suspected liver cancer on a MRI scan in June 2022:
+- Patient: Christine Richards, age 39, had a 3.7 cm arterially enhancing lesion in segment 2 of the liver.
+- Patient: Stewart Castro, age 83, had a 4.4 cm arterially enhancing lesion in segment 7 of the liver.
+- Patient: Wriddhish Bhasin, age 24, had a 3.7 cm arterially enhancing lesion in segment 7 of the liver.",5.020227909088135,68.6040096282959,0.0,0.6666666666666666,1.0,0.0,,,
+ollama:qwen2.5:3b,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"On the follow-up scan of 2025-07-31, Jenna Mcclain's fat in the liver had worsened. The most recent study showed diffusely decreased hepatic attenuation/increased echogenicity in keeping with fatty infiltration, consistent with hepatic steatosis. This is in contrast to the previous stat scan in 2025-02-01, which also showed hepatic steatosis but with unchanged findings compared to the prior study. [S1], [S2]",0.7376542091369629,44.81532263755798,1.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"There were 3 patients with stones in the gallbladder reported on imaging in 2020. The studies were performed on patients Manan Davies, Tina Payne, and Sophia Bhavsar.",13.501117706298828,61.342137813568115,0.0,,1.0,0.0,0.0,,
+ollama:qwen2.5:3b,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,The records do not contain this information.,5.791054964065552,70.51744246482849,0.0,,0.0,1.0,,1.0,
+ollama:qwen2.5:3b,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The CT scan on 2024-01-30 showed a moderate left pleural effusion with adjacent compressive atelectasis. The study was performed with contrast-enhanced CT of the chest using axial 1.25 mm reconstructions. The impression was a moderate left pleural effusion, and the recommendation was to consider diagnostic thoracentesis if clinically indicated. [S1, S2]",0.3544044494628906,41.693758964538574,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","Balendra Balan's uploaded chest X-ray report from 2022-12-07 concluded that there are streaky retrocardiac left lower lobe opacities, in the correct clinical setting this could represent a pneumonia. There is no pneumothorax or pleural effusion. The cardiac silhouette is within normal limits. [S2]",0.7462179660797119,36.70307230949402,1.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"There was one patient, Travis Pal, who has an uploaded chest X-ray report describing COPD left base focal atelectasis. [S2]",15.896758317947388,45.1231472492218,1.0,0.0,1.0,0.0,,,
+ollama:qwen2.5:3b,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","The Limbic Encephalitis note for Tripti Yogi (MRN: MRN0006694, male, age 66) on 2021-11-15 indicates a 1-year history of progressive anterograde amnesia. The patient had severe deficits in orientation and memory, with MMSE score of 20/30. He had moderate difficulty naming and repeated normally. His examination showed no abnormalities except for mild right grasp reflex. The MRI revealed hyperintense T2 signal in the mesiotemporal regions bilaterally, with mild enhancement on gadolinium scans. The EEG was normal, and CSF studies were unremarkable. The patient underwent a stereotactic brain biopsy at the Mayo Clinic, which showed inflammatory changes but no organism or etiology was concluded. The impression was Limbic encephalitis secondary to cancer of unknown origin. The clinical course was benign and non-progressive. The patient was last seen on 7/26/96.",2.2116401195526123,76.1295702457428,0.0,1.0,1.0,1.0,,,
+ollama:qwen2.5:3b,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,There were no records that exactly match the criteria of an orthopedic document about a patient with back and hip pain. The records do not contain this information.,7.635608673095703,51.40943622589111,0.0,0.0,0.0,0.0,,,
+ollama:qwen3:1.7b,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The ultrasound abdomen performed on 2020-12-23 for Turvi George showed findings of a dilated, non-compressible appendix with periappendiceal fat stranding, indicating acute appendicitis [S2]. This was the most recent study matching the criteria [S1]. The findings are consistent with acute appendicitis, and a recommendation was made for urgent surgical review [S2]. 
+
+There was 1 study matching the question, and 1 of those studies had abnormal findings [S1].",0.3865933418273926,28.320780992507935,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:1.7b,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for patient MRN0009548 dated 2022-10-29 shows **centrilobular emphysema** predominantly in the upper lobes of the lungs. The study was performed using PA and lateral views of the chest. The report indicates no acute abnormalities, and the findings are consistent with centrilobular emphysema. The AI model suggested a potential **pulmonary embolism** with a confidence level of 0.73, but this finding is not considered clinically significant based on the report's context and the absence of other relevant findings. 
+
+[S2]",0.35231709480285645,24.450400590896606,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:1.7b,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins is an **MRI spine** performed on **2026-02-01**. It showed **no acute abnormality**. 
+
+The study was conducted as part of a routine examination and was the latest imaging study matching the patient's filters. The findings indicate normal spinal anatomy with maintained vertebral body heights and alignment, and no significant canal or foraminal stenosis. 
+
+No other imaging studies were performed within the latest date range for this patient. 
+
+The records do not contain additional details about this study beyond the specified findings.",7.730762481689453,63.87119388580322,0.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,"The records indicate that Holly Ayala has three X-ray studies. These studies were conducted on different dates and have varying priorities and indications. The most recent study was performed on 2026-01-05, and it is classified as routine. The other two studies were conducted in 2022, with the first one on 2022-02-10 and the second on 2022-04-23. All studies are documented with findings and recommendations, though some are classified as abnormal. The exact number of X-ray studies matching the question is 3. 
+
+The sources are:
+[S1] (patient:18227) - Patient profile and history.
+[S2] (study:83497) - X-ray chest study from 2022-02-10.
+[S3] (study:83501) - X-ray chest study from 2026-01-05.
+[S4] (study:83498) - X-ray chest study from 2022-04-23.",0.9147300720214844,46.54175305366516,1.0,,1.0,1.0,1.0,,
+ollama:qwen3:1.7b,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","For patient Niharika Lamb (MRN MRN0005439), there are **3 imaging studies** matching the question:  
+- 2024-05-11 CT chest (stat): Acute right segmental pulmonary embolism [S5].  
+- 2021-11-12 Ultrasound abdomen: Hepatic steatosis [S3].  
+- 2020-12-09 CT abdomen (urgent): Left renal calculus with mild hydronephrosis [S6].  
+
+For patient Niharika Lamb (MRN MRN0003876), there is **1 imaging study** matching the question:  
+- 2023-03-08 CT chest (routine): Findings consistent with left lower lobe pneumonia [S4].  
+
+The records do not contain this information for the other patient (MRN0003876) due to the limited data available.",1.7396578788757324,53.989038705825806,1.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"The records indicate that Patient Leigh Hensley had an X-ray on 2022-06-03 showing a pleural effusion. This is documented in Study [S1], where the findings include a ""moderate right pleural effusion with adjacent compressive atelectasis,"" and the model predicted ""pleural effusion"" with high confidence (0.86). No other patients listed in the records have an X-ray on 2022-06-03 showing a pleural effusion. 
+
+The records do not contain information about other patients with an X-ray on 2022-06-03 showing a pleural effusion.",3.188081979751587,44.71429491043091,1.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,"There were 101 urgent priority PET-CT studies performed in 2023, as indicated by the computed facts. These studies matched the filters: modality=PET, priority=urgent, dates 2023-01-01 to 2023-12-28. Each study was reported as final and included findings such as multiple FDG-avid lesions, with the most common prediction being ""metastatic disease"" across all studies. The exact number of studies matching the question is 101. 
+
+The sources provide detailed information about individual studies, but no additional data beyond the computed facts is available.",8.560103416442871,51.265509366989136,0.0,,1.0,1.0,1.0,,
+ollama:qwen3:1.7b,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.13314175605774,6.67572021484375e-06,0.0,,1.0,1.0,,,
+ollama:qwen3:1.7b,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"The imaging that showed a cerebral infarct in Kate Martin occurred on **2022-12-11**. The type of scan performed was a **CT head** (non-contrast) with **axial and coronal reformats**. The findings indicated an **acute left MCA territory infarct**. 
+
+The most recent study matching the criteria was conducted on **2022-12-11** and is documented in study **34090**. The scan results were interpreted as an **ischaemic stroke** by the AI model, with a confidence level of 0.81. 
+
+No other imaging studies in the provided data show a cerebral infarct. 
+
+The records do not contain additional details about the infarct, such as the exact time of onset or other associated findings.",2.8511061668395996,50.34001564979553,0.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"The following patients had a suspected liver cancer on an MRI scan in June 2022:
+
+1. **Baljiwan Valdez** (MRN: MRN0018798, Patient ID: 18798) - A 5.1 cm arterially enhancing lesion in segment 7 of the liver with washout, classified as LI-RADS 5, suspicious for hepatocellular carcinoma.  
+2. **Christine Richards** (MRN: MRN0016182, Patient ID: 16182) - A 3.7 cm arterially enhancing lesion in segment 2 of the liver with washout, classified as LI-RADS 5, suspicious for hepatocellular carcinoma.  
+3. **Stewart Castro** (MRN: MRN0003993, Patient ID: 3993) - A 4.4 cm arterially enhancing lesion in segment 7 of the liver with washout, classified as LI-RADS 5, suspicious for hepatocellular carcinoma.  
+
+These findings were identified using the AI model (NeuroMR-Net v2.1) with confidence levels ≥ 0.85 for the liver lesion classification. No other patients in the database had a liver lesion classified as suspicious for hepatocellular carcinoma in June 2022.  
+
+**Sources:** [S1], [S2], [S3], [S5], [S6]",5.846858024597168,66.74047899246216,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:1.7b,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"The follow-up scan on 2025-07-31 showed hepatic steatosis [S2], which is consistent with the findings from the earlier scan on 2025-02-01 [S3]. The liver appearance remained unchanged compared to the prior study [S2]. Therefore, the fat in the liver did not worsen or improve; it remained the same [S2]. 
+
+The findings are consistent with chronic fatty liver disease, likely due to underlying metabolic factors. The patient's history includes no recorded chronic conditions, and the imaging studies show no acute abnormalities. The recommendations include lifestyle modification and liver function monitoring. 
+
+The records do not contain this information.",0.7172791957855225,31.362095594406128,1.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"The records indicate that there were 3,683 studies matching the question's filters (dates 2020-01-01 to 2020-12-31, aggregate). Of these, 2,184 studies contained abnormal findings, and 1,500 studies were reported as having gallstones. The exact number of patients with gallbladder stones reported on imaging in 2020 is not directly provided in the records. The sources only list specific studies with gallstones, but do not provide a total count of patients. Therefore, the records do not contain this information.",16.526082277297974,49.49384045600891,0.0,,0.0,0.0,0.0,,
+ollama:qwen3:1.7b,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,The records do not contain this information.,6.8407673835754395,41.16585445404053,0.0,,0.0,1.0,,1.0,
+ollama:qwen3:1.7b,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The CT scan performed on 2024-01-30 for Sam Taylr showed a moderate left pleural effusion [S2]. This finding was reported as part of the study's final impression, with the recommendation to consider diagnostic thoracentesis if clinically indicated. No other findings were reported for this study.",0.3953523635864258,21.448189973831177,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:1.7b,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report from 2022-12-07 concluded that there were streaky left retrocardiac airspace opacities, which in the correct clinical setting could represent a pneumonia. This finding is supported by the radiology report [S3]. The report also noted that there is no pneumothorax or pleural effusion, and the cardiac silhouette is within normal limits. The impression from the report is that the findings could represent a pneumonia, based on the clinical context. 
+
+The records do not contain information about the conclusion from the 2026-05-03 chest X-ray report, as it is not relevant to the question.",0.7691042423248291,29.270037174224854,1.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"The records indicate that several patients have chest X-ray reports describing focal atelectasis in the left lung base. Specifically:
+
+- **Patient Saksham Morrison** (MRN: MRN0015934) has a chest X-ray report noting ""left lower lobe atelectasis"" [S1].
+- **Patient Travis Pal** (MRN: MRN0009968) has a report describing ""right lung base focal atelectasis"" [S2].
+- **Patient Felicia Wyatt** (MRN: MRN0007299) notes ""left base focal atelectasis"" [S3].
+- **Patient Jacob Bhatnagar** (MRN: MRN0010812) describes ""left basilar atelectasis"" [S4].
+- **Patient Benjamin Rodriguez** (MRN: MRN0002113) mentions ""minimal left basilar opacity most representing atelectasis or chronic scarring"" [S5].
+- **Patient Gagan Borra** (MRN: MRN0013680) notes ""left base opacities may be compatible with scarring or subsegmental atelectasis"" [S6].
+- **Patient Anthony Ware** (MRN: MRN0004521) describes ""left base atelectasis"" [S7].
+- **Patient Megan Deol** (MRN: MRN0018604) notes ""left base focal atelectasis"" [S8].
+
+All these patients have reports indicating left lung base focal atelectasis, with some also noting additional findings such as COPD, atelectasis, or scarring. The records do not provide specific patient identifiers beyond the MRN and patient name.",15.660156726837158,68.11064624786377,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:1.7b,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","Tripti Yogi, male, age 66, AB+ blood group, was diagnosed with limbic encephalitis secondary to cancer of unknown origin. The condition was first documented in a neurology report from November 15, 2021, based on a MRI brain showing hyperintense T2 signal in the mesiotemporal regions bilaterally, with mild enhancement on gadolinium scans. CT scans of the chest and abdomen were unremarkable, and CSF studies were unremarkable. The patient had a 1-year history of progressive anterograde amnesia, with severe deficits in orientation and memory, but preserved cognitive abilities in other domains. Neuropsychological testing revealed severe anterograde memory loss but less severe retrograde memory loss. The clinical course was described as benign and non-progressive, though the diagnosis was unusual for such a condition. The patient had no history of cancer, and antineuronal antibody screening was unremarkable. The clinical course was consistent with mesiotemporal dysfunction bilaterally. The patient was last seen on July 26, 1996. The MMSE score was 20/30, and category fluency was 20. Disinhibited affect was noted, and a mild right grasp reflex was present. The patient had no significant comorbidities, and all other findings were unremarkable. 
+
+The records do not contain this information.",2.136911630630493,59.806254386901855,0.0,1.0,0.0,1.0,,,
+ollama:qwen3:1.7b,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"The records contain multiple X-ray spine studies related to patients with low back pain, but none of the records specifically mention an ""orthopedic document"" about the patient with back and hip pain. The available studies focus on imaging findings such as disc desiccation, osteophytes, and facet arthropathy, with recommendations for conservative management. No patient record explicitly includes an orthopedic document related to back and hip pain. 
+
+The records do not contain this information.",7.7706873416900635,42.3870108127594,0.0,0.0,0.0,0.0,,,
+ollama:qwen3:4b,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"Okay, the user is asking about what the Ultrasound abdomen on 2020-12-23 showed for Turvi George. Let me go through the information provided to give a precise answer.
+
+First, I check the COMPUTED FACTS section. It says there's 1 matching study for Turvi George on that date. The most recent study is listed as ""2020-12-23 Ultrasound abdomen (stat, study 73987): Acute appendicitis."" So that's a clear finding from the system.
+
+Then I look at the SOURCES. [S1] mentions the patient profile and states that the most recent study on 2020-12-23 was an Ultrasound abdomen with findings of ""Acute appendicitis."" [S2] gives more detail: the study report shows a dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding, and the impression is Acute appendicitis. The recommendation is urgent surgical review.
+
+I need to be careful here. The user asked specifically for what the ultrasound showed. The COMPUTED FACTS and SOURCES both point to acute appendicitis as the finding. The detailed findings from [S2] add specifics about the appendix size and stranding, but the main finding is acute appendicitis. 
+
+I should cite the sources properly. The key finding is in [S1] and [S2]. Since [S1] says ""Acute appendicitis"" and [S2] has the detailed report, I'll mention both but focus on the primary finding. The answer should be concise as per the rules—no extra info beyond what's in the records.
+
+Also, the user might be a healthcare professional checking a patient's report, so accuracy is critical. They probably need this for clinical decision-making, like whether to proceed with surgery. The recommendation in [S2] is urgent surgical review, which aligns with acute appendicitis.
+
+I'll structure the response to state the finding clearly, cite [S1] and [S2], and note the specific details from the report without adding interpretation. No need to mention the AI model since the user asked for what the ultrasound showed, not the AI prediction.
+
+Double-checking: The date is correct (2020-12-23), patient name matches, and the study ID is consistent. No contradictions in the sources. So the answer is straightforward.
+</think>
+
+The ultrasound abdomen performed on 2020-12-23 for Turvi George (MRN: MRN0016209) showed acute appendicitis [S1]. Detailed findings from the report (study ID 73987) include a dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding [S2]. The impression was acute appendicitis, with a recommendation for urgent surgical review [S2].",0.45954036712646484,199.85847330093384,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"We are given a question to summarize the X-ray report for patient MRN0009548 dated 2022-10-29.
+
+First, note the COMPUTED FACTS: 
+  - Matching studies: 0 across 0 patients (for the filters: patient Callum Hurst (id 9548), modality=XR, dates 2022-10-29 to 2022-10-29, documents)
+This indicates that the system did not find any matching studies for the exact filters. However, the NOTES say: ""No records match every filter; relaxed the 'abnormal' filter. No records match every filter; relaxed the 'documents' filter."" So we are to relax the filters to get the report.
+
+But we have two SOURCES:
+
+[S1] (patient profile) gives the patient's history and the most recent studies. It states: ""2022-10-29 X-ray chest (routine): Centrilobular emphysema.""
+
+[S2] (study:43419) is a specific study report for the same date and modality. It says:
+  - Patient: Callum Hurst | MRN: MRN0009548
+  - Study: X-ray chest | Date: 2022-10-29
+  - Findings: Centrilobular emphysematous changes predominantly in the upper lobes.
+  - Impression: Centrilobular emphysema.
+  - Recommendation: Correlate with pulmonary function tests.
+  - AI Model: predicted 'pulmonary embolism' (confidence 0.73)
+
+Therefore, the report for the X-ray on 2022-10-29 exists and is described in [S2]. The COMPUTED FACTS might have been a bit off because they relaxed the filters? But note the problem says: ""No records match every filter; relaxed the 'abnormal' filter. No records match every filter; relaxed the 'documents' filter."" So we are to use the sources.
+
+We are to summarize the X-ray report. The report is in [S2]. 
+
+Important: The COMPUTED FACTS say 0 matching studies, but we have [S2] which is a study for that date. So the system might have had a different filter (like requiring the report to be in a specific state) but we are told to relax the filters. Therefore, we use [S2] as the source.
+
+Summary of the report:
+
+- Patient: Callum Hurst (MRN0009548)
+- Date: 2022-10-29
+- Modality: X-ray chest (PA and lateral views)
+- Indication: Chest pain
+- Findings: Centrilobular emphysematous changes predominantly in the upper lobes.
+- Impression: Centrilobular emphysema.
+- Recommendation: Correlate with pulmonary function tests.
+- AI Model (ChestXR-Vision v3.0) predicted pulmonary embolism with 73% confidence.
+
+We note that [S1] also mentions the same finding (Centrilobular emphysema) for the same date, but the detailed report is in [S2].
+
+Therefore, the summary is based on [S2].
+
+We must be concise and clinical.
+
+Answer structure:
+- Start with the patient and date.
+- Then the key findings and impression.
+- Note the recommendation and the AI prediction.
+
+But note: The question says ""Summarise the X-ray report"". So we don't need to include the patient profile beyond what's necessary.
+
+Let's write:
+
+The X-ray report for patient MRN0009548 dated 2022-10-29 (X-ray chest) indicates centrilobular emphysematous changes predominantly in the upper lobes [S2]. The impression is centrilobular emphysema. The report recommends correlating with pulmonary function tests and notes an AI model prediction of pulmonary embolism (confidence 0.73) [S2].
+
+However, note that the COMPUTED FACTS say 0 matching studies, but we have [S2] as the source. The problem states that we relaxed the filters so we use [S2].
+
+We must cite the source for each claim.
+
+Also, note: The patient in [S1] is described as female, age 65, but [S2] says age 61. This discrepancy might be due to the report being from a different time? But the problem says the patient is Callum Hurst (MRN0009548) and we are to use the report for 2022-10-29. We'll stick to the report [S2] which is the actual study.
+
+So the answer:
+
+The X-ray report for patient MRN0009548 dated 2022-10-29 [S2] describes centrilobular emphysematous changes in the upper lobes. The impression is centrilobular emphysema. The report recommends correlating with pulmonary function tests and notes an AI model prediction of pulmonary embolism (confidence 0.73) [S2].
+
+But note: The problem says ""Summarise"", so we don't need to be too verbose.
+
+Let's write in a concise way.
+
+Final answer:
+
+For patient MRN0009548, the X-ray report dated 2022-10-29 (chest, routine) shows centrilobular emphysema [S2]. The report recommends correlating with pulmonary function tests and includes an AI prediction of pulmonary embolism (confidence 0.73) [S2].
+</think>
+
+The X-ray report for patient MRN0009548 dated 2022-10-29 (chest, routine) indicates centrilobular emphysematous changes predominantly in the upper lobes [S2]. The impression is centrilobular emphysema. The report recommends correlating with pulmonary function tests and notes an AI model prediction of pulmonary embolism (confidence 0.73) [S2].",0.4484865665435791,337.969021320343,1.0,1.0,0.0,1.0,,,
+ollama:qwen3:4b,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"We are given the question: ""What was the most recent imaging study for Teerth Higgins and what did it show?""
+
+We have the COMPUTED FACTS and SOURCES.
+
+From COMPUTED FACTS:
+- The most recent study is: 2026-02-01 MRI spine (routine, study 78460): No acute abnormality.
+
+Also, the COMPUTED FACTS state: ""Most recent study: 2026-02-01 MRI spine (routine, study 78460): No acute abnormality.""
+
+Additionally, the STUDY TIMELINE (most recent first) shows:
+- 2026-02-01 MRI spine (routine, study 78460): No acute abnormality.
+
+So the most recent imaging study is the MRI spine on 2026-02-01.
+
+Now, what did it show? The COMPUTED FACTS say: ""No acute abnormality.""
+
+But we also have the detailed report in [S2] for study 78460 (the MRI spine on 2026-02-01). The report states:
+- FINDINGS: Vertebral body heights and alignment are maintained. No significant canal or foraminal stenosis.
+- IMPRESSION: No acute abnormality.
+
+Therefore, the most recent imaging study for Teerth Higgins was the MRI spine on 2026-02-01, and it showed no acute abnormality.
+
+We must cite the sources. The COMPUTED FACTS are the exact counts and the latest study, but the detailed findings are in [S2]. However, note that the COMPUTED FACTS already state the findings for the most recent study. But the rule says: ""COMPUTED FACTS are exact counts from the full database for the question's filters."" and we have the exact findings in the COMPUTED FACTS? Actually, the COMPUTED FACTS section says: ""Most recent study: 2026-02-01 MRI spine (routine, study 78460): No acute abnormality."" So that is a computed fact.
+
+But to be precise, the rule says: ""For any 'how many', count, breakdown or 'latest' question, answer directly from them"". This question is about the most recent study and what it showed. The COMPUTED FACTS give the most recent study and the finding (no acute abnormality). However, the detailed findings are in [S2] but the computed fact already states the finding.
+
+But note: the rule says ""COMPUTED FACTS are exact counts from the full database for the question's filters"". The computed facts we have are the exact ones for the question. So we can answer from the computed facts.
+
+However, the problem says: ""Cite sources inline as [S1], [S2] after each claim taken from them."" 
+
+We have two options:
+1. Use the computed facts as the source (but note: the computed facts are derived from the database, so they are the source of truth for the question). However, the instructions say: ""Otherwise use only the SOURCES."" and the computed facts are the exact counts from the full database. So for the most recent study and its finding, the computed facts are the source.
+
+But the problem states: ""COMPUTED FACTS"" are the exact counts from the full database. So we can say:
+
+The most recent imaging study for Teerth Higgins was an MRI spine performed on 2026-02-01 (study ID 78460, routine) which showed no acute abnormality [S2].
+
+Wait, but the computed facts section says: ""Most recent study: 2026-02-01 MRI spine (routine, study 78460): No acute abnormality."" and also the study timeline shows the same.
+
+However, the rule says: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So we can answer without citing the computed facts as a source? But the problem says: ""Cite sources inline as [S1], [S2]"". The computed facts are not the same as the sources [S1] to [S8]. The computed facts are derived from the database, but the sources are the actual records.
+
+Looking at the problem: the COMPUTED FACTS are provided as part of the input. They are the exact counts and the latest study. So for the purpose of this question, we can use the computed facts to answer.
+
+But note: the rule says: ""COMPUTED FACTS are exact counts from the full database"". So they are the source of truth. However, the instruction says: ""Cite sources inline as [S1], [S2]"". The computed facts are not labeled with a source code like [S1]. The sources [S1] to [S8] are the actual records.
+
+We have to be careful.
+
+The problem says: ""For any 'how many', count, breakdown or 'latest' question, answer directly from them"". So for the latest study, we can say: The most recent imaging study for Teerth Higgins was an MRI spine on 2026-02-01 (study 78460) which showed no acute abnormality.
+
+But to cite, we can note that the computed facts are the result of the database query. However, the problem also provides the detailed reports in [S2] for that study.
+
+Given the instructions, I think we can answer by citing the computed facts as the source of the answer? But the rule says: ""Otherwise use only the SOURCES"". The computed facts are the exact counts from the full database, so they are the source.
+
+But the problem says: ""Cite sources inline as [S1], [S2]"". The computed facts are not labeled with a source code. However, the problem states that the computed facts are the exact counts from the full database. So we can say:
+
+The most recent imaging study for Teerth Higgins was an MRI spine (routine) performed on 2026-02-01 (study ID 78460) with findings of no acute abnormality [computed facts].
+
+But the rule says: ""Never invent patients, dates, findings or numbers."" and we are not inventing because the computed facts are exact.
+
+Alternatively, we can look at the sources: [S2] is the report for that study. So we can cite [S2] for the findings.
+
+The question: ""what did it show?"" - the findings.
+
+In [S2], the findings are: ""Vertebral body heights and alignment are maintained. No significant canal or foraminal stenosis."" and the impression is ""No acute abnormality"".
+
+So we can say:
+
+The most recent imaging study for Teerth Higgins was an MRI spine (routine) on 2026-02-01 (study ID 78460) which showed no acute abnormality [S2].
+
+But note: the computed facts also state the same. However",9.417237043380737,720.4849560260773,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,"We are given the question: ""How many X-ray studies does Holly Ayala have?""
+
+We have COMPUTED FACTS that state: 
+  ""Matching studies: 3 across 1 patients (this is the exact number of studies that match the question)""
+
+Also, the COMPUTED FACTS specify:
+  - By modality: X-ray 3
+  - Date range: 2022-02-10 to 2026-01-05
+
+Additionally, the SOURCES provide more context but the question is about the count of X-ray studies.
+
+Let's check the SOURCES:
+
+[S1] (patient profile) says: ""6 imaging studies from 2022-02-10 to 2026-04-09: X-ray x3, CT x2, PET-CT x1""
+
+This indicates 3 X-ray studies.
+
+[S2] is one X-ray study (2022-02-10)
+[S3] is one X-ray study (2026-01-05)
+[S4] is one X-ray study (2022-04-23)
+
+So the SOURCES also confirm 3 X-ray studies.
+
+The COMPUTED FACTS explicitly state: ""Matching studies: 3 across 1 patients""
+
+Therefore, the answer is 3.
+
+We must cite the sources. Since the COMPUTED FACTS are the exact count and they are provided, we can use them. However, the rules say: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So we can directly state the count from COMPUTED FACTS.
+
+But note: the question asks for the count of X-ray studies for Holly Ayala. The COMPUTED FACTS say 3.
+
+Also, the SOURCES [S1] says 3 X-rays. So we have two sources that confirm 3.
+
+We are instructed to cite sources inline after each claim. However, the question is a count and we have the exact count from COMPUTED FACTS.
+
+Rule: ""COMPUTED FACTS are exact counts ... For any 'how many' ... answer directly from them""
+
+So we can say: There were 3 X-ray studies for Holly Ayala.
+
+But note: the COMPUTED FACTS say: ""Matching studies: 3 across 1 patients""
+
+We must be precise: the count is 3.
+
+Let's write the answer:
+
+There were 3 X-ray studies for Holly Ayala [S1, COMPUTED FACTS].
+
+However, the rule says: ""Cite sources inline as [S1], [S2] after each claim""
+
+We have two sources that confirm:
+  - COMPUTED FACTS (which we can consider as a source of the count, but note the rule says ""COMPUTED FACTS are exact counts from the full database"")
+  - [S1] (patient profile) which states 3 X-rays.
+
+But the problem says: ""COMPUTED FACTS"" are the exact counts. So we can rely on that.
+
+Alternatively, the rule says: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say ...""
+
+Here, COMPUTED FACTS contain the answer (3) and SOURCES [S1] also says 3.
+
+So we can say:
+
+There were 3 X-ray studies for Holly Ayala [COMPUTED FACTS].
+
+But note: the rule says ""Cite sources inline as [S1], [S2]"". The COMPUTED FACTS are not a source in the [S1], [S2] list? However, the problem states that we have COMPUTED FACTS as a separate section.
+
+The instructions say: ""COMPUTED FACTS"" are the exact counts. So we can use them without a source label? But the rule says: ""Cite sources inline as [S1], [S2]"". 
+
+Wait, the problem says: ""COMPUTED FACTS"" are the exact counts from the full database. So they are the source of the count. However, the problem also lists SOURCES [S1] to [S4]. 
+
+But the rule says: ""For any 'how many' ... count ... answer directly from them"" (the COMPUTED FACTS). So we don't need to cite the SOURCES for the count? 
+
+Let me re-read: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So the COMPUTED FACTS are the answer. We don't have to cite a source for the count because it's computed from the database. However, the rule also says: ""Cite sources inline as [S1], [S2] after each claim taken from them"". 
+
+But note: the COMPUTED FACTS are not the same as the SOURCES. The SOURCES are the detailed reports. The COMPUTED FACTS are the result of a query.
+
+The problem states: ""COMPUTED FACTS"" as a section with the exact count. So we can say:
+
+There were 3 X-ray studies for Holly Ayala [COMPUTED FACTS].
+
+But the rule says: ""Cite sources inline as [S1], [S2]"". We don't have a label for the COMPUTED FACTS? 
+
+Alternatively, the problem says: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer"". Here, COMPUTED FACTS contain the answer, so we don't need to look at SOURCES? 
+
+However, the rule says: ""Cite sources inline as [S1], [S2] after each claim taken from them"". Since we are taking the claim from the COMPUTED FACTS, we don't have a source label for the COMPUTED FACTS? 
+
+But note: the problem says: ""COMPUTED FACTS"" are the exact counts. So we can state the answer without a source label? 
+
+Wait, the rule says: ""Be concise and clinical"". 
+
+I think the intended approach is: since the COMPUTED FACTS explicitly state the count (3) for the filters, we can state it without a source label? But the rule says to cite sources. 
+
+Alternatively, the problem might consider the COMPUTED FACTS as a source? But the problem lists SOURCES as [S1] to [S4]. 
+
+Let me see the example: the problem says ""COMPUTED FACTS"" are the exact counts. So for the count, we don't need to cite a source because it's computed. However, the rule says: ""Cite sources inline as [S1], [S2] after each claim taken from them"". 
+
+We are taking the claim from the COMPUTED FACTS. But the COMPUTED FACTS are not labeled as [Sx]. 
+
+Given the instructions, I think we can state:
+
+There were 3 X-ray studies for Holly Ayala.
+
+But to be safe, note that [S1] (the patient profile) also states 3 X-rays. So we can cite [S1] as well? 
+
+However, the rule says: ""COMPUTED FACTS are exact counts ... answer directly from them"". So we don't",0.9449715614318848,495.68076491355896,1.0,,1.0,1.0,1.0,,
+ollama:qwen3:4b,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","We are given the question: ""How many imaging studies does Niharika Lamb have?""
+
+From the COMPUTED FACTS, we have:
+- There are 2 different patients matching the name ""Niharika Lamb"" (with MRNs: MRN0003876 and MRN0005439).
+- For MRN0003876 (id 3876): 1 study
+- For MRN0005439 (id 5439): 3 studies
+
+The COMPUTED FACTS explicitly state: ""Matching studies: 4 across 2 patients (this is the exact number of studies that match the question)""
+
+Therefore, the total number of imaging studies for the name ""Niharika Lamb"" (across both patients) is 4.
+
+But note: the question asks ""How many imaging studies does Niharika Lamb have?"" without specifying which patient. However, the COMPUTED FACTS indicate that there are two patients with that name and the total studies across both is 4.
+
+The rule says: ""COMPUTED FACTS are exact counts from the full database for the question's filters."" and the filter is ""patient Niharika Lamb"". The computed fact says: ""Matching studies: 4 across 2 patients"".
+
+So the answer is 4.
+
+We must be concise and clinical.
+
+Let's check the SOURCES to see if they confirm:
+
+[S1] (patient:5439) says: ""3 imaging studies from 2020-12-09 to 2024-05-11""
+[S2] (patient:3876) says: ""1 imaging studies from 2023-03-08 to 2023-03-08""
+
+So total 4.
+
+The question does not specify a patient ID or MRN, so we must account for both patients.
+
+Therefore, the answer is 4.
+
+We write: ""There are 4 imaging studies for patients named Niharika Lamb (across two patients).""
+
+But note: the rule says ""Be concise and clinical: short paragraphs or bullet points""
+
+We can say: ""Niharika Lamb has 4 imaging studies in total across two patients: [MRN0003876] with 1 study and [MRN0005439] with 3 studies.""
+
+However, the question does not ask for breakdown, but the computed facts give the breakdown.
+
+But the rule says: for ""how many"", we answer directly from the computed facts.
+
+So: ""There were 4 such studies.""
+
+But to be precise and clinical, we can state:
+
+There are 4 imaging studies for patients named Niharika Lamb (across two patients: MRN0003876 and MRN0005439).
+
+But note: the computed facts say: ""Matching studies: 4 across 2 patients (this is the exact number of studies that match the question)""
+
+So we can say: ""There were 4 imaging studies for patients named Niharika Lamb.""
+
+However, the rule says: ""COMPUTED FACTS are exact counts ... for the question's filters"". The filter is ""patient Niharika Lamb"", and the computed fact says 4.
+
+But the warning says: ""WARNING: 2 different patients match this name. Answer separately for each patient (give MRN):""
+
+So we must be clear that it's two patients.
+
+But the question is: ""How many imaging studies does Niharika Lamb have?"" - without specifying which patient. In medical records, when a name is shared by multiple patients, we have to clarify.
+
+However, the computed facts explicitly state the total as 4.
+
+Given the instructions, we can answer:
+
+There are 4 imaging studies for patients named Niharika Lamb (across two patients: MRN0003876 and MRN0005439).
+
+But to be even more concise as per the rule: ""short paragraphs or bullet points""
+
+We can write:
+
+- Total imaging studies for patients named Niharika Lamb: 4
+  - Patient MRN0003876 (id 3876): 1 study
+  - Patient MRN0005439 (id 5439): 3 studies
+
+But the rule says: ""Be concise and clinical"". We don't need to list the breakdown if the question is just ""how many"". However, the computed facts say the total is 4.
+
+Alternatively, we can just say: ""There were 4 imaging studies for patients named Niharika Lamb.""
+
+But the rule says: ""For any 'how many' ... count ... answer directly from them""
+
+So the direct answer is 4.
+
+However, to avoid confusion, we note that the question does not specify a patient, so we must account for both.
+
+Given the above, I think the answer is 4.
+
+Let me check the SOURCES: they confirm the counts per patient.
+
+So:
+
+Answer: There were 4 imaging studies for patients named Niharika Lamb.
+
+But to be precise and follow the rules, we can write:
+
+There are 4 imaging studies for patients named Niharika Lamb (across two patients: MRN0003876 and MRN0005439).
+
+However, the rule says: ""Cite sources inline as [S1], [S2] after each claim""
+
+We have two sources that give the counts: [S1] and [S2] (and the computed facts also).
+
+But the computed facts are the primary source for the count.
+
+The rule says: ""COMPUTED FACTS are exact counts ... for the question's filters"". So we can rely on the computed facts.
+
+We don't need to cite the sources for the count because the computed facts are the result of the database query.
+
+But the rule says: ""Cite sources inline as [S1], [S2] after each claim taken from them""
+
+We are taking the claim from the computed facts. The computed facts are generated from the database, so we can cite the computed facts as the source? However, the rule says: ""COMPUTED FACTS"" are the exact counts. So we can say:
+
+There were 4 imaging studies for patients named Niharika Lamb [computed].
+
+But the rule says: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say ...""
+
+Here, the computed facts contain the answer.
+
+So we can write:
+
+There were 4 imaging studies for patients named Niharika Lamb.
+
+But to be more precise and avoid confusion, we can add the breakdown as it's critical.
+
+Given the instructions, I think the concise answer is:
+
+There were 4 imaging studies for patients named Niharika Lamb.
+
+However, the problem says: ""Answer separately for each patient (give MRN)"" in the warning. So we should break it down.
+
+But the question is: ""How many imaging studies does Niharika Lamb have?"" - without specifying which patient. So the answer is 4.
+
+But in clinical practice, we would say",1.8568122386932373,631.2386720180511,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"Okay, let me tackle this question step by step. The user is asking which patient had an X-ray on 2022-06-03 showing pleural effusion. 
+
+First, I need to check all the provided sources (S1 to S8) for X-rays dated exactly 2022-06-03. The key here is to look for ""pleural effusion"" in the findings or impression sections. 
+
+Starting with S1: Patient Leigh Hensley. The study is an X-ray chest on 2022-06-03. The findings say ""Moderate right pleural effusion with adjacent compressive atelectasis."" The impression is ""Moderate right pleural effusion."" That's a clear match. 
+
+Next, S2: Clifford Saha. X-ray on same date, but findings say ""no effusion"" - so not relevant. 
+
+S3: Indali Ramakrishnan. X-ray on 2022-06-03, but findings are about pneumonia, no pleural effusion mentioned. 
+
+S4: Paige Sanchez. X-ray on 2022-06-03, but shows pneumothorax, not effusion. 
+
+S5: Daniel Sahni. Also shows pneumothorax, not effusion. 
+
+S6: Arin Seshadri. X-ray on 2022-06-03, but findings are emphysema, no effusion. 
+
+S7: Nicolas Mohan. X-ray on 2022-06-03, but shows cardiomegaly, not effusion. 
+
+S8: Urmi Sellers. This is an X-ray hand study, not chest, so irrelevant. 
+
+So only S1 has pleural effusion on that date. The patient is Leigh Hensley with MRN MRN0015373. 
+
+I should confirm there are no other sources with pleural effusion. The question specifies ""X-ray"" (chest X-ray in all cases here), and only S1 matches. 
+
+Also, the AI model in S1 predicted 'pleural effusion' with 86% confidence, which aligns with the findings. 
+
+No other patients on that date show pleural effusion. So the answer is Leigh Hensley.
+</think>
+
+The radiology records show one patient with a chest X-ray on 2022-06-03 demonstrating pleural effusion:  
+
+**Leigh Hensley** (MRN: MRN0015373, Patient ID: 15373, male, age 68) [S1].  
+- Study: X-ray chest (Accession: ACC000070374)  
+- Findings: ""Moderate right pleural effusion with adjacent compressive atelectasis""  
+- Impression: ""Moderate right pleural effusion""  
+
+No other patients on 2022-06-03 had X-rays reporting pleural effusion per the provided sources.",3.21437406539917,304.06252932548523,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,"We are given a question: ""How many urgent priority PET-CT studies were performed in 2023?""
+
+The COMPUTED FACTS section states:
+  ""Matching studies: 101 across 100 patients (this is the exact number of studies that match the question)""
+
+This is a direct count for the filters: modality=PET, priority=urgent, dates 2023-01-01 to 2023-12-31.
+
+The computed facts explicitly say: ""Matching studies: 101""
+
+Therefore, the answer is 101.
+
+We don't need to look at the SOURCES for the count because the computed facts already provide the exact number.
+
+The SOURCES are examples of individual studies (studies S1 to S8) but they are only 8 studies and do not represent the entire count.
+
+So, the answer is 101.
+
+We must cite the source of the computed fact. The problem says: ""COMPUTED FACTS are exact counts from the full database"". So we can say:
+
+There were 101 urgent priority PET-CT studies performed in 2023 [CF].
+
+But note: the rules say to cite sources inline as [S1], [S2] etc. However, the computed facts are not from the sources (the sources are individual studies). The computed facts are from the full database. So we can refer to the computed facts as ""CF"" (for computed facts) or note that the problem says ""COMPUTED FACTS"" are the exact counts.
+
+The instruction says: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So we can state:
+
+There were 101 urgent priority PET-CT studies performed in 2023 [CF].
+
+But the problem says: ""Cite sources inline as [S1], [S2] after each claim taken from them."" However, the computed facts are not the same as the sources (S1-S8). The computed facts are a separate entity.
+
+The problem states: ""For any 'how many' ... count ... answer directly from them"". So we can say:
+
+There were 101 such studies [CF].
+
+But to be precise, the problem says: ""COMPUTED FACTS"" are the exact counts. So we can label them as [CF].
+
+Alternatively, the problem says: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say ..."". Here, the computed facts contain the answer.
+
+So the answer is: 101
+
+We write:
+
+There were 101 urgent priority PET-CT studies performed in 2023 [CF].
+
+But note: the computed facts say ""Matching studies: 101 across 100 patients"". So it's 101 studies.
+
+We don't need to list the sources because the question is about the total count and the computed facts give the exact count.
+
+Let me check the date range: the computed facts say ""Date range: 2023-01-01 to 2023-12-28"". But the question is for 2023-01-01 to 2023-12-31. However, the computed facts state that the matching studies are 101 for the entire year (with the note that the date range in the computed facts is up to 2023-12-28). But the problem says: ""Matching studies: 101 across 100 patients (this is the exact number of studies that match the question)"".
+
+So we take it as 101.
+
+Therefore, the answer is 101.
+
+We write concisely.
+
+Answer: There were 101 urgent priority PET-CT studies performed in 2023 [CF].
+</think>
+
+There were 101 urgent priority PET-CT studies performed in 2023 [CF]. This count is derived from the full database with filters for modality=PET, priority=urgent, and dates 2023-01-01 to 2023-12-31. The computed facts explicitly state ""Matching studies: 101 across 100 patients"" as the exact count for the question.",10.579031705856323,389.1759889125824,1.0,,1.0,1.0,1.0,,
+ollama:qwen3:4b,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.525197744369507,5.0067901611328125e-06,0.0,,1.0,1.0,,,
+ollama:qwen3:4b,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"We are given the question: When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?
+
+Notes: 'cerebral infarct' means ischaemic stroke (reports may say: infarct MCA territory)
+
+We have COMPUTED FACTS and SOURCES.
+
+From COMPUTED FACTS:
+- Matching studies: 1 across 1 patients (this is the exact number of studies that match the question)
+- Date range: 2022-12-11 to 2022-12-11
+- By modality: CT 1
+- Most recent study: 2022-12-11 CT head (urgent, study 34090): Acute left MCA territory infarct.
+
+Also, the study timeline shows:
+- 2022-12-11 CT head (urgent, study 34090): Acute left MCA territory infarct.
+
+Now, let's check the SOURCES to confirm.
+
+[S2] (study:34090) is the CT head study from 2022-12-11. It reports:
+  - Study: CT head
+  - Date: 2022-12-11
+  - Findings: Restricted diffusion / hypodensity in the left middle cerebral artery territory.
+  - Impression: Acute left MCA territory infarct.
+
+This matches the question.
+
+Also, note that the patient profile [S1] lists:
+  ""2022-12-11 CT head (urgent): Acute left MCA territory infarct.""
+
+So, we have one study that matches: a CT head scan on 2022-12-11.
+
+The question asks for:
+1. When did she have imaging that showed a cerebral infarct? -> 2022-12-11
+2. What kind of scan was it? -> CT head
+
+We are told that there is only one such study (from the computed facts: 1 matching study).
+
+Therefore, the answer is:
+- Date: 2022-12-11
+- Scan type: CT head
+
+We cite the sources: 
+- The computed facts tell us the date and modality (CT head) for the most recent study (which is the only one).
+- The specific study [S2] confirms the details.
+
+But note: the rules say to cite sources inline after each claim. We have two sources that confirm: [S1] and [S2]. However, the computed facts are also a source? But the rules say: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". We are instructed to use COMPUTED FACTS for ""how many"", ""count"", ""breakdown"" or ""latest"" questions. Here the question is about a specific event (when and what scan) and the computed facts give the exact answer.
+
+But the problem says: ""For any 'how many', count, breakdown or 'latest' question, answer directly from them"". This question is about the latest (only one) study that matches.
+
+So we can answer directly from the computed facts and the sources.
+
+However, the rules also say: ""Otherwise use only the SOURCES"". But in this case, the computed facts are provided and they are the exact answer.
+
+But note: the computed facts are generated from the database and we are to use them for the latest question. The question is about the latest (only one) study that matches.
+
+So we can say:
+
+Kate Martin had imaging that showed a cerebral infarct on 2022-12-11, which was a CT head scan.
+
+We cite the computed facts as the source for the date and modality? But the rules say: ""Cite sources inline as [S1], [S2] after each claim taken from them"". 
+
+We have two sources that provide the same information:
+- [S1] (patient profile) lists: ""2022-12-11 CT head (urgent): Acute left MCA territory infarct.""
+- [S2] (the study report) gives the same.
+
+But the computed facts are also a source? The problem says: ""COMPUTED FACTS"" are exact counts from the full database. We are to use them for the latest question.
+
+However, the instructions say: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say ..."". Here both the computed facts and the sources contain the answer.
+
+We can write:
+
+The records indicate that Kate Martin had a CT head scan on 2022-12-11 that showed an acute left MCA territory infarct [S1, S2].
+
+But note: the computed facts say: ""Most recent study: 2022-12-11 CT head (urgent, study 34090): Acute left MCA territory infarct."" So we can also cite the computed facts? However, the problem says: ""COMPUTED FACTS"" are the exact counts and we are to use them for the latest question. But the rules also say: ""Otherwise use only the SOURCES"". 
+
+To be safe, we can use the sources [S1] and [S2] because they are the raw data. The computed facts are derived from the sources.
+
+But the problem states: ""COMPUTED FACTS"" as a separate section. However, the rules say: ""For any 'how many', count, breakdown or 'latest' question, answer directly from them"". So for the latest study, we can say it's from the computed facts.
+
+But the problem says: ""Cite sources inline as [S1], [S2] after each claim taken from them"". The computed facts are not labeled as [Sx] but as ""COMPUTED FACTS"". We have to be careful.
+
+Looking at the problem: the SOURCES are labeled [S1] to [S7]. The computed facts are a separate section.
+
+The rule: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So they are the result of the database query. We are allowed to use them for the latest question.
+
+But the instruction says: ""Cite sources inline as [S1], [S2]"". The computed facts are not in the form of [Sx]. So we should not cite them as [Sx] but we can say the answer is from the computed facts? However, the problem says: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say ..."". 
+
+In this case, the computed facts contain the answer. So we can state the answer without citing the computed facts? But the problem says: ""Cite sources inline as [S1], [S2]"". 
+
+Alternatively, we can note that the computed facts are generated from the sources. But the problem does not require us to cite the computed facts as a source. We have the raw sources [S1",2.89247727394104,669.7977294921875,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"We are given a question: ""Which patients had a suspected liver cancer on a MRI scan in June 2022?""
+
+The notes say: 'liver cancer' means liver lesion (reports may say: arterially enhancing lesion washout LI-RADS)
+
+We have 8 sources (S1 to S8) with MRI abdomen studies in June 2022.
+
+We need to check for each study:
+1. The study was done in June 2022 (so date between 2022-06-01 and 2022-06-30)
+2. The report indicates a suspected liver cancer (as defined: liver lesion with specific findings that match the description of LI-RADS 5, suspicious for hepatocellular carcinoma)
+
+The definition: 
+  - The reports that say ""Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma"" are the ones that match.
+
+Let's go through each source:
+
+[S1]: 
+  - Date: 2022-06-26 (June 2022)
+  - Findings: ""A 5.1 cm arterially enhancing lesion in segment 7 of the liver with washout.""
+  - Impression: ""Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.""
+  -> This matches.
+
+[S2]:
+  - Date: 2022-06-18 (June 2022)
+  - Findings: ""A 3.7 cm arterially enhancing lesion in segment 2 of the liver with washout.""
+  - Impression: ""Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.""
+  -> This matches.
+
+[S3]:
+  - Date: 2022-06-28 (June 2022)
+  - Findings: ""A 4.4 cm arterially enhancing lesion in segment 7 of the liver with washout.""
+  - Impression: ""Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.""
+  -> This matches.
+
+[S4]:
+  - Date: 2022-06-24 (June 2022)
+  - Findings: ""The liver, spleen, pancreas, adrenal glands and kidneys are unremarkable."" -> No lesion found.
+  - Impression: ""No acute abnormality.""
+  -> Does not match.
+
+[S5]:
+  - Date: 2022-06-12 (June 2022)
+  - Findings: ""The liver, spleen, pancreas, adrenal glands and kidneys are unremarkable."" -> No lesion found.
+  - Impression: ""No acute abnormality.""
+  -> Does not match.
+
+[S6]:
+  - Date: 2022-06-19 (June 2022)
+  - Findings: ""The liver, spleen, pancreas, adrenal glands and kidneys are unremarkable."" -> No lesion found.
+  - Impression: ""No acute abnormality.""
+  -> Does not match.
+
+[S7]:
+  - Date: 2022-06-03 (June 2022)
+  - Findings: ""The spleen is enlarged ..."" -> Not a liver lesion.
+  - Impression: ""Splenomegaly.""
+  -> Does not match.
+
+[S8]:
+  - Date: 2022-06-16 (June 2022)
+  - Findings: ""The liver, spleen, pancreas, adrenal glands and kidneys are unremarkable."" -> No lesion found.
+  - Impression: ""No acute abnormality.""
+  -> Does not match.
+
+Therefore, the patients who had a suspected liver cancer (as defined) on an MRI scan in June 2022 are:
+
+- Baljiwan Valdez (MRN0018798) from [S1]
+- Christine Richards (MRN0016182) from [S2]
+- Stewart Castro (MRN0003993) from [S3]
+
+We note that the AI model predictions are not the primary source for the clinical impression but the reports are final and the impression is what matters.
+
+So the answer is these three patients.
+
+We are to cite the sources inline. We have three sources: [S1], [S2], [S3].
+
+We write concisely.
+
+Note: The question asks for ""which patients"", so we list the patients with their MRN and the study date.
+
+But the rules say: ""Be concise and clinical: short paragraphs or bullet points""
+
+We can do:
+
+Three patients had a suspected liver cancer (defined as LI-RADS 5, arterially enhancing lesion with washout) on MRI abdomen in June 2022:
+
+- Baljiwan Valdez (MRN: MRN0018798) [S1] (2022-06-26)
+- Christine Richards (MRN: MRN0016182) [S2] (2022-06-18)
+- Stewart Castro (MRN: MRN0003993) [S3] (2022-06-28)
+
+We don't need to include the AI model predictions because the clinical impression is the key.
+
+Also note: The question says ""suspected liver cancer"" and the reports say ""suspicious for hepatocellular carcinoma"", which matches the definition.
+
+We don't have any other studies that match.
+
+So the answer is these three.
+
+Let's check the dates: all are in June 2022.
+
+We are not counting the number of patients because the question is ""which patients"", so we list them.
+
+But note: the rules say for ""how many"" we use computed facts. This is not a count question but a list.
+
+We are to be concise.
+
+We write in bullet points.
+
+Also, the rules say: ""Cite sources inline as [S1], [S2] after each claim""
+
+So for each patient, we cite the source.
+
+We can write:
+
+Three patients met the criteria: [S1], [S2], [S3].
+
+But the question asks for the patients, so we list the patients.
+
+Alternatively, we can write:
+
+The following patients had a suspected liver cancer (LI-RADS 5, arterially enhancing lesion with washout) on MRI abdomen in June 2022:
+
+- Baljiwan Valdez (MRN: MRN0018798) [S1] (2022-06-26)
+- Christine Richards (MRN: MRN0016182) [S2] (2022-06-18)
+- Stewart Castro (MRN: MRN0003993) [S3] (2",7.673574209213257,600.0674631595612,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"We are given the question: On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?
+
+We have COMPUTED FACTS and SOURCES.
+
+First, note that the question asks about the follow-up scan of 2025-07-31. The COMPUTED FACTS show that the most recent study is on 2025-07-31 (Ultrasound abdomen, routine, study 52021) and it has the finding of ""Hepatic steatosis"". Also, the study timeline shows:
+- 2025-07-31: Ultrasound abdomen (routine, study 52021): Hepatic steatosis.
+- 2025-02-01: Ultrasound abdomen (stat, study 52020): Hepatic steatosis.
+
+The key is the comparison in the report for the 2025-07-31 study (S2). The report says: ""COMPARISON: Unchanged compared with the prior study of 2025-02-01.""
+
+Therefore, the fat in the liver (hepatic steatosis) did not change from the prior study (2025-02-01) to the follow-up (2025-07-31).
+
+Let's check the SOURCES:
+
+[S2] (study 52021, 2025-07-31) states: ""COMPARISON: Unchanged compared with the prior study of 2025-02-01.""
+
+This directly answers the question: the fat in the liver stayed the same.
+
+Also, note that the question is about the follow-up scan of 2025-07-31. The report for that study (S2) is the one that provides the comparison.
+
+Therefore, the answer is: stayed the same.
+
+We must be concise and clinical.
+
+Answer: Jenna Mcclain's liver fat (hepatic steatosis) stayed the same from the prior study (2025-02-01) to the follow-up study (2025-07-31) [S2].
+
+But note: the question asks ""had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?"" and we have the comparison from the most recent study.
+
+We don't have any information that it improved or worsened. The report explicitly says ""unchanged"".
+
+So, the answer is ""stayed the same"".
+
+We cite [S2] because that's the source for the 2025-07-31 study and its comparison.
+
+Also, note that the COMPUTED FACTS show that there are two studies (both with hepatic steatosis) and the most recent is 2025-07-31. But the comparison is provided in the report of the most recent study.
+
+Therefore, we can answer without needing the other studies.
+
+Let's write the answer:
+
+Jenna Mcclain's liver fat (hepatic steatosis) stayed the same from the prior study (2025-02-01) to the follow-up study (2025-07-31) [S2].
+
+But note: the question says ""on the follow-up scan of 2025-07-31"". So we are reporting the status at that scan relative to the prior.
+
+The answer is clear.
+
+We don't have any other information that would change this.
+
+So, the response is:
+
+The follow-up ultrasound on 2025-07-31 showed hepatic steatosis unchanged compared to the prior study on 2025-02-01 [S2].
+</think>
+
+Jenna Mcclain's liver fat (hepatic steatosis) stayed the same from the prior study (2025-02-01) to the follow-up study (2025-07-31) [S2]. This conclusion is based on the explicit comparison statement in the 2025-07-31 ultrasound report: ""Unchanged compared with the prior study of 2025-02-01.""",0.8583176136016846,311.5201325416565,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"We are given a question: ""How many patients had stones in the gallbladder reported on imaging in 2020?""
+
+We have two sources of information:
+1. COMPUTED FACTS: which states that there were 3,683 studies across 3,190 patients in 2020 that match the filters (but note: this is the total studies, not the count of patients with gallbladder stones).
+2. SOURCES: a list of 8 specific studies (S1 to S8) that we can check for the presence of gallbladder stones.
+
+However, note the question: ""How many patients had stones in the gallbladder reported on imaging in 2020?""
+
+The COMPUTED FACTS tell us that there were 3,190 patients with imaging studies in 2020 that matched the filters (but note: the exact count of patients is 3,190). However, this does not tell us how many of these patients had gallbladder stones.
+
+The SOURCES provide 8 specific studies. We can check each study to see if it reports gallbladder stones.
+
+Let's go through the SOURCES:
+
+[S1]: Patient Manan Davies (female, 29) - Ultrasound abdomen on 2020-12-28. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> This is gallbladder stones. So, this patient has gallbladder stones.
+
+[S2]: Patient Tina Payne (female, 64) - Ultrasound abdomen on 2020-11-10. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+[S3]: Patient Felicia Garcia (male, 20) - CT abdomen on 2020-12-25. FINDINGS: ""Cholelithiasis without cholecystitis."" -> This means gallbladder stones (cholelithiasis = gallstones).
+
+[S4]: Patient Jenna Hopkins (female, 58) - Ultrasound abdomen on 2020-11-25. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+[S5]: Patient Felicia Garcia (male, 14) - CT abdomen on 2020-12-25. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+[S6]: Patient Sophia Bhavsar (male, 64) - Ultrasound abdomen on 2020-10-04. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+[S7]: Patient Stephanie Sarna (male, 61) - CT abdomen on 2020-11-28. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+[S8]: Patient Ricardo Lala (male, 75) - CT abdomen on 2020-10-18. FINDINGS: ""Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing."" -> Gallbladder stones.
+
+So, in the SOURCES, we have 8 studies that report gallbladder stones. However, note that the same patient might appear in multiple studies? Let's check:
+
+- S3 and S5 are both for Felicia Garcia (MRN0006826). 
+  - S3: CT abdomen on 2020-12-25 (routine) -> patient profile says: ""1 imaging studies from 2020-12-25 to 2020-12-25: CT x1""
+  - S5: CT abdomen on 2020-12-25 (routine) -> same date? But note: the patient profile says ""1 imaging studies"" so it's one study? However, the study S5 is a separate study (accession: ACC000030940) and S3 is a patient profile that says one study. But in the SOURCES, we have two studies for the same patient? 
+
+Wait, the SOURCES are labeled as [S3] and [S5] for the same patient (Felicia Garcia). 
+
+Let me re-read [S3]:
+  ""PATIENT PROFILE: Felicia Garcia | ... HISTORY: 1 imaging studies from 2020-12-25 to 2020-12-25: CT x1.""
+
+And [S5] is a study for the same patient on the same date? Actually, the date in [S5] is 2020-12-25. But the patient profile [S3] says one study. So it's likely that [S5] is the same study? Or a different one? 
+
+However, the problem states: ""SOURCES"" as a list of 8 studies. Each study has a unique accession number. So [S3] is a patient profile (which might be a summary of the patient's imaging) and [S5] is a specific study. But note: the patient profile [S3] says ""1 imaging studies"" so it's one study. And [S5] is a study on the same date? 
+
+But the question is: how many patients? We are counting distinct patients.
+
+In the SOURCES, we have:
+
+- S1: Manan Davies (MRN0019696) -> patient 1
+- S2: Tina Payne (MRN0010077) -> patient 2
+- S3: Felicia Garcia (MRN0006826) -> patient 3 (but note: S5 is also for this patient)
+- S4: Jenna Hopkins (MRN0018725) -> patient 4
+- S5: Felicia Garcia (MRN0006826) -> same patient as S3? 
+- S6: Sophia Bhavsar (MRN0004976) -> patient 5
+- S7: Stephanie Sarna (MRN0018791) -> patient 6
+- S8: Ricardo Lala (MRN0019665) -> patient 7
+
+So, we have 7 distinct patients? Because S3 and S5 are the same patient (Felicia Garcia). 
+
+Therefore, in the SOURCES, there are 7 distinct patients who had gallbladder stones reported on imaging in 2020.
+
+But note: the question is about the entire hospital's radiology records for 2020. The COMPUTED FACTS tell us that there were 3,190 patients",19.62310767173767,683.1704332828522,1.0,,1.0,0.0,0.0,,
+ollama:qwen3:4b,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"We are given a question: ""Has Steven Srinivasan ever had a slipped disc on any scan?""
+
+The notes say: 'slipped disc' means disc herniation (reports may say: disc extrusion nerve root compression)
+
+We have COMPUTED FACTS:
+  Filters applied: patient Steven Srinivasan (id 4827), finding=disc herniation
+  Matching studies: 0 across 0 patients
+
+This means that according to the computed facts, there are 0 studies that match the criteria (disc herniation) for Steven Srinivasan.
+
+Additionally, we have the SOURCES (S1 to S8) which are the detailed records.
+
+Let's review the sources to see if there is any mention of disc herniation or slipped disc (which we interpret as disc herniation) in any of the studies.
+
+We are looking for:
+  - Disc herniation (or disc extrusion, nerve root compression) in any scan.
+
+We'll go through each source:
+
+[S1] (patient profile): 
+  - History: 8 imaging studies from 2021-06-05 to 2025-11-07: CT x4, Ultrasound x2, X-ray x2.
+  - The studies listed: 
+        2025-11-07 CT chest (routine): No acute abnormality.
+        2025-04-15 Ultrasound thyroid (routine): right thyroid nodule, TI-RADS 5.
+        2025-03-01 CT head (stat): No acute abnormality.
+        2024-05-02 X-ray knee (urgent): Acute minimally displaced proximal phalanx fracture.
+        2023-10-29 CT abdomen (stat): Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+        2022-03-21 X-ray hand (routine): No acute abnormality.
+        2022-02-18 Ultrasound abdomen (routine): No acute abnormality.
+        2021-06-05 CT spine (urgent): L4 compression fracture, likely osteoporotic.
+
+  Note: The CT spine study (2021-06-05) is described as ""L4 compression fracture, likely osteoporotic"". This is a fracture of the L4 vertebra, but it is not a disc herniation. It is a vertebral body fracture (compression fracture). Disc herniation would be a problem in the intervertebral disc space.
+
+[S2] (study:21571): 
+  - CT spine (2021-06-05): Wedge compression of the L4 vertebral body with approximately 30% height loss. Impression: L4 compression fracture, likely osteoporotic.
+
+  This is the same study as in [S1] (the CT spine study). It does not mention disc herniation.
+
+[S3] (study:21576): 
+  - CT head (2025-03-01): No acute abnormality.
+
+[S4] (study:21573): 
+  - X-ray hand (2022-03-21): No acute abnormality.
+
+[S5] and [S6] (document:5249): 
+  - Myocardial Perfusion Imaging (2021-11-25): This is a cardiac study, not a spine or disc study. The findings are about the heart and perfusion. No mention of disc herniation.
+
+[S7] (study:21572): 
+  - Ultrasound abdomen (2022-02-18): No acute abnormality.
+
+[S8] (study:21575): 
+  - X-ray knee (2024-05-02): Acute minimally displaced proximal phalanx fracture.
+
+None of the studies mention disc herniation or slipped disc (as defined by the user). 
+
+The computed facts explicitly state: ""Matching studies: 0 across 0 patients"". This is the exact count from the database.
+
+Therefore, the answer is that Steven Srinivasan has never had a slipped disc (disc herniation) on any scan.
+
+We must be concise and clinical.
+
+Answer: 
+There are no records of disc herniation (or slipped disc) in any of Steven Srinivasan's imaging studies. The computed facts confirm 0 matching studies for disc herniation, and a review of all available studies [S1] through [S8] shows no findings of disc herniation or related conditions.
+
+But note: the question is ""Has Steven Srinivasan ever had a slipped disc on any scan?"" and we have 0 matching studies.
+
+So we can say: No.
+
+However, the rules say: ""COMPUTED FACTS are exact counts from the full database for the question's filters. For any 'how many', count, breakdown or 'latest' question, answer directly from them""
+
+Here the question is a yes/no: ""Has ... ever had ..."". The computed facts say 0 matching studies. So the answer is no.
+
+We can write:
+
+Steven Srinivasan has never had a slipped disc (disc herniation) on any scan. The database shows 0 studies matching the criteria for disc herniation [COMPUTED FACTS]. A review of all available imaging studies [S1-S8] confirms no disc herniation findings.
+
+But note: the computed facts are the exact count and they say 0. So we can rely on that.
+
+However, the rules say: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say 'The records do not contain this information.'""
+
+Here, the computed facts contain the answer (0 matching studies) so we don't need to look at the sources? Actually, the computed facts are the exact count and they are 0. So we can answer directly.
+
+But the problem says: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". So for the question ""Has Steven Srinivasan ever had a slipped disc on any scan?"" we are counting the number of studies with disc herniation. The computed facts say 0.
+
+Therefore, the answer is no.
+
+We can write:
+
+No. The database shows 0 studies with disc herniation for Steven Srinivasan [COMPUTED FACTS].
+
+But the rules say: ""Be concise and clinical: short paragraphs or bullet points""
+
+So:
+
+Steven Srinivasan has never had a slipped disc (disc herniation) on any scan. The computed facts confirm 0 matching studies for disc herniation [COMPUTED FACTS].
+
+Alternatively, to be even more concise:
+
+No. 0 studies with disc herniation found for Steven Srinivasan [COMPUTED FACTS].
+
+But the question is ""Has ... ever had ..."", so we can say:
+
+No. The records show no studies with disc herniation for",6.809422492980957,671.5196137428284,1.0,,0.0,1.0,,1.0,
+ollama:qwen3:4b,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"Okay, the user is asking about what the CT on 2024-01-30 showed for Sam Taylor. Let me go through the information carefully.
+
+First, I check the COMPUTED FACTS section. It says there's 1 matching study for patient Sam Taylor on that date with modality CT. The most recent study is listed as ""2024-01-30 CT chest (urgent, study 35938): Moderate left pleural effusion."" Also, the studies with abnormal findings count is 1 (100%), which matches this finding.
+
+Then I look at the SOURCES. Source [S1] has the patient profile and findings list. It explicitly states: ""2024-01-30 CT chest (urgent): Moderate left pleural effusion."" That's a direct match for the date and study type.
+
+Source [S2] gives more detail about the specific study (study ID 35938). It confirms the findings: ""Moderate left pleural effusion with adjacent compressive atelectasis."" And the impression is the same: ""Moderate left pleural effusion."" The recommendation mentions diagnostic thoracentesis if needed.
+
+I need to be precise here. The question is about what the CT showed, so I should focus on the findings. Both sources agree on the moderate left pleural effusion. The computed facts mention it directly, and the detailed report in [S2] adds the compressive atelectasis part.
+
+I should present this concisely. The user probably wants the key finding without extra fluff. Since the computed facts already state it clearly, I can cite [S1] and [S2] to show both the summary and detailed report. 
+
+Wait, the rules say to cite sources inline after each claim. So for the main finding, I'll say it's moderate left pleural effusion as per [S1], and then add the atelectasis detail from [S2]. 
+
+Also, the user might be a clinician checking for follow-up, so including the recommendation (thoracentesis) could be relevant but the question is about what the CT showed, not recommendations. I'll stick to findings only to stay clinical and precise.
+
+Double-checking dates: The CT is definitely 2024-01-30, no confusion there. Patient name is Sam Taylor (spelled as ""Sam Taylr"" in query but sources use ""Sam Taylor"" - minor typo but I'll use the correct spelling from sources).
+
+Final answer should be: The CT on 2024-01-30 showed moderate left pleural effusion with adjacent compressive atelectasis [S1, S2]. But wait, [S1] says ""Moderate left pleural effusion"" without atelectasis, while [S2] adds the atelectasis. I need to be accurate - the computed facts say ""Moderate left pleural effusion"" but the detailed report has more. 
+
+Looking back: COMPUTED FACTS says ""Moderate left pleural effusion."" but [S2] specifies ""Moderate left pleural effusion with adjacent compressive atelectasis."" So the full finding is more detailed. I should include both since [S2] is the actual report.
+
+The answer should reflect the most complete finding from the report. I'll state it as per [S2] since it's the detailed study report. But the rules say ""never invent"" so I must only use what's in sources. 
+
+Yes, [S2] is the study report, so it's authoritative. I'll go with: The CT on 2024-01-30 showed moderate left pleural effusion with adjacent compressive atelectasis [S2]. But [S1] also lists it as ""Moderate left pleural effusion"" - so maybe the atelectasis is additional detail. 
+
+To be precise: The report states ""Moderate left pleural effusion with adjacent compressive atelectasis"" [S2], which matches the computed facts' summary of the finding. 
+
+I think it's safe to say the finding was moderate left pleural effusion (with the atelectasis detail from the report). The user asked ""what did the CT show"", so the full findings from the report are appropriate.
+
+Final concise answer: The CT on 2024-01-30 showed moderate left pleural effusion with adjacent compressive atelectasis [S2]. 
+
+But wait, the computed facts say ""Studies with abnormal findings: 1 (100.0%)"" which confirms it's abnormal. And the report has the impression as ""Moderate left pleural effusion"". 
+
+I think that's covered. No need to overcomplicate - the answer is directly from [S2] which is the study report.
+</think>
+
+The CT on 2024-01-30 showed moderate left pleural effusion with adjacent compressive atelectasis [S2]. This finding is documented as the most recent urgent CT chest study for Sam Taylor (MRN: MRN0007939) on that date [S1]. The report also notes the indication was chest pain and recommends diagnostic thoracentesis if clinically indicated.",0.41248130798339844,309.21866273880005,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","Okay, let me tackle this question step by step. The user is asking about Balendra Balan's uploaded chest X-ray report from 2022-12-07. 
+
+First, I'll check the COMPUTED FACTS section. It says there are 0 matching studies across 0 patients for the filters, but then lists two uploaded documents with dates. Specifically, it mentions a 2022-12-07 Chest X-ray report (doc:322) with findings: ""Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia."" 
+
+Hmm, the COMPUTED FACTS also shows the matching studies count as 0, but that seems contradictory because it lists the document. Wait, no—the note says ""Matching studies: 0 across 0 patients"" but then lists the documents. I think the ""0"" here might be a system error since it explicitly states the document exists. I'll focus on the actual document details.
+
+Now looking at SOURCES: 
+- [S1] (patient profile) confirms there are two uploaded documents, including the 2022-12-07 report.
+- [S2] is the specific report for doc:322 dated 2022-12-07. It has the impression: ""Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia."" 
+- [S3] is the newer report from 2026-05-03, which isn't relevant here.
+
+The key is that [S2] directly provides the conclusion for the 2022-12-07 report. The IMPRESSION section clearly states the finding. I don't need to interpret—just report what's in the source. 
+
+Also, the user asked for ""conclude,"" which in radiology terms means the radiologist's interpretation. Here it's explicitly stated as the impression. 
+
+I should avoid adding anything extra. The COMPUTED FACTS mention the findings but [S2] gives the precise wording. Since [S2] is the source for this report, I'll cite it. 
+
+No other sources contradict this. The answer is straightforward from [S2]. 
+
+Final answer: The report concluded with the impression stated in [S2].
+</think>
+
+The uploaded chest X-ray report for Balendra Balan (MRN: MRN0005565) dated 2022-12-07 concluded: **""Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.""** [S2]  
+
+This conclusion is explicitly stated in the radiology report's impression section for document ID 322. No other sources contradict this finding for the specified date.",0.7805740833282471,166.6340959072113,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"We are looking for a patient with an uploaded chest X-ray report that describes ""copd left base focal atelectasis"".
+
+Let's go through each source to see which one has the description that matches.
+
+Note: The question says ""copd left base focal atelectasis"". We need to check the impression or findings for the presence of COPD and left base focal atelectasis.
+
+[S1]: 
+  Impression: Left lower lobe atelectasis otherwise no acute cardiopulmonary disease.
+  This does not mention COPD. So not matching.
+
+[S2]:
+  Impression: Findings of COPD with right lung base focal atelectasis.
+  This says ""right"" lung base focal atelectasis, not left. So not matching.
+
+[S3]:
+  Impression: Findings of COPD and left base focal atelectasis.
+  This matches: COPD and left base focal atelectasis.
+
+[S4]:
+  Impression: 1. Left basilar atelectasis. 2. No focal airspace consolidation.
+  This does not mention COPD. So not matching.
+
+[S5]:
+  Impression: Minimal left basilar opacity most [redacted] representing atelectasis or chronic scarring.
+  This does not explicitly say COPD. Also, the findings mention ""minimal patchy opacity in left base which may represent atelectasis or scarring"". But the impression does not say COPD. So not matching.
+
+[S6]:
+  Impression: [redacted] opacities in the left base may be compatible with scarring or subsegmental atelectasis.
+  This does not mention COPD. So not matching.
+
+[S7]:
+  Impression: Left base atelectasis. Lungs otherwise clear.
+  This does not mention COPD. So not matching.
+
+[S8]:
+  Impression: Left base focal atelectasis, no infiltrates that would suggest active tuberculosis.
+  This does not mention COPD. So not matching.
+
+Therefore, the only patient that has a report describing ""copd left base focal atelectasis"" is:
+
+Patient: Felicia Wyatt | MRN: MRN0007299 | Patient ID: 7299 | female, age 22
+Document: Chest X-ray report | Type: Radiology | Date: 2026-04-08 | Source: openi
+
+This is from [S3].
+
+But note: The question says ""copd left base focal atelectasis"". In [S3] the impression says ""Findings of COPD and left base focal atelectasis"". So it matches.
+
+However, let's double-check the wording in the question: ""copd left base focal atelectasis"". The report in [S3] says ""left base focal atelectasis"" (which is the same as ""left base focal atelectasis"") and also mentions COPD.
+
+So the answer is Felicia Wyatt.
+
+But note: The question asks ""Which patient"". We have to be precise.
+
+We have one patient: Felicia Wyatt.
+
+Let's write the answer concisely.
+
+Answer: Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report from 2026-04-08 that describes COPD with left base focal atelectasis [S3].
+
+However, note that the date in [S3] is 2026-04-08. This is in the future? But the problem says ""SOURCES"" and we have to take the source as is.
+
+But the rule says: ""Never invent patients, dates, findings or numbers."" So we just report what's in the source.
+
+So the answer is:
+
+Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report from 2026-04-08 that describes COPD and left base focal atelectasis [S3].
+
+But wait: the question says ""copd left base focal atelectasis"". The report in [S3] says ""left base focal atelectasis"" (which is the same as ""left base focal atelectasis"") and also COPD.
+
+We have to be careful: the report in [S3] says: ""Findings of COPD and left base focal atelectasis"".
+
+So it matches.
+
+Let me check if there is any other source that might have it.
+
+[S2] has ""right"" lung base focal atelectasis, so not left.
+
+[S8] has ""left base focal atelectasis"" but without COPD.
+
+So only [S3] has both.
+
+Therefore, the answer is Felicia Wyatt.
+
+We write:
+
+The patient with an uploaded chest X-ray report describing COPD and left base focal atelectasis is Felicia Wyatt (MRN: MRN0007299) [S3].
+
+But note: the question says ""copd left base focal atelectasis"" (without the word ""and""). However, in the context, it's clear we are looking for a report that has both.
+
+Also, the report in [S3] says: ""Findings of COPD and left base focal atelectasis"".
+
+So it's the one.
+
+Let's format the answer as per rules: concise and clinical.
+
+Answer: Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report from 2026-04-08 that describes COPD with left base focal atelectasis [S3].
+
+But note: the rule says ""Be concise and clinical: short paragraphs or bullet points"". So we can write in a sentence.
+
+Also, the date is 2026-04-08? That's in the future. But we take the source as is.
+
+We don't have to worry about the date being in the future because the source says it.
+
+So the answer is:
+
+Felicia Wyatt (MRN: MRN0007299) [S3]
+
+But to be complete, we can write:
+
+There is one patient: Felicia Wyatt (MRN: MRN0007299) with a chest X-ray report from 2026-04-08 that describes COPD and left base focal atelectasis [S3].
+
+However, the rule says: ""COMPUTED FACTS are exact counts from the full database for the question's filters"". But this is not a count question, it's a ""which patient"" question. So we don't have computed facts for this.
+
+We are using the sources.
+
+So we output the patient.
+
+But note: the question says ""which patient"", so we list the patient.
+
+We have only one.
+
+So:
+
+Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report from 2026-04-08 that describes COPD with left base focal atelectasis [S3].
+
+But wait: the source [S3] says: ""Findings of COPD and left base focal atelectasis"". So it's the same.
+
+Let me check the exact wording in the question",16.353227853775024,510.9257528781891,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","We are given a question: ""Summarise Tripti Yogi's Limbic Encephalitis note.""
+
+We have:
+- COMPUTED FACTS: Matching studies: 0 across 0 patients (but note: there is 1 uploaded document for this patient)
+- SOURCES: [S1] to [S4] (all from the same document: doc:5770, but with different sections)
+
+Important: The COMPUTED FACTS say there are 0 matching studies (meaning imaging studies) but there is 1 uploaded document (the note) for this patient.
+
+We are to summarize the note. The note is the uploaded document from 2021-11-15 (doc:5770) which is described in multiple sources [S2], [S3], [S4].
+
+Let's look at the sources:
+
+[S2] and [S3] and [S4] are all for the same document (doc:5770) but with different parts. The note is a neurology document from 2021-11-15.
+
+We are to summarize the note. The note is about Limbic Encephalitis.
+
+Key points from the sources:
+
+- Patient: Tripti Yogi, male, age 66 (note: the patient profile [S1] says age 71, but the document [S2] says age 66. We have to use the most recent or the document's age? The document says ""age 66"" and the patient profile says 71. However, the document is from 2021-11-15 and the patient was born in 1955 (if 66 in 2021) but the profile says 71. This discrepancy might be due to the document being written at a time when the patient was 66 and the profile updated later? But the rule says: ""Never invent patients, dates, findings or numbers"". We have to use the sources as they are.
+
+  However, note: [S1] (patient profile) says: ""male, age 71"". [S2] says: ""male, age 66"". This is a conflict. But the document [S2] is the note from 2021-11-15. The patient profile [S1] might be a more recent profile? But the problem says: ""SOURCES"" and we have to use the sources.
+
+  Since the question is about the note (the document from 2021-11-15), we should use the age as stated in that document: 66.
+
+  Also, the note says: ""He was last seen 7/26/96"" (which is 1996) and the patient was 66 in 2021? That would mean he was born in 1955 (2021-66=1955). But the patient profile [S1] says age 71 (so born in 1950). This is confusing.
+
+  However, the rule says: ""Never invent patients, dates, findings or numbers"". We have to report what the sources say without adding.
+
+  In the document [S3] (which is the same note) it says: ""Patient with a 1-year history of progressive anterograde amnesia"" and the patient was 66 at the time of the note.
+
+  So we'll go with the note's age: 66.
+
+- The note (doc:5770) is a neurology note from 2021-11-15.
+
+- The patient has a 1-year history of progressive anterograde amnesia.
+
+- The clinical presentation: 
+   - On presentation: could not remember anything from one minute to the next (anterograde amnesia), retrograde memory loss (could not remember grandchildren's names), but preserved intellect, language, personality, and calculating ability.
+   - Neurological exam: Alert but disoriented to person, place, time. MMSE 20/30 (with severe deficits in orientation and memory). Category fluency 20. Disinhibited affect. Mild right grasp reflex.
+
+- Imaging: MRI Brain showed hyperintense T2 signal in the mesiotemporal regions bilaterally, with mild enhancement on gadolinium. MRI and CT of chest and abdomen showed no evidence of lymphadenopathy or tumor.
+
+- Other tests: 
+   - EEG: normal awake and asleep.
+   - Antineuronal antibody screening: unremarkable.
+   - CSF studies: unremarkable (including varicella zoster, herpes zoster, HIV, HTLV, cytology).
+   - Stereotactic brain biopsy at Mayo Clinic: showed inflammatory changes, but no organism or etiology.
+   - Blood tests: TFT, B12, VDRL, ESR, CRP, ANA, SPEP, Folate: unremarkable.
+
+- Impression: Limbic encephalitis secondary to cancer of unknown origin.
+
+- Additional note: The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of.
+
+- Also, the patient was last seen on 7/26/96 (which is 1996) - this is a very old date and might be a typo? But we have to report as is.
+
+We are to summarize the note. We don't have to invent anything.
+
+Let's write a concise summary:
+
+The note (2021-11-15) describes a 66-year-old male patient with a 1-year history of progressive anterograde amnesia. Neurological exam revealed disorientation to person, place, and time (MMSE 20/30), disinhibited affect, and mild right grasp reflex. MRI brain showed bilateral mesiotemporal hyperintense T2 signals with mild gadolinium enhancement. Extensive workup (including brain biopsy, EEG, CSF, and blood tests) was unremarkable for specific causes. The diagnosis of limbic encephalitis secondary to cancer of unknown origin was made, with a clinical course described as benign and non-progressive.
+
+But note: the patient profile [S1] says age 71. However, the document [S2] and [S3] and [S4] all state age 66. Since the document is from 2021-11-15, and the patient was 66 at that time, we use 66.
+
+Also, the note says: ""He was last seen 7/26/96"" - this is a very old date (1996) and might be a mistake? But we have to report as per the source.
+
+We are to cite the sources. The note is in [S2], [S3], [S4] (all the same document). We can cite [S3] as it has the impression and the most detailed summary.
+
+But the",2.2689619064331055,502.33491683006287,1.0,1.0,1.0,1.0,,,
+ollama:qwen3:4b,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"We are given a question: ""Which patient had a orthopedic document about: Patient with back and hip pain?""
+
+But note the notes: ""No records match every filter; relaxed the 'abnormal' filter. No records match every filter; relaxed the 'documents' filter.""
+
+The question is asking for a patient who had an orthopedic document about a patient with back and hip pain.
+
+However, looking at the sources (S1 to S8), we see that all studies are for ""Low back pain"" as the indication. There is no mention of hip pain in any of the studies. Also, the question says ""back and hip pain"", but the studies only have ""low back pain"" as the indication.
+
+Moreover, the question asks for an ""orthopedic document"". In the sources, we have:
+- All studies are X-ray spine (lumbar spine) with indications of low back pain.
+- The recommendations for most studies are ""Conservative management"", but one study (S5) has a recommendation for ""DEXA scan and orthopaedic review"", which implies an orthopedic document might be needed.
+
+Let's check each study:
+
+S1: Anusha Raghavan - low back pain, no hip pain mentioned, recommendation: conservative management.
+S2: Neil Watts - low back pain, no hip pain, conservative management.
+S3: Mohamed Ratti - low back pain, no hip pain, conservative management.
+S4: Tamara Ali - low back pain, no hip pain, conservative management.
+S5: Eugene Barman - low back pain, but findings: wedge compression of L4 vertebral body (compression fracture). Recommendation: DEXA scan and orthopaedic review. This suggests an orthopedic document might be generated (for the fracture). However, note the indication is only ""low back pain"", not hip pain.
+S6: Tracey Cheema - low back pain, no hip pain, conservative management.
+S7: Antonio Andra - low back pain, no hip pain, conservative management.
+S8: James Hora - low back pain, no hip pain, conservative management.
+
+The question asks for a patient with ""back and hip pain"". But in all the studies, the indication is only ""low back pain"". There is no study that mentions hip pain.
+
+Also, the note says: ""No records match every filter; relaxed the 'abnormal' filter. No records match every filter; relaxed the 'documents' filter."" This implies that the original filters (for abnormal and documents) were too strict and we relaxed them. But the question is about a patient with back and hip pain.
+
+Given the sources, we don't have any patient with hip pain in the records. The studies only have back pain.
+
+Therefore, the answer should be: There are no patients in the records with both back and hip pain.
+
+But wait, the question says: ""Which patient had a orthopedic document about: Patient with back and hip pain?""
+
+We must be cautious. The orthopedic document might be generated for a patient who had a back problem and then later a hip problem? But the records we have are for a specific study (X-ray spine) with a specific date. The records do not show hip pain.
+
+Also, note that the question says ""orthopedic document"". In the sources, the only study that has a recommendation for orthopedic review is S5 (Eugene Barman). But that patient only has back pain (low back pain) and not hip pain.
+
+So, to answer:
+
+The records do not contain any patient with hip pain. All studies in the provided records have an indication of ""low back pain"" only. Therefore, there is no patient in the records who has both back and hip pain.
+
+But the question asks for ""which patient"". Since there are none, we should say that.
+
+However, the note says: ""No records match every filter; relaxed the 'abnormal' filter. No records match every filter; relaxed the 'documents' filter."" This might mean that we are to consider a relaxed set of filters. But the problem is that the original question requires hip pain, which is not present.
+
+Let me re-read the question: ""Which patient had a orthopedic document about: Patient with back and hip pain?""
+
+It's a bit ambiguous. It might mean: which patient (from the records) had an orthopedic document that was about a patient with back and hip pain? But the records are for a specific study.
+
+Alternatively, it might be asking for a patient who has a record (orthopedic document) that mentions back and hip pain.
+
+But in the provided sources, we don't have any hip pain.
+
+Given the strictness of the sources, I think the answer is that there are no such patients.
+
+But note: the question says ""orthopedic document"". In the records, we have X-ray spine studies. The orthopedic document might be a separate document? However, the sources are the radiology records (studies). The question says ""orthopedic document"", but the sources are radiology studies.
+
+The note says: ""relaxed the 'abnormal' filter"" and ""relaxed the 'documents' filter"". So we are to relax the filters to find patients who might have had an orthopedic document about back and hip pain.
+
+But the problem is that the records we have are for spine X-rays. We don't have hip X-rays or other orthopedic documents.
+
+Given the sources, we can only see the spine X-rays. There is no hip pain mentioned in any of the studies.
+
+Therefore, the answer is: The records do not contain any patient with hip pain. All patients in the records have low back pain only. Hence, there is no patient who had an orthopedic document about a patient with back and hip pain.
+
+But wait, the question says ""had a orthopedic document about"". It might be that the orthopedic document is the one that the radiology report is part of? However, the radiology reports are for spine, not for hip.
+
+Alternatively, the orthopedic document might be a separate document that the radiology report is referring to? But the sources don't show that.
+
+Given the constraints, I think the safe answer is that there are no patients in the records with hip pain.
+
+So, the response should be: The records do not contain any patient with hip pain. All patients in the provided studies have low back pain only. Therefore, no patient meets the criteria of having back and hip pain.
+
+But the question asks for ""which patient"". Since there are none, we say there is none.
+
+Also, note the rule: ""Only if neither the COMPUTED FACTS nor the SOURCES contain the answer, say 'The records do not contain this information.'""
+
+We don't have computed facts for this question (it's not a count, but a specific patient). So we rely on the sources.
+
+Conclusion: The records do not contain any patient with hip pain. Therefore, there is no patient who had an orthopedic document about a patient with back and hip pain.
+
+Let me check if any study mentions hip pain? None of the studies have ""hip"" in the indication or findings.
+
+So, the answer is: The records do not contain this",7.924005746841431,530.232010602951,0.0,0.0,0.0,0.0,,,
+ollama:phi4-mini,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen on 2020-12-23 for Turvi George showed acute appendicitis. [S1], [S2]",0.431093692779541,35.28849124908447,1.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for patient MRN0009548 dated 2022-10-29 indicates centrilobular emphysema in the upper lobes of the lungs. There was no indication of acute abnormality. The patient, Callum Hurst, is a 65-year-old female with a history of epilepsy and a blood group of B+. There were no other imaging studies for this patient on the specified date. The report recommends correlating the findings with pulmonary function tests. An AI model predicted a 'pulmonary embolism' with a confidence of 0.73, but this was not confirmed by the radiologist. The patient had a previous X-ray on 2021-05-08 showing no acute abnormality.",0.46106648445129395,57.87194538116455,0.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine on 2026-02-01, which showed no acute abnormality [S1], [S2].",9.036952257156372,114.45820927619934,1.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,Holly Ayala has 3 X-ray studies.,1.0206482410430908,44.91560077667236,0.0,,1.0,1.0,1.0,,
+ollama:phi4-mini,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","Niharika Lamb (MRN MRN0003876) has 1 imaging study.
+
+Niharika Lamb (MRN MRN0005439) has 4 imaging studies.",1.6738951206207275,55.738688707351685,0.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,Leigh Hensley (MRN: MRN0015373) had an X-ray on 2022-06-03 showing pleural effusion [S1].,3.007535457611084,56.45737314224243,1.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,"101 urgent priority PET-CT studies were performed in 2023 [S1, S2, S3, S4, S5, S6, S7, S8].",8.368980407714844,67.56755876541138,0.0,,1.0,1.0,1.0,,
+ollama:phi4-mini,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.980782985687256,1.049041748046875e-05,0.0,,1.0,1.0,,,
+ollama:phi4-mini,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"Kate Martin had imaging that showed a cerebral infarct on 2022-12-11, which was a CT head scan.",2.7683305740356445,61.709988594055176,0.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Two patients had a suspected liver cancer on an MRI scan in June 2022:
+
+- Baljiwan Valdez (MRN0018798, Patient ID: 18798) with a 5.1 cm arterially enhancing lesion in segment 7 of the liver [S1].
+
+- Stewart Castro (MRN0003993, Patient ID: 3993) with a 4.4 cm arterially enhancing lesion in segment 7 of the liver [S3].",5.807730197906494,72.77685904502869,1.0,0.6666666666666666,1.0,0.0,,,
+ollama:phi4-mini,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,The records do not contain this information.,0.7750895023345947,29.630008935928345,0.0,0.0,0.0,0.0,,,
+ollama:phi4-mini,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,The records do not contain this information.,16.014952182769775,56.65607190132141,0.0,,0.0,0.0,0.0,,
+ollama:phi4-mini,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,The records do not contain this information.,6.757236003875732,86.62983632087708,0.0,,0.0,1.0,,1.0,
+ollama:phi4-mini,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,The CT on 2024-01-30 for Sam Taylor showed a moderate left pleural effusion [S2].,0.3545036315917969,32.456610441207886,1.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report from 2022-12-07 for Balendra Balan concluded with streaky left retrocardiac airspace opacities, which could represent a pneumonia [S2].",0.7396011352539062,34.040342807769775,1.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"The patient with an uploaded chest X-ray report describing COPD left base focal atelectasis is:
+
+- Patient: Felicia Wyatt
+- MRN: MRN0007299
+- Patient ID: 7299
+- Age: 22
+- Document Date: 2026-04-08
+- Source: openi
+
+IMPRESSION: Findings of COPD and left base focal atelectasis.",13.151617765426636,65.26308035850525,0.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","Tripti Yogi, a 71-year-old male with a history of heart failure, was diagnosed with limbic encephalitis secondary to cancer of unknown origin. His most recent imaging studies, including a CT abdomen and MRI Brain, showed no evidence of lymphadenopathy or tumor. His neuropsychologic testing revealed severe anterograde memory loss, consistent with mesiotemporal dysfunction bilaterally. His clinical course was benign and non-progressive. His last recorded status was on 2021-11-15.",2.1013922691345215,70.33488750457764,0.0,1.0,1.0,1.0,,,
+ollama:phi4-mini,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"The patient with an orthopedic document about back and hip pain is Eugene Barman (MRN0008734, Patient ID: 8734), who had an X-ray spine study on 2024-02-15 indicating a wedge compression of the L4 vertebral body with approximately 30% height loss, likely an L4 compression fracture [S5].",7.776752710342407,62.55933618545532,1.0,0.0,1.0,0.0,,,
+ollama:llama3.2:3b,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"According to the computed facts and sources, the Ultrasound abdomen on 2020-12-23 showed:
+
+* Acute appendicitis
+* Dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding.
+
+These findings were confirmed by the study report [S2] and the patient's medical history [S1].",0.3943965435028076,48.601627349853516,1.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for patient MRN0009548 dated 2022-10-29 is as follows:
+
+* The study was a routine X-ray of the chest performed on 2022-10-29 (S2).
+* The findings showed centrilobular emphysema predominantly in the upper lobes (S2).
+* The impression was centrilobular emphysema (S2).
+* The AI model ChestXR-Vision v3.0 predicted 'pulmonary embolism' with a confidence level of 0.73 (S2).
+* The patient's history includes chronic conditions such as epilepsy and a previous L1 compression fracture (S1).
+* The patient's previous studies include a routine X-ray chest on 2026-07-07, which showed no acute abnormality (S1).
+* The patient's previous studies also include an MRI spine on 2025-11-11, which showed a L1 compression fracture likely due to osteoporosis (S1).
+
+The records do not contain this information: the patient's current symptoms or the results of any pulmonary function tests.",0.4741232395172119,56.55841779708862,0.0,1.0,0.0,1.0,,,
+ollama:llama3.2:3b,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was a 2026-02-01 MRI spine (routine, study 78460) with no acute abnormality.
+
+[S2]",10.330689191818237,93.78821921348572,1.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,There were 3 X-ray studies for Holly Ayala.,1.0593700408935547,37.198978900909424,0.0,,1.0,1.0,1.0,,
+ollama:llama3.2:3b,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","For Niharika Lamb (MRN MRN0003876, id 3876), there is 1 imaging study:
+
+* 2023-03-08 CT chest: Findings consistent with left lower lobe pneumonia.
+
+For Niharika Lamb (MRN MRN0005439, id 5439), there are 3 imaging studies:
+
+* 2024-05-11 CT chest: Acute right segmental pulmonary embolism.
+* 2021-11-12 Ultrasound abdomen: Hepatic steatosis.
+* 2020-12-09 CT abdomen: left renal calculus with mild hydronephrosis.",1.7084827423095703,72.20332980155945,0.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"The patient who had a X-ray on 2022-06-03 showing pleural effusion is Leigh Hensley, with MRN: MRN0015373.",3.1400363445281982,50.94399118423462,0.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,There were 101 urgent priority PET-CT studies performed in 2023.,8.375255584716797,54.1627995967865,0.0,,1.0,1.0,1.0,,
+ollama:llama3.2:3b,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,16.832003831863403,3.62396240234375e-05,0.0,,1.0,1.0,,,
+ollama:llama3.2:3b,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"According to the COMPUTED FACTS, Kate Martin had imaging that showed a cerebral infarct on 2022-12-11. The scan was a CT head, and it was classified as an urgent study.
+
+The records do not contain information on the specific type of cerebral infarct (e.g., ischemic stroke, hemorrhagic stroke).",2.9877638816833496,69.52352094650269,0.0,1.0,0.0,1.0,,,
+ollama:llama3.2:3b,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Based on the provided sources, the patients with a suspected liver cancer (arterially enhancing lesion with washout, LI-RADS 5) on a MRI scan in June 2022 are:
+
+* Baljiwan Valdez (study: 85971)
+* Christine Richards (study: 73872)
+* Stewart Castro (study: 17861)
+
+These patients had a final report status and were prioritized as urgent or stat.",6.299479961395264,66.64073657989502,0.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"According to the COMPUTED FACTS, the most recent study (2025-07-31) showed that Jenna Mcclain's fat in the liver remained unchanged compared to the prior study (2025-02-01).",0.855034589767456,40.88286519050598,0.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"There were 3,683 studies across 3,190 patients that reported gallstones in the gallbladder on imaging in 2020.",17.388304710388184,71.5662727355957,0.0,,1.0,0.0,0.0,,
+ollama:llama3.2:3b,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"Based on the provided records, there is no evidence of a slipped disc (disc herniation) on any scan for Steven Srinivasan.
+
+The records do not contain any studies or documents that mention a disc herniation or any other indication of a slipped disc. The most recent studies, including the CT spine study on 2021-06-05 (study:21571) and the X-ray knee study on 2024-05-02 (study:21575), do not show any abnormalities related to the spine.
+
+Therefore, the answer is: The records do not contain this information.",8.187976121902466,103.08736872673035,0.0,,0.0,1.0,,1.0,
+ollama:llama3.2:3b,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,The CT on 2024-01-30 showed a Moderate left pleural effusion with adjacent compressive atelectasis.,0.49698901176452637,28.42122507095337,0.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report from 2022-12-07 concluded that there were streaky retrocardiac left lower lobe opacities, in the correct clinical setting, this could represent a pneumonia. [S2]",0.7914705276489258,28.59219193458557,1.0,1.0,1.0,1.0,,,
+ollama:llama3.2:3b,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"Based on the provided sources, the patient with an uploaded chest X-ray report describing COPD with left base focal atelectasis is:
+
+* Saksham Morrison (MRN: MRN0015934) with a report from [S1] (doc:3605) dated 2020-12-21.
+
+This is the only report that explicitly mentions ""COPD with right lung base focal atelectasis"" as part of the findings.",15.373342990875244,57.643898725509644,1.0,0.0,1.0,0.0,,,
+ollama:llama3.2:3b,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","The Limbic Encephalitis note for Tripti Yogi (Patient ID: 6694) is as follows:
+
+* The patient has a 1-year history of progressive anterograde amnesia, with severe deficits in orientation and memory, and moderate difficulty naming.
+* The patient's clinical course is benign and non-progressive, but unusual for such a diagnosis.
+* The patient's MRI brain revealed hyperintense T2 signal in the mesiotemporal regions bilaterally, with mild enhancement on the gadolinium scans.
+* The patient underwent stereotactic brain biopsy at the Mayo Clinic, which showed inflammatory changes, but no organism or etiology was concluded.
+* The patient's neuropsychologic testing revealed severe anterograde memory loss, and less severe retrograde memory loss.
+* The patient's clinical presentation is consistent with mesiotemporal dysfunction bilaterally.
+* The patient's diagnosis is Limbic Encephalitis secondary to cancer of unknown origin.
+* The patient's last seen date is 7/26/96, with an MMSE score of 20/30 and category fluency of 20.
+* The patient's examination revealed disinhibited affect, mild right grasp reflex, and unremarkable results for blood pressure, heart rate, and respiratory rate.
+
+The records do not contain any information on the patient's current status or any updates to their diagnosis or treatment plan.",2.242528200149536,91.8966372013092,0.0,1.0,0.0,1.0,,,
+ollama:llama3.2:3b,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"Based on the provided sources, there is no record that matches the exact filter criteria for a patient with orthopedic documents about ""Patient with back and hip pain"".",7.326958179473877,48.249940395355225,0.0,0.0,0.0,0.0,,,
+gemini:gemini-3-flash-preview,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen performed on 2020-12-23 for Turvi George showed the following:
+
+*   **Findings**: A dilated, non-compressible appendix measuring 11 mm was identified, accompanied by periappendiceal fat stranding [S2].
+*   **Impression**: Acute appendicitis [S1, S2].
+*   **Recommendation**: Urgent surgical review [S2].
+
+The study was performed stat due to abdominal pain [S2]. An AI model (SonoAssist v1.8) also predicted appendicitis with a confidence of 0.79 [S2].",0.38506269454956055,2.9075794219970703,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The X-ray report for Callum Hurst (MRN0009548) dated 2022-10-29 is summarized below:
+
+*   **Study Type:** X-ray chest (PA and lateral views) [S2].
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Centrilobular emphysematous changes are present, predominantly in the upper lobes [S2].
+*   **Impression:** Centrilobular emphysema [S1, S2].
+*   **Recommendation:** Clinical correlation with pulmonary function tests is recommended [S2].
+*   **AI Analysis:** An AI model predicted pulmonary embolism with a confidence of 0.73 [S2].",0.46094465255737305,2.98873233795166,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine performed on 2026-02-01 [S1, S2].
+
+**Study Details:**
+*   **Indication:** Leg numbness [S2].
+*   **Findings:** Vertebral body heights and alignment are maintained. There is no significant canal or foraminal stenosis [S2].
+*   **Impression:** No acute abnormality [S1, S2].
+*   **Recommendation:** No follow-up imaging required [S2].",9.404215812683105,2.6541600227355957,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,"Holly Ayala has 3 X-ray studies.
+
+*   **2026-01-05**: X-ray chest (routine) [S1, S3]
+*   **2022-04-23**: X-ray chest (urgent) [S1, S4]
+*   **2022-02-10**: X-ray chest (routine) [S1, S2]",0.954857587814331,3.117950916290283,0.0,,1.0,1.0,1.0,,
+gemini:gemini-3-flash-preview,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","There are 4 imaging studies matching the name Niharika Lamb across two different patients.
+
+**Niharika Lamb (MRN MRN0003876)**
+There is 1 imaging study for this patient [S2]:
+*   **2023-03-08**: CT chest. Findings consistent with left lower lobe pneumonia [S2, S4].
+
+**Niharika Lamb (MRN MRN0005439)**
+There are 3 imaging studies for this patient [S1]:
+*   **2024-05-11**: CT chest. Acute right segmental pulmonary embolism [S1, S5].
+*   **2021-11-12**: Ultrasound abdomen. Hepatic steatosis [S1, S3].
+*   **2020-12-09**: CT abdomen. Left renal calculus with mild hydronephrosis [S1, S6].",1.6818480491638184,3.920851230621338,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,"Leigh Hensley (MRN: MRN0015373) had a chest X-ray on 2022-06-03 showing a moderate right pleural effusion [S1].
+
+*   **Findings:** Moderate right pleural effusion with adjacent compressive atelectasis [S1].
+*   **Impression:** Moderate right pleural effusion [S1].
+*   **Recommendation:** Consider diagnostic thoracentesis if clinically indicated [S1].",3.187887191772461,2.8894736766815186,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,"There were 101 such studies performed across 100 patients between 2023-01-01 and 2023-12-28.
+
+**Study Details:**
+*   **Findings:** 100 studies (99.0%) contained abnormal findings. AI-predicted findings included metastatic disease (52) and lymphoma (42).
+*   **Indications:** Studies were primarily performed for cancer staging [S2, S4, S5, S7, S8] or treatment response assessment [S1, S3, S6].
+*   **Clinical Observations:** Reports frequently noted widespread FDG-avid metastatic disease involving the liver and skeleton [S1, S2, S3, S4, S5, S6, S7, S8].
+
+**Representative Cases:**
+*   2023-02-13: Cancer staging; widespread metastatic disease (SUVmax 9.3) [S7].
+*   2023-05-24: Treatment response assessment; widespread metastatic disease (SUVmax 4.3) [S6].
+*   2023-09-03: Cancer staging; widespread metastatic disease (SUVmax 12.3) [S4].
+*   2023-12-08: Treatment response assessment; widespread metastatic disease (SUVmax 5.7) [S1].",8.386882543563843,50.94765901565552,1.0,,1.0,1.0,1.0,,
+gemini:gemini-3-flash-preview,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,13.78650975227356,5.0067901611328125e-06,0.0,,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"Kate Martin had one imaging study that showed a cerebral infarct:
+
+*   **Date:** 2022-12-11 [S1, S2]
+*   **Scan Type:** Urgent CT head [S1, S2]
+*   **Findings:** Hypodensity in the left middle cerebral artery (MCA) territory, consistent with an acute left MCA territory infarct [S2].
+*   **Recommendation:** Stroke team activation [S2].",2.5260169506073,2.4470434188842773,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Three patients had MRI scans in June 2022 with findings suspicious for hepatocellular carcinoma (LI-RADS 5):
+
+*   **Christine Richards (MRN0016182):** 2022-06-18. MRI showed a 3.7 cm arterially enhancing lesion in segment 2 with washout [S2].
+*   **Baljiwan Valdez (MRN0018798):** 2022-06-26. MRI showed a 5.1 cm arterially enhancing lesion in segment 7 with washout [S1].
+*   **Stewart Castro (MRN0003993):** 2022-06-28. MRI showed a 4.4 cm arterially enhancing lesion in segment 7 with washout [S3].",4.852522134780884,3.9610822200775146,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"On the follow-up scan of 2025-07-31, the fat in the liver (hepatic steatosis) stayed the same [S2].
+
+*   **2025-07-31 Ultrasound:** The report notes the findings were unchanged compared to the prior study of 2025-02-01 [S2].
+*   **Findings:** Both the 2025-02-01 and 2025-07-31 scans showed diffusely increased echogenicity consistent with fatty infiltration [S2, S3].
+*   **Recommendation:** Lifestyle modification and monitoring of liver function were recommended in both instances [S2, S3].",0.6236815452575684,2.872591257095337,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"There were 3,190 such patients across 3,683 matching studies in 2020.
+
+Reported cases of cholelithiasis (gallstones) without cholecystitis include:
+*   **Sophia Bhavsar:** 2020-10-04, ultrasound [S6]
+*   **Ricardo Lala:** 2020-10-18, CT [S8]
+*   **Tina Payne:** 2020-11-10, ultrasound [S2]
+*   **Jenna Hopkins:** 2020-11-25, ultrasound [S4]
+*   **Stephanie Sarna:** 2020-11-28, CT [S7]
+*   **Felicia Garcia:** 2020-12-25, CT [S3, S5]
+*   **Manan Davies:** 2020-12-28, ultrasound [S1]
+
+Imaging findings consistently described multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing and no wall thickening [S1, S2, S4, S5, S6, S7, S8]. Reports recommended surgical consultation if the patients are symptomatic [S1, S2, S4, S5, S6, S7, S8].",14.119965314865112,6.167215824127197,1.0,,1.0,0.0,0.0,,
+gemini:gemini-3-flash-preview,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"There were 0 such studies. The records do not contain evidence of a slipped disc (disc herniation, extrusion, or nerve root compression) for Steven Srinivasan.
+
+His imaging history includes one spine-related study:
+*   **2021-06-05 CT spine:** Performed for low back pain, which showed a wedge compression fracture of the L4 vertebral body with approximately 30% height loss, likely osteoporotic [S1, S2]. No disc herniation was noted in the report [S2].
+
+Other imaging studies for this patient (CT head, CT chest, CT abdomen, X-rays of the hand and knee, and ultrasounds of the abdomen and thyroid) did not identify any disc-related abnormalities [S1, S3, S4, S7, S8].",5.867388010025024,3.876328945159912,1.0,,0.0,1.0,,1.0,
+gemini:gemini-3-flash-preview,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The urgent CT chest performed on 2024-01-30 for Sam Taylor showed the following:
+
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Moderate left pleural effusion with adjacent compressive atelectasis [S1, S2].
+*   **Impression:** Moderate left pleural effusion [S2].
+*   **Recommendation:** Consider diagnostic thoracentesis if clinically indicated [S2].",0.29294872283935547,2.474304437637329,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The uploaded chest X-ray report for Balendra Balan dated 2022-12-07 concluded the following:
+
+*   **Impression:** Streaky left retrocardiac airspace opacities, which could represent pneumonia in the appropriate clinical setting [S2].
+*   **Findings:** 
+    *   Streaky retrocardiac left lower lobe opacities [S2].
+    *   No pneumothorax or pleural effusion [S2].
+    *   The cardiac silhouette was within normal limits [S2].",0.5842146873474121,2.4675369262695312,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,"Patient Felicia Wyatt (MRN: MRN0007299) has a chest X-ray report describing these findings.
+
+*   **Date:** 2026-04-08
+*   **Findings:** The report's impression identifies findings of COPD and left base focal atelectasis [S3].",13.252835273742676,3.218956708908081,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","The neurology note dated 2021-11-15 for Tripti Yogi (a 66-year-old male) summarizes a case of limbic encephalitis [S2, S3].
+
+**Clinical Presentation**
+*   **History:** A 1-year history of progressive anterograde amnesia. At presentation, the patient could not retain information from one minute to the next and had moderate retrograde memory loss (e.g., forgetting grandchildren's names) [S4].
+*   **Examination:** Disoriented to person, place, and time. Initial MMSE was 18/30, later 20/30 [S2, S3]. Findings included moderate naming difficulty, disinhibited affect, and a mild right grasp reflex [S2, S3].
+*   **Medical History:** Coronary artery disease (MIs in 1978, 1979), peripheral vascular disease, hypertension, and a history of heavy smoking (2-3 packs per day) [S4].
+
+**Diagnostic Studies**
+*   **Imaging:** MRI of the brain showed hyperintense T2 signals in the bilateral mesiotemporal regions with mild gadolinium enhancement [S3, S4]. CT of the chest and abdomen showed no evidence of tumor or lymphadenopathy [S3].
+*   **Laboratory/CSF:** EEG, antineuronal antibody screening, and CSF studies (including cytology and viral PCRs) were unremarkable. Extensive lab work (B12, TFT, ANA, etc.) was normal [S3].
+*   **Biopsy:** A stereotactic brain biopsy performed at the Mayo Clinic showed inflammatory changes but no specific organism or etiology [S3].
+
+**Impression and Course**
+*   **Diagnosis:** Limbic encephalitis, suspected to be secondary to cancer of unknown origin [S3].
+*   **Clinical Course:** Described as benign and non-progressive, which was noted as unusual for this diagnosis [S3]. The patient was last seen on 1996-07-26 [S3].",1.7979180812835693,21.405641794204712,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3-flash-preview,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,"The records do not contain this information. All provided reports list the indication as ""Low back pain"" only, and none mention hip pain [S1, S2, S3, S4, S5, S6, S7, S8]. One patient, Eugene Barman (MRN0008734), had a recommendation for an orthopaedic review on 2024-02-15 following an L4 compression fracture [S5].",7.442985773086548,3.2246577739715576,1.0,0.0,0.0,0.0,,,
+gemini:gemini-3.1-flash-lite-preview,lookup_by_name,easy,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,Acute appendicitis.,"The Ultrasound abdomen performed on 2020-12-23 for Turvi George showed a dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding [S2]. The impression was acute appendicitis [S1, S2]. 
+
+The report recommends an urgent surgical review [S2].",0.32912564277648926,32.44628190994263,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,lookup_by_mrn,easy,20,Summarise the X-ray report for patient MRN0009548 dated 2022-10-29.,Centrilobular emphysema.,"The records do not contain a study that matches the exact filters provided; however, the following information is available for the X-ray report dated 2022-10-29 for patient Callum Hurst (MRN0009548):
+
+*   **Indication:** Chest pain [S2].
+*   **Findings:** Centrilobular emphysematous changes, predominantly in the upper lobes [S2].
+*   **Impression:** Centrilobular emphysema [S1, S2].
+*   **Recommendation:** Correlate with pulmonary function tests [S2].
+*   **AI Note:** The ChestXR-Vision v3.0 model predicted 'pulmonary embolism' with a confidence of 0.73 [S2].",0.31536412239074707,14.062594413757324,1.0,1.0,0.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,count_patient,easy,60,How many X-ray studies does Holly Ayala have?,3,There were 3 such studies [S1].,0.7932097911834717,12.172453880310059,1.0,,1.0,1.0,1.0,,
+gemini:gemini-3.1-flash-lite-preview,ambiguous_name,easy,80,How many imaging studies does Niharika Lamb have?,"2 different patients: MRN0003876, MRN0005439","There are 4 imaging studies across two patients named Niharika Lamb:
+
+*   **Niharika Lamb (MRN MRN0003876):** 1 imaging study [S2].
+    *   2023-03-08: CT chest (routine), findings consistent with left lower lobe pneumonia [S2, S4].
+*   **Niharika Lamb (MRN MRN0005439):** 3 imaging studies [S1].
+    *   2024-05-11: CT chest (stat), acute right segmental pulmonary embolism [S1, S5].
+    *   2021-11-12: Ultrasound abdomen (routine), hepatic steatosis [S1, S3].
+    *   2020-12-09: CT abdomen (urgent), left renal calculus with mild hydronephrosis [S1, S6].",1.3168447017669678,30.770732164382935,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,semantic,easy,90,Which patient had a X-ray on 2022-06-03 showing pleural effusion?,Leigh Hensley,The patient who had an X-ray on 2022-06-03 showing pleural effusion is Leigh Hensley [S1].,2.5751161575317383,31.746541023254395,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,count_cohort,easy,110,How many urgent priority PET-CT studies were performed in 2023?,101,There were 101 such studies.,7.08031153678894,15.67147183418274,0.0,,1.0,1.0,1.0,,
+gemini:gemini-3.1-flash-lite-preview,not_found,easy,120,Summarise the imaging history of patient Zebulon Quixote.,not found,No patient matching 'Zebulon Quixote' was found in the records.,14.702826261520386,3.0994415283203125e-06,0.0,,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_paraphrase_patient,hard,125,"When did Kate Martin have imaging that showed a cerebral infarct, and what kind of scan was it?",2022-12-11 CT head: Acute left MCA territory infarct.,"There was 1 such study. Kate Martin had a CT head scan on 2022-12-11 that showed an acute left MCA territory infarct [S1, S2].",2.521286725997925,6.476500749588013,0.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_semantic_cohort,hard,145,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"The following patients had MRI findings in June 2022 suspicious for hepatocellular carcinoma (arterially enhancing liver lesion with washout, LI-RADS 5):
+
+*   **Baljiwan Valdez** (2022-06-26): 5.1 cm lesion in segment 7 [S1].
+*   **Christine Richards** (2022-06-18): 3.7 cm lesion in segment 2 [S2].
+*   **Stewart Castro** (2022-06-28): 4.4 cm lesion in segment 7 [S3].
+
+All three reports recommend a multidisciplinary hepatobiliary review [S1, S2, S3].",5.088592052459717,36.08668875694275,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_trend,hard,165,"On the follow-up scan of 2025-07-31, had Jenna Mcclain's fat in the liver improved, worsened or stayed the same?",Unchanged,"On the follow-up scan of 2025-07-31, Jenna Mcclain's hepatic steatosis was noted as unchanged compared to the prior study of 2025-02-01 [S2]. Both studies identified findings consistent with fatty infiltration of the liver [S2, S3].",0.6168398857116699,1.192718267440796,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_count_finding,hard,185,How many patients had stones in the gallbladder reported on imaging in 2020?,72,"The records do not contain this information. While specific instances of cholelithiasis (gallstones) are documented in the provided sources [S1, S2, S3, S4, S5, S6, S7, S8], the total count of unique patients with this finding in 2020 is not available in the computed facts.",14.746289253234863,9.394761085510254,0.0,,0.0,0.0,0.0,,
+gemini:gemini-3.1-flash-lite-preview,hard_typo_name,hard,215,What did the CT on 2024-01-30 show for Sam Taylr?,Moderate left pleural effusion.,"The CT chest performed on 2024-01-30 for Sam Taylor showed a moderate left pleural effusion with adjacent compressive atelectasis [S1, S2]. 
+
+The report recommended considering a diagnostic thoracentesis if clinically indicated [S2].",0.28852367401123047,6.115919589996338,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .","Tripti Yogi’s neurology note from 2021-11-15 summarizes a case of limbic encephalitis [S2, S3].
+
+**Clinical Presentation and History**
+*   The patient presented with a one-year history of rapidly progressive anterograde amnesia and some retrograde memory loss [S4].
+*   Initial cognitive testing showed severe deficits in orientation and memory (MMSE 18/30), though language, judgment, and motor functions were largely preserved [S2, S4].
+*   A follow-up assessment noted a benign, non-progressive clinical course with an MMSE of 20/30, disinhibited affect, and a mild right grasp reflex [S3].
+
+**Diagnostic Findings**
+*   **Imaging:** MRI of the brain revealed bilateral hyperintense T2 signals in the mesiotemporal regions with mild gadolinium enhancement [S3, S4]. CT and MRI of the chest and abdomen showed no evidence of tumor or lymphadenopathy [S3].
+*   **Laboratory/Procedures:** EEG, antineuronal antibody screening, and CSF studies (including infectious and cytology panels) were unremarkable [S3]. Extensive metabolic and autoimmune workups were also negative [S3].
+*   **Biopsy:** A stereotactic brain biopsy showed inflammatory changes, but no specific organism or etiology was identified [S3].
+
+**Impression**
+*   The clinical impression is limbic encephalitis secondary to cancer of unknown origin [S3]. The report notes that the non-progressive clinical course is unusual for this diagnosis [S3].",1.9346034526824951,10.498092412948608,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,The records do not contain this information.,6.302035093307495,1.0862576961517334,0.0,0.0,0.0,0.0,,,
+gemini:gemini-3.1-flash-lite-preview,latest,easy,40,What was the most recent imaging study for Teerth Higgins and what did it show?,No acute abnormality.,"The most recent imaging study for Teerth Higgins was an MRI of the spine performed on 2026-02-01 [S1, S2]. The study showed no acute abnormality, with maintained vertebral body heights and alignment, and no significant canal or foraminal stenosis [S2]. No follow-up imaging was recommended [S2].",9.793392419815063,11.856201648712158,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,hard_negative,hard,195,Has Steven Srinivasan ever had a slipped disc on any scan?,No: none of 8 studies report disc herniation,"There were 0 such studies. The records do not contain any evidence of a slipped disc (disc herniation) for Steven Srinivasan [S1, S2].",5.875786304473877,1.4133687019348145,0.0,,0.0,1.0,,1.0,
+gemini:gemini-3.1-flash-lite-preview,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.","The chest X-ray report for Balendra Balan dated 2022-12-07 concluded that there were streaky left retrocardiac airspace opacities, which could represent pneumonia in the correct clinical setting [S2].",0.5789942741394043,1.327108383178711,1.0,1.0,1.0,1.0,,,
+gemini:gemini-3.1-flash-lite-preview,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,The patient with a chest X-ray report describing COPD and left base focal atelectasis is Felicia Wyatt (MRN: MRN0007299) [S3].,14.068960428237915,53.39065361022949,1.0,1.0,1.0,1.0,,,

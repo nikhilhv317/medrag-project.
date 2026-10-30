@@ -1,0 +1,2090 @@
+[
+  {
+    "type": "lookup_by_name",
+    "question": "What did the Mammography breast on 2022-01-21 show for Jennifer Nanda?",
+    "gold_docs": [
+      "study:83243"
+    ],
+    "facts": [
+      "right",
+      "breast",
+      "calcifications",
+      "bi-rads"
+    ],
+    "answer": "Suspicious right breast calcifications, BI-RADS 4.",
+    "id": 0
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2021-12-22 show for Kerry Hernandez?",
+    "gold_docs": [
+      "study:63570"
+    ],
+    "facts": [
+      "right",
+      "segmental",
+      "pulmonary",
+      "embolism"
+    ],
+    "answer": "Acute right segmental pulmonary embolism.",
+    "id": 1
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT chest on 2024-01-09 show for Deepa Bryant?",
+    "gold_docs": [
+      "study:72912"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 2
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the Ultrasound thyroid on 2023-07-16 show for Lawrence Bell?",
+    "gold_docs": [
+      "study:64459"
+    ],
+    "facts": [
+      "right",
+      "thyroid",
+      "nodule",
+      "ti-rads"
+    ],
+    "answer": "right thyroid nodule, TI-RADS 5.",
+    "id": 3
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2022-10-31 show for Carl Badami?",
+    "gold_docs": [
+      "study:14539"
+    ],
+    "facts": [
+      "left",
+      "pleural",
+      "effusion"
+    ],
+    "answer": "Moderate left pleural effusion.",
+    "id": 4
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray hand on 2022-11-14 show for Gavin Bala?",
+    "gold_docs": [
+      "study:49019"
+    ],
+    "facts": [
+      "minimally",
+      "displaced",
+      "scaphoid",
+      "fracture"
+    ],
+    "answer": "Acute minimally displaced scaphoid fracture.",
+    "id": 5
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the Ultrasound abdomen on 2023-04-22 show for Alec Stewart?",
+    "gold_docs": [
+      "study:42980"
+    ],
+    "facts": [
+      "splenomegaly"
+    ],
+    "answer": "Splenomegaly.",
+    "id": 6
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray hand on 2026-02-05 show for Gaurang Bath?",
+    "gold_docs": [
+      "study:54914"
+    ],
+    "facts": [
+      "osteoarthritis"
+    ],
+    "answer": "Moderate osteoarthritis.",
+    "id": 7
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI abdomen on 2024-08-12 show for Kim Hegde?",
+    "gold_docs": [
+      "study:66505"
+    ],
+    "facts": [
+      "cholelithiasis",
+      "cholecystitis"
+    ],
+    "answer": "Cholelithiasis without cholecystitis.",
+    "id": 8
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2023-04-09 show for Kamala Pratt?",
+    "gold_docs": [
+      "study:1906"
+    ],
+    "facts": [
+      "left",
+      "pneumothorax"
+    ],
+    "answer": "left pneumothorax.",
+    "id": 9
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI knee on 2021-11-22 show for Shelley Farley?",
+    "gold_docs": [
+      "study:68198"
+    ],
+    "facts": [
+      "medial",
+      "meniscus",
+      "posterior",
+      "horn"
+    ],
+    "answer": "Medial meniscus posterior horn tear.",
+    "id": 10
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI brain on 2022-09-29 show for Yauvani Mccarthy?",
+    "gold_docs": [
+      "study:62959"
+    ],
+    "facts": [
+      "chronic",
+      "small",
+      "vessel",
+      "ischaemic"
+    ],
+    "answer": "Chronic small vessel ischaemic change, Fazekas grade 2.",
+    "id": 11
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT abdomen on 2022-11-14 show for Chatresh Hill?",
+    "gold_docs": [
+      "study:42600"
+    ],
+    "facts": [
+      "arterially",
+      "enhancing",
+      "liver",
+      "lesion"
+    ],
+    "answer": "Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.",
+    "id": 12
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray knee on 2024-05-21 show for Yagnesh Ramaswamy?",
+    "gold_docs": [
+      "study:43576"
+    ],
+    "facts": [
+      "medial",
+      "meniscus",
+      "posterior",
+      "horn"
+    ],
+    "answer": "Medial meniscus posterior horn tear.",
+    "id": 13
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI brain on 2026-05-11 show for Charlie Larson?",
+    "gold_docs": [
+      "study:18430"
+    ],
+    "facts": [
+      "left",
+      "basal",
+      "ganglia",
+      "haemorrhage"
+    ],
+    "answer": "Acute left basal ganglia haemorrhage.",
+    "id": 14
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI brain on 2025-07-13 show for Hiral Master?",
+    "gold_docs": [
+      "study:42788"
+    ],
+    "facts": [
+      "left",
+      "basal",
+      "ganglia",
+      "haemorrhage"
+    ],
+    "answer": "Acute left basal ganglia haemorrhage.",
+    "id": 15
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT abdomen on 2021-10-11 show for Anusha Austin?",
+    "gold_docs": [
+      "study:45212"
+    ],
+    "facts": [
+      "right",
+      "renal",
+      "calculus",
+      "hydronephrosis"
+    ],
+    "answer": "right renal calculus with mild hydronephrosis.",
+    "id": 16
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT head on 2023-08-30 show for Susan Greenwood?",
+    "gold_docs": [
+      "study:17539"
+    ],
+    "facts": [
+      "chronic",
+      "small",
+      "vessel",
+      "ischaemic"
+    ],
+    "answer": "Chronic small vessel ischaemic change, Fazekas grade 2.",
+    "id": 17
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2024-01-22 show for Terry Hegde?",
+    "gold_docs": [
+      "study:6725"
+    ],
+    "facts": [
+      "right",
+      "pleural",
+      "effusion"
+    ],
+    "answer": "Moderate right pleural effusion.",
+    "id": 18
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2020-11-20 show for Timothy Dani?",
+    "gold_docs": [
+      "study:61492"
+    ],
+    "facts": [
+      "right",
+      "pneumothorax"
+    ],
+    "answer": "right pneumothorax.",
+    "id": 19
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2026-01-09 show for Holly Evans?",
+    "gold_docs": [
+      "study:2642"
+    ],
+    "facts": [
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 20
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT chest on 2026-02-22 show for Lori Fisher?",
+    "gold_docs": [
+      "study:73642"
+    ],
+    "facts": [
+      "spiculated",
+      "lung",
+      "mass",
+      "primary"
+    ],
+    "answer": "Spiculated lung mass highly suspicious for primary lung malignancy.",
+    "id": 21
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT head on 2024-10-13 show for Bob Gibbs?",
+    "gold_docs": [
+      "study:2279"
+    ],
+    "facts": [
+      "chronic",
+      "small",
+      "vessel",
+      "ischaemic"
+    ],
+    "answer": "Chronic small vessel ischaemic change, Fazekas grade 2.",
+    "id": 22
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2023-04-29 show for Omaja Sani?",
+    "gold_docs": [
+      "study:78890"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 23
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the MRI spine on 2025-10-12 show for Susan Lyons?",
+    "gold_docs": [
+      "study:80478"
+    ],
+    "facts": [
+      "multilevel",
+      "degenerative",
+      "spondylosis"
+    ],
+    "answer": "Multilevel degenerative spondylosis.",
+    "id": 24
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT spine on 2026-01-09 show for Ethan Gould?",
+    "gold_docs": [
+      "study:28966"
+    ],
+    "facts": [
+      "multilevel",
+      "degenerative",
+      "spondylosis"
+    ],
+    "answer": "Multilevel degenerative spondylosis.",
+    "id": 25
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2021-07-26 show for Arthur Mistry?",
+    "gold_docs": [
+      "study:70367"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 26
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the Ultrasound abdomen on 2025-08-03 show for Clifford Martinez?",
+    "gold_docs": [
+      "study:15227"
+    ],
+    "facts": [
+      "right",
+      "renal",
+      "calculus",
+      "hydronephrosis"
+    ],
+    "answer": "right renal calculus with mild hydronephrosis.",
+    "id": 27
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the X-ray chest on 2021-11-17 show for Matthew Setty?",
+    "gold_docs": [
+      "study:41903"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 28
+  },
+  {
+    "type": "lookup_by_name",
+    "question": "What did the CT chest on 2025-07-04 show for Stephanie Jennings?",
+    "gold_docs": [
+      "study:84378"
+    ],
+    "facts": [
+      "right",
+      "lower",
+      "lobe",
+      "pneumonia"
+    ],
+    "answer": "Findings consistent with right lower lobe pneumonia.",
+    "id": 29
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0007563 dated 2026-05-15.",
+    "gold_docs": [
+      "study:34178"
+    ],
+    "facts": [
+      "indeterminate",
+      "pulmonary",
+      "nodule"
+    ],
+    "answer": "Indeterminate 20 mm pulmonary nodule.",
+    "id": 30
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0009754 dated 2025-02-07.",
+    "gold_docs": [
+      "study:44322"
+    ],
+    "facts": [
+      "indeterminate",
+      "pulmonary",
+      "nodule"
+    ],
+    "answer": "Indeterminate 14 mm pulmonary nodule.",
+    "id": 31
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0010685 dated 2025-11-05.",
+    "gold_docs": [
+      "study:48712"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 32
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0003565 dated 2021-11-15.",
+    "gold_docs": [
+      "study:15933"
+    ],
+    "facts": [
+      "hepatic",
+      "steatosis"
+    ],
+    "answer": "Hepatic steatosis.",
+    "id": 33
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0016871 dated 2022-02-13.",
+    "gold_docs": [
+      "study:77068"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "pulmonary",
+      "venous",
+      "congestion"
+    ],
+    "answer": "Cardiomegaly with mild pulmonary venous congestion.",
+    "id": 34
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0002923 dated 2024-11-02.",
+    "gold_docs": [
+      "study:12973"
+    ],
+    "facts": [
+      "simple",
+      "left",
+      "ovarian",
+      "cyst"
+    ],
+    "answer": "Simple left ovarian cyst.",
+    "id": 35
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0019387 dated 2022-01-24.",
+    "gold_docs": [
+      "study:88604"
+    ],
+    "facts": [
+      "cholelithiasis",
+      "cholecystitis"
+    ],
+    "answer": "Cholelithiasis without cholecystitis.",
+    "id": 36
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0004451 dated 2021-08-10.",
+    "gold_docs": [
+      "study:19935"
+    ],
+    "facts": [
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 37
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0000013 dated 2026-07-23.",
+    "gold_docs": [
+      "study:57"
+    ],
+    "facts": [
+      "spiculated",
+      "lung",
+      "mass",
+      "primary"
+    ],
+    "answer": "Spiculated lung mass highly suspicious for primary lung malignancy.",
+    "id": 38
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0000704 dated 2022-03-08.",
+    "gold_docs": [
+      "study:3177"
+    ],
+    "facts": [
+      "arterially",
+      "enhancing",
+      "liver",
+      "lesion"
+    ],
+    "answer": "Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.",
+    "id": 39
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0002988 dated 2022-03-21.",
+    "gold_docs": [
+      "study:13312"
+    ],
+    "facts": [
+      "arterially",
+      "enhancing",
+      "liver",
+      "lesion"
+    ],
+    "answer": "Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.",
+    "id": 40
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the PET-CT report for patient MRN0014502 dated 2026-05-08.",
+    "gold_docs": [
+      "study:66363"
+    ],
+    "facts": [
+      "widespread",
+      "fdg-avid",
+      "metastatic",
+      "disease"
+    ],
+    "answer": "Widespread FDG-avid metastatic disease.",
+    "id": 41
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0008787 dated 2021-06-03.",
+    "gold_docs": [
+      "study:39990"
+    ],
+    "facts": [
+      "hepatic",
+      "steatosis"
+    ],
+    "answer": "Hepatic steatosis.",
+    "id": 42
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the MRI report for patient MRN0000678 dated 2021-11-05.",
+    "gold_docs": [
+      "study:2992"
+    ],
+    "facts": [
+      "chronic",
+      "small",
+      "vessel",
+      "ischaemic"
+    ],
+    "answer": "Chronic small vessel ischaemic change, Fazekas grade 2.",
+    "id": 43
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the PET-CT report for patient MRN0004718 dated 2026-07-14.",
+    "gold_docs": [
+      "study:21087"
+    ],
+    "facts": [
+      "widespread",
+      "fdg-avid",
+      "metastatic",
+      "disease"
+    ],
+    "answer": "Widespread FDG-avid metastatic disease.",
+    "id": 44
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0006559 dated 2023-04-20.",
+    "gold_docs": [
+      "study:29736"
+    ],
+    "facts": [
+      "minimally",
+      "displaced",
+      "distal",
+      "radius"
+    ],
+    "answer": "Acute minimally displaced distal radius fracture.",
+    "id": 45
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0004367 dated 2026-01-30.",
+    "gold_docs": [
+      "study:19535"
+    ],
+    "facts": [
+      "right",
+      "segmental",
+      "pulmonary",
+      "embolism"
+    ],
+    "answer": "Acute right segmental pulmonary embolism.",
+    "id": 46
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0000844 dated 2022-02-20.",
+    "gold_docs": [
+      "study:3868"
+    ],
+    "facts": [
+      "uterine",
+      "fibroid"
+    ],
+    "answer": "Uterine fibroid.",
+    "id": 47
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0000947 dated 2023-01-15.",
+    "gold_docs": [
+      "study:4380"
+    ],
+    "facts": [
+      "left",
+      "segmental",
+      "pulmonary",
+      "embolism"
+    ],
+    "answer": "Acute left segmental pulmonary embolism.",
+    "id": 48
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0019159 dated 2023-01-08.",
+    "gold_docs": [
+      "study:87542"
+    ],
+    "facts": [
+      "compression",
+      "fracture",
+      "osteoporotic"
+    ],
+    "answer": "L3 compression fracture, likely osteoporotic.",
+    "id": 49
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0000237 dated 2020-10-06.",
+    "gold_docs": [
+      "study:1032"
+    ],
+    "facts": [
+      "left",
+      "basal",
+      "ganglia",
+      "haemorrhage"
+    ],
+    "answer": "Acute left basal ganglia haemorrhage.",
+    "id": 50
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the MRI report for patient MRN0003375 dated 2022-01-06.",
+    "gold_docs": [
+      "study:15053"
+    ],
+    "facts": [
+      "left",
+      "renal",
+      "calculus",
+      "hydronephrosis"
+    ],
+    "answer": "left renal calculus with mild hydronephrosis.",
+    "id": 51
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0013455 dated 2021-06-15.",
+    "gold_docs": [
+      "study:61453"
+    ],
+    "facts": [
+      "hepatic",
+      "steatosis"
+    ],
+    "answer": "Hepatic steatosis.",
+    "id": 52
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0012513 dated 2022-02-18.",
+    "gold_docs": [
+      "study:56888"
+    ],
+    "facts": [
+      "appendicitis"
+    ],
+    "answer": "Acute appendicitis.",
+    "id": 53
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0004809 dated 2023-04-08.",
+    "gold_docs": [
+      "study:21508"
+    ],
+    "facts": [
+      "multilevel",
+      "degenerative",
+      "spondylosis"
+    ],
+    "answer": "Multilevel degenerative spondylosis.",
+    "id": 54
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0018645 dated 2024-06-04.",
+    "gold_docs": [
+      "study:85290"
+    ],
+    "facts": [
+      "arterially",
+      "enhancing",
+      "liver",
+      "lesion"
+    ],
+    "answer": "Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.",
+    "id": 55
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0001273 dated 2025-11-26.",
+    "gold_docs": [
+      "study:5861"
+    ],
+    "facts": [
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 56
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the Ultrasound report for patient MRN0003104 dated 2024-03-12.",
+    "gold_docs": [
+      "study:13875"
+    ],
+    "facts": [
+      "uterine",
+      "fibroid"
+    ],
+    "answer": "Uterine fibroid.",
+    "id": 57
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the CT report for patient MRN0009615 dated 2021-07-16.",
+    "gold_docs": [
+      "study:43679"
+    ],
+    "facts": [
+      "left",
+      "pneumothorax"
+    ],
+    "answer": "left pneumothorax.",
+    "id": 58
+  },
+  {
+    "type": "lookup_by_mrn",
+    "question": "Summarise the X-ray report for patient MRN0007187 dated 2025-01-07.",
+    "gold_docs": [
+      "study:32605"
+    ],
+    "facts": [
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 59
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Manbir Powell and what did it show?",
+    "gold_docs": [
+      "study:74766"
+    ],
+    "facts": [
+      "2026-05-17",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 60
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Laksh Cook and what did it show?",
+    "gold_docs": [
+      "study:62426"
+    ],
+    "facts": [
+      "2026-03-09",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 61
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Andrea Oza and what did it show?",
+    "gold_docs": [
+      "study:60543"
+    ],
+    "facts": [
+      "2026-01-25",
+      "left",
+      "pneumothorax"
+    ],
+    "answer": "left pneumothorax.",
+    "id": 62
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Yauvani Lamb and what did it show?",
+    "gold_docs": [
+      "study:67984"
+    ],
+    "facts": [
+      "2025-09-03",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 63
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Jonathon Davis and what did it show?",
+    "gold_docs": [
+      "study:78401"
+    ],
+    "facts": [
+      "2026-06-12",
+      "right",
+      "pneumothorax"
+    ],
+    "answer": "right pneumothorax.",
+    "id": 64
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Deborah Butala and what did it show?",
+    "gold_docs": [
+      "study:25410"
+    ],
+    "facts": [
+      "2026-09-24",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 65
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Diamond Kalita and what did it show?",
+    "gold_docs": [
+      "study:24674"
+    ],
+    "facts": [
+      "2026-08-26",
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 66
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Unnati Doshi and what did it show?",
+    "gold_docs": [
+      "study:68537"
+    ],
+    "facts": [
+      "2026-08-19",
+      "centrilobular",
+      "emphysema"
+    ],
+    "answer": "Centrilobular emphysema.",
+    "id": 67
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Ethan Clark and what did it show?",
+    "gold_docs": [
+      "study:63802"
+    ],
+    "facts": [
+      "2024-12-06",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 68
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Patricia Hawkins and what did it show?",
+    "gold_docs": [
+      "study:84211"
+    ],
+    "facts": [
+      "2026-03-14",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 69
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Nicole Wilkerson and what did it show?",
+    "gold_docs": [
+      "study:82052"
+    ],
+    "facts": [
+      "2026-07-31",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 70
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Nicolas Pillay and what did it show?",
+    "gold_docs": [
+      "study:24915"
+    ],
+    "facts": [
+      "2025-04-21",
+      "complete",
+      "tear"
+    ],
+    "answer": "Complete ACL tear.",
+    "id": 71
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Sara Ellis and what did it show?",
+    "gold_docs": [
+      "study:12511"
+    ],
+    "facts": [
+      "2026-07-29",
+      "splenomegaly"
+    ],
+    "answer": "Splenomegaly.",
+    "id": 72
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Kirk Rhodes and what did it show?",
+    "gold_docs": [
+      "study:59809"
+    ],
+    "facts": [
+      "2026-07-30",
+      "chronic",
+      "small",
+      "vessel"
+    ],
+    "answer": "Chronic small vessel ischaemic change, Fazekas grade 2.",
+    "id": 73
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Riya Parsons and what did it show?",
+    "gold_docs": [
+      "study:40808"
+    ],
+    "facts": [
+      "2025-06-19",
+      "left",
+      "segmental",
+      "pulmonary"
+    ],
+    "answer": "Acute left segmental pulmonary embolism.",
+    "id": 74
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Liam Sha and what did it show?",
+    "gold_docs": [
+      "study:18859"
+    ],
+    "facts": [
+      "2026-05-26",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 75
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Molly Burton and what did it show?",
+    "gold_docs": [
+      "study:12058"
+    ],
+    "facts": [
+      "2025-10-29",
+      "hepatic",
+      "steatosis"
+    ],
+    "answer": "Hepatic steatosis.",
+    "id": 76
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Mason Wilson and what did it show?",
+    "gold_docs": [
+      "study:72082"
+    ],
+    "facts": [
+      "2026-06-20",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 77
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Lindsey Agarwal and what did it show?",
+    "gold_docs": [
+      "study:84759"
+    ],
+    "facts": [
+      "2026-09-26",
+      "appendicitis"
+    ],
+    "answer": "Acute appendicitis.",
+    "id": 78
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Eleanor Bawa and what did it show?",
+    "gold_docs": [
+      "study:5817"
+    ],
+    "facts": [
+      "2024-09-09",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 79
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Travis Sami and what did it show?",
+    "gold_docs": [
+      "study:79438"
+    ],
+    "facts": [
+      "2026-09-01",
+      "minimally",
+      "displaced",
+      "distal"
+    ],
+    "answer": "Acute minimally displaced distal radius fracture.",
+    "id": 80
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Beth Nayar and what did it show?",
+    "gold_docs": [
+      "study:53220"
+    ],
+    "facts": [
+      "2023-05-24",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 81
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Warinder Adams and what did it show?",
+    "gold_docs": [
+      "study:60740"
+    ],
+    "facts": [
+      "2026-07-31",
+      "minimally",
+      "displaced",
+      "tibial"
+    ],
+    "answer": "Acute minimally displaced tibial plateau fracture.",
+    "id": 82
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Ronith Barber and what did it show?",
+    "gold_docs": [
+      "study:87210"
+    ],
+    "facts": [
+      "2025-12-18",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 83
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Zinal Loke and what did it show?",
+    "gold_docs": [
+      "study:82232"
+    ],
+    "facts": [
+      "2024-12-30",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 84
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Gerard Basak and what did it show?",
+    "gold_docs": [
+      "study:86775"
+    ],
+    "facts": [
+      "2026-06-22",
+      "left",
+      "pneumothorax"
+    ],
+    "answer": "left pneumothorax.",
+    "id": 85
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Anthony Kota and what did it show?",
+    "gold_docs": [
+      "study:20930"
+    ],
+    "facts": [
+      "2025-05-23",
+      "osteoarthritis"
+    ],
+    "answer": "Moderate osteoarthritis.",
+    "id": 86
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Wayne Pradhan and what did it show?",
+    "gold_docs": [
+      "study:83290"
+    ],
+    "facts": [
+      "2026-08-26",
+      "left",
+      "territory",
+      "infarct"
+    ],
+    "answer": "Acute left MCA territory infarct.",
+    "id": 87
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Bahadurjit Thompson and what did it show?",
+    "gold_docs": [
+      "study:2073"
+    ],
+    "facts": [
+      "2026-01-21",
+      "hepatic",
+      "steatosis"
+    ],
+    "answer": "Hepatic steatosis.",
+    "id": 88
+  },
+  {
+    "type": "latest",
+    "question": "What was the most recent imaging study for Claire Wright and what did it show?",
+    "gold_docs": [
+      "study:70672"
+    ],
+    "facts": [
+      "2025-03-14",
+      "abnormality"
+    ],
+    "answer": "No acute abnormality.",
+    "id": 89
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Anirudh Valdez have?",
+    "gold_docs": [
+      "patient:1875"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 90
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Barkha Badal have?",
+    "gold_docs": [
+      "patient:1772"
+    ],
+    "facts": [],
+    "number": 8,
+    "answer": "8",
+    "id": 91
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Sai Clark have?",
+    "gold_docs": [
+      "patient:1068"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 92
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Chakradev Floyd have?",
+    "gold_docs": [
+      "patient:5664"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 93
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Jeffery Woodward have?",
+    "gold_docs": [
+      "patient:7173"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 94
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Reyansh Verma have?",
+    "gold_docs": [
+      "patient:17499"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 95
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Sean Chadwick have?",
+    "gold_docs": [
+      "patient:900"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 96
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Sheila Baxter have?",
+    "gold_docs": [
+      "patient:13617"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 97
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Mitesh Sawhney have?",
+    "gold_docs": [
+      "patient:9632"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 98
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Jesus Brown have?",
+    "gold_docs": [
+      "patient:12925"
+    ],
+    "facts": [],
+    "number": 6,
+    "answer": "6",
+    "id": 99
+  },
+  {
+    "type": "count_patient",
+    "question": "How many MRI studies does Vanessa James have?",
+    "gold_docs": [
+      "patient:17256"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 100
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Naomi Sawhney have?",
+    "gold_docs": [
+      "patient:5815"
+    ],
+    "facts": [],
+    "number": 1,
+    "answer": "1",
+    "id": 101
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Aarna Natarajan have?",
+    "gold_docs": [
+      "patient:15165"
+    ],
+    "facts": [],
+    "number": 5,
+    "answer": "5",
+    "id": 102
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Anita Fischer have?",
+    "gold_docs": [
+      "patient:6931"
+    ],
+    "facts": [],
+    "number": 5,
+    "answer": "5",
+    "id": 103
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Malcolm Bawa have?",
+    "gold_docs": [
+      "patient:18696"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 104
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Ganga Ballard have?",
+    "gold_docs": [
+      "patient:8677"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 105
+  },
+  {
+    "type": "count_patient",
+    "question": "How many Ultrasound studies does Garry Johnson have?",
+    "gold_docs": [
+      "patient:14615"
+    ],
+    "facts": [],
+    "number": 4,
+    "answer": "4",
+    "id": 106
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Sean Simpson have?",
+    "gold_docs": [
+      "patient:132"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 107
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Neelima Chakrabarti have?",
+    "gold_docs": [
+      "patient:19320"
+    ],
+    "facts": [],
+    "number": 6,
+    "answer": "6",
+    "id": 108
+  },
+  {
+    "type": "count_patient",
+    "question": "How many Ultrasound studies does Indira Gulati have?",
+    "gold_docs": [
+      "patient:2540"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 109
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Brinda Jha have?",
+    "gold_docs": [
+      "patient:13425"
+    ],
+    "facts": [],
+    "number": 4,
+    "answer": "4",
+    "id": 110
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Eugene Ramakrishnan have?",
+    "gold_docs": [
+      "patient:19106"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 111
+  },
+  {
+    "type": "count_patient",
+    "question": "How many MRI studies does Lisa Ball have?",
+    "gold_docs": [
+      "patient:8218"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 112
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Damian Wilson have?",
+    "gold_docs": [
+      "patient:11987"
+    ],
+    "facts": [],
+    "number": 4,
+    "answer": "4",
+    "id": 113
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Lori Fisher have?",
+    "gold_docs": [
+      "patient:16125"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 114
+  },
+  {
+    "type": "count_patient",
+    "question": "How many Ultrasound studies does Niharika Harrison have?",
+    "gold_docs": [
+      "patient:2494"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 115
+  },
+  {
+    "type": "count_patient",
+    "question": "How many X-ray studies does Kimberley Trivedi have?",
+    "gold_docs": [
+      "patient:7538"
+    ],
+    "facts": [],
+    "number": 2,
+    "answer": "2",
+    "id": 116
+  },
+  {
+    "type": "count_patient",
+    "question": "How many Ultrasound studies does Arin Gregory have?",
+    "gold_docs": [
+      "patient:9308"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 117
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Krista Hopkins have?",
+    "gold_docs": [
+      "patient:6818"
+    ],
+    "facts": [],
+    "number": 3,
+    "answer": "3",
+    "id": 118
+  },
+  {
+    "type": "count_patient",
+    "question": "How many CT studies does Philip Ganesan have?",
+    "gold_docs": [
+      "patient:14995"
+    ],
+    "facts": [],
+    "number": 1,
+    "answer": "1",
+    "id": 119
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2021-05-11 showing cardiomegaly?",
+    "gold_docs": [
+      "study:57705"
+    ],
+    "facts": [
+      "kristen"
+    ],
+    "answer": "Kristen Francis",
+    "id": 120
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2026-07-07 showing small vessel disease?",
+    "gold_docs": [
+      "study:12178"
+    ],
+    "facts": [
+      "breanna"
+    ],
+    "answer": "Breanna Mcguire",
+    "id": 121
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2024-06-30 showing cardiomegaly?",
+    "gold_docs": [
+      "study:802"
+    ],
+    "facts": [
+      "xalak"
+    ],
+    "answer": "Xalak Chamberlain",
+    "id": 122
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a MRI on 2022-12-10 showing intracranial haemorrhage?",
+    "gold_docs": [
+      "study:86191"
+    ],
+    "facts": [
+      "onkar"
+    ],
+    "answer": "Onkar Swanson",
+    "id": 123
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2023-11-02 showing cardiomegaly?",
+    "gold_docs": [
+      "study:48965"
+    ],
+    "facts": [
+      "patricia"
+    ],
+    "answer": "Patricia Brookes",
+    "id": 124
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2023-07-22 showing ACL tear?",
+    "gold_docs": [
+      "study:17831"
+    ],
+    "facts": [
+      "denise"
+    ],
+    "answer": "Denise Pace",
+    "id": 125
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2021-07-11 showing gallstones?",
+    "gold_docs": [
+      "study:30775"
+    ],
+    "facts": [
+      "aachal"
+    ],
+    "answer": "Aachal Mohan",
+    "id": 126
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2025-01-14 showing cardiomegaly?",
+    "gold_docs": [
+      "study:77825"
+    ],
+    "facts": [
+      "jasmine"
+    ],
+    "answer": "Jasmine Marsh",
+    "id": 127
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2025-06-24 showing hepatic steatosis?",
+    "gold_docs": [
+      "study:58307"
+    ],
+    "facts": [
+      "summer"
+    ],
+    "answer": "Summer Gera",
+    "id": 128
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2024-11-28 showing pulmonary embolism?",
+    "gold_docs": [
+      "study:51171"
+    ],
+    "facts": [
+      "rachita"
+    ],
+    "answer": "Rachita Dawson",
+    "id": 129
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2025-03-04 showing ovarian cyst?",
+    "gold_docs": [
+      "study:13489"
+    ],
+    "facts": [
+      "courtney"
+    ],
+    "answer": "Courtney Whitaker",
+    "id": 130
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2022-05-21 showing lung?",
+    "gold_docs": [
+      "study:58321"
+    ],
+    "facts": [
+      "tina"
+    ],
+    "answer": "Tina Lall",
+    "id": 131
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2024-09-24 showing osteoarthritis?",
+    "gold_docs": [
+      "study:23964"
+    ],
+    "facts": [
+      "adam"
+    ],
+    "answer": "Adam Lall",
+    "id": 132
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2021-03-29 showing disc herniation?",
+    "gold_docs": [
+      "study:10616"
+    ],
+    "facts": [
+      "jerry"
+    ],
+    "answer": "Jerry Becker",
+    "id": 133
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2025-10-05 showing lung mass?",
+    "gold_docs": [
+      "study:58068"
+    ],
+    "facts": [
+      "denis"
+    ],
+    "answer": "Denis James",
+    "id": 134
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2025-08-16 showing small vessel disease?",
+    "gold_docs": [
+      "study:62092"
+    ],
+    "facts": [
+      "denise"
+    ],
+    "answer": "Denise Dixit",
+    "id": 135
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2023-06-09 showing splenomegaly?",
+    "gold_docs": [
+      "study:49209"
+    ],
+    "facts": [
+      "erin"
+    ],
+    "answer": "Erin Ganesan",
+    "id": 136
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2023-04-09 showing compression fracture?",
+    "gold_docs": [
+      "study:56381"
+    ],
+    "facts": [
+      "rosie"
+    ],
+    "answer": "Rosie Banks",
+    "id": 137
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2025-06-23 showing intracranial haemorrhage?",
+    "gold_docs": [
+      "study:37126"
+    ],
+    "facts": [
+      "bradley"
+    ],
+    "answer": "Bradley Khare",
+    "id": 138
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2025-05-04 showing osteoarthritis?",
+    "gold_docs": [
+      "study:41302"
+    ],
+    "facts": [
+      "marcia"
+    ],
+    "answer": "Marcia Banik",
+    "id": 139
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2026-01-26 showing pleural effusion?",
+    "gold_docs": [
+      "study:63458"
+    ],
+    "facts": [
+      "henry"
+    ],
+    "answer": "Henry Mcgee",
+    "id": 140
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2023-12-27 showing appendicitis?",
+    "gold_docs": [
+      "study:52359"
+    ],
+    "facts": [
+      "amanda"
+    ],
+    "answer": "Amanda Prakash",
+    "id": 141
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2021-01-20 showing fracture?",
+    "gold_docs": [
+      "study:91216"
+    ],
+    "facts": [
+      "ubika"
+    ],
+    "answer": "Ubika Larson",
+    "id": 142
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2024-12-28 showing thyroid nodule?",
+    "gold_docs": [
+      "study:553"
+    ],
+    "facts": [
+      "yashica"
+    ],
+    "answer": "Yashica Cardenas",
+    "id": 143
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2022-09-11 showing emphysema?",
+    "gold_docs": [
+      "study:13786"
+    ],
+    "facts": [
+      "norma"
+    ],
+    "answer": "Norma Gola",
+    "id": 144
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a CT on 2025-03-03 showing intracranial haemorrhage?",
+    "gold_docs": [
+      "study:36935"
+    ],
+    "facts": [
+      "alec"
+    ],
+    "answer": "Alec Davis",
+    "id": 145
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2024-01-09 showing lung mass?",
+    "gold_docs": [
+      "study:44241"
+    ],
+    "facts": [
+      "kelly"
+    ],
+    "answer": "Kelly Moss",
+    "id": 146
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a X-ray on 2026-04-08 showing pulmonary embolism?",
+    "gold_docs": [
+      "study:35891"
+    ],
+    "facts": [
+      "lajita"
+    ],
+    "answer": "Lajita Reed",
+    "id": 147
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a Ultrasound on 2023-11-26 showing splenomegaly?",
+    "gold_docs": [
+      "study:31494"
+    ],
+    "facts": [
+      "laura"
+    ],
+    "answer": "Laura Kalita",
+    "id": 148
+  },
+  {
+    "type": "semantic",
+    "question": "Which patient had a PET-CT on 2024-07-02 showing lymphoma?",
+    "gold_docs": [
+      "study:71891"
+    ],
+    "facts": [
+      "benjamin"
+    ],
+    "answer": "Benjamin Rattan",
+    "id": 149
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many stat priority CT studies were performed in 2020?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 151,
+    "answer": "151",
+    "id": 150
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many urgent priority CT studies were performed in 2023?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 677,
+    "answer": "677",
+    "id": 151
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many stat priority CT studies were performed in 2023?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 570,
+    "answer": "570",
+    "id": 152
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many stat priority PET-CT studies were performed in 2026?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 134,
+    "answer": "134",
+    "id": 153
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many stat priority MRI studies were performed in 2021?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 272,
+    "answer": "272",
+    "id": 154
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many urgent priority Ultrasound studies were performed in 2023?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 433,
+    "answer": "433",
+    "id": 155
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many stat priority CT studies were performed in 2023?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 570,
+    "answer": "570",
+    "id": 156
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many urgent priority PET-CT studies were performed in 2026?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 96,
+    "answer": "96",
+    "id": 157
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many urgent priority CT studies were performed in 2022?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 682,
+    "answer": "682",
+    "id": 158
+  },
+  {
+    "type": "count_cohort",
+    "question": "How many urgent priority CT studies were performed in 2022?",
+    "gold_docs": [],
+    "facts": [],
+    "number": 682,
+    "answer": "682",
+    "id": 159
+  },
+  {
+    "type": "not_found",
+    "question": "Summarise the imaging history of patient Zebulon Quixote.",
+    "gold_docs": [],
+    "facts": [],
+    "abstain": true,
+    "answer": "not found",
+    "id": 160
+  },
+  {
+    "type": "not_found",
+    "question": "Summarise the imaging history of patient Marigold Featherstone.",
+    "gold_docs": [],
+    "facts": [],
+    "abstain": true,
+    "answer": "not found",
+    "id": 161
+  },
+  {
+    "type": "not_found",
+    "question": "Summarise the imaging history of patient Thaddeus Wobblebottom.",
+    "gold_docs": [],
+    "facts": [],
+    "abstain": true,
+    "answer": "not found",
+    "id": 162
+  },
+  {
+    "type": "not_found",
+    "question": "Summarise the imaging history of patient Xiomara Pemberton-Lake.",
+    "gold_docs": [],
+    "facts": [],
+    "abstain": true,
+    "answer": "not found",
+    "id": 163
+  },
+  {
+    "type": "not_found",
+    "question": "Summarise the imaging history of patient Ignatius Fernsby.",
+    "gold_docs": [],
+    "facts": [],
+    "abstain": true,
+    "answer": "not found",
+    "id": 164
+  }
+]
