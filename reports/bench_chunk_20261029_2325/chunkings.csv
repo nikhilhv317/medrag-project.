@@ -1,0 +1,7 @@
+chunking,chunks,mean_words,max_words,doc_chunks_per_document,build_s
+section-220,15749,119,313,1.99,4.7
+section-120,24124,97,302,4.0,71.4
+section-350,13408,129,426,1.43,34.0
+recursive-220-o40,16422,125,313,2.15,84.8
+recursive-220-o0,15404,117,313,1.91,72.6
+recursive-120-o20,27259,100,217,4.75,103.1

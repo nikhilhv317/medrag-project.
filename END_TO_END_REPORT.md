@@ -2,7 +2,7 @@
 
 Retrieval-augmented question answering over hospital imaging records, from raw data to evaluated answers and production controls. This file is the single, complete account in pipeline order: data → cleaning → chunking → embedding and indexing → retrieval → answering → evaluation (methods, metrics, every result) → production → limits. `PROJECT_REPORT.md` holds the same work with more code-level detail (Part II) and practical notes (Part III); section numbers in brackets (§20.10) point there.
 
-Repository: https://github.com/NikhilHV-Visukhi/medrag (branch `main`). Report date: 2026-10-30.
+Repository: https://github.com/nikhilhv317/medrag-project. (the name ends in a dot; branch `main`). Report date: 2026-10-30.
 
 ---
 
@@ -746,10 +746,11 @@ uv pip install torch --torch-backend=auto
 uv pip install -r requirements.txt
 copy .env.example .env          # set DATA_BACKEND=parquet and your own keys; never commit .env
 
-# data and index
+# data and index (data/ and reports/ come with the clone; indexes/ is too large for GitHub)
+python -m medrag index          # build the index from the clean data
+# or regenerate everything from scratch:
 python -m medrag pipeline       # generate -> check -> clean -> index
-python -m medrag documents      # Open-i + MTSamples (download them first)
-python -m medrag index          # only new chunks are embedded
+python -m medrag documents      # Open-i + MTSamples
 
 # use it
 python -m medrag ask "What was the most recent imaging study for <name>?"
@@ -769,4 +770,4 @@ python -m medrag eval --save-baseline          # then --gate baseline.json in CI
 python -m pytest -q
 ```
 
-Fixed seeds: data 7, document linking 13, test set 11 (hard +1, documents +2), review sample 5, bootstrap 0, "now" 2026-10-01. With the same code, data files, seeds and package versions, the data, chunks, questions and retrieval metrics come out the same; LLM answers can vary slightly even at temperature 0.1. Data, indexes and `reports/` are git-ignored: they are rebuilt with the commands above.
+Fixed seeds: data 7, document linking 13, test set 11 (hard +1, documents +2), review sample 5, bootstrap 0, "now" 2026-10-01. With the same code, data files, seeds and package versions, the data, chunks, questions and retrieval metrics come out the same; LLM answers can vary slightly even at temperature 0.1. `data/` and `reports/` (every evaluation run cited here) are in the repository; `indexes/` is git-ignored and rebuilt with the commands above.

@@ -1,0 +1,172 @@
+﻿.venv\Scripts\python.exe : 
+At line:1 char:356
++ ... NG='utf-8'; .venv\Scripts\python.exe -m medrag eval --skip-retrieval  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3505.85it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+313 test questions -> D:\medrag_transfer\reports\eval_20261030_2218\testset.json (hand-check sample: golden_review.csv)
+
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   0%|          | 0/54 [00:00<?, ?it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s][A
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 21718.71it/s]
+
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   2%|▏         | 1/54 [00:03<03:30,  3.97s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   4%|▎         | 2/54 [00:08<03:44,  4.31s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   6%|▌         | 3/54 [00:10<02:46,  3.27s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   7%|▋         | 4/54 [00:12<02:26,  2.93s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:   9%|▉         | 5/54 [00:14<02:07,  2.60s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  11%|█         | 6/54 [00:25<04:06,  5.13s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  13%|█▎        | 7/54 [00:40<06:44,  8.60s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  15%|█▍        | 8/54 [00:43<05:08,  6.71s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  17%|█▋        | 9/54 [00:46<04:06,  5.48s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  19%|█▊        | 10/54 [00:48<03:21,  4.58s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  20%|██        | 11/54 [00:50<02:42,  3.77s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  22%|██▏       | 12/54 [00:52<02:13,  3.18s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  24%|██▍       | 13/54 [00:55<02:07,  3.11s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  26%|██▌       | 14/54 [00:57<01:52,  2.80s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  28%|██▊       | 15/54 [01:00<01:49,  2.82s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  30%|██▉       | 16/54 [01:19<04:56,  7.80s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  31%|███▏      | 17/54 [01:25<04:20,  7.04s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  33%|███▎      | 18/54 [01:42<06:06, 10.17s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  35%|███▌      | 19/54 [01:45<04:44,  8.13s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  37%|███▋      | 20/54 [01:55<04:55,  8.70s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  39%|███▉      | 21/54 [01:58<03:43,  6.78s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  41%|████      | 22/54 [02:00<02:51,  5.35s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  43%|████▎     | 23/54 [02:03<02:30,  4.85s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  44%|████▍     | 24/54 [02:05<01:55,  3.84s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  46%|████▋     | 25/54 [02:07<01:33,  3.21s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  48%|████▊     | 26/54 [02:11<01:38,  3.52s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  50%|█████     | 27/54 [02:13<01:23,  3.08s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  52%|█████▏    | 28/54 [02:16<01:17,  2.98s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  54%|█████▎    | 29/54 [02:19<01:18,  3.15s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  56%|█████▌    | 30/54 [02:21<01:08,  2.85s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  57%|█████▋    | 31/54 [02:23<00:57,  2.48s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  59%|█████▉    | 32/54 [02:25<00:51,  2.36s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  61%|██████    | 33/54 [02:38<01:55,  5.49s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  63%|██████▎   | 34/54 [02:42<01:39,  4.99s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  65%|██████▍   | 35/54 [02:44<01:19,  4.21s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  67%|██████▋   | 36/54 [02:47<01:07,  3.74s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  69%|██████▊   | 37/54 [02:50<00:58,  3.44s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  70%|███████   | 38/54 [03:08<02:06,  7.88s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  72%|███████▏  | 39/54 [03:12<01:42,  6.81s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  74%|███████▍  | 40/54 [03:14<01:13,  5.26s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  76%|███████▌  | 41/54 [03:15<00:54,  4.20s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  78%|███████▊  | 42/54 [03:18<00:43,  3.65s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  80%|███████▉  | 43/54 [03:19<00:33,  3.04s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  81%|████████▏ | 44/54 [03:21<00:26,  2.65s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  83%|████████▎ | 45/54 [03:23<00:20,  2.30s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  85%|████████▌ | 46/54 [03:26<00:19,  2.49s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  87%|████████▋ | 47/54 [03:30<00:21,  3.00s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  89%|████████▉ | 48/54 [03:32<00:16,  2.83s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  91%|█████████ | 49/54 [03:35<00:13,  2.72s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  93%|█████████▎| 50/54 [03:39<00:12,  3.07s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  94%|█████████▍| 51/54 [03:45<00:12,  4.23s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  96%|█████████▋| 52/54 [04:01<00:15,  7.65s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b:  98%|█████████▊| 53/54 [04:05<00:06,  6.52s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b: 100%|██████████| 54/54 [04:08<00:00,  5.36s/it]
+answers | nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b: 100%|██████████| 54/54 [04:08<00:00,  4.60s/it]
+
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   0%|          | 0/54 [00:00<?, ?it/s]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   2%|▏         | 1/54 [00:02<01:51,  2.11s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   4%|▎         | 2/54 [00:04<01:45,  2.03s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   6%|▌         | 3/54 [00:05<01:39,  1.95s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   7%|▋         | 4/54 [00:08<01:55,  2.31s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:   9%|▉         | 5/54 [00:11<01:59,  2.43s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  11%|█         | 6/54 [00:14<02:12,  2.77s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  13%|█▎        | 7/54 [00:16<01:56,  2.48s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  15%|█▍        | 8/54 [00:21<02:24,  3.13s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  17%|█▋        | 9/54 [00:23<02:07,  2.83s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  19%|█▊        | 10/54 [00:24<01:46,  2.42s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  20%|██        | 11/54 [00:28<01:54,  2.66s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  22%|██▏       | 12/54 [00:47<05:28,  7.82s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  24%|██▍       | 13/54 [00:56<05:26,  7.97s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  26%|██▌       | 14/54 [00:58<04:08,  6.22s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  28%|██▊       | 15/54 [01:01<03:32,  5.45s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  30%|██▉       | 16/54 [01:05<03:07,  4.93s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  31%|███▏      | 17/54 [01:08<02:35,  4.20s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  33%|███▎      | 18/54 [01:10<02:06,  3.50s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  35%|███▌      | 19/54 [01:12<01:52,  3.22s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  37%|███▋      | 20/54 [01:14<01:34,  2.78s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  39%|███▉      | 21/54 [01:15<01:20,  2.43s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  41%|████      | 22/54 [01:16<01:01,  1.92s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  43%|████▎     | 23/54 [01:17<00:48,  1.56s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  44%|████▍     | 24/54 [01:18<00:40,  1.34s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  46%|████▋     | 25/54 [01:20<00:50,  1.75s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  48%|████▊     | 26/54 [01:23<00:57,  2.05s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  50%|█████     | 27/54 [01:25<00:52,  1.95s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  52%|█████▏    | 28/54 [01:30<01:16,  2.96s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  54%|█████▎    | 29/54 [01:37<01:40,  4.01s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  56%|█████▌    | 30/54 [01:39<01:23,  3.48s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  57%|█████▋    | 31/54 [01:44<01:27,  3.82s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  59%|█████▉    | 32/54 [01:53<02:00,  5.47s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  61%|██████    | 33/54 [01:57<01:46,  5.09s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  63%|██████▎   | 34/54 [01:59<01:22,  4.13s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  65%|██████▍   | 35/54 [02:01<01:07,  3.55s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  67%|██████▋   | 36/54 [02:04<00:57,  3.22s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  69%|██████▊   | 37/54 [02:06<00:48,  2.87s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  70%|███████   | 38/54 [02:08<00:42,  2.65s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  72%|███████▏  | 39/54 [02:13<00:49,  3.33s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  74%|███████▍  | 40/54 [02:15<00:41,  2.98s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  76%|███████▌  | 41/54 [02:17<00:33,  2.61s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  78%|███████▊  | 42/54 [02:19<00:30,  2.50s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  80%|███████▉  | 43/54 [02:21<00:24,  2.25s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  81%|████████▏ | 44/54 [02:23<00:22,  2.21s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  83%|████████▎ | 45/54 [02:24<00:18,  2.07s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  85%|████████▌ | 46/54 [02:26<00:16,  2.03s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  87%|████████▋ | 47/54 [02:30<00:18,  2.59s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  89%|████████▉ | 48/54 [02:32<00:14,  2.40s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  91%|█████████ | 49/54 [02:39<00:18,  3.76s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  93%|█████████▎| 50/54 [02:44<00:16,  4.19s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  94%|█████████▍| 51/54 [02:57<00:19,  6.67s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  96%|█████████▋| 52/54 [02:59<00:10,  5.33s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b:  98%|█████████▊| 53/54 [03:01<00:04,  4.36s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b: 100%|██████████| 54/54 [03:12<00:00,  6.19s/it]
+answers | nvidia:nvidia/nemotron-3.5-lightning-30b-a3b: 100%|██████████| 54/54 [03:12<00:00,  3.56s/it]
+# MedRAG evaluation
+
+Run: 2026-10-30 22:26
+
+Numbers are means with bootstrap 95% confidence intervals in brackets.
+
+## Answers
+
+| llm                                           | difficulty   | auto_correct      | fact_recall       | number_correct    | negative_correct   | abstain_correct   | cites_sources     | judge_correctness   | judge_faithfulness   | judge_answer_relevance   | judge_context_relevance   |   Gen. time (s) |
+|:----------------------------------------------|:-------------|:------------------|:------------------|:------------------|:-------------------|:------------------|:------------------|:--------------------|:---------------------|:-------------------------|:--------------------------|----------------:|
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b  | documents    | 0.667 [0.42-0.92] | 0.722 [0.47-0.92] | -                 | -                  | 1.000             | 0.917 [0.75-1.00] | 4.583 [3.92-5.00]   | 4.750 [4.25-5.00]    | 4.750 [4.25-5.00]        | 5.000                     |             2.6 |
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b  | easy         | 0.875 [0.75-1.00] | 0.800 [0.60-1.00] | 1.000             | -                  | 1.000             | 0.708 [0.54-0.88] | 4.750 [4.38-5.00]   | 4.792 [4.42-5.00]    | 4.833 [4.54-5.00]        | 4.500 [4.00-5.00]         |             1.6 |
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b  | hard         | 0.722 [0.50-0.89] | 0.833 [0.58-1.00] | 0.333 [0.00-1.00] | 0.667 [0.00-1.00]  | 1.000             | 0.889 [0.72-1.00] | 4.056 [3.39-4.78]   | 4.333 [3.72-4.83]    | 4.333 [3.83-4.83]        | 4.889 [4.67-5.00]         |             1.9 |
+| nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b | documents    | 0.833 [0.58-1.00] | 0.917 [0.78-1.00] | -                 | -                  | 1.000             | 1.000             | 4.917 [4.75-5.00]   | 4.833 [4.58-5.00]    | 5.000                    | 5.000                     |             1.3 |
+| nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b | easy         | 1.000             | 1.000             | 1.000             | -                  | 1.000             | 0.750 [0.58-0.92] | 5.000               | 4.958 [4.88-5.00]    | 4.917 [4.79-5.00]        | 4.500 [4.00-5.00]         |             2.4 |
+| nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b | hard         | 0.833 [0.67-1.00] | 0.917 [0.75-1.00] | 0.333 [0.00-1.00] | 1.000              | 0.944 [0.83-1.00] | 0.889 [0.72-1.00] | 4.278 [3.61-4.89]   | 4.667 [4.28-4.94]    | 4.500 [4.00-5.00]        | 4.889 [4.67-5.00]         |             2.5 |
+
+- auto_correct: pass/fail from the deterministic check that fits the question (exact number, all key facts, correct 'no', correct 'not found')
+- judge_*: 1-5 scores from the judge model, which is a different model from the one answering
+
+### Answer quality, one metric per column
+
+| llm                                           |   answers | correct (exact)   | correct (judge)   | faithfulness 1-5   | relevance 1-5     |   abstain when needed | false abstain     | exact numbers     | citation precision   | citation coverage   |   invalid citation rate |   gen. s p50 |   gen. s p95 |
+|:----------------------------------------------|----------:|:------------------|:------------------|:-------------------|:------------------|----------------------:|:------------------|:------------------|:---------------------|:--------------------|------------------------:|-------------:|-------------:|
+| nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b |        54 | 0.907 [0.81-0.98] | 0.944 [0.87-1.00] | 4.833 [4.69-4.94]  | 4.796 [4.57-4.96] |                     1 | 0.020 [0.00-0.06] | 0.778 [0.56-1.00] | 0.978 [0.93-1.00]    | 0.559 [0.44-0.67]   |                       0 |          0.9 |         13   |
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b  |        54 | 0.778 [0.67-0.89] | 0.889 [0.80-0.96] | 4.630 [4.35-4.89]  | 4.648 [4.39-4.89] |                     1 | 0.000             | 0.778 [0.56-1.00] | 0.972 [0.91-1.00]    | 0.158 [0.09-0.24]   |                       0 |          1.2 |          5.6 |
+
+- correct (exact): deterministic check; correct (judge): judge correctness >= 4
+- abstain when needed: share of unanswerable questions answered 'not found'; false abstain: share of answerable ones
+- exact numbers: count questions only; citations: cited sentences supported by the cited sources (verify_citations)
+
+### auto_correct by question type
+
+| llm                                           |   ambiguous_name |   count_cohort |   count_patient |   doc_patient_lookup |   doc_semantic |   doc_transcription_lookup |   doc_transcription_semantic |   hard_count_finding |   hard_negative |   hard_paraphrase_patient |   hard_semantic_cohort |   hard_trend |   hard_typo_name |   latest |   lookup_by_mrn |   lookup_by_name |   not_found |   semantic |
+|:----------------------------------------------|-----------------:|---------------:|----------------:|---------------------:|---------------:|---------------------------:|-----------------------------:|---------------------:|----------------:|--------------------------:|-----------------------:|-------------:|-----------------:|---------:|----------------:|-----------------:|------------:|-----------:|
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b  |                1 |              1 |               1 |                    1 |           0.67 |                       0.67 |                         0.33 |                 0.33 |            0.67 |                         1 |                   0.33 |         1    |                1 |        1 |               1 |                1 |           1 |          0 |
+| nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b |                1 |              1 |               1 |                    1 |           1    |                       0.33 |                         1    |                 0.33 |            1    |                         1 |                   1    |         0.67 |                1 |        1 |               1 |                1 |           1 |          1 |
+
+Judge vs deterministic check agreement: 91% of 108 answers (judge correctness >= 4 counted as pass). Low agreement means one of the two needs review.
+
+
+Saved D:\medrag_transfer\reports\eval_20261030_2218

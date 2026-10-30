@@ -1,0 +1,106 @@
+﻿.venv\Scripts\python.exe : 
+At line:1 char:567
++ ... NG='utf-8'; .venv\Scripts\python.exe -m medrag eval --skip-retrieval  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2010.75it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+313 test questions -> D:\medrag_transfer\reports\eval_20261030_0942\testset.json (hand-check sample: golden_review.csv)
+
+answers | ollama:qwen2.5:3b:   0%|          | 0/54 [00:00<?, ?it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s][A
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 22803.15it/s]
+
+answers | ollama:qwen2.5:3b:   6%|▌         | 3/54 [00:09<02:39,  3.13s/it]
+answers | ollama:qwen2.5:3b:   7%|▋         | 4/54 [00:13<02:51,  3.43s/it]
+answers | ollama:qwen2.5:3b:   9%|▉         | 5/54 [00:18<03:11,  3.91s/it]
+answers | ollama:qwen2.5:3b:  11%|█         | 6/54 [00:26<04:12,  5.25s/it]
+answers | ollama:qwen2.5:3b:  13%|█▎        | 7/54 [00:30<03:52,  4.95s/it]
+answers | ollama:qwen2.5:3b:  15%|█▍        | 8/54 [00:34<03:33,  4.63s/it]
+answers | ollama:qwen2.5:3b:  17%|█▋        | 9/54 [00:38<03:14,  4.32s/it]
+answers | ollama:qwen2.5:3b:  19%|█▊        | 10/54 [00:42<03:01,  4.12s/it]
+answers | ollama:qwen2.5:3b:  20%|██        | 11/54 [00:45<02:46,  3.86s/it]
+answers | ollama:qwen2.5:3b:  22%|██▏       | 12/54 [00:49<02:47,  3.98s/it]
+answers | ollama:qwen2.5:3b:  24%|██▍       | 13/54 [00:53<02:44,  4.01s/it]
+answers | ollama:qwen2.5:3b:  26%|██▌       | 14/54 [00:57<02:42,  4.06s/it]
+answers | ollama:qwen2.5:3b:  28%|██▊       | 15/54 [01:01<02:37,  4.03s/it]
+answers | ollama:qwen2.5:3b:  30%|██▉       | 16/54 [01:05<02:28,  3.91s/it]
+answers | ollama:qwen2.5:3b:  31%|███▏      | 17/54 [01:09<02:28,  4.02s/it]
+answers | ollama:qwen2.5:3b:  33%|███▎      | 18/54 [01:13<02:19,  3.89s/it]
+answers | ollama:qwen2.5:3b:  35%|███▌      | 19/54 [01:17<02:14,  3.84s/it]
+answers | ollama:qwen2.5:3b:  37%|███▋      | 20/54 [01:20<02:09,  3.81s/it]
+answers | ollama:qwen2.5:3b:  39%|███▉      | 21/54 [01:24<02:08,  3.90s/it]
+answers | ollama:qwen2.5:3b:  41%|████      | 22/54 [01:27<01:54,  3.59s/it]
+answers | ollama:qwen2.5:3b:  43%|████▎     | 23/54 [01:29<01:31,  2.95s/it]
+answers | ollama:qwen2.5:3b:  44%|████▍     | 24/54 [01:31<01:25,  2.84s/it]
+answers | ollama:qwen2.5:3b:  46%|████▋     | 25/54 [01:36<01:36,  3.33s/it]
+answers | ollama:qwen2.5:3b:  48%|████▊     | 26/54 [01:40<01:39,  3.55s/it]
+answers | ollama:qwen2.5:3b:  50%|█████     | 27/54 [01:44<01:40,  3.73s/it]
+answers | ollama:qwen2.5:3b:  52%|█████▏    | 28/54 [01:49<01:47,  4.14s/it]
+answers | ollama:qwen2.5:3b:  54%|█████▎    | 29/54 [01:54<01:49,  4.39s/it]
+answers | ollama:qwen2.5:3b:  56%|█████▌    | 30/54 [01:58<01:43,  4.32s/it]
+answers | ollama:qwen2.5:3b:  57%|█████▋    | 31/54 [02:03<01:42,  4.44s/it]
+answers | ollama:qwen2.5:3b:  59%|█████▉    | 32/54 [02:08<01:39,  4.52s/it]
+answers | ollama:qwen2.5:3b:  61%|██████    | 33/54 [02:12<01:36,  4.58s/it]
+answers | ollama:qwen2.5:3b:  63%|██████▎   | 34/54 [02:17<01:33,  4.69s/it]
+answers | ollama:qwen2.5:3b:  65%|██████▍   | 35/54 [02:27<01:59,  6.27s/it]
+answers | ollama:qwen2.5:3b:  67%|██████▋   | 36/54 [02:32<01:42,  5.71s/it]
+answers | ollama:qwen2.5:3b:  69%|██████▊   | 37/54 [02:36<01:29,  5.27s/it]
+answers | ollama:qwen2.5:3b:  70%|███████   | 38/54 [02:40<01:16,  4.79s/it]
+answers | ollama:qwen2.5:3b:  72%|███████▏  | 39/54 [02:44<01:08,  4.54s/it]
+answers | ollama:qwen2.5:3b:  74%|███████▍  | 40/54 [02:48<01:03,  4.55s/it]
+answers | ollama:qwen2.5:3b:  76%|███████▌  | 41/54 [02:53<00:59,  4.60s/it]
+answers | ollama:qwen2.5:3b:  78%|███████▊  | 42/54 [02:57<00:52,  4.38s/it]
+answers | ollama:qwen2.5:3b:  80%|███████▉  | 43/54 [03:01<00:48,  4.38s/it]
+answers | ollama:qwen2.5:3b:  81%|████████▏ | 44/54 [03:05<00:41,  4.12s/it]
+answers | ollama:qwen2.5:3b:  83%|████████▎ | 45/54 [03:08<00:35,  3.90s/it]
+answers | ollama:qwen2.5:3b:  85%|████████▌ | 46/54 [03:14<00:36,  4.53s/it]
+answers | ollama:qwen2.5:3b:  87%|████████▋ | 47/54 [03:18<00:30,  4.29s/it]
+answers | ollama:qwen2.5:3b:  89%|████████▉ | 48/54 [03:22<00:25,  4.21s/it]
+answers | ollama:qwen2.5:3b:  91%|█████████ | 49/54 [03:28<00:23,  4.71s/it]
+answers | ollama:qwen2.5:3b:  93%|█████████▎| 50/54 [03:38<00:25,  6.28s/it]
+answers | ollama:qwen2.5:3b:  94%|█████████▍| 51/54 [03:46<00:21,  7.03s/it]
+answers | ollama:qwen2.5:3b:  96%|█████████▋| 52/54 [03:51<00:12,  6.42s/it]
+answers | ollama:qwen2.5:3b:  98%|█████████▊| 53/54 [03:56<00:05,  5.89s/it]
+answers | ollama:qwen2.5:3b: 100%|██████████| 54/54 [04:01<00:00,  5.63s/it]
+answers | ollama:qwen2.5:3b: 100%|██████████| 54/54 [04:01<00:00,  4.47s/it]
+# MedRAG evaluation
+
+Run: 2026-10-30 09:46
+
+Numbers are means with bootstrap 95% confidence intervals in brackets.
+
+## Answers
+
+| llm               | difficulty   | auto_correct      | fact_recall       | number_correct    | negative_correct   | abstain_correct   | cites_sources     |   Gen. time (s) |
+|:------------------|:-------------|:------------------|:------------------|:------------------|:-------------------|:------------------|:------------------|----------------:|
+| ollama:qwen2.5:3b | documents    | 0.333 [0.08-0.58] | 0.444 [0.22-0.69] | -                 | -                  | 0.917 [0.75-1.00] | 0.417 [0.17-0.75] |             5   |
+| ollama:qwen2.5:3b | easy         | 0.958 [0.88-1.00] | 0.933 [0.80-1.00] | 1.000             | -                  | 1.000             | 0.250 [0.08-0.42] |            63.5 |
+| ollama:qwen2.5:3b | hard         | 0.833 [0.67-1.00] | 0.944 [0.83-1.00] | 0.333 [0.00-1.00] | 1.000              | 0.778 [0.56-0.94] | 0.333 [0.11-0.56] |             4.3 |
+
+- auto_correct: pass/fail from the deterministic check that fits the question (exact number, all key facts, correct 'no', correct 'not found')
+- judge_*: 1-5 scores from the judge model, which is a different model from the one answering
+
+### Answer quality, one metric per column
+
+| llm               |   answers | correct (exact)   |   abstain when needed | false abstain     | exact numbers     | citation precision   | citation coverage   |   invalid citation rate |   gen. s p50 |   gen. s p95 |
+|:------------------|----------:|:------------------|----------------------:|:------------------|:------------------|:---------------------|:--------------------|------------------------:|-------------:|-------------:|
+| ollama:qwen2.5:3b |        54 | 0.778 [0.67-0.89] |                     1 | 0.098 [0.02-0.18] | 0.778 [0.56-1.00] | 0.882 [0.71-1.00]    | 0.033 [0.00-0.08]   |                       0 |          3.9 |          9.2 |
+
+- correct (exact): deterministic check; correct (judge): judge correctness >= 4
+- abstain when needed: share of unanswerable questions answered 'not found'; false abstain: share of answerable ones
+- exact numbers: count questions only; citations: cited sentences supported by the cited sources (verify_citations)
+
+### auto_correct by question type
+
+| llm               |   ambiguous_name |   count_cohort |   count_patient |   doc_patient_lookup |   doc_semantic |   doc_transcription_lookup |   doc_transcription_semantic |   hard_count_finding |   hard_negative |   hard_paraphrase_patient |   hard_semantic_cohort |   hard_trend |   hard_typo_name |   latest |   lookup_by_mrn |   lookup_by_name |   not_found |   semantic |
+|:------------------|-----------------:|---------------:|----------------:|---------------------:|---------------:|---------------------------:|-----------------------------:|---------------------:|----------------:|--------------------------:|-----------------------:|-------------:|-----------------:|---------:|----------------:|-----------------:|------------:|-----------:|
+| ollama:qwen2.5:3b |                1 |              1 |               1 |                 0.67 |              0 |                       0.67 |                            0 |                 0.33 |               1 |                         1 |                   0.67 |            1 |                1 |        1 |               1 |                1 |           1 |       0.67 |
+
+
+Saved D:\medrag_transfer\reports\eval_20261030_0942

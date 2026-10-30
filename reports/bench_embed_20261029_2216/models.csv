@@ -1,0 +1,4 @@
+model,dim,chunks,build_s,embed_s_per_1k_chunks,model_ram_mb,vectors_mb,query_embed_ms
+medcpt:ncbi/MedCPT,768,15749,10249.7,650.8,0,46.1,7.7
+sentence-transformers:BAAI/bge-base-en-v1.5,768,15749,7618.3,483.7,0,46.1,7.5
+sentence-transformers:intfloat/e5-base-v2,768,15749,7270.2,461.6,0,46.1,9.2
