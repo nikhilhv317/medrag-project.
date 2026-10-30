@@ -1,0 +1,23 @@
+success [K[?25h[?2026l
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+D:\LLM\medrag\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Nikhil.H\.cache\huggingface\hub\models--BAAI--bge-base-en-v1.5. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done BAAI/bge-base-en-v1.5 C:\Users\Nikhil.H\.cache\huggingface\hub\models--BAAI--bge-base-en-v1.5\snapshots\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done intfloat/e5-base-v2 C:\Users\Nikhil.H\.cache\huggingface\hub\models--intfloat--e5-base-v2\snapshots\f52bf8ec8c7124536f0efb74aca902b2995e5bcd
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done ncbi/MedCPT-Query-Encoder C:\Users\Nikhil.H\.cache\huggingface\hub\models--ncbi--MedCPT-Query-Encoder\snapshots\d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done ncbi/MedCPT-Article-Encoder C:\Users\Nikhil.H\.cache\huggingface\hub\models--ncbi--MedCPT-Article-Encoder\snapshots\d05a736da4bb84ee4057b7f7999485be6ed85465
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done NeuML/pubmedbert-base-embeddings C:\Users\Nikhil.H\.cache\huggingface\hub\models--NeuML--pubmedbert-base-embeddings\snapshots\b79526d6ef3645e0df4530322e266f24c829f5ef
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+done BAAI/bge-reranker-v2-m3 C:\Users\Nikhil.H\.cache\huggingface\hub\models--BAAI--bge-reranker-v2-m3\snapshots\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e

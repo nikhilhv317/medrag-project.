@@ -1,0 +1,2 @@
+model,dim,chunks,build_s,embed_s_per_1k_chunks,model_ram_mb,vectors_mb,query_embed_ms
+sentence-transformers:BAAI/bge-small-en-v1.5,384,15749,6.8,,0,23.1,51.5

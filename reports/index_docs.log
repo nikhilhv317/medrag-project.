@@ -1,0 +1,14 @@
+112,817 chunks (89,014 study, 19,923 patient) in 109s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2325.02it/s]
+embedding 7,428 new chunks:   0%|          | 0/30 [00:00<?, ?batch/s]embedding 7,428 new chunks:   3%|▎         | 1/30 [00:40<19:43, 40.81s/batch]embedding 7,428 new chunks:   7%|▋         | 2/30 [01:16<17:33, 37.62s/batch]embedding 7,428 new chunks:  10%|█         | 3/30 [01:51<16:21, 36.35s/batch]embedding 7,428 new chunks:  13%|█▎        | 4/30 [02:25<15:23, 35.51s/batch]embedding 7,428 new chunks:  17%|█▋        | 5/30 [02:58<14:29, 34.78s/batch]embedding 7,428 new chunks:  20%|██        | 6/30 [03:32<13:47, 34.49s/batch]embedding 7,428 new chunks:  23%|██▎       | 7/30 [04:04<12:57, 33.78s/batch]embedding 7,428 new chunks:  27%|██▋       | 8/30 [04:35<12:00, 32.76s/batch]embedding 7,428 new chunks:  30%|███       | 9/30 [05:05<11:06, 31.74s/batch]embedding 7,428 new chunks:  33%|███▎      | 10/30 [05:30<09:58, 29.91s/batch]embedding 7,428 new chunks:  37%|███▋      | 11/30 [05:52<08:37, 27.23s/batch]embedding 7,428 new chunks:  40%|████      | 12/30 [06:10<07:22, 24.60s/batch]embedding 7,428 new chunks:  43%|████▎     | 13/30 [06:27<06:18, 22.28s/batch]embedding 7,428 new chunks:  47%|████▋     | 14/30 [06:46<05:39, 21.23s/batch]embedding 7,428 new chunks:  50%|█████     | 15/30 [07:06<05:15, 21.05s/batch]embedding 7,428 new chunks:  53%|█████▎    | 16/30 [07:27<04:52, 20.87s/batch]embedding 7,428 new chunks:  57%|█████▋    | 17/30 [07:47<04:29, 20.74s/batch]embedding 7,428 new chunks:  60%|██████    | 18/30 [08:10<04:15, 21.28s/batch]embedding 7,428 new chunks:  63%|██████▎   | 19/30 [08:29<03:47, 20.70s/batch]embedding 7,428 new chunks:  67%|██████▋   | 20/30 [08:49<03:23, 20.38s/batch]embedding 7,428 new chunks:  70%|███████   | 21/30 [09:10<03:04, 20.51s/batch]embedding 7,428 new chunks:  73%|███████▎  | 22/30 [09:32<02:48, 21.00s/batch]embedding 7,428 new chunks:  77%|███████▋  | 23/30 [09:52<02:25, 20.81s/batch]embedding 7,428 new chunks:  80%|████████  | 24/30 [10:15<02:07, 21.28s/batch]embedding 7,428 new chunks:  83%|████████▎ | 25/30 [10:36<01:47, 21.43s/batch]embedding 7,428 new chunks:  87%|████████▋ | 26/30 [10:56<01:23, 20.79s/batch]embedding 7,428 new chunks:  90%|█████████ | 27/30 [11:15<01:01, 20.41s/batch]embedding 7,428 new chunks:  93%|█████████▎| 28/30 [11:35<00:40, 20.29s/batch]embedding 7,428 new chunks:  97%|█████████▋| 29/30 [11:56<00:20, 20.45s/batch]embedding 7,428 new chunks: 100%|██████████| 30/30 [11:56<00:00, 14.43s/batch]embedding 7,428 new chunks: 100%|██████████| 30/30 [11:56<00:00, 23.90s/batch]
+{
+  "provider": "sentence-transformers",
+  "model": "BAAI/bge-small-en-v1.5",
+  "dim": 384,
+  "chunks": 112817,
+  "embedded_now": 7428,
+  "reused": 105389,
+  "dense_index": "IndexFlatIP",
+  "built_at": "2026-10-27T20:33:18",
+  "seconds": 732.1
+}

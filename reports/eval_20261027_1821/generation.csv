@@ -1,0 +1,84 @@
+llm,type,id,question,answer,retrieval_s,generation_s,cites_sources,fact_recall,abstain_correct,number_correct
+ollama:qwen2.5:3b,lookup_by_name,0,What did the Ultrasound abdomen on 2020-12-23 show for Turvi George?,"On 2020-12-23, the ultrasound abdomen for Turvi George (MRN: MRN0016209, Patient ID: 16209) showed acute appendicitis. The study was performed as a stat study to address the patient's abdominal pain. The findings were consistent with acute appendicitis, with a dilated, non-compressible appendix measuring 11 mm and periappendiceal fat stranding. The AI model predicted appendicitis with a confidence of 0.79. [S1, S2]",0.14686083793640137,45.83909296989441,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,7,What did the X-ray chest on 2025-07-09 show for Unnati Nicholson?,"On 2025-07-09, the X-ray chest (routine) for Unnati Nicholson showed a moderate right pleural effusion with adjacent compressive atelectasis. [S1, S2]",0.1706390380859375,25.567370414733887,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,14,What did the Ultrasound abdomen on 2025-02-27 show for Anne Cochran?,"For Anne Cochran, the Ultrasound abdomen performed on 2025-02-27 showed a left renal calculus with mild hydronephrosis. [S1, S2]",0.157149076461792,29.682558059692383,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,21,What did the CT abdomen on 2023-04-21 show for Valerie Atkinson?,"For Valerie Atkinson, the CT abdomen performed on 2023-04-21 showed the presence of cholelithiasis without cholecystitis. The report indicated multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing, but no wall thickening. The AI model predicted 'gallstones' with a confidence of 0.84. [S1, S2]",0.15394997596740723,30.900464296340942,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_name,28,What did the Ultrasound abdomen on 2024-01-17 show for Yashvi Bailey?,"On 2024-01-17, the Ultrasound abdomen (stat) showed acute appendicitis for Yashvi Bailey. The study indicated a dilated, non-compressible appendix measuring 11 mm with periappendiceal fat stranding. The impression was acute appendicitis, and the recommendation was for urgent surgical review. [S1], [S2]",0.13547277450561523,36.768529415130615,1.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,35,Summarise the X-ray report for patient MRN0014504 dated 2024-11-16.,"**X-ray Report for Patient MRN0014504 (Aarnav Jain) dated 2024-11-16:**
+
+- **Modality:** X-ray
+- **Priority:** Routine
+- **Date:** 2024-11-16
+- **Finding:** Multilevel degenerative spondylosis
+
+**Detailed Findings:**
+- **Technique:** AP and lateral views of the lumbar spine.
+- **Comparison:** None available.
+- **Impression:** Multilevel degenerative spondylosis.
+- **Recommendation:** Conservative management.
+
+**Additional Information:**
+- **Patient Profile:** Male, age 89, B+ blood group, from Delhi.
+- **History:** Chronic conditions include colorectal cancer (treated) and coronary artery disease.
+- **Prior Imaging:** X-ray spine (routine) on 2024-11-16, indicating multilevel degenerative spondylosis.
+
+**AI Model Prediction:** Degenerative spondylosis (confidence 1.00).",0.17284440994262695,51.3634979724884,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,42,Summarise the X-ray report for patient MRN0008001 dated 2026-05-19.,"**X-ray Report for Patient MRN0008001 (Deborah Moreno) dated 2026-05-19:**
+
+- **Modality:** X-ray
+- **Priority:** stat
+- **Date:** 2026-05-19
+- **Finding:** Spiculated lung mass highly suspicious for primary lung malignancy
+
+**Detailed Findings:**
+- **Technique:** PA and lateral views of the chest.
+- **Comparison:** None available.
+- **Finding:** A 1.9 cm spiculated mass in the right upper lobe with ipsilateral hilar lymphadenopathy.
+
+**Impression:** Spiculated lung mass highly suspicious for primary lung malignancy.
+
+**Recommendation:** Urgent referral to thoracic oncology and tissue sampling.
+
+**AI Model Prediction:** 'lung mass' (confidence 0.90).",0.12175369262695312,50.17766070365906,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,49,Summarise the CT report for patient MRN0009513 dated 2024-03-03.,"**CT Report Summary for Patient MRN0009513 (Anusha Ram) dated 2024-03-03:**
+
+- **Patient Information:** Male, age 35, MRN: MRN0009513, Blood group: O+, from Chennai.
+- **History:** Chronic conditions include breast cancer (treated). Recent imaging studies include 2024-03-03 CT abdomen (urgent) with findings of an arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+- **Most Recent Study:** 2024-03-03 CT abdomen (urgent, study 43222): An 3.3 cm arterially enhancing lesion in segment 2 of the liver with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+- **Recommendation:** Multidisciplinary hepatobiliary review.
+- **AI Model Prediction:** Predicted 'hepatic steatosis' with confidence 0.51.
+
+**Study Timeline (most recent first):**
+- 2024-03-03 CT abdomen (urgent, study 43222): Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+
+**Abnormal Findings:** 1 abnormal finding (100.0%).
+
+**Modality:** CT
+**Priority:** Urgent",0.13830804824829102,88.047616481781,0.0,1.0,1.0,
+ollama:qwen2.5:3b,lookup_by_mrn,56,Summarise the CT report for patient MRN0013684 dated 2023-11-14.,"**CT Report Summary for Patient MRN0013684 (Toby Gordon) dated 2023-11-14:**
+
+- **Patient Information:** Female, age 26, MRN: MRN0013684, ID: 13684, from Chennai.
+- **History:** Chronic conditions: none recorded. Imaging studies: X-ray x2, CT x1, Ultrasound x1, from 2022-02-08 to 2023-11-14.
+- **Most Recent Study:** 2023-11-14 CT chest (urgent): Acute left segmental pulmonary embolism.
+- **Findings:** Filling defects within the left lower lobe segmental pulmonary arteries.
+- **Impression:** Acute left segmental pulmonary embolism.
+- **Recommendation:** Immediate anticoagulation per clinical protocol.
+- **AI Model Prediction:** Predicted 'pneumothorax' (confidence 0.65).
+
+**Study Timeline (most recent first, up to 60):**
+- 2023-11-14 CT chest (urgent): Acute left segmental pulmonary embolism.",0.15671014785766602,58.414578676223755,0.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,63,What was the most recent imaging study for Samantha Fields and what did it show?,The most recent imaging study for Samantha Fields was an X-ray chest performed on 2026-05-28. The study showed centrilobular emphysema.,0.7891340255737305,76.29019713401794,0.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,70,What was the most recent imaging study for Emma Ross and what did it show?,"The most recent imaging study for Emma Ross was an X-ray of the knee taken on 2023-04-06. The study showed moderate osteoarthritis. [S1], [S2]",0.44161367416381836,47.45503377914429,1.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,77,What was the most recent imaging study for Frank Hayre and what did it show?,The most recent imaging study for Frank Hayre was an Ultrasound abdomen performed on 2026-05-21. The study showed splenomegaly.,0.804102897644043,74.75895714759827,0.0,1.0,1.0,
+ollama:qwen2.5:3b,latest,84,What was the most recent imaging study for Reyansh Davis and what did it show?,The most recent imaging study for Reyansh Davis was an X-ray chest performed on 2026-08-06. The study showed an indeterminate 16 mm pulmonary nodule. [S2],0.7022016048431396,66.9611005783081,1.0,1.0,1.0,
+ollama:qwen2.5:3b,count_patient,91,How many X-ray studies does Mohamed Sharma have?,There were 3 X-ray studies for Mohamed Sharma.,0.21202301979064941,38.47818636894226,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,98,How many X-ray studies does Hredhaan Lal have?,There were 4 X-ray studies for patient Hredhaan Lal (id 10114) within the specified date range.,0.31699562072753906,47.5602810382843,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,105,How many MRI studies does Glen Murphy have?,There were 3 MRI studies for Glen Murphy. The most recent MRI abdomen (stat) was performed on 2025-06-14.,0.21769118309020996,41.84464955329895,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,112,How many X-ray studies does Joyce Sunder have?,There were 4 X-ray studies for Joyce Sunder.,0.2897069454193115,53.13260841369629,0.0,,1.0,1.0
+ollama:qwen2.5:3b,count_patient,119,How many Ultrasound studies does Naveen Bishop have?,"There were 2 Ultrasound studies for patient Naveen Bishop (id 951). The most recent study was an Ultrasound abdomen performed on 2026-03-31 as an urgent study, with findings of a left renal calculus with mild hydronephrosis.",0.18350505828857422,38.5750412940979,0.0,,1.0,1.0
+ollama:qwen2.5:3b,ambiguous_name,126,How many imaging studies does Gemma Gonzalez have?,"There were 2 imaging studies for Gemma Gonzalez. The most recent study was a CT head on 2023-10-29, with no abnormal findings. The other study was an Ultrasound abdomen on 2024-04-30, also with no abnormal findings.",0.3038785457611084,40.65943622589111,0.0,0.0,1.0,
+ollama:qwen2.5:3b,ambiguous_name,133,How many imaging studies does Eddie Cook have?,"There were 5 imaging studies for Eddie Cook (MRN: MRN0006938, id 6938). The most recent study was an X-ray chest on 2026-01-24, showing a moderate right pleural effusion. Eddie Cook (MRN: MRN0014269, id 14269) had 1 imaging study, an MRI brain on 2024-07-17, showing no acute abnormality.",0.5842835903167725,77.81169152259827,0.0,1.0,1.0,
+ollama:qwen2.5:3b,semantic,140,Which patient had a CT on 2025-07-22 showing disc herniation?,There was no patient with a CT scan on 2025-07-22 showing a disc herniation.,0.9267525672912598,56.03313374519348,0.0,0.0,1.0,
+ollama:qwen2.5:3b,semantic,147,Which patient had a X-ray on 2022-03-17 showing pulmonary nodule?,There was no patient with a chest X-ray on 2022-03-17 showing a pulmonary nodule.,1.2423973083496094,55.83584451675415,0.0,0.0,1.0,
+ollama:qwen2.5:3b,semantic,154,Which patient had a CT on 2022-06-15 showing splenomegaly?,"There was one patient, Aaron Doyle, who had a CT on 2022-06-15 showing splenomegaly.",0.5749883651733398,55.81009364128113,0.0,1.0,1.0,
+ollama:qwen2.5:3b,semantic,161,Which patient had a Ultrasound on 2025-03-04 showing ovarian cyst?,"There was no patient with an Ultrasound on 2025-03-04 showing an ovarian cyst, based on the provided sources.",0.5990753173828125,56.156278133392334,0.0,0.0,1.0,

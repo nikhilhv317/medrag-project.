@@ -1,0 +1,1120 @@
+[
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?",
+    "gold_docs": [
+      "doc:322"
+    ],
+    "facts": [
+      "streaky",
+      "left",
+      "retrocardiac"
+    ],
+    "answer": "Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",
+    "id": 233
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Vincent Coles's uploaded chest X-ray report from 2025-07-02 conclude?",
+    "gold_docs": [
+      "doc:1448"
+    ],
+    "facts": [
+      "decreasing",
+      "lung",
+      "volumes"
+    ],
+    "answer": "Decreasing lung volumes. Probable bilateral pleural effusions and elevation of both hemidiaphragms.",
+    "id": 234
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Omisha Vincent's uploaded chest X-ray report from 2021-01-12 conclude?",
+    "gold_docs": [
+      "doc:3153"
+    ],
+    "facts": [
+      "stable",
+      "appearance",
+      "left-sided"
+    ],
+    "answer": "1. Stable appearance of the left-sided [redacted] without acute complicating features.",
+    "id": 235
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Elizabeth Malhotra's uploaded chest X-ray report from 2021-02-01 conclude?",
+    "gold_docs": [
+      "doc:540"
+    ],
+    "facts": [
+      "unremarkable",
+      "chest"
+    ],
+    "answer": "Unremarkable chest.",
+    "id": 236
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Bachittar Bawa's uploaded chest X-ray report from 2023-01-15 conclude?",
+    "gold_docs": [
+      "doc:3269"
+    ],
+    "facts": [
+      "right-sided",
+      "pneumothorax",
+      "approximately"
+    ],
+    "answer": "1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",
+    "id": 237
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Praneel Balan's uploaded chest X-ray report from 2025-12-26 conclude?",
+    "gold_docs": [
+      "doc:2828"
+    ],
+    "facts": [
+      "hyperinflated",
+      "lungs",
+      "trapping"
+    ],
+    "answer": "Hyperinflated lungs, air trapping versus inspiratory [redacted].",
+    "id": 238
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Dylan Bala's uploaded chest X-ray report from 2021-11-24 conclude?",
+    "gold_docs": [
+      "doc:1597"
+    ],
+    "facts": [
+      "partially",
+      "loculated",
+      "right"
+    ],
+    "answer": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+    "id": 239
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Norman Mukherjee's uploaded chest X-ray report from 2025-07-26 conclude?",
+    "gold_docs": [
+      "doc:2982"
+    ],
+    "facts": [
+      "evidence",
+      "cardiopulmonary",
+      "process"
+    ],
+    "answer": "No evidence of acute cardiopulmonary process.",
+    "id": 240
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Aadi Hartman's uploaded chest X-ray report from 2021-10-12 conclude?",
+    "gold_docs": [
+      "doc:613"
+    ],
+    "facts": [
+      "evidence",
+      "active",
+      "disease"
+    ],
+    "answer": "No evidence of active disease.",
+    "id": 241
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Joel Chaudhuri's uploaded chest X-ray report from 2021-08-03 conclude?",
+    "gold_docs": [
+      "doc:620"
+    ],
+    "facts": [
+      "evidence",
+      "active",
+      "disease"
+    ],
+    "answer": "1. No evidence of active disease.",
+    "id": 242
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Hilary Kelly's uploaded chest X-ray report from 2024-12-13 conclude?",
+    "gold_docs": [
+      "doc:3059"
+    ],
+    "facts": [
+      "cardiomegaly",
+      "overt",
+      "heart"
+    ],
+    "answer": "1. Cardiomegaly without overt heart failure. 2. Continued elevation of the left hemidiaphragm. 3. Scattered [redacted] of left base scarring/atelectasis.",
+    "id": 243
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Leslie Parkinson's uploaded chest X-ray report from 2025-08-28 conclude?",
+    "gold_docs": [
+      "doc:1060"
+    ],
+    "facts": [
+      "evidence",
+      "cardiopulmonary",
+      "disease"
+    ],
+    "answer": "1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above",
+    "id": 244
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Lavanya Varghese's uploaded chest X-ray report from 2023-06-17 conclude?",
+    "gold_docs": [
+      "doc:2642"
+    ],
+    "facts": [
+      "redacted",
+      "change",
+      "copd"
+    ],
+    "answer": "[redacted] change COPD. Chronic right middle lobe scar and atelectasis. Pulmonary arterial hypertension.",
+    "id": 245
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Jeevika Kala's uploaded chest X-ray report from 2026-09-27 conclude?",
+    "gold_docs": [
+      "doc:1798"
+    ],
+    "facts": [
+      "left",
+      "base",
+      "airspace"
+    ],
+    "answer": "Left base airspace disease and nodular opacity in the right midlung.",
+    "id": 246
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Tonya Pierce's uploaded chest X-ray report from 2026-06-28 conclude?",
+    "gold_docs": [
+      "doc:1282"
+    ],
+    "facts": [
+      "stable",
+      "right-sided",
+      "subclavian"
+    ],
+    "answer": "Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable",
+    "id": 247
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Abdul Espinoza's uploaded chest X-ray report from 2023-02-26 conclude?",
+    "gold_docs": [
+      "doc:3332"
+    ],
+    "facts": [
+      "left",
+      "basilar",
+      "atelectasis"
+    ],
+    "answer": "Minimal left basilar atelectasis versus infiltrate. Low lung volumes.",
+    "id": 248
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Prisha Bhat's uploaded chest X-ray report from 2025-03-30 conclude?",
+    "gold_docs": [
+      "doc:1076"
+    ],
+    "facts": [
+      "severe",
+      "cardiomegaly",
+      "limited"
+    ],
+    "answer": "Severe cardiomegaly. Limited mediastinal evaluation given body habitus and lordotic projection. Recommend [redacted] for further evaluation of mediastinum given T/Spine injury noted on C/Spine imaging. Critical result notification documented through Primordial.",
+    "id": 249
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Tamara Viswanathan's uploaded chest X-ray report from 2022-04-01 conclude?",
+    "gold_docs": [
+      "doc:3246"
+    ],
+    "facts": [
+      "leads",
+      "expected",
+      "region"
+    ],
+    "answer": "There are 2 ICD leads, one with the tip in the expected region of the right atrium and the other with the tip projected over the midline on frontal view, somewhat atypical. However, on lateral view the [redacted] is in the expected region of right ventricle. Correlate clinically. This is without sig",
+    "id": 250
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Kate Higgins's uploaded chest X-ray report from 2024-04-23 conclude?",
+    "gold_docs": [
+      "doc:2499"
+    ],
+    "facts": [
+      "redacted",
+      "atelectasis",
+      "airspace"
+    ],
+    "answer": "[redacted] [redacted] atelectasis/airspace disease.",
+    "id": 251
+  },
+  {
+    "type": "doc_patient_lookup",
+    "difficulty": "documents",
+    "question": "What did Mitesh Chaudhary's uploaded chest X-ray report from 2026-02-03 conclude?",
+    "gold_docs": [
+      "doc:1560"
+    ],
+    "facts": [
+      "active",
+      "disease"
+    ],
+    "answer": "No active disease.",
+    "id": 252
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?",
+    "gold_docs": [
+      "doc:1395"
+    ],
+    "facts": [
+      "wyatt"
+    ],
+    "answer": "Felicia Wyatt: Findings of COPD and left base focal atelectasis.",
+    "id": 253
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing stable cardiomegaly evidence overt heart?",
+    "gold_docs": [
+      "doc:2791"
+    ],
+    "facts": [
+      "perkins"
+    ],
+    "answer": "Lynne Perkins: Stable cardiomegaly without evidence of overt heart failure/pulmonary edema.",
+    "id": 254
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing lines tubes above moderate-to-large left?",
+    "gold_docs": [
+      "doc:1651"
+    ],
+    "facts": [
+      "olsen"
+    ],
+    "answer": "Albert Olsen: Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+    "id": 255
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing widespread changes cystic fibrosis difficult?",
+    "gold_docs": [
+      "doc:691"
+    ],
+    "facts": [
+      "gonzalez"
+    ],
+    "answer": "Saksham Gonzalez: Findings consistent with widespread changes from cystic fibrosis. It is difficult to differentiate acute from chronic change.",
+    "id": 256
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing bibasilar airspace disease left worse?",
+    "gold_docs": [
+      "doc:1715"
+    ],
+    "facts": [
+      "parsons"
+    ],
+    "answer": "Viraj Parsons: Bibasilar airspace disease, left worse right. Bilateral pleural fluid.",
+    "id": 257
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing interval placement dual-lumen dialysis catheter?",
+    "gold_docs": [
+      "doc:368"
+    ],
+    "facts": [
+      "gates"
+    ],
+    "answer": "Sarthak Gates: 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.",
+    "id": 258
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing severe hyperinflation stable left calcified?",
+    "gold_docs": [
+      "doc:2338"
+    ],
+    "facts": [
+      "yogi"
+    ],
+    "answer": "Dylan Yogi: 1. Severe hyperinflation. 2. Stable left calcified hilar lymph [redacted].",
+    "id": 259
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing stable position left-sided pacemaker leads?",
+    "gold_docs": [
+      "doc:2479"
+    ],
+    "facts": [
+      "purohit"
+    ],
+    "answer": "Hazel Purohit: 1. Stable position a left-sided pacemaker leads. 2. Stable cardiomegaly. 3. Small bilateral pleural effusions, right greater than left.",
+    "id": 260
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing increased size left pneumothorax partial?",
+    "gold_docs": [
+      "doc:3826"
+    ],
+    "facts": [
+      "badami"
+    ],
+    "answer": "Gareth Badami: 1. Increased size of left pneumothorax, with [redacted] partial collapse of the left upper and lower lobes. 2. Small left pleural effusion/hemothorax.",
+    "id": 261
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing exam technically limited patient body?",
+    "gold_docs": [
+      "doc:166"
+    ],
+    "facts": [
+      "mitter"
+    ],
+    "answer": "Niharika Mitter: Exam is technically limited by patient's body habitus. Lung volumes are decreased. No evidence of acute airspace disease, large pleural effusion or pneumothorax. Heart size is stable.",
+    "id": 262
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing left lower lobe space opacities significant change?",
+    "gold_docs": [
+      "doc:3680"
+    ],
+    "facts": [
+      "naylor"
+    ],
+    "answer": "Mitchell Naylor: 1. Left lower lobe air space opacities without significant change.",
+    "id": 263
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing small bilateral pleural effusions bibasilar atelectasis airspace disease left?",
+    "gold_docs": [
+      "doc:1270"
+    ],
+    "facts": [
+      "chowdhury"
+    ],
+    "answer": "Ikbal Chowdhury: Small bilateral pleural effusions with bibasilar atelectasis and/or airspace disease, left greater than right.",
+    "id": 264
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing very lung volumes definite cardiopulmonary?",
+    "gold_docs": [
+      "doc:1667"
+    ],
+    "facts": [
+      "wheeler"
+    ],
+    "answer": "Helen Wheeler: 1. Very low lung volumes without definite acute cardiopulmonary finding. .",
+    "id": 265
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing elevated left diaphragm focal airspace?",
+    "gold_docs": [
+      "doc:2086"
+    ],
+    "facts": [
+      "chana"
+    ],
+    "answer": "Brandon Chana: 1. Elevated left diaphragm. 2. No focal airspace disease.",
+    "id": 266
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing vague opacity left lung base appears within?",
+    "gold_docs": [
+      "doc:124"
+    ],
+    "facts": [
+      "atkins"
+    ],
+    "answer": "Lynne Atkins: Vague opacity at the left lung base which appears to be within the left lower lobe. This may represent resolving or developing pneumonia given the patient's history.",
+    "id": 267
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing diffuse reticulonodular pattern bilaterally represent?",
+    "gold_docs": [
+      "doc:2706"
+    ],
+    "facts": [
+      "hartman"
+    ],
+    "answer": "Krishna Hartman: Diffuse reticulonodular pattern bilaterally. The this may represent heart failure, opportunistic infection, or idiopathic interstitial pneumonitis. [redacted] of chest for further characterization.",
+    "id": 268
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing patchy left lower lobe airspace disease possibly?",
+    "gold_docs": [
+      "doc:3302"
+    ],
+    "facts": [
+      "pierce"
+    ],
+    "answer": "Udarsh Pierce: 1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+    "id": 269
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing interval resolution bibasilar airspace disease?",
+    "gold_docs": [
+      "doc:3875"
+    ],
+    "facts": [
+      "mukherjee"
+    ],
+    "answer": "Helen Mukherjee: 1. Interval resolution of bibasilar airspace disease. 2. Hyperinflation with chronic changes of emphysema. .",
+    "id": 270
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing worsening interstitial lung disease high resolution recommended confirm reveals?",
+    "gold_docs": [
+      "doc:2158"
+    ],
+    "facts": [
+      "grewal"
+    ],
+    "answer": "Nirja Grewal: 1. Findings consistent with worsening interstitial lung disease. High resolution [redacted] is recommended to confirm this. Prior [redacted] from [redacted] reveals no evidence of interstitial lung disease.",
+    "id": 271
+  },
+  {
+    "type": "doc_semantic",
+    "difficulty": "documents",
+    "question": "Which patient has an uploaded chest X-ray report describing right middle lobe airspace disease reflect atelectasis?",
+    "gold_docs": [
+      "doc:572"
+    ],
+    "facts": [
+      "dobson"
+    ],
+    "answer": "Arin Dobson: Right middle lobe airspace disease may reflect atelectasis or pneumonia. .",
+    "id": 272
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Tripti Yogi's Limbic Encephalitis note.",
+    "gold_docs": [
+      "doc:5770"
+    ],
+    "facts": [
+      "limbic",
+      "encephalitis",
+      "secondary"
+    ],
+    "answer": "Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .",
+    "id": 273
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Norman Barnett's Gen Med Consult - 40 note.",
+    "gold_docs": [
+      "doc:5946"
+    ],
+    "facts": [
+      "probable",
+      "stroke",
+      "patient"
+    ],
+    "answer": "1. Probable stroke. The patient has an expressive aphasia. He does not have dysarthria, however. Also, his strength is not affected. I suspect that the patient has had strokes or TIAs in the past because he was taking aspirin and Plavix at home. Head CT is reportedly negative. I will ask our radiolo",
+    "id": 274
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Daksh Reed's I&D - Penoscrotal Abscess note.",
+    "gold_docs": [
+      "doc:3985"
+    ],
+    "facts": [
+      "penoscrotal",
+      "abscess",
+      "operation"
+    ],
+    "answer": "Penoscrotal abscess.,OPERATION: , Incision and drainage of the penoscrotal abscess, packing, penile biopsy, cystoscopy, and urethral dilation.,BRIEF HISTORY: , The patient is a 75-year-old male presented with penoscrotal abscess. Options such as watchful waiting, drainage, and antibiotics were discu",
+    "id": 275
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Zoe Beasley's Dietary Consultation - 2 note.",
+    "gold_docs": [
+      "doc:6153"
+    ],
+    "facts": [
+      "patient",
+      "diet",
+      "history"
+    ],
+    "answer": "Patient's diet history reflects that she is highly restricting carbohydrates in her food intake. She does not have blood sugar records with her for me to review, but we discussed strategies for improving blood sugar control in the morning. This primarily included a recommendation of including some s",
+    "id": 276
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Ridhi Murthy's Shoulder Hemi-resurfacing note.",
+    "gold_docs": [
+      "doc:4202"
+    ],
+    "facts": [
+      "severe",
+      "degenerative",
+      "joint"
+    ],
+    "answer": "Severe degenerative joint disease of the right shoulder.,PROCEDURE: , Right shoulder hemi-resurfacing using a size 5 Biomet Copeland humeral head component, noncemented.,ANESTHESIA: , General endotracheal.,ESTIMATED BLOOD LOSS: , Less than 100 mL.,",
+    "id": 277
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Aarnav Parks's Epidural Steroid Block note.",
+    "gold_docs": [
+      "doc:5592"
+    ],
+    "facts": [
+      "left",
+      "sciatica",
+      "anesthesia"
+    ],
+    "answer": ", Left sciatica.,ANESTHESIA: , Intravenous sedation,",
+    "id": 278
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Hollie Fletcher's Craniotomy - Frontal Zygomatic note.",
+    "gold_docs": [
+      "doc:4727"
+    ],
+    "facts": [
+      "metopic",
+      "synostosis",
+      "trigonocephaly"
+    ],
+    "answer": "Metopic synostosis with trigonocephaly.,PROCEDURES: ,1. Bilateral orbital frontal zygomatic craniotomy (skull base approach).,2. Bilateral orbital advancement with (C-shaped osteotomies down to the inferior orbital rim) with bilateral orbital advancement with bone grafts.,3. Bilateral forehead recon",
+    "id": 279
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Russell Clayton's Gen Med Consult - 19 note.",
+    "gold_docs": [
+      "doc:5969"
+    ],
+    "facts": [
+      "year-old",
+      "chronic",
+      "lung"
+    ],
+    "answer": "A 2-year-old with chronic lung disease, doing the sprints, some bowel difficulties, also just weight gain issues because of the high-energy expenditure with the sprints that she is doing.,",
+    "id": 280
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Gail Savant's Cardiac Catheterization note.",
+    "gold_docs": [
+      "doc:4851"
+    ],
+    "facts": [
+      "moderate-to-severe",
+      "coronary",
+      "artery"
+    ],
+    "answer": "1. Moderate-to-severe coronary artery disease with a high-grade lesion seen at the ostium of the first diagonal artery as well as a 60% to 70% lesion seen at the mid portion of the right coronary artery.,2. Moderate-to-severe aortic stenosis with an aortic valve area of 0.89 cm2.,3. 4+ mitral regurg",
+    "id": 281
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Caroline Ramirez's Postop Medical Management note.",
+    "gold_docs": [
+      "doc:6139"
+    ],
+    "facts": [
+      "right",
+      "knee",
+      "arthritis"
+    ],
+    "answer": "1. Right knee arthritis status post right total knee replacement. The patient tolerated the procedure well.,2. Anemia due to stated operative blood loss, would not require transfusion at this point.,3. Hypertension, under control. Continue current home medications.,4. Deep vein thrombosis risk, prop",
+    "id": 282
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Vicki Pritchard's Pathology - Sesamoid Bone note.",
+    "gold_docs": [
+      "doc:5611"
+    ],
+    "facts": [
+      "osteomyelitis",
+      "foci",
+      "marrow"
+    ],
+    "answer": "Acute Osteomyelitis, with foci of marrow fibrosis.,Focal acute and chronic inflammation of fascia and soft tissue. Arteriosclerosis, severely occlusive.",
+    "id": 283
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Joseph Archer's Gen Med Consult - 32 note.",
+    "gold_docs": [
+      "doc:5955"
+    ],
+    "facts": [
+      "will",
+      "continue",
+      "present"
+    ],
+    "answer": "We will continue present therapy except we will add Tylenol No. 3 to take 1 tablet before bed as needed for her back pain. If she does develop drowsiness from this, then the CNS side effects will help her sleep. During the day, her daughter likes the patient to remain alert and will use the ibuprofe",
+    "id": 284
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Erika Apte's Cardiac Radionuclide Stress Test note.",
+    "gold_docs": [
+      "doc:5423"
+    ],
+    "facts": [
+      "septal",
+      "ischemia",
+      "left"
+    ],
+    "answer": "1. Mild septal ischemia. Likely due to the left bundle-branch block.,2. Mild cardiomyopathy, EF of 52%.,3. Mild hypertension at 160/84.,4. Left bundle-branch block.,",
+    "id": 285
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Jeevika Shetty's Psych Consult - Psychosis note.",
+    "gold_docs": [
+      "doc:5466"
+    ],
+    "facts": [
+      "axis",
+      "psychosis",
+      "inpatient"
+    ],
+    "answer": "AXIS I: Psychosis. Inpatient Psychiatric Team to follow.,AXIS II: Deferred.,AXIS III: We were unable to perform physical examination on the patient today secondary to her being in seclusion. Laboratory was reviewed revealing leukocytosis, possibly secondary to a UTI. We will wait until the patient i",
+    "id": 286
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Morgan Oliver's Cardiac Catheterization - 2 note.",
+    "gold_docs": [
+      "doc:4852"
+    ],
+    "facts": [
+      "grade",
+      "stenosis",
+      "right"
+    ],
+    "answer": "1. Moderate grade stenosis in the right subclavian artery.,2. Patent proximal edge of the right carotid.",
+    "id": 287
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Louise Subramanian's Mayoview - 2 note.",
+    "gold_docs": [
+      "doc:5311"
+    ],
+    "facts": [
+      "normal",
+      "stress",
+      "rest"
+    ],
+    "answer": "1. Normal stress/rest cardiac perfusion with no indication of ischemia.,2. Normal LV function and low likelihood of significant epicardial coronary narrowing.,",
+    "id": 288
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Abhiram Butler's Hematuria & Urinary Retention note.",
+    "gold_docs": [
+      "doc:3994"
+    ],
+    "facts": [
+      "pneumonia",
+      "dehydration",
+      "retention"
+    ],
+    "answer": "1. Pneumonia.,2. Dehydration.,3. Retention.,4. BPH.,5. Diabetes.,6. Hyperlipidemia.,7. Parkinson's.,8. Congestive heart failure.,About 30 minutes were spent during the procedure and the Foley catheter was placed, Foley was irrigated and significant amount of clots were obtained. Plan is for urine cu",
+    "id": 289
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Frank Gandhi's Total Hip Arthroplasty - Revision note.",
+    "gold_docs": [
+      "doc:4117"
+    ],
+    "facts": [
+      "infected",
+      "right",
+      "bipolar"
+    ],
+    "answer": "Infected right hip bipolar arthroplasty, status post excision and placement of antibiotic spacer.,",
+    "id": 290
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Georgina Burrows's Gen Med Consult - 14 note.",
+    "gold_docs": [
+      "doc:5972"
+    ],
+    "facts": [
+      "serous",
+      "otitis",
+      "atopic"
+    ],
+    "answer": "1. Serous otitis.,2. Atopic dermatitis.,",
+    "id": 291
+  },
+  {
+    "type": "doc_transcription_lookup",
+    "difficulty": "documents",
+    "question": "Summarise Kabir Young's Renal Failure Evaluation note.",
+    "gold_docs": [
+      "doc:5812"
+    ],
+    "facts": [
+      "kidney",
+      "injury",
+      "etiology"
+    ],
+    "answer": "1. Acute kidney injury of which etiology is unknown at this time, with progressive azotemia unresponsive to IV fluids.,2. Hyperkalemia due to renal failure, slowly improving with Kayexalate.,3. Microscopic hematuria with nephrotic range proteinuria, more consistent with a glomerulonephropathy nephri",
+    "id": 292
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a orthopedic document about: Patient with back and hip pain?",
+    "gold_docs": [
+      "doc:5613"
+    ],
+    "facts": [
+      "dey"
+    ],
+    "answer": "Sara Dey",
+    "id": 293
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Carbon dioxide laser photo-ablation due to recurrent dysplasia of vulva?",
+    "gold_docs": [
+      "doc:4438"
+    ],
+    "facts": [
+      "purohit"
+    ],
+    "answer": "Pranav Purohit",
+    "id": 294
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Bilateral temporal artery biopsy.  Rule out temporal arteritis?",
+    "gold_docs": [
+      "doc:4150"
+    ],
+    "facts": [
+      "saha"
+    ],
+    "answer": "Christina Saha",
+    "id": 295
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a general medicine document about: Initial clinic visit for foreign body in left eye?",
+    "gold_docs": [
+      "doc:5967"
+    ],
+    "facts": [
+      "chaudhuri"
+    ],
+    "answer": "Julian Chaudhuri",
+    "id": 296
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a nephrology document about: The patient is being discharged for continued hemodialysis and rehab?",
+    "gold_docs": [
+      "doc:5822"
+    ],
+    "facts": [
+      "meyer"
+    ],
+    "answer": "Maanav Meyer",
+    "id": 297
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a general medicine document about: Patient was found to have decrease in mental alertness?",
+    "gold_docs": [
+      "doc:5952"
+    ],
+    "facts": [
+      "hegde"
+    ],
+    "answer": "Lesley Hegde",
+    "id": 298
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Repeat low transverse cervical cesarean section with delivery of a viable female neonate.  Bilateral tubal ligation and partial salpingectomy.  Lysis of adhesions?",
+    "gold_docs": [
+      "doc:4873"
+    ],
+    "facts": [
+      "faulkner"
+    ],
+    "answer": "Mason Faulkner",
+    "id": 299
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: The patient was found to have limitations to extension at the IP joint to the right thumb and he had full extension after release of A1 pulley?",
+    "gold_docs": [
+      "doc:4241"
+    ],
+    "facts": [
+      "kala"
+    ],
+    "answer": "Samarth Kala",
+    "id": 300
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a soap / chart / progress notes document about: The patient is in complaining of headaches and dizzy spells?",
+    "gold_docs": [
+      "doc:5114"
+    ],
+    "facts": [
+      "mistry"
+    ],
+    "answer": "Arthur Mistry",
+    "id": 301
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Bilateral myringotomies and insertion of Shepard grommet draining tubes?",
+    "gold_docs": [
+      "doc:4368"
+    ],
+    "facts": [
+      "hunter"
+    ],
+    "answer": "Martyn Hunter",
+    "id": 302
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a hematology - oncology document about: Progressive low-grade glioma, now more than 20 years since initially diagnosed.  She is status post craniotomy for debulking and has done well with the surgery?",
+    "gold_docs": [
+      "doc:5868"
+    ],
+    "facts": [
+      "dube"
+    ],
+    "answer": "Caroline Dube",
+    "id": 303
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Lumbar laminectomy for decompression with foraminotomies L3-L4, L4-L5, L5-S1 microtechniques and repair of CSF fistula, microtechniques L5-S1, application of DuraSeal.  Lumbar stenosis and cerebrospinal fluid fistula?",
+    "gold_docs": [
+      "doc:4407"
+    ],
+    "facts": [
+      "sawhney"
+    ],
+    "answer": "Gareth Sawhney",
+    "id": 304
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a radiology document about: CT Brain: Suprasellar aneurysm, pre and post bleed?",
+    "gold_docs": [
+      "doc:5393"
+    ],
+    "facts": [
+      "jennings"
+    ],
+    "answer": "Chatresh Jennings",
+    "id": 305
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a general medicine document about: The patient complaining of abdominal pain, has a long-standing history of diabetes treated with Micronase daily?",
+    "gold_docs": [
+      "doc:6038"
+    ],
+    "facts": [
+      "valdez"
+    ],
+    "answer": "Vansha Valdez",
+    "id": 306
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a urology document about: Hypospadias repair (TIT and tissue flap relocation) and Nesbit tuck chordee release?",
+    "gold_docs": [
+      "doc:3988"
+    ],
+    "facts": [
+      "curtis"
+    ],
+    "answer": "Logan Curtis",
+    "id": 307
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Intrauterine pregnancy at 37 plus weeks, nonreassuring fetal heart rate?",
+    "gold_docs": [
+      "doc:4418"
+    ],
+    "facts": [
+      "ben"
+    ],
+    "answer": "Ruth Ben",
+    "id": 308
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a urology document about: Abnormal serum PSA of 16 ng/ml, dribbling urine, inability to empty bladder, nocturia, urinary hesitancy and slow urine stream?",
+    "gold_docs": [
+      "doc:4006"
+    ],
+    "facts": [
+      "vincent"
+    ],
+    "answer": "Avi Vincent",
+    "id": 309
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a surgery document about: Visually significant posterior capsule opacity, right eye.  YAG laser posterior capsulotomy, right eye?",
+    "gold_docs": [
+      "doc:4057"
+    ],
+    "facts": [
+      "day"
+    ],
+    "answer": "Lauren Day",
+    "id": 310
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a nephrology document about: Management of end-stage renal disease (ESRD), the patient on chronic hemodialysis, being admitted for chest pain?",
+    "gold_docs": [
+      "doc:5820"
+    ],
+    "facts": [
+      "fields"
+    ],
+    "answer": "Kirk Fields",
+    "id": 311
+  },
+  {
+    "type": "doc_transcription_semantic",
+    "difficulty": "documents",
+    "question": "Which patient had a radiology document about: MRI Brain & T-spine - Demyelinating disease?",
+    "gold_docs": [
+      "doc:5290"
+    ],
+    "facts": [
+      "todd"
+    ],
+    "answer": "Callum Todd",
+    "id": 312
+  }
+]

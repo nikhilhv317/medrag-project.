@@ -1,0 +1,6 @@
+{
+  "answers.gemini:gemini-3-flash-preview.auto_correct": 1.0,
+  "answers.gemini:gemini-3.1-flash-lite.auto_correct": 1.0,
+  "answers.gemini:gemini-3.5-flash.auto_correct": 1.0,
+  "answers.gemini:gemini-3.5-flash-lite.auto_correct": 0.9
+}

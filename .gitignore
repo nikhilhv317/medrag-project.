@@ -1,12 +1,8 @@
 # Secrets
 .env
 
-# Generated data, indexes, reports
-data/raw/
-data/clean/
-data/source/
+# Generated indexes (rebuild with the README pipeline; too large for GitHub)
 indexes/
-reports/
 *.pkl
 *.npy
 *.faiss

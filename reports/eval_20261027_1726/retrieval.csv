@@ -1,0 +1,1501 @@
+index,mode,type,id,latency_s,hit,mrr,recall,ndcg
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,0,0.05398416519165039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,1,0.05175209045410156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,2,0.04808855056762695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,3,0.04563760757446289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,4,0.047616004943847656,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,5,0.05089926719665527,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,6,0.04785633087158203,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,7,0.04528927803039551,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,8,0.04513955116271973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,9,0.04599475860595703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,10,0.04454851150512695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,11,0.04618525505065918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,12,0.04798293113708496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,13,0.04736685752868652,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,14,0.0487060546875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,15,0.05220603942871094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,16,0.04573631286621094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,17,0.04525017738342285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,18,0.0460813045501709,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,19,0.04625868797302246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,20,0.04540872573852539,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,21,0.04615592956542969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,22,0.047670841217041016,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,23,0.04757213592529297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,24,0.047807931900024414,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,25,0.05895376205444336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,26,0.05253863334655762,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,27,0.05125117301940918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,28,0.06537461280822754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_name,29,0.0510249137878418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,30,0.0395810604095459,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,31,0.04067540168762207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,32,0.04134225845336914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,33,0.04282832145690918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,34,0.04154229164123535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,35,0.0399777889251709,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,36,0.04058980941772461,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,37,0.03868699073791504,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,38,0.03949737548828125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,39,0.03820300102233887,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,40,0.03758668899536133,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,41,0.03799939155578613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,42,0.037970781326293945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,43,0.03794050216674805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,44,0.04439258575439453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,45,0.04731488227844238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,46,0.04944467544555664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,47,0.04294180870056152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,48,0.041602373123168945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,49,0.040433406829833984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,50,0.03944969177246094,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,51,0.039739131927490234,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,52,0.0386195182800293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,53,0.039998531341552734,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,54,0.039574384689331055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,55,0.038002967834472656,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,56,0.03869962692260742,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,57,0.038320064544677734,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,58,0.0389254093170166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,lookup_by_mrn,59,0.03883624076843262,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,60,0.05420637130737305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,61,0.05462169647216797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,62,0.053574323654174805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,63,0.05252981185913086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,64,0.052825212478637695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,65,0.053704261779785156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,66,0.05521440505981445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,67,0.05781221389770508,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,68,0.05626273155212402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,69,0.05716729164123535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,70,0.05401015281677246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,71,0.05332303047180176,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,72,0.05338001251220703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,73,0.05676889419555664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,74,0.05478072166442871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,75,0.0535123348236084,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,76,0.05398249626159668,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,77,0.054160356521606445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,78,0.05314803123474121,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,79,0.05497932434082031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,80,0.05368161201477051,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,81,0.053609609603881836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,82,0.05235457420349121,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,83,0.05271029472351074,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,84,0.05312824249267578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,85,0.05590343475341797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,86,0.05352449417114258,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,87,0.05366039276123047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,88,0.052939414978027344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,latest,89,0.05365419387817383,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,90,0.030824899673461914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,91,0.03101372718811035,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,92,0.0313105583190918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,93,0.030849456787109375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,94,0.030940771102905273,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,95,0.03038930892944336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,96,0.0309598445892334,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,97,0.0321805477142334,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,98,0.032325029373168945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,99,0.03293871879577637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,100,0.03364253044128418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,101,0.032477617263793945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,102,0.03052377700805664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,103,0.03127336502075195,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,104,0.03305506706237793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,105,0.03432631492614746,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,106,0.03572797775268555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,107,0.03361630439758301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,108,0.030806303024291992,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,109,0.030086517333984375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,110,0.03133130073547363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,111,0.03153562545776367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,112,0.03158164024353027,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,113,0.03285574913024902,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,114,0.03192758560180664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,115,0.030442237854003906,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,116,0.04102611541748047,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,117,0.03706789016723633,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,118,0.033879995346069336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,count_patient,119,0.03253960609436035,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,120,0.029858112335205078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,121,0.03665566444396973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,122,0.029041528701782227,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,123,0.03183722496032715,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,124,0.03022480010986328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,125,0.03140425682067871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,126,0.03040480613708496,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,127,0.030178070068359375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,128,0.032800912857055664,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,129,0.030358076095581055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,130,0.03515052795410156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,131,0.032559871673583984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,132,0.02975630760192871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,133,0.03277111053466797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,134,0.035030364990234375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,135,0.037180423736572266,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,136,0.030554771423339844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,137,0.0330350399017334,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,138,0.0322270393371582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,139,0.029381752014160156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,140,0.049678802490234375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,141,0.037076473236083984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,142,0.0372769832611084,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,143,0.04309344291687012,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,144,0.03842568397521973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,145,0.04577064514160156,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,146,0.06217384338378906,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,147,0.04893827438354492,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,148,0.03529095649719238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,bm25,semantic,149,0.03150629997253418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,0,0.0886697769165039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,1,0.11205577850341797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,2,0.08834314346313477,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,3,0.09063339233398438,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,4,0.09496259689331055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,5,0.09535574913024902,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,6,0.10181784629821777,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,7,0.1121978759765625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,8,0.10482311248779297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,9,0.10632133483886719,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,10,0.08653974533081055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,11,0.08835816383361816,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,12,0.08469033241271973,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,13,0.09635734558105469,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,14,0.0902247428894043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,15,0.09283661842346191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,16,0.0888979434967041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,17,0.10683512687683105,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,18,0.1126704216003418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,19,0.09479355812072754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,20,0.08289361000061035,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,21,0.08180642127990723,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,22,0.09419512748718262,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,23,0.11086416244506836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,24,0.11351418495178223,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,25,0.11379218101501465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,26,0.11495828628540039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,27,0.10921025276184082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,28,0.11306381225585938,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_name,29,0.09776735305786133,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,30,0.09614443778991699,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,31,0.09818911552429199,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,32,0.09713387489318848,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,33,0.09080624580383301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,34,0.09389829635620117,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,35,0.09768939018249512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,36,0.07401275634765625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,37,0.0778040885925293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,38,0.0749061107635498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,39,0.07520389556884766,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,40,0.09683060646057129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,41,0.09881806373596191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,42,0.07975602149963379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,43,0.07137703895568848,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,44,0.07245731353759766,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,45,0.0987856388092041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,46,0.09831118583679199,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,47,0.09934639930725098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,48,0.08401703834533691,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,49,0.08100199699401855,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,50,0.07526707649230957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,51,0.0911874771118164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,52,0.09298443794250488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,53,0.08203649520874023,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,54,0.09570884704589844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,55,0.08338165283203125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,56,0.07226085662841797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,57,0.07222509384155273,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,58,0.07788538932800293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,lookup_by_mrn,59,0.08578848838806152,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,60,0.09307360649108887,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,61,0.10218310356140137,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,62,0.12417149543762207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,63,0.11481928825378418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,64,0.11302542686462402,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,65,0.09106659889221191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,66,0.12249088287353516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,67,0.12579560279846191,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,68,0.1299452781677246,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,69,0.12596940994262695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,70,0.12028694152832031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,71,0.12160038948059082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,72,0.11682891845703125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,73,0.12317848205566406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,74,0.11505007743835449,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,75,0.1220698356628418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,76,0.12565350532531738,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,77,0.12775278091430664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,78,0.12366223335266113,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,79,0.12214803695678711,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,80,0.12461042404174805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,81,0.1232459545135498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,82,0.12310433387756348,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,83,0.08871054649353027,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,84,0.1031045913696289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,85,0.12463212013244629,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,86,0.12183141708374023,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,87,0.12380480766296387,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,88,0.11983370780944824,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,latest,89,0.09388589859008789,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,90,0.07676315307617188,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,91,0.08515429496765137,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,92,0.0846245288848877,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,93,0.06964802742004395,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,94,0.06678938865661621,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,95,0.08637738227844238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,96,0.08312487602233887,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,97,0.08254313468933105,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,98,0.08610224723815918,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,99,0.06504058837890625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,100,0.060539960861206055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,101,0.05855584144592285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,102,0.06468033790588379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,103,0.08220219612121582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,104,0.07103729248046875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,105,0.08609867095947266,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,106,0.08093452453613281,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,107,0.0833275318145752,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,108,0.08185315132141113,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,109,0.0699462890625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,110,0.05688047409057617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,111,0.06940531730651855,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,112,0.06738519668579102,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,113,0.08720993995666504,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,114,0.08272242546081543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,115,0.06307840347290039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,116,0.08452391624450684,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,117,0.07768869400024414,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,118,0.07443046569824219,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,count_patient,119,0.06159687042236328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,120,0.061447858810424805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,121,0.08468770980834961,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,122,0.08406805992126465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,123,0.0877227783203125,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,124,0.069305419921875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,125,0.07441949844360352,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,126,0.07824993133544922,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,127,0.06840300559997559,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,128,0.09153270721435547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,129,0.08488106727600098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,130,0.09043192863464355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,131,0.08643078804016113,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,132,0.0813899040222168,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,133,0.08601188659667969,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,134,0.08982682228088379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,135,0.0937802791595459,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,136,0.0827178955078125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,137,0.08772778511047363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,138,0.0891869068145752,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,139,0.08092641830444336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,140,0.07784032821655273,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,141,0.0821082592010498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,142,0.08617281913757324,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,143,0.09062528610229492,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,144,0.0829615592956543,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,145,0.08790206909179688,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,146,0.09135675430297852,1.0,0.14285714285714285,1.0,0.3333333333333333
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,147,0.07309222221374512,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,148,0.07468366622924805,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,dense,semantic,149,0.08094978332519531,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,0,0.10743451118469238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,1,0.1137382984161377,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,2,0.11025834083557129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,3,0.10667133331298828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,4,0.11389708518981934,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,5,0.1089334487915039,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,6,0.10983490943908691,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,7,0.10702228546142578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,8,0.1111135482788086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,9,0.12238121032714844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,10,0.08618927001953125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,11,0.09204673767089844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,12,0.10071802139282227,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,13,0.0962533950805664,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,14,0.08043670654296875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,15,0.07937884330749512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,16,0.08253288269042969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,17,0.10368871688842773,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,18,0.08563065528869629,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,19,0.08390641212463379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,20,0.09819841384887695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,21,0.11168098449707031,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,22,0.10613822937011719,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,23,0.08259820938110352,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,24,0.10123920440673828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,25,0.07997798919677734,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,26,0.10319018363952637,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,27,0.11330366134643555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,28,0.11673903465270996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_name,29,0.11262726783752441,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,30,0.09346985816955566,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,31,0.08147311210632324,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,32,0.0827631950378418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,33,0.08688092231750488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,34,0.10685181617736816,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,35,0.10307621955871582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,36,0.10110282897949219,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,37,0.10068035125732422,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,38,0.09457659721374512,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,39,0.08157825469970703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,40,0.09073543548583984,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,41,0.07895398139953613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,42,0.0759890079498291,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,43,0.06841564178466797,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,44,0.08731222152709961,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,45,0.08827376365661621,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,46,0.10546565055847168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,47,0.10032796859741211,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,48,0.1004183292388916,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,49,0.09807133674621582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,50,0.10260581970214844,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,51,0.08688044548034668,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,52,0.09893989562988281,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,53,0.08335995674133301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,54,0.07647871971130371,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,55,0.09103560447692871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,56,0.0906832218170166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,57,0.07829117774963379,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,58,0.10386776924133301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,lookup_by_mrn,59,0.09196186065673828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,60,0.11231374740600586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,61,0.11807441711425781,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,62,0.0911414623260498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,63,0.08981490135192871,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,64,0.09057450294494629,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,65,0.10609149932861328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,66,0.1009824275970459,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,67,0.09195566177368164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,68,0.08736467361450195,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,69,0.10313534736633301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,70,0.11602091789245605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,71,0.13077950477600098,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,72,0.12867975234985352,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,73,0.1259934902191162,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,74,0.1274724006652832,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,75,0.12904763221740723,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,76,0.10902523994445801,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,77,0.09406852722167969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,78,0.10101079940795898,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,79,0.11153531074523926,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,80,0.11975550651550293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,81,0.10261392593383789,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,82,0.1251821517944336,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,83,0.11038661003112793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,84,0.12486958503723145,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,85,0.11142754554748535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,86,0.11426687240600586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,87,0.12972784042358398,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,88,0.10556602478027344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,latest,89,0.12979769706726074,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,90,0.08794593811035156,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,91,0.08743572235107422,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,92,0.0795440673828125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,93,0.07067179679870605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,94,0.06990551948547363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,95,0.08398032188415527,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,96,0.07740592956542969,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,97,0.08516669273376465,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,98,0.08503413200378418,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,99,0.08150720596313477,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,100,0.08244037628173828,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,101,0.0861058235168457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,102,0.08555841445922852,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,103,0.0811011791229248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,104,0.06603717803955078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,105,0.07715153694152832,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,106,0.07897138595581055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,107,0.08679461479187012,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,108,0.0851902961730957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,109,0.08150434494018555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,110,0.08402061462402344,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,111,0.06833934783935547,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,112,0.06865954399108887,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,113,0.0650792121887207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,114,0.07994532585144043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,115,0.0746622085571289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,116,0.0625905990600586,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,117,0.08442234992980957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,118,0.08421707153320312,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,count_patient,119,0.07931256294250488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,120,0.06334090232849121,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,121,0.07181930541992188,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,122,0.06805086135864258,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,123,0.07910537719726562,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,124,0.06258392333984375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,125,0.0800313949584961,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,126,0.0807349681854248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,127,0.08537435531616211,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,128,0.07167744636535645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,129,0.05940103530883789,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,130,0.0811319351196289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,131,0.06556820869445801,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,132,0.06602215766906738,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,133,0.07551121711730957,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,134,0.08392572402954102,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,135,0.09280180931091309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,136,0.0845339298248291,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,137,0.07548284530639648,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,138,0.0721125602722168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,139,0.08692812919616699,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,140,0.06563305854797363,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,141,0.05858945846557617,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,142,0.0637655258178711,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,143,0.0816192626953125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,144,0.08510804176330566,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,145,0.08218097686767578,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,146,0.09520125389099121,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,147,0.06439948081970215,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,148,0.08541584014892578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid,semantic,149,0.08566021919250488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,0,2.5102081298828125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,1,0.15586328506469727,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,2,0.16882681846618652,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,3,0.16675186157226562,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,4,0.17122960090637207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,5,0.15447282791137695,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,6,0.16147398948669434,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,7,0.14844202995300293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,8,0.1639559268951416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,9,0.13926100730895996,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,10,0.16300392150878906,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,11,0.16121220588684082,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,12,0.17022418975830078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,13,0.16659259796142578,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,14,0.17354583740234375,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,15,0.1712327003479004,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,16,0.1673870086669922,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,17,0.16714262962341309,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,18,0.16515064239501953,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,19,0.16579556465148926,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,20,0.15215158462524414,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,21,0.1132364273071289,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,22,0.13732242584228516,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,23,0.16422605514526367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,24,0.15112042427062988,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,25,0.16451525688171387,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,26,0.16447734832763672,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,27,0.15126323699951172,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,28,0.16225934028625488,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_name,29,0.16305994987487793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,30,0.15789508819580078,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,31,0.15467190742492676,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,32,0.1315467357635498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,33,0.13906502723693848,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,34,0.1300182342529297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,35,0.15327930450439453,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,36,0.1534256935119629,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,37,0.14582562446594238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,38,0.16000843048095703,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,39,0.15665221214294434,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,40,0.15461015701293945,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,41,0.15705084800720215,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,42,0.15748023986816406,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,43,0.16067957878112793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,44,0.15425658226013184,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,45,0.15146398544311523,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,46,0.14965367317199707,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,47,0.1534113883972168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,48,0.155045747756958,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,49,0.12431883811950684,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,50,0.13292908668518066,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,51,0.12168455123901367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,52,0.14574193954467773,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,53,0.1479341983795166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,54,0.15580296516418457,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,55,0.15824556350708008,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,56,0.12994837760925293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,57,0.1249239444732666,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,58,0.1285231113433838,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,lookup_by_mrn,59,0.15537381172180176,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,60,0.4953782558441162,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,61,0.2785501480102539,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,62,0.5360414981842041,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,63,1.1250784397125244,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,64,0.7706263065338135,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,65,1.385401964187622,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,66,0.27501535415649414,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,67,0.35733652114868164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,68,0.72003173828125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,69,0.3613150119781494,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,70,0.3070197105407715,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,71,0.5619072914123535,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,72,0.2860429286956787,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,73,0.779940128326416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,74,0.30869626998901367,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,75,1.8445510864257812,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,76,0.2908473014831543,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,77,0.34171438217163086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,78,2.0558135509490967,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,79,0.2994520664215088,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,80,0.5646631717681885,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,81,0.28261685371398926,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,82,2.423095464706421,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,83,0.30533337593078613,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,84,1.569394826889038,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,85,0.6871545314788818,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,86,0.7240555286407471,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,87,1.1117167472839355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,88,0.7558739185333252,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,latest,89,0.7927596569061279,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,90,0.1755659580230713,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,91,0.4582962989807129,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,92,0.21309733390808105,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,93,0.2064666748046875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,94,0.2528209686279297,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,95,0.2190711498260498,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,96,0.2046043872833252,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,97,0.21831583976745605,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,98,0.2377910614013672,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,99,0.3412761688232422,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,100,0.2128145694732666,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,101,0.11898684501647949,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,102,0.3281514644622803,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,103,0.28417181968688965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,104,0.21924424171447754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,105,0.17937254905700684,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,106,0.2357473373413086,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,107,0.20442819595336914,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,108,0.2882359027862549,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,109,0.14806318283081055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,110,0.26418232917785645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,111,0.1500840187072754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,112,0.20989131927490234,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,113,0.24404287338256836,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,114,0.22069549560546875,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,115,0.18706083297729492,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,116,0.16974616050720215,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,117,0.1882941722869873,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,118,0.1837308406829834,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,count_patient,119,0.13629388809204102,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,120,0.3408634662628174,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,121,0.5118207931518555,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,122,0.9338634014129639,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,123,0.3015458583831787,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,124,0.6784036159515381,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,125,0.9032137393951416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,126,0.5133061408996582,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,127,0.7621452808380127,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,128,0.5239005088806152,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,129,0.6667783260345459,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,130,0.5039153099060059,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,131,0.4369988441467285,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,132,0.5033528804779053,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,133,0.9541957378387451,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,134,0.3067169189453125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,135,0.9782881736755371,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,136,0.49441981315612793,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,137,0.3813035488128662,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,138,0.4942171573638916,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,139,0.7984824180603027,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,140,0.4055328369140625,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,141,0.5342755317687988,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,142,0.9083421230316162,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,143,0.13817286491394043,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,144,1.0037262439727783,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,145,0.7163128852844238,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,146,0.5450448989868164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,147,0.8042240142822266,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,148,0.3417322635650635,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank,semantic,149,0.17908859252929688,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,0,6.355452537536621,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,1,6.310767650604248,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,2,5.08234977722168,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,3,4.766987323760986,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,4,6.608163833618164,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,5,5.758811950683594,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,6,5.342830181121826,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,7,5.48102593421936,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,8,6.138019323348999,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,9,4.784751653671265,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,10,5.30410623550415,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,11,6.206376552581787,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,12,5.851827383041382,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,13,5.473734617233276,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,14,4.88422703742981,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,15,6.079472780227661,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,16,6.561070203781128,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,17,6.421755075454712,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,18,6.839482545852661,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,19,5.2898945808410645,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,20,6.175504922866821,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,21,6.489491701126099,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,22,5.967558860778809,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,23,7.0708327293396,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,24,6.469498872756958,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,25,6.648789405822754,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,26,6.6129539012908936,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,27,5.368671417236328,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,28,6.331908941268921,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_name,29,5.368340730667114,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,30,4.210897922515869,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,31,5.6073713302612305,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,32,4.826253652572632,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,33,4.657444715499878,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,34,6.197872877120972,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,35,4.16414737701416,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,36,4.078070878982544,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,37,5.981930732727051,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,38,4.93585205078125,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,39,4.362302541732788,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,40,6.028216600418091,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,41,4.899580478668213,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,42,5.88114333152771,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,43,4.793057203292847,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,44,5.453567981719971,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,45,4.880146741867065,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,46,4.0311479568481445,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,47,4.13432765007019,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,48,4.859867811203003,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,49,4.661759853363037,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,50,5.783126592636108,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,51,5.694751739501953,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,52,5.100191593170166,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,53,5.4741597175598145,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,54,6.9912285804748535,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,55,5.65455436706543,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,56,5.371170282363892,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,57,4.584160566329956,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,58,4.493833065032959,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),lookup_by_mrn,59,6.2336719036102295,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,60,6.67832612991333,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,61,4.681127071380615,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,62,5.589750289916992,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,63,6.5403313636779785,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,64,6.187366247177124,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,65,6.504225969314575,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,66,5.845384359359741,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,67,5.8190741539001465,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,68,5.948624610900879,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,69,5.789052248001099,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,70,4.5016930103302,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,71,6.387726783752441,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,72,6.392893075942993,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,73,6.283150672912598,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,74,6.157698154449463,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,75,6.593697547912598,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,76,6.4726402759552,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,77,6.380091190338135,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,78,6.45345664024353,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,79,6.562669515609741,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,80,6.588739395141602,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,81,5.45921778678894,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,82,6.653154373168945,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,83,4.568129301071167,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,84,6.070750713348389,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,85,6.100677013397217,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,86,6.084650754928589,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,87,5.79702353477478,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,88,5.0118248462677,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),latest,89,5.485198974609375,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,90,5.408628940582275,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,91,6.211885690689087,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,92,5.671342134475708,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,93,5.9648213386535645,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,94,5.942314386367798,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,95,4.116134405136108,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,96,6.01136589050293,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,97,4.336935758590698,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,98,4.00368595123291,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,99,5.9304938316345215,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,100,5.8582847118377686,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,101,4.735961198806763,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,102,6.239171504974365,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,103,4.332563161849976,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,104,4.55772590637207,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,105,4.857949495315552,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,106,4.505199670791626,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,107,6.041840314865112,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,108,5.501329660415649,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,109,5.177962303161621,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,110,6.6889872550964355,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,111,5.785214424133301,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,112,6.582171201705933,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,113,5.149544715881348,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,114,6.708464860916138,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,115,6.841736078262329,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,116,5.565490245819092,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,117,6.48630166053772,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,118,5.945657968521118,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),count_patient,119,5.843939781188965,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,120,6.5550856590271,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,121,4.94875955581665,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,122,6.57408881187439,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,123,3.6309752464294434,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,124,6.839702844619751,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,125,6.184706211090088,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,126,5.0908613204956055,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,127,6.642292499542236,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,128,6.5258989334106445,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,129,6.25738263130188,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,130,2.8034842014312744,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,131,5.923397064208984,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,132,5.572845935821533,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,133,6.193009853363037,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,134,6.464609622955322,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,135,6.17231011390686,1.0,0.3333333333333333,1.0,0.5
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,136,6.1904966831207275,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,137,6.419943809509277,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,138,3.645195245742798,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,139,6.134646654129028,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,140,6.432730197906494,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,141,6.247126817703247,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,142,6.3531787395477295,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,143,6.094829082489014,1.0,0.5,1.0,0.6309297535714575
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,144,6.354876518249512,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,145,3.1453003883361816,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,146,6.282536268234253,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,147,5.869748592376709,0.0,0.0,0.0,0.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,148,6.1934003829956055,1.0,1.0,1.0,1.0
+sentence-transformers:BAAI/bge-small-en-v1.5,hybrid+rerank (no filters),semantic,149,5.374648571014404,1.0,0.2,1.0,0.38685280723454163
+hash:bow,bm25,lookup_by_name,0,0.08323383331298828,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,1,0.08009982109069824,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,2,0.05610227584838867,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,3,0.053220272064208984,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,4,0.05342841148376465,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,5,0.05166125297546387,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,6,0.05022835731506348,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,7,0.06794381141662598,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,8,0.07642388343811035,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,9,0.049513816833496094,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,10,0.046135902404785156,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,11,0.04582619667053223,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,12,0.047482967376708984,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,13,0.04538226127624512,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,14,0.04683208465576172,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,15,0.045247554779052734,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,16,0.048593759536743164,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,17,0.04636716842651367,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,18,0.04695749282836914,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,19,0.0465703010559082,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,20,0.06591463088989258,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,21,0.0491180419921875,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,22,0.044608354568481445,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,23,0.04670429229736328,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,24,0.04807877540588379,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,25,0.04985618591308594,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,26,0.04810070991516113,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,27,0.04907107353210449,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,28,0.04919886589050293,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_name,29,0.04670524597167969,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,30,0.03915858268737793,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,31,0.03976178169250488,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,32,0.0401461124420166,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,33,0.040257930755615234,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,34,0.04010486602783203,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,35,0.03796052932739258,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,36,0.038465261459350586,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,37,0.03873157501220703,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,38,0.039331674575805664,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,39,0.04083728790283203,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,40,0.057657718658447266,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,41,0.05143308639526367,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,42,0.03934669494628906,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,43,0.03914594650268555,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,44,0.03877758979797363,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,45,0.03928232192993164,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,46,0.03896784782409668,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,47,0.04001164436340332,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,48,0.042510032653808594,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,49,0.04133415222167969,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,50,0.03994131088256836,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,51,0.04501962661743164,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,52,0.04708266258239746,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,53,0.04060626029968262,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,54,0.039488792419433594,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,55,0.03863358497619629,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,56,0.03832674026489258,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,57,0.03866982460021973,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,58,0.03900003433227539,1.0,1.0,1.0,1.0
+hash:bow,bm25,lookup_by_mrn,59,0.03880786895751953,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,60,0.05492377281188965,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,61,0.05694580078125,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,62,0.05405902862548828,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,63,0.05427718162536621,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,64,0.06856679916381836,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,65,0.055396318435668945,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,66,0.054160118103027344,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,67,0.05286216735839844,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,68,0.05505633354187012,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,69,0.05353498458862305,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,70,0.05267977714538574,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,71,0.05335116386413574,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,72,0.05462646484375,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,73,0.0536036491394043,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,74,0.05319476127624512,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,75,0.05289411544799805,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,76,0.0525202751159668,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,77,0.054090023040771484,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,78,0.052300453186035156,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,79,0.05252957344055176,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,80,0.053885698318481445,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,81,0.05534696578979492,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,82,0.053304195404052734,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,83,0.05333113670349121,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,84,0.05893540382385254,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,85,0.05407094955444336,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,86,0.05319070816040039,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,87,0.0536954402923584,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,88,0.05299520492553711,1.0,1.0,1.0,1.0
+hash:bow,bm25,latest,89,0.05330467224121094,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,90,0.030391931533813477,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,91,0.030943632125854492,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,92,0.03147149085998535,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,93,0.03086256980895996,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,94,0.030783414840698242,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,95,0.03081512451171875,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,96,0.0308380126953125,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,97,0.0310513973236084,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,98,0.031100988388061523,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,99,0.02982640266418457,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,100,0.029647111892700195,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,101,0.030697107315063477,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,102,0.030806541442871094,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,103,0.030885696411132812,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,104,0.03425860404968262,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,105,0.03259921073913574,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,106,0.034314632415771484,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,107,0.03438615798950195,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,108,0.03145647048950195,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,109,0.030519962310791016,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,110,0.031160593032836914,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,111,0.030164480209350586,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,112,0.03155779838562012,1.0,0.5,1.0,0.6309297535714575
+hash:bow,bm25,count_patient,113,0.03091883659362793,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,114,0.03080010414123535,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,115,0.029906511306762695,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,116,0.03138995170593262,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,117,0.03173208236694336,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,118,0.03155636787414551,1.0,1.0,1.0,1.0
+hash:bow,bm25,count_patient,119,0.031402587890625,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,120,0.029361248016357422,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,121,0.03732872009277344,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,122,0.029394865036010742,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,123,0.03219032287597656,1.0,0.5,1.0,0.6309297535714575
+hash:bow,bm25,semantic,124,0.030531644821166992,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,125,0.030046939849853516,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,126,0.03060150146484375,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,127,0.02991342544555664,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,128,0.0328521728515625,1.0,0.5,1.0,0.6309297535714575
+hash:bow,bm25,semantic,129,0.03061079978942871,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,130,0.0342710018157959,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,131,0.031778573989868164,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,132,0.030084609985351562,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,133,0.0338900089263916,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,134,0.03622007369995117,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,135,0.03776097297668457,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,136,0.029734134674072266,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,137,0.03412318229675293,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,138,0.03305840492248535,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,139,0.02979588508605957,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,140,0.03592634201049805,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,141,0.028931140899658203,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,142,0.02952861785888672,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,143,0.03347635269165039,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,144,0.029291391372680664,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,145,0.032088279724121094,1.0,0.5,1.0,0.6309297535714575
+hash:bow,bm25,semantic,146,0.03550291061401367,1.0,0.5,1.0,0.6309297535714575
+hash:bow,bm25,semantic,147,0.03021097183227539,1.0,0.3333333333333333,1.0,0.5
+hash:bow,bm25,semantic,148,0.030018091201782227,1.0,1.0,1.0,1.0
+hash:bow,bm25,semantic,149,0.0289151668548584,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,0,0.04521822929382324,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,1,0.04559040069580078,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,2,0.04471564292907715,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,3,0.04325270652770996,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,4,0.0456390380859375,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,5,0.044455766677856445,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,6,0.04421520233154297,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,7,0.04481911659240723,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,8,0.04298114776611328,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,9,0.043596744537353516,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,10,0.04623770713806152,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,11,0.051100730895996094,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,12,0.0455937385559082,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,13,0.04516887664794922,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,14,0.04636216163635254,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,15,0.044567108154296875,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,16,0.04389214515686035,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,17,0.04333353042602539,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,18,0.046147823333740234,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,19,0.04503917694091797,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,20,0.0466008186340332,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,21,0.04722785949707031,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,22,0.04623603820800781,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,23,0.04808688163757324,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,24,0.05982661247253418,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,25,0.052407026290893555,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,26,0.04561328887939453,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,27,0.04401373863220215,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,28,0.04409289360046387,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_name,29,0.0444493293762207,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,30,0.03593778610229492,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,31,0.03584408760070801,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,32,0.036547183990478516,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,33,0.03586530685424805,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,34,0.036296844482421875,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,35,0.0360870361328125,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,36,0.03600049018859863,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,37,0.03612089157104492,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,38,0.036245107650756836,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,39,0.038461923599243164,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,40,0.036653757095336914,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,41,0.036162376403808594,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,42,0.03657937049865723,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,43,0.03929281234741211,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,44,0.03917884826660156,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,45,0.03915739059448242,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,46,0.037322044372558594,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,47,0.036728858947753906,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,48,0.03792214393615723,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,49,0.037583112716674805,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,50,0.03726696968078613,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,51,0.03708648681640625,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,52,0.03739738464355469,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,53,0.03755950927734375,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,54,0.03712773323059082,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,55,0.03621935844421387,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,56,0.03836703300476074,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,57,0.03654170036315918,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,58,0.038820743560791016,1.0,1.0,1.0,1.0
+hash:bow,dense,lookup_by_mrn,59,0.04580807685852051,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,60,0.06809091567993164,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,61,0.05436277389526367,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,62,0.0548858642578125,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,63,0.0540008544921875,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,64,0.06253576278686523,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,65,0.05914950370788574,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,66,0.05293440818786621,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,67,0.05326247215270996,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,68,0.05364394187927246,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,69,0.05353569984436035,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,70,0.05709195137023926,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,71,0.06623005867004395,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,72,0.05919051170349121,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,73,0.05328369140625,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,74,0.05226564407348633,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,75,0.052916765213012695,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,76,0.05433917045593262,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,77,0.05339837074279785,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,78,0.05314207077026367,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,79,0.05347704887390137,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,80,0.05222940444946289,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,81,0.05292105674743652,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,82,0.051606178283691406,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,83,0.052992820739746094,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,84,0.052826642990112305,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,85,0.05463981628417969,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,86,0.05258941650390625,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,87,0.05321812629699707,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,88,0.05237722396850586,1.0,1.0,1.0,1.0
+hash:bow,dense,latest,89,0.05166935920715332,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,90,0.03039836883544922,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,91,0.030236005783081055,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,92,0.030380964279174805,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,93,0.029154062271118164,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,94,0.029567480087280273,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,95,0.029101848602294922,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,96,0.02904057502746582,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,97,0.029456377029418945,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,98,0.029454469680786133,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,99,0.02920818328857422,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,100,0.028917551040649414,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,101,0.030379772186279297,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,102,0.03350114822387695,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,103,0.029302120208740234,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,104,0.031006574630737305,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,105,0.03203177452087402,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,106,0.03128314018249512,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,107,0.030968666076660156,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,108,0.029030561447143555,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,109,0.02863025665283203,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,110,0.028809547424316406,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,111,0.02939915657043457,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,112,0.030036211013793945,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,count_patient,113,0.02920842170715332,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,114,0.02955913543701172,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,115,0.029860734939575195,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,116,0.03006577491760254,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,117,0.029182910919189453,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,118,0.031345367431640625,1.0,1.0,1.0,1.0
+hash:bow,dense,count_patient,119,0.03093695640563965,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,120,0.02765488624572754,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,121,0.03563284873962402,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,122,0.028742074966430664,1.0,0.2,1.0,0.38685280723454163
+hash:bow,dense,semantic,123,0.031005382537841797,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,124,0.028334856033325195,1.0,0.2,1.0,0.38685280723454163
+hash:bow,dense,semantic,125,0.028460025787353516,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,126,0.029071569442749023,1.0,0.2,1.0,0.38685280723454163
+hash:bow,dense,semantic,127,0.028215408325195312,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,128,0.03203129768371582,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,129,0.031931400299072266,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,130,0.03524422645568848,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,131,0.030727386474609375,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,132,0.02878594398498535,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,133,0.03141474723815918,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,134,0.032536983489990234,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,135,0.035604000091552734,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,136,0.027666807174682617,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,137,0.03095841407775879,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,138,0.031320810317993164,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,139,0.027842044830322266,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,140,0.034587860107421875,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,141,0.027571678161621094,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,142,0.02849555015563965,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,143,0.032692670822143555,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,144,0.02780318260192871,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,145,0.030575990676879883,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,146,0.033849239349365234,1.0,0.5,1.0,0.6309297535714575
+hash:bow,dense,semantic,147,0.028386354446411133,1.0,0.3333333333333333,1.0,0.5
+hash:bow,dense,semantic,148,0.029485225677490234,1.0,1.0,1.0,1.0
+hash:bow,dense,semantic,149,0.028771400451660156,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,0,0.0453181266784668,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,1,0.04661226272583008,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,2,0.046276092529296875,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,3,0.045185089111328125,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,4,0.04970812797546387,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,5,0.048314809799194336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,6,0.04545259475708008,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,7,0.04597067832946777,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,8,0.045571088790893555,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,9,0.04723501205444336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,10,0.04703116416931152,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,11,0.050571441650390625,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,12,0.0470128059387207,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,13,0.04564857482910156,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,14,0.04803299903869629,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,15,0.04527997970581055,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,16,0.04486846923828125,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,17,0.04513812065124512,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,18,0.047002553939819336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,19,0.045995473861694336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,20,0.04792356491088867,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,21,0.04766726493835449,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,22,0.04593849182128906,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,23,0.046181440353393555,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,24,0.0457921028137207,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,25,0.046891212463378906,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,26,0.04566550254821777,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,27,0.047167062759399414,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,28,0.04655575752258301,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_name,29,0.04569363594055176,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,30,0.03870987892150879,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,31,0.038918256759643555,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,32,0.03856492042541504,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,33,0.03747224807739258,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,34,0.03841853141784668,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,35,0.039926767349243164,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,36,0.03857707977294922,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,37,0.039058685302734375,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,38,0.0399012565612793,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,39,0.039330244064331055,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,40,0.04001283645629883,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,41,0.04428672790527344,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,42,0.04557967185974121,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,43,0.04234623908996582,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,44,0.04279804229736328,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,45,0.04306364059448242,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,46,0.041519880294799805,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,47,0.03839707374572754,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,48,0.03976583480834961,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,49,0.039153099060058594,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,50,0.038578033447265625,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,51,0.03924727439880371,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,52,0.03818368911743164,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,53,0.03924965858459473,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,54,0.04155874252319336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,55,0.040838003158569336,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,56,0.0409388542175293,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,57,0.03895854949951172,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,58,0.043410301208496094,1.0,1.0,1.0,1.0
+hash:bow,hybrid,lookup_by_mrn,59,0.039520978927612305,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,60,0.05716705322265625,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,61,0.0552217960357666,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,62,0.054865360260009766,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,63,0.05322265625,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,64,0.0538334846496582,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,65,0.05324149131774902,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,66,0.056876420974731445,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,67,0.07392144203186035,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,68,0.08361053466796875,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,69,0.055289506912231445,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,70,0.055177927017211914,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,71,0.056453704833984375,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,72,0.054779767990112305,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,73,0.054323434829711914,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,74,0.05451321601867676,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,75,0.053682565689086914,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,76,0.055037498474121094,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,77,0.05507779121398926,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,78,0.06816744804382324,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,79,0.06270742416381836,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,80,0.06261229515075684,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,81,0.05466580390930176,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,82,0.054148197174072266,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,83,0.05513763427734375,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,84,0.05532503128051758,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,85,0.057183027267456055,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,86,0.054886817932128906,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,87,0.06007981300354004,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,88,0.05562114715576172,1.0,1.0,1.0,1.0
+hash:bow,hybrid,latest,89,0.05644869804382324,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,90,0.03185439109802246,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,91,0.03168225288391113,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,92,0.03132987022399902,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,93,0.030962228775024414,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,94,0.03818368911743164,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,95,0.03440666198730469,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,96,0.031905174255371094,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,97,0.03240203857421875,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,98,0.03152918815612793,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,99,0.029958248138427734,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,100,0.02964162826538086,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,101,0.0320582389831543,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,102,0.031250715255737305,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,103,0.030575990676879883,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,104,0.030879497528076172,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,105,0.030731201171875,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,106,0.03048992156982422,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,107,0.031801700592041016,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,108,0.03277158737182617,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,109,0.03225874900817871,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,110,0.03226733207702637,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,111,0.0314326286315918,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,112,0.031319618225097656,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid,count_patient,113,0.031653404235839844,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,114,0.03235936164855957,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,115,0.03151297569274902,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,116,0.031707763671875,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,117,0.030892372131347656,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,118,0.030871152877807617,1.0,1.0,1.0,1.0
+hash:bow,hybrid,count_patient,119,0.031729698181152344,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,120,0.03054642677307129,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,121,0.0455775260925293,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,122,0.03737902641296387,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,123,0.034009695053100586,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid,semantic,124,0.030416488647460938,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid,semantic,125,0.0309298038482666,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,126,0.03001856803894043,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,127,0.029312849044799805,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,128,0.0334470272064209,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid,semantic,129,0.030192852020263672,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,130,0.03546571731567383,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,131,0.03403782844543457,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,132,0.03067755699157715,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,133,0.033994436264038086,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,134,0.03505992889404297,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,135,0.037384033203125,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,136,0.028645992279052734,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,137,0.032944440841674805,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,138,0.03423476219177246,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,139,0.031610727310180664,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,140,0.03640604019165039,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,141,0.029386520385742188,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,142,0.030246257781982422,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,143,0.03534984588623047,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,144,0.030690431594848633,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,145,0.03306841850280762,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,146,0.03673744201660156,1.0,0.3333333333333333,1.0,0.5
+hash:bow,hybrid,semantic,147,0.03174757957458496,1.0,0.3333333333333333,1.0,0.5
+hash:bow,hybrid,semantic,148,0.037465572357177734,1.0,1.0,1.0,1.0
+hash:bow,hybrid,semantic,149,0.04096078872680664,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,0,0.11334872245788574,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,1,0.13068604469299316,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,2,0.12986040115356445,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,3,0.12201714515686035,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,4,0.1311664581298828,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,5,0.13133978843688965,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,6,0.12891745567321777,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,7,0.11760139465332031,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,8,0.11559247970581055,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,9,0.12346410751342773,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,10,0.11973834037780762,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,11,0.10584831237792969,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,12,0.12564492225646973,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,13,0.12523531913757324,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,14,0.13594746589660645,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,15,0.13185381889343262,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,16,0.12386846542358398,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,17,0.09952425956726074,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,18,0.11931371688842773,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,19,0.12647151947021484,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,20,0.12148404121398926,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,21,0.11251997947692871,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,22,0.10193586349487305,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,23,0.12869048118591309,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,24,0.13070964813232422,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,25,0.14292168617248535,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,26,0.13116455078125,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,27,0.13350152969360352,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,28,0.12346029281616211,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_name,29,0.12717318534851074,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,30,0.12070798873901367,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,31,0.12832355499267578,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,32,0.10368204116821289,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,33,0.10031819343566895,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,34,0.11927223205566406,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,35,0.1184377670288086,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,36,0.11305499076843262,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,37,0.09923124313354492,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,38,0.12662196159362793,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,39,0.11790847778320312,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,40,0.11789870262145996,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,41,0.12028026580810547,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,42,0.11830902099609375,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,43,0.121917724609375,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,44,0.1194145679473877,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,45,0.11477828025817871,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,46,0.10385298728942871,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,47,0.1154334545135498,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,48,0.1170356273651123,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,49,0.11800956726074219,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,50,0.12101006507873535,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,51,0.10815048217773438,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,52,0.11152529716491699,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,53,0.11461162567138672,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,54,0.11475491523742676,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,55,0.11510467529296875,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,56,0.11668205261230469,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,57,0.11340522766113281,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,58,0.11458873748779297,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,lookup_by_mrn,59,0.11426544189453125,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,60,0.5000066757202148,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,61,0.2625558376312256,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,62,0.49840688705444336,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,63,1.0053908824920654,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,64,0.747905969619751,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,65,1.3960835933685303,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,66,0.2572166919708252,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,67,0.284102201461792,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,68,0.6555924415588379,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,69,0.3208174705505371,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,70,0.2821848392486572,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,71,0.5150659084320068,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,72,0.24885249137878418,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,73,0.7652022838592529,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,74,0.3386080265045166,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,75,1.8908872604370117,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,76,0.2297811508178711,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,77,0.3009297847747803,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,78,1.96781325340271,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,79,0.2599170207977295,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,80,0.5443463325500488,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,81,0.2541022300720215,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,82,2.378229856491089,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,83,0.2734837532043457,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,84,1.5666499137878418,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,85,0.6378657817840576,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,86,0.6597442626953125,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,87,1.1132292747497559,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,88,0.7322525978088379,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,latest,89,0.7862832546234131,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,90,0.15743470191955566,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,91,0.40432143211364746,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,92,0.17518186569213867,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,93,0.14784574508666992,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,94,0.21535873413085938,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,95,0.18105149269104004,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,96,0.17798542976379395,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,97,0.14031457901000977,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,98,0.18101167678833008,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,99,0.2739236354827881,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,100,0.15467071533203125,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,101,0.1026914119720459,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,102,0.28015732765197754,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,103,0.2589380741119385,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,104,0.18491578102111816,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,105,0.12706923484802246,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,106,0.20450139045715332,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,107,0.18033480644226074,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,108,0.26546216011047363,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,109,0.14121770858764648,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,110,0.24108457565307617,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,111,0.13935613632202148,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,112,0.16330909729003906,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank,count_patient,113,0.20604729652404785,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,114,0.1806638240814209,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,115,0.16726207733154297,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,116,0.11154818534851074,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,117,0.16916275024414062,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,118,0.18414616584777832,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,count_patient,119,0.09749603271484375,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,120,0.30934619903564453,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,121,0.501211404800415,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,122,0.9054558277130127,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,123,0.2651824951171875,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank,semantic,124,0.6693699359893799,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,125,0.8846733570098877,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,126,0.48470401763916016,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,127,0.7635164260864258,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,128,0.4679374694824219,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank,semantic,129,0.6966326236724854,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,130,0.4678986072540283,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,131,0.41866636276245117,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,132,0.49350428581237793,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,133,0.9363870620727539,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,134,0.33968567848205566,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,135,0.9458460807800293,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,136,0.47013235092163086,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,137,0.37590932846069336,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,138,0.46787452697753906,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,139,0.7967913150787354,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,140,0.35010266304016113,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,141,0.5124368667602539,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,142,0.8511292934417725,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank,semantic,143,0.11208558082580566,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,144,0.9264030456542969,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,145,0.6926159858703613,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,146,0.5257234573364258,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,147,0.7146260738372803,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,148,0.383861780166626,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank,semantic,149,0.13670587539672852,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,0,5.616519451141357,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,1,6.153228044509888,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,2,5.918456554412842,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,3,5.078417062759399,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,4,5.9095985889434814,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,5,5.32976222038269,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,6,5.228867292404175,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,7,5.421711444854736,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,8,6.22670316696167,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,9,6.2306342124938965,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,10,4.469643592834473,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,11,3.704155206680298,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,12,5.523330211639404,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,13,5.564736843109131,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,14,4.754495143890381,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,15,4.603620529174805,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,16,6.070719242095947,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,17,5.918287754058838,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,18,5.987699270248413,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,19,5.324163198471069,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,20,6.39996075630188,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,21,4.35970401763916,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,22,4.696833372116089,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,23,6.420821666717529,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,24,6.632514476776123,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,25,5.2258546352386475,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,26,6.361081600189209,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_name,27,5.4922871589660645,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,28,6.539569139480591,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_name,29,5.269225835800171,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,30,3.899474859237671,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,31,5.713224411010742,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,32,4.9213457107543945,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,33,6.537872552871704,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,34,8.68524169921875,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,35,6.000894069671631,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,36,6.178660869598389,1.0,0.3333333333333333,1.0,0.5
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,37,8.865481615066528,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,38,5.4154276847839355,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,39,5.574944496154785,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,40,8.571361064910889,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,41,7.094710350036621,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,42,9.215492963790894,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,43,7.042304992675781,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,44,8.131103754043579,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,45,7.282312870025635,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,46,6.285688877105713,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,47,6.511932849884033,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,48,7.747913122177124,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,49,6.426130533218384,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,50,8.011548042297363,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,51,8.159121036529541,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,52,7.545706748962402,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,53,6.895862817764282,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,54,9.175239086151123,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,55,8.042685270309448,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,56,7.965867280960083,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,57,7.206864595413208,1.0,0.3333333333333333,1.0,0.5
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,58,6.633172512054443,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),lookup_by_mrn,59,7.498661518096924,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),latest,60,4.527413845062256,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,61,4.939284086227417,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,62,4.6985182762146,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,63,6.217985153198242,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,64,5.415443658828735,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,65,4.273318290710449,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,66,4.160236597061157,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,67,4.342427730560303,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,68,4.606858491897583,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,69,4.215453863143921,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,70,4.250673770904541,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,71,5.023393630981445,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,72,3.935216188430786,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,73,5.758057594299316,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,74,4.458498477935791,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,75,4.2648138999938965,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,76,3.953101396560669,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,77,4.2848451137542725,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,78,4.531010627746582,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,79,3.9990601539611816,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,80,4.783432483673096,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,81,4.28886604309082,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,82,4.199477195739746,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,83,4.129751682281494,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,84,4.314306735992432,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,85,5.358572721481323,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,86,5.183370351791382,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,87,6.282132625579834,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,88,5.365918159484863,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),latest,89,5.214946269989014,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),count_patient,90,5.848558187484741,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,91,5.38457465171814,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),count_patient,92,4.480279445648193,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,93,5.456031322479248,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,94,5.413663148880005,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,95,5.239704608917236,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,96,5.461268186569214,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,97,4.101922273635864,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,98,5.742055416107178,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,99,3.444979667663574,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),count_patient,100,3.5724451541900635,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,101,5.58833909034729,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,102,6.7588300704956055,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,103,5.785066843032837,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,104,4.1807944774627686,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,105,4.39927077293396,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,106,5.407558917999268,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,107,5.250549077987671,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,108,7.3842387199401855,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,109,3.235963821411133,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,110,5.406647205352783,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,111,6.4592485427856445,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,112,4.65205979347229,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,113,4.078686475753784,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,114,4.363292694091797,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,115,4.266942977905273,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,116,5.283151149749756,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,117,4.657835006713867,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,118,3.619396448135376,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),count_patient,119,3.6068766117095947,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,120,9.326969385147095,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,121,6.913192987442017,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,122,8.637310028076172,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,123,4.248951196670532,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,124,8.840677976608276,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,125,8.772712707519531,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,126,6.708646059036255,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,127,8.324562788009644,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,128,9.126518487930298,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,129,8.95869755744934,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,130,4.523559808731079,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),semantic,131,8.797953605651855,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,132,7.688729286193848,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,133,9.503689050674438,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,134,9.173019647598267,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,135,9.003301858901978,1.0,0.3333333333333333,1.0,0.5
+hash:bow,hybrid+rerank (no filters),semantic,136,8.48081922531128,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),semantic,137,8.524885416030884,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,138,5.183376789093018,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,139,8.711749076843262,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,140,9.18972396850586,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,141,8.44853663444519,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,142,8.960715055465698,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,143,8.888862133026123,1.0,0.5,1.0,0.6309297535714575
+hash:bow,hybrid+rerank (no filters),semantic,144,9.170547723770142,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,145,5.519885063171387,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,146,9.633061170578003,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,147,9.066015243530273,0.0,0.0,0.0,0.0
+hash:bow,hybrid+rerank (no filters),semantic,148,8.64290976524353,1.0,1.0,1.0,1.0
+hash:bow,hybrid+rerank (no filters),semantic,149,7.4532623291015625,1.0,0.16666666666666666,1.0,0.3562071871080222

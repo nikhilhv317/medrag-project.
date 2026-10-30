@@ -1,0 +1,252 @@
+llm,type,difficulty,id,question,expected,should_abstain,answer,retrieval_s,generation_s,cites_sources,abstained,fact_recall,abstain_correct,auto_correct,cited_sentences,citation_precision,citation_coverage,invalid_citation_rate
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,233,What did Balendra Balan's uploaded chest X-ray report from 2022-12-07 conclude?,"Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",False,"Balendra Balan's uploaded chest X-ray report from 2022-12-07 concluded:
+
+* **Impression:** Streaky left retrocardiac airspace opacities, which could represent a pneumonia in the correct clinical setting [S2].",2.9853122234344482,1.2455034255981445,1.0,0.0,1.0,1.0,1.0,1,1.0,0.5,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,234,What did Vincent Coles's uploaded chest X-ray report from 2025-07-02 conclude?,Decreasing lung volumes. Probable bilateral pleural effusions and elevation of both hemidiaphragms.,False,"Vincent Coles's uploaded chest X-ray report from 2025-07-02 concluded:
+
+* Decreasing lung volumes [S2].
+* Probable bilateral pleural effusions [S2].
+* Elevation of both hemidiaphragms [S2].",0.5071079730987549,0.7968945503234863,1.0,0.0,1.0,1.0,1.0,3,1.0,0.5,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,235,What did Omisha Vincent's uploaded chest X-ray report from 2021-01-12 conclude?,1. Stable appearance of the left-sided [redacted] without acute complicating features.,False,"Omisha Vincent's uploaded chest X-ray report from 2021-01-12 concluded:
+
+* Stable appearance of the left-sided [redacted] without acute complicating features [S2].",0.6801245212554932,0.8731083869934082,1.0,0.0,1.0,1.0,1.0,1,1.0,0.5,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,236,What did Elizabeth Malhotra's uploaded chest X-ray report from 2021-02-01 conclude?,Unremarkable chest.,False,Elizabeth Malhotra's uploaded chest X-ray report from 2021-02-01 concluded with an impression of an unremarkable chest [S2].,0.548346996307373,1.5539681911468506,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,237,What did Bachittar Bawa's uploaded chest X-ray report from 2023-01-15 conclude?,1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.,False,"Bachittar Bawa's uploaded chest X-ray report from 2023-01-15 concluded:
+
+1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex [S2].
+2. Minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture [S2].",0.6857802867889404,1.9621312618255615,1.0,0.0,1.0,1.0,1.0,2,1.0,0.6666666666666666,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,238,What did Praneel Balan's uploaded chest X-ray report from 2025-12-26 conclude?,"Hyperinflated lungs, air trapping versus inspiratory [redacted].",False,"Praneel Balan's uploaded chest X-ray report from 2025-12-26 concluded:
+
+* **Impression:** Hyperinflated lungs, air trapping versus inspiratory [redacted] [S2]. 
+* **Findings:** Hyperinflated lungs with flattened diaphragm and increased retrosternal airspace, right hilar calcification suggesting a previous granulomatous process, and no alveolar consolidation, pleural effusion, or pulmonary edema [S2].",0.6801574230194092,0.9258232116699219,1.0,0.0,1.0,1.0,1.0,2,1.0,0.6666666666666666,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,239,What did Dylan Bala's uploaded chest X-ray report from 2021-11-24 conclude?,"1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",False,"Dylan Bala's uploaded chest X-ray report from 2021-11-24 concluded:
+
+1. Partially loculated right pleural effusion, grossly stable [S2].
+2. Stable moderate layering left pleural effusion [S2].
+3. Bibasilar airspace disease, possibly atelectasis [S2].",1.3246750831604004,0.8619875907897949,1.0,0.0,1.0,1.0,1.0,3,1.0,0.75,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,240,What did Norman Mukherjee's uploaded chest X-ray report from 2025-07-26 conclude?,No evidence of acute cardiopulmonary process.,False,Norman Mukherjee's uploaded chest X-ray report from 2025-07-26 concluded that there is no evidence of an acute cardiopulmonary process [S2].,0.7943272590637207,2.480609178543091,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,241,What did Aadi Hartman's uploaded chest X-ray report from 2021-10-12 conclude?,No evidence of active disease.,False,"Aadi Hartman's uploaded chest X-ray report from 2021-10-12 concluded:
+
+* **Impression:** No evidence of active disease [S2]. 
+* **Findings:** Clear lungs with no focal airspace consolidation, pleural effusion, or pneumothorax; normal heart size and mediastinal contour; and multilevel degenerative changes of the spine [S2].",0.5481629371643066,0.8015732765197754,1.0,0.0,1.0,1.0,1.0,2,1.0,0.6666666666666666,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,242,What did Joel Chaudhuri's uploaded chest X-ray report from 2021-08-03 conclude?,1. No evidence of active disease.,False,"Joel Chaudhuri's uploaded chest X-ray report from 2021-08-03 concluded:
+
+* No evidence of active disease [S2].",0.5261611938476562,0.9736323356628418,1.0,0.0,1.0,1.0,1.0,1,1.0,0.0,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,243,What did Hilary Kelly's uploaded chest X-ray report from 2024-12-13 conclude?,1. Cardiomegaly without overt heart failure. 2. Continued elevation of the left hemidiaphragm. 3. Scattered [redacted] of left base scarring/atelectasis.,False,"Hilary Kelly's uploaded chest X-ray report from 2024-12-13 concluded: [S2]
+
+1. Cardiomegaly without overt heart failure [S2].
+2. Continued elevation of the left hemidiaphragm [S2].
+3. Scattered [redacted] of left base scarring/atelectasis [S2].",0.7241277694702148,0.9875571727752686,1.0,0.0,1.0,1.0,1.0,4,1.0,0.75,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,244,What did Leslie Parkinson's uploaded chest X-ray report from 2025-08-28 conclude?,1. No evidence of acute cardiopulmonary disease 2. Changes of acute kyphotic deformity and of the thorax as described above,False,"Leslie Parkinson's uploaded chest X-ray report from 2025-08-28 concluded [S2]:
+
+1. No evidence of acute cardiopulmonary disease [S2]
+2. Changes of acute kyphotic deformity and of the thorax as described above [S2]",0.7306604385375977,0.8389592170715332,1.0,0.0,1.0,1.0,1.0,3,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,245,What did Lavanya Varghese's uploaded chest X-ray report from 2023-06-17 conclude?,[redacted] change COPD. Chronic right middle lobe scar and atelectasis. Pulmonary arterial hypertension.,False,"Lavanya Varghese's uploaded chest X-ray report from 2023-06-17 concluded with the following impression [S2]:
+
+* Changes consistent with COPD [S2]
+* Chronic right middle lobe scar and atelectasis [S2]
+* Pulmonary arterial hypertension [S2]",0.6112971305847168,0.9741346836090088,1.0,0.0,0.6666666666666666,1.0,0.0,4,0.75,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,246,What did Jeevika Kala's uploaded chest X-ray report from 2026-09-27 conclude?,Left base airspace disease and nodular opacity in the right midlung.,False,"Jeevika Kala's uploaded chest X-ray report from 2026-09-27 concluded:
+
+* Left base airspace disease
+* Nodular opacity (6 mm) in the right midlung [S2]",0.7332127094268799,0.871065616607666,1.0,0.0,1.0,1.0,1.0,1,1.0,0.5,0.0
+gemini:gemini-3.5-flash-lite,doc_patient_lookup,documents,247,What did Tonya Pierce's uploaded chest X-ray report from 2026-06-28 conclude?,"Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable",False,"Tonya Pierce's uploaded chest X-ray report from 2026-06-28 concluded with the following impression [S2]:
+
+* Stable right-sided subclavian central venous catheter with the tip approximating the SVC [S2].
+* Stable right suprahilar opacity, compatible with a history of right upper lobe mass [S2].
+* Elevation of the right hemidiaphragm [S2].
+* Right-sided pneumothorax measuring approximately 1.8 cm from the right apex [S2].
+* Stable postsurgical changes in the left axilla [S2].
+* Degenerative changes of the thoracic spine [S2].
+* Stable streaky opacities at the right base [S2].
+* An opacity in the right midlung (question of fluid level), which was incompletely evaluated due to a lack of recent prior comparison [S2].",0.8481142520904541,1.0299172401428223,1.0,0.0,1.0,1.0,1.0,9,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,253,Which patient has an uploaded chest X-ray report describing copd left base focal atelectasis?,Felicia Wyatt: Findings of COPD and left base focal atelectasis.,False,"* Felicia Wyatt (MRN0007299, [ID_3]) has a chest X-ray report dated 2026-04-08 with the impression: ""Findings of COPD and left base focal atelectasis."" [S3]",23.143933534622192,1.2470684051513672,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,254,Which patient has an uploaded chest X-ray report describing stable cardiomegaly evidence overt heart?,Lynne Perkins: Stable cardiomegaly without evidence of overt heart failure/pulmonary edema.,False,The records do not contain this information.,15.166859865188599,0.9621591567993164,0.0,1.0,0.0,0.0,0.0,0,,,
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,255,Which patient has an uploaded chest X-ray report describing lines tubes above moderate-to-large left?,"Albert Olsen: Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",False,"Based on the radiology records, the chest X-ray report describing lines and tubes along with a moderate-to-large left pleural fluid collection is for Albert Olsen (Patient ID: [ID_4], MRN: MRN0006775) on 2023-10-15 [S3].",22.332982063293457,1.1147174835205078,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,256,Which patient has an uploaded chest X-ray report describing widespread changes cystic fibrosis difficult?,Saksham Gonzalez: Findings consistent with widespread changes from cystic fibrosis. It is difficult to differentiate acute from chronic change.,False,"* **Patient:** Saksham Gonzalez (MRN: MRN0006599, Patient ID: [ID_2], female, age 48) [S1]
+* **Document Date:** 2023-12-07 [S1]
+* **Impression:** Findings consistent with widespread changes from cystic fibrosis, noting it is difficult to differentiate acute from chronic change [S1].",18.094082832336426,1.379002332687378,1.0,0.0,1.0,1.0,1.0,3,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,257,Which patient has an uploaded chest X-ray report describing bibasilar airspace disease left worse?,"Viraj Parsons: Bibasilar airspace disease, left worse right. Bilateral pleural fluid.",False,"Based on the radiology records, Patient Sarah Ferguson (MRN: MRN0013984, Patient ID: [ID_7]) has an uploaded chest X-ray report from 2021-10-19 describing bibasilar airspace disease left greater than right (left worse) [S4].",22.10464572906494,0.962291955947876,1.0,0.0,0.0,1.0,0.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,258,Which patient has an uploaded chest X-ray report describing interval placement dual-lumen dialysis catheter?,Sarthak Gates: 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.,False,"Sarthak Gates (MRN MRN0013967, Patient ID [ID_7]) has an uploaded chest X-ray report from 2026-05-30 describing interval placement of a dual-lumen dialysis catheter [S1].",21.477515697479248,0.8875315189361572,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,259,Which patient has an uploaded chest X-ray report describing severe hyperinflation stable left calcified?,Dylan Yogi: 1. Severe hyperinflation. 2. Stable left calcified hilar lymph [redacted].,False,"Patient Dylan Yogi ([ID_4], MRN MRN0004324) has an uploaded chest X-ray report from 2025-10-03 describing severe hyperinflation and stable left calcified hilar lymph nodes [S1].",18.049957275390625,0.9002578258514404,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,260,Which patient has an uploaded chest X-ray report describing stable position left-sided pacemaker leads?,"Hazel Purohit: 1. Stable position a left-sided pacemaker leads. 2. Stable cardiomegaly. 3. Small bilateral pleural effusions, right greater than left.",False,"Based on the provided records, Hazel Purohit (MRN0018599) has an uploaded chest X-ray report dated 2023-10-29 describing stable position left-sided pacemaker leads [S2].",17.127084732055664,1.2122211456298828,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,261,Which patient has an uploaded chest X-ray report describing increased size left pneumothorax partial?,"Gareth Badami: 1. Increased size of left pneumothorax, with [redacted] partial collapse of the left upper and lower lobes. 2. Small left pleural effusion/hemothorax.",False,"Based on the provided records, Patient Gareth Badami (MRN: MRN0001379, ID: [ID_2]) has a chest X-ray report from 2020-11-21 describing an increased size of the left pneumothorax with partial collapse of the left upper and lower lobes [S1].",23.510990142822266,1.4149091243743896,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,262,Which patient has an uploaded chest X-ray report describing exam technically limited patient body?,"Niharika Mitter: Exam is technically limited by patient's body habitus. Lung volumes are decreased. No evidence of acute airspace disease, large pleural effusion or pneumothorax. Heart size is stable.",False,"Based on the provided records, Niharika Mitter (Patient ID: [ID_8], MRN: MRN0019943) has a chest X-ray report from 2024-03-13 describing the exam as technically limited by the patient's body habitus [S4].",22.0617458820343,1.2140631675720215,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,263,Which patient has an uploaded chest X-ray report describing left lower lobe space opacities significant change?,Mitchell Naylor: 1. Left lower lobe air space opacities without significant change.,False,The records do not contain this information. (Note: Mitchell Naylor has a chest X-ray report mentioning left lower lobe air space opacities *without* significant change [S1].),34.571367263793945,2.2531957626342773,1.0,1.0,1.0,0.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,264,Which patient has an uploaded chest X-ray report describing small bilateral pleural effusions bibasilar atelectasis airspace disease left?,"Ikbal Chowdhury: Small bilateral pleural effusions with bibasilar atelectasis and/or airspace disease, left greater than right.",False,"Patient Ikbal Chowdhury ([ID_1], MRN MRN0001537) has a chest X-ray report from 2024-05-29 describing small bilateral pleural effusions with bibasilar atelectasis and/or airspace disease, left greater than right [S2].",31.389543771743774,3.26149845123291,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,265,Which patient has an uploaded chest X-ray report describing very lung volumes definite cardiopulmonary?,Helen Wheeler: 1. Very low lung volumes without definite acute cardiopulmonary finding. .,False,Helen Wheeler (MRN0015711) has a chest X-ray report from 2021-10-08 describing very low lung volumes without definite acute cardiopulmonary findings [S8].,21.497308254241943,2.329254627227783,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,266,Which patient has an uploaded chest X-ray report describing elevated left diaphragm focal airspace?,Brandon Chana: 1. Elevated left diaphragm. 2. No focal airspace disease.,False,"Based on the provided records, Lance Campbell (MRN0011980) has a chest X-ray report noting an elevated left diaphragm along with extensive airspace disease in the left base [S3].",30.165658235549927,2.6135287284851074,1.0,0.0,0.0,1.0,0.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_semantic,documents,267,Which patient has an uploaded chest X-ray report describing vague opacity left lung base appears within?,Lynne Atkins: Vague opacity at the left lung base which appears to be within the left lower lobe. This may represent resolving or developing pneumonia given the patient's history.,False,"Based on the records, patient Lynne Atkins (MRN: MRN0005190) has an uploaded chest X-ray report from 2026-03-09 describing a vague opacity at the left lung base that appears to be within the left lower lobe [S1].",26.67281413078308,1.415579080581665,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,273,Summarise Tripti Yogi's Limbic Encephalitis note.,"Limbic encephalitis secondary to cancer of unknown origin.,He was last seen 7/26/96. MMSE 20/30 and category fluency 20 . Disinhibited affect. Mild right grasp reflex. The clinical course was benign and non-progressive, and unusual for such a diagnosis, though not unheard of .",False,"Here is a summary of Tripti Yogi's neurology note regarding limbic encephalitis, dated 2021-11-15 [S2]:
+
+* **Clinical Presentation:** The patient presented with a 1-year history of rapidly progressive anterograde amnesia and some retrograde memory loss (e.g., inability to recall grandchildren's names), while intellect, language, personality, and calculation abilities were generally preserved [S4].
+* **Imaging & Diagnostics:** 
+  * Brain MRI revealed bilateral T2 hyperintense signals in the mesiotemporal regions with mild gadolinium enhancement and no mass effect [S3, S4].
+  * Chest/abdomen CT and chest MRI showed no tumor or lymphadenopathy [S3].
+  * EEG, antineuronal antibody screening, CSF studies (including infection panels and cytology), and extensive lab work (TFT, B12, VDRL, ESR, CRP, ANA, SPEP, Folate) were unremarkable [S3].
+  * Stereotactic brain biopsy at the Mayo Clinic showed inflammatory changes without a definitive organism or etiology [S3].
+  * Neuropsychologic testing confirmed severe verbal and visual anterograde memory loss consistent with bilateral mesiotemporal dysfunction [S3].
+* **Impression & Follow-up:** Diagnosed with limbic encephalitis secondary to cancer of unknown origin [S3]. He was noted to have been last seen on 1996-07-26, showing an MMSE of 20/30, category fluency of 20, disinhibited affect, and a mild right grasp reflex [S3]. The clinical course was described as benign, non-progressive, and unusual for this diagnosis [S3].",3.6499273777008057,2.7102811336517334,1.0,0.0,1.0,1.0,1.0,10,0.9,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,274,Summarise Norman Barnett's Gen Med Consult - 40 note.,"1. Probable stroke. The patient has an expressive aphasia. He does not have dysarthria, however. Also, his strength is not affected. I suspect that the patient has had strokes or TIAs in the past because he was taking aspirin and Plavix at home. Head CT is reportedly negative. I will ask our radiolo",False,"Here is a summary of Norman Barnett's Gen Med Consult - 40 note dated 2021-09-09 [S2]:
+
+* **Chief Complaint & History:** Transferred from an outlying facility with altered mental status and a diagnosis of a probable stroke [S4, S5]. He presents with expressive aphasia (nonsensical word combinations), but clear speech, no dysarthria, and unaffected strength (5/5 throughout) [S2, S5].
+* **Past Medical History:** Atrial fibrillation, hypertension, and hyperlipidemia [S4]. Home medications include Lotensin, Toprol, Plavix, and aspirin [S4].
+* **Physical Examination:** Vital signs: BP 117/84, HR 79, RR 20, Temp 97.9°F [S2]. Cardiovascular exam showed an irregular rhythm [S2]; neurological exam showed downgoing Babinski reflexes and 2+ deep tendon reflexes [S2].
+* **Investigations:** 
+  * Head CT from the outlying facility was reportedly negative [S5].
+  * EKG showed atrial fibrillation with a rate of 75 and no acute ischemia [S5].
+  * Chest X-ray showed cardiomegaly without acute pulmonary process [S5].
+  * Labs noted a glucose of 161–171, creatinine of 1.4 (mild renal insufficiency), and negative initial cardiac enzymes (troponin 0.09) [S3, S5].
+* **Assessment & Plan:**
+  1. *Probable Stroke:* Request radiologist to re-read the head CT; order MRI, MRA, carotid Doppler ultrasound, echocardiogram, and fasting lipid profile; consult neurology and continue aspirin and Plavix [S3, S5].
+  2. *Atrial Fibrillation:* Rate-controlled; continue amiodarone and consult CHI [S3].
+  3. *Hypertension:* Continue home medications and add clonidine PRN [S3].
+  4. *Hyperlipidemia:* Check fasting lipid profile [S3].
+  5. *Hyperglycemia:* Start sliding scale insulin and monitor closely [S3].
+  6. *Renal Insufficiency:* Monitor mild renal insufficiency [S3].",4.78905177116394,2.465120315551758,1.0,0.0,0.6666666666666666,1.0,0.0,17,0.9411764705882353,0.9411764705882353,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,275,Summarise Daksh Reed's I&D - Penoscrotal Abscess note.,"Penoscrotal abscess.,OPERATION: , Incision and drainage of the penoscrotal abscess, packing, penile biopsy, cystoscopy, and urethral dilation.,BRIEF HISTORY: , The patient is a 75-year-old male presented with penoscrotal abscess. Options such as watchful waiting, drainage, and antibiotics were discu",False,"Here is a summary of Daksh Reed's I&D - Penoscrotal Abscess note dated 2025-03-27 [S2]:
+
+* **Preoperative & Postoperative Diagnosis:** Penoscrotal abscess [S2].
+* **Procedure Performed:** Incision and drainage of the penoscrotal abscess, wound packing, penile biopsy, cystoscopy, and urethral dilation [S2].
+* **Clinical History & Discussions:** The patient presented with a penoscrotal abscess, significant phimotic changes, and penile disfigurement [S2]. Risks of anesthesia, bleeding, infection, pain, MI, DVT, PE, necrotizing fasciitis, Fournier's gangrene, decreased penile sensation, and the potential future need for a partial or total penectomy due to poor penile viability were discussed [S2].
+* **Operative Findings:** 
+  * An open sore on the right side of the penis (~1 cm) with active purulent drainage [S3].
+  * Intact corporal bodies, but complete erosion of the distal corpora with a fungating mass (biopsied for pathology; noted as possibly a fungating wart or squamous cell carcinoma) [S3, S4].
+  * Distal urethral narrowing identified and dilated, followed by cystoscopy which revealed a slightly enlarged prostatic urethra, moderate bladder trabeculations, and no stones or tumors [S3].
+* **Completion & Postoperative Care:** Aerobic and anaerobic cultures were obtained, the wound was irrigated with >2 L of fluid, and packed with Kerlix [S4]. Hemostasis was achieved with electrocautery, an 18-French Foley catheter was placed, local anesthesia (0.5% Marcaine, ~20 mL) was administered, and tight scrotal Kling was applied [S4]. The patient was transferred to recovery in a stable condition [S4].",3.904460906982422,4.934952974319458,1.0,0.0,0.6666666666666666,1.0,0.0,11,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,276,Summarise Zoe Beasley's Dietary Consultation - 2 note.,"Patient's diet history reflects that she is highly restricting carbohydrates in her food intake. She does not have blood sugar records with her for me to review, but we discussed strategies for improving blood sugar control in the morning. This primarily included a recommendation of including some s",False,"Here is a summary of Zoe Beasley's Dietary Consultation - 2 note from 2022-06-22 [S2]:
+
+* **Reason for Visit:** Dietary consultation for weight reduction secondary to diabetes [S2]. 
+* **Clinical Presentation & History:** Weight 189 lbs, height 5'5"", BMI approximately 31.5 [S4]. She reported previously following the Atkins' diet for two years (losing ~10 lbs) and was currently on a restrictive 3-week veggie diet prohibiting fruits, grains, starchy vegetables, and meats (relying on nuts for protein) [S2]. Her primary concern was morning blood sugar elevations [S2]. Diabetes medication included metformin 500 mg daily, and her Hemoglobin A1c was 6.4% [S4].
+* **Assessment:** She heavily restricts carbohydrates [S5]. Her basal metabolic rate was estimated at 1415 kcal/day and maintenance calories at 1881 kcal/day [S5].
+* **Plan / Recommendations:**
+  * Target a caloric intake of just under 1200 calories daily (keeping above 1000 calories) via a 1200-calorie meal plan to support a weight loss of at least 1 pound per week, and maintain food records [S3, S4, S5].
+  * Include solid protein (such as nuts) with her bedtime snack to help address morning fasting blood sugar elevations [S3, S5].
+  * Increase aerobic walking (with arm/ankle weights) to a frequency of 5 days a week for 30 minutes [S3, S5].
+  * Consider taking a multivitamin [S3].",4.710042238235474,2.294816493988037,1.0,0.0,0.6666666666666666,1.0,0.0,12,0.8333333333333334,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,277,Summarise Ridhi Murthy's Shoulder Hemi-resurfacing note.,"Severe degenerative joint disease of the right shoulder.,PROCEDURE: , Right shoulder hemi-resurfacing using a size 5 Biomet Copeland humeral head component, noncemented.,ANESTHESIA: , General endotracheal.,ESTIMATED BLOOD LOSS: , Less than 100 mL.,",False,"Here is a summary of Ridhi Murthy's shoulder surgery note from 2022-09-22 [S2]:
+
+* **Diagnosis:** Preoperative and postoperative diagnosis of severe degenerative joint disease of the right shoulder, with imaging showing severe arthritic presentation of the humeral head and mild glenoid arthrosis [S2]. 
+* **Procedure:** Right shoulder hemi-resurfacing using a noncemented size 5 Biomet Copeland humeral head component under general endotracheal anesthesia [S2].
+* **Key Intraoperative Details:**
+  * The patient was placed in a beach chair position and a saber incision was made [S3, S6].
+  * Large osteophytes were removed, and the supraspinatus and infraspinatus tendons were found to be intact [S5, S6].
+  * Because the bicipital tendon had a significant tear, it was tenodesed into the pectoralis major tendon, and the subscapularis tendon was repaired [S4].
+  * The size 5 Copeland component was successfully placed with excellent fixation and range of motion [S5].
+* **Outcome:** Estimated blood loss was less than 100 mL, there were no complications, and the patient was transferred to the PACU in stable condition [S2].",5.672838449478149,4.648665189743042,1.0,0.0,1.0,1.0,1.0,8,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,278,Summarise Aarnav Parks's Epidural Steroid Block note.,", Left sciatica.,ANESTHESIA: , Intravenous sedation,",False,"Here is a summary of Aarnav Parks's Epidural Steroid Block note from 2022-02-14 [S2, S3]:
+
+* **Indication / Diagnosis:** Left sciatica [S2].
+* **Anesthesia:** Monitored intravenous sedation with 2 mg IV Versed [S2].
+* **Procedure:** Left L5-S1 and L4-5 transforaminal epidural steroid blocks performed under fluoroscopy [S2, S3]. 
+* **Medications Administered:** 
+  * L5-S1 level: Depo-Medrol 80 mg plus 1 cc of 4% preservative-free lidocaine [S3].
+  * L4-5 level: Depo-Medrol 80 mg plus 1 cc of 4% preservative-free lidocaine [S3].
+* **Clinical Course:** The patient experienced pain down his left leg during the injection (similar to his normal pain, primarily at L5-S1) [S3]. He tolerated the procedure well, remained awake and alert, and was transferred to the recovery room in good condition with relief of his left leg pain [S3].",3.162362575531006,2.8491859436035156,1.0,0.0,1.0,1.0,1.0,8,0.875,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,279,Summarise Hollie Fletcher's Craniotomy - Frontal Zygomatic note.,"Metopic synostosis with trigonocephaly.,PROCEDURES: ,1. Bilateral orbital frontal zygomatic craniotomy (skull base approach).,2. Bilateral orbital advancement with (C-shaped osteotomies down to the inferior orbital rim) with bilateral orbital advancement with bone grafts.,3. Bilateral forehead recon",False,"Here is a summary of Hollie Fletcher's Craniotomy - Frontal Zygomatic note from 2025-09-27 [S2]:
+
+* **Diagnosis:** Metopic synostosis with trigonocephaly [S4].
+* **Procedures performed:** 
+  1. Bilateral orbital frontal zygomatic craniotomy (skull base approach) [S2, S4].
+  2. Bilateral orbital advancement with C-shaped osteotomies down to the inferior orbital rim and bone grafts [S2, S4].
+  3. Bilateral forehead reconstruction using an autologous graft and Synthes mesh with absorbable screw hardware [S2, S4, S7].
+  4. Advancement of the temporalis muscle bilaterally [S4, S7].
+  5. Barrel-stave osteotomies of the parietal bones [S4].
+* **Operative Details:** 
+  * Performed under general anesthesia via a bicoronal zigzag incision [S4]. 
+  * Craniotomies were fashioned using a Midas Rex drill, and bone graft shelves/ledges were created to secure bone grafts [S5, S6, S7]. 
+  * Orbital advancement was achieved by approximately 1 cm with sustained pressure and rocking motion [S3, S6]. 
+  * Estimated blood loss was 300 to 400 mL, and the patient received 2 units of blood along with fresh frozen plasma [S3].
+* **Outcome:** The patient tolerated the procedure well with no complications, and sponge/needle counts were correct [S3].",9.63046932220459,2.071413278579712,1.0,0.0,1.0,1.0,1.0,12,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,280,Summarise Russell Clayton's Gen Med Consult - 19 note.,"A 2-year-old with chronic lung disease, doing the sprints, some bowel difficulties, also just weight gain issues because of the high-energy expenditure with the sprints that she is doing.,",False,"Here is a summary of Russell Clayton's General Medicine Consult note from 2023-05-03 [S2]:
+
+* **Visit Purpose:** Recheck of weight, breathing status, and diet [S2].
+* **History & Respiratory Status:** The patient has a history of prematurity (born at 22 weeks) and chronic lung disease [S5]. She is currently on 2.5 liters of oxygen and is performing ventilator sprints (up to 4.5 hours twice daily) [S5]. Her respiratory rate was around 40 with coarse breath sounds and some wheezing, though she was moving air fairly well [S2]. 
+* **Nutrition & Gastrointestinal:** Weight gain has been challenging due to high energy expenditure from her sprints [S4]. Pediasure caused abdominal distension and constipation, leading to a prior hospitalization; she has since transitioned to Isomil (24 cal) and pureed baby foods [S5, S6]. Her G-tube site appeared clean and healthy [S2]. Stool consistency has varied [S3].
+* **Medications & Social History:** Current medications include Flagyl, vitamins, Zyrtec, albuterol, and Colace [S3]. She has no known drug allergies [S3]. She is in foster care; planned respite care is noted while her foster mother is out of town from May 19th to 23rd [S3].
+* **Plan:** Continue Isomil, pureed baby foods, and small amounts of Pediasure [S4]. Follow-up with Dr. XYZ and Dr. Eisenbaum, and return for a general medicine recheck in approximately six weeks, with instructions to monitor weight closely [S4].",5.7340147495269775,2.46419358253479,1.0,0.0,0.6666666666666666,1.0,0.0,14,0.5714285714285714,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,281,Summarise Gail Savant's Cardiac Catheterization note.,"1. Moderate-to-severe coronary artery disease with a high-grade lesion seen at the ostium of the first diagonal artery as well as a 60% to 70% lesion seen at the mid portion of the right coronary artery.,2. Moderate-to-severe aortic stenosis with an aortic valve area of 0.89 cm2.,3. 4+ mitral regurg",False,"Here is a summary of Gail Savant’s Cardiac Catheterization note from 2023-04-14 [S2]:
+
+* **Procedure:** Left heart catheterization, left ventriculography, selective coronary angiography, and right heart catheterization with thermodilution cardiac output [S3].
+* **Indication:** Syncope with severe aortic stenosis [S3].
+* **Hemodynamics / Findings:**
+  * **Coronary Arteries:** Moderate-to-severe coronary artery disease, featuring a high-grade/70% ostial lesion in the first diagonal artery and a 60% to 70% lesion in the mid-portion of the right coronary artery [S2, S4]. Left main, circumflex, and remaining LAD branches showed moderate diffuse luminal irregularities without critical lesions [S4].
+  * **Valves & Ventricle:** Moderate-to-severe aortic stenosis with a heavily calcified aortic valve, a mean gradient of 33 mmHg, and an aortic valve area of 0.89 cm² [S2, S4]. There was also 4+ mitral regurgitation [S2]. The left ventricle was normal in size with an estimated ejection fraction of approximately 60% [S4].
+* **Complications:** None; the patient tolerated the procedure well [S3, S4, S5].
+* **Plan:** The patient will likely need a transesophageal echocardiogram for further valvular evaluation and referral to Dr. Kenneth Fang for possible aortic valve replacement, mitral valve repair/replacement, and surgical revascularization [S2].",4.68195366859436,1.6856532096862793,1.0,0.0,1.0,1.0,1.0,10,1.0,0.8888888888888888,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,282,Summarise Caroline Ramirez's Postop Medical Management note.,"1. Right knee arthritis status post right total knee replacement. The patient tolerated the procedure well.,2. Anemia due to stated operative blood loss, would not require transfusion at this point.,3. Hypertension, under control. Continue current home medications.,4. Deep vein thrombosis risk, prop",False,"Caroline Ramirez's Postop Medical Management note dated 2022-12-12 summarizes her evaluation following a right total knee replacement [S2, S3]:
+
+* **Status & Procedure:** Right knee arthritis status post right total knee replacement, tolerated well [S3].
+* **Anemia:** Due to operative blood loss (hemoglobin dropped from 12.6 to 10.2, hematocrit 30); transfusion not required at this time [S3].
+* **Hypertension:** Under control; continue current home medications (including Hyzaar, Femara, Fosamax, aspirin, and vitamins) [S2, S3].
+* **Prophylaxis & Therapy:** Deep vein thrombosis (DVT) prophylaxis as per surgeon and gastrointestinal prophylaxis [S3]. Continue physical therapy and occupational therapy for debility [S3].",3.5279579162597656,1.107018232345581,1.0,0.0,1.0,1.0,1.0,6,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,283,Summarise Vicki Pritchard's Pathology - Sesamoid Bone note.,"Acute Osteomyelitis, with foci of marrow fibrosis.,Focal acute and chronic inflammation of fascia and soft tissue. Arteriosclerosis, severely occlusive.",False,"Summary of Vicki Pritchard's Pathology - Sesamoid Bone note from 2023-10-01 [S2]:
+
+* **Specimen:** Left foot sesamoid bone (three irregular grey-brown bony fragments admixed with brown-tan fibrocollagenous soft tissue, measuring 3.1 x 1.5 x 0.9 cm) [S2].
+* **Diagnosis:** 
+  * Acute Osteomyelitis, with foci of marrow fibrosis [S2].
+  * Focal acute and chronic inflammation of fascia and soft tissue [S2].
+  * Severely occlusive arteriosclerosis [S2].",2.300405740737915,0.9464774131774902,1.0,0.0,1.0,1.0,1.0,5,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,284,Summarise Joseph Archer's Gen Med Consult - 32 note.,"We will continue present therapy except we will add Tylenol No. 3 to take 1 tablet before bed as needed for her back pain. If she does develop drowsiness from this, then the CNS side effects will help her sleep. During the day, her daughter likes the patient to remain alert and will use the ibuprofe",False,"Here is a summary of Joseph Archer's Gen Med Consult note dated 2026-05-27 [S2]:
+
+* **Patient Profile & Background:** A 34-year-old female with conditions including generalized osteoarthritis and osteoporosis with very limited mobility, chronic depression, hypertension, hyperthyroidism, chronic renal insufficiency, slow-enlarging right breast mass (workup refused), and a history of aortic stenosis with CHF and pleural effusions [S2, S4]. 
+* **Interval History:** The patient mainly complains of severe back pain (8–10 on a 10-point scale), which is worse at night before bed, along with generalized pain and boredom [S2, S3]. She denies fever, chills, chest pain, shortness of breath, nausea, vomiting, or changes in bowels [S2]. 
+* **Physical Examination:** Notable for being very kyphotic, sitting in a wheelchair in no acute distress, pleasant and alert, with dry lips [S3]. Cardiovascular exam showed a regular rate and rhythm with a 2-3/6 systolic murmur at the left sternal border [S6]. Lungs were clear, abdomen soft and nontender, and extremities without edema [S6].
+* **Laboratory Results:** CBC showed WBC 7400, hemoglobin 11.1, hematocrit 35.9, and platelets 252,000 [S5]. TSH was 1.52 [S5]. 
+* **Assessment and Plan:** 
+  * Continue current therapies (including medications such as Zoloft, Tapazole, Coreg, furosemide, and ibuprofen with food) [S4, S5].
+  * Add Tylenol No. 3 (1 tablet before bed as needed) for back pain to help with nighttime pain and sleep [S5].
+  * Use daytime ibuprofen (with food) if she has no GI symptoms, keeping her alert per her daughter's preference [S5]. 
+  * No further laboratory tests or Tapazole adjustments at this time [S5].",6.22082781791687,2.4327964782714844,1.0,0.0,0.3333333333333333,1.0,0.0,13,0.9230769230769231,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,285,Summarise Erika Apte's Cardiac Radionuclide Stress Test note.,"1. Mild septal ischemia. Likely due to the left bundle-branch block.,2. Mild cardiomyopathy, EF of 52%.,3. Mild hypertension at 160/84.,4. Left bundle-branch block.,",False,"Here is a summary of Erika Apte's Cardiac Radionuclide Stress Test (dated 2023-09-15) [S2]:
+
+* **Indication:** Chest pains, coronary artery disease (CAD), and cardiomyopathy [S2].
+* **Baseline EKG:** Sinus rhythm at 71 bpm, left anterior fascicular block, and left bundle-branch block (LBBB) [S2].
+* **Persantine Results:** Heart rate changed from 70 to 72 bpm; blood pressure changed from 160/84 to 130/78 mmHg. The patient reported mild dizziness, with no chest pain or EKG changes [S2].
+* **Nuclear Results:** Resting images were normal; post-Persantine images showed mildly decreased septal uptake (sum score of 0). Gated SPECT demonstrated an enlarged heart with an ejection fraction (EF) of 52% [S2].
+* **Impression:** 
+  1. Mild septal ischemia, likely secondary to the left bundle-branch block [S2].
+  2. Mild cardiomyopathy with an EF of 52% [S2].
+  3. Mild hypertension at 160/84 [S2].
+  4. Left bundle-branch block [S2].",2.3293120861053467,1.2923803329467773,1.0,0.0,1.0,1.0,1.0,9,0.7777777777777778,0.6666666666666666,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,286,Summarise Jeevika Shetty's Psych Consult - Psychosis note.,"AXIS I: Psychosis. Inpatient Psychiatric Team to follow.,AXIS II: Deferred.,AXIS III: We were unable to perform physical examination on the patient today secondary to her being in seclusion. Laboratory was reviewed revealing leukocytosis, possibly secondary to a UTI. We will wait until the patient i",False,"Here is a summary of Jeevika Shetty's Psych Consult - Psychosis note (dated 2020-11-12) [S2, S3, S4]:
+
+* **Patient Background:** A 28-year-old female caretaker for her grandmother, who recently passed away, leading to the development of erratic behavior [S3]. Her parents subsequently removed her son from the home due to this behavior, and she was recently picked up by the Kent Police Department for ""leaping on Highway 99"" [S3].
+* **Past Medical History:** Post-Traumatic Stress Disorder (PTSD), depression, and substance abuse [S3].
+* **Vitals & Objective Findings:** Vital signs showed a blood pressure of 152/86, pulse of 106, respirations of 18, and temperature of 97.6°F [S4]. A physical examination and review of systems could not be performed because the patient was placed in seclusion [S2, S3, S4].
+* **Laboratory Data:** 
+  * Slightly elevated glucose at 100.2 [S4].
+  * Urine toxicology positive for THC [S4].
+  * Urinalysis negative for infection, but noted positive white blood cells [S4].
+  * Complete Blood Count (CBC) showed a slightly elevated leukocytosis of 12.0 (normal range 4–11), possibly secondary to a urinary tract infection (UTI) [S2, S4].
+* **Assessment and Plan:** 
+  * Axis I diagnosis: Psychosis [S2]. Axis II: Deferred [S2]. Axis III: Unable to perform a physical exam due to seclusion [S2].
+  * The inpatient psychiatric team will follow the patient [S2]. 
+  * Clinicians plan to wait until the patient is out of seclusion to perform an examination, initiate antimicrobial therapy if she develops dysuria or suprapubic pain, and follow up if new medical issues arise [S2].",11.70180630683899,1.9884676933288574,1.0,0.0,1.0,1.0,1.0,15,0.8666666666666667,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_lookup,documents,287,Summarise Morgan Oliver's Cardiac Catheterization - 2 note.,"1. Moderate grade stenosis in the right subclavian artery.,2. Patent proximal edge of the right carotid.",False,"Here is a summary of Morgan Oliver's Cardiac Catheterization - 2 note dated 2025-12-02 [S2]:
+
+* **Clinical Indication:** Atypical right arm and neck discomfort, with noninvasive vascular imaging showing suspected right subclavian stenosis (duplex ultrasound showing at least 50% stenosis and bidirectional flow in the right vertebral artery) [S2].
+* **Procedure:** Right common femoral artery approach using a 6 French sheath, with right brachiocephalic, subclavian, aortic arch, and iliofemoral angiography, followed by 6 French Angio-Seal placement [S2, S3].
+* **Hemodynamics:** Pullback pressures across the right subclavian stenosis showed no significant gradient [S3].
+* **Findings & Impression:**
+  * Moderate-grade (50%) stenosis in the right subclavian artery (proximal to the origin of the vertebral and internal mammary) [S3].
+  * Patent right brachiocephalic artery and patent proximal edge of the right carotid [S3].
+* **Complications:** None (estimated blood loss < 10 ml; contrast < 250 ml) [S2].",3.1857786178588867,1.3222124576568604,1.0,0.0,1.0,1.0,1.0,7,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,293,Which patient had a orthopedic document about: Patient with back and hip pain?,Sara Dey,False,"Based on the provided records, **Patient Sara Dey** (MRN: MRN0015388) had an orthopedic document (Orthopedic Consult - 5 dated 2021-04-09) with the summary: ""Patient with back and hip pain"" [S1].",28.72910976409912,1.184798002243042,1.0,0.0,1.0,1.0,1.0,1,0.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,294,Which patient had a surgery document about: Carbon dioxide laser photo-ablation due to recurrent dysplasia of vulva?,Pranav Purohit,False,"* Patient: Pranav Purohit (MRN: MRN0002757, ID: [ID_3]) [S1]
+* Document Date: 2022-11-17 [S1]",32.01940035820007,1.5505008697509766,1.0,0.0,1.0,1.0,1.0,2,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,295,Which patient had a surgery document about: Bilateral temporal artery biopsy.  Rule out temporal arteritis?,Christina Saha,False,"Based on the records, the patient with the surgery document for a ""Bilateral temporal artery biopsy"" to ""Rule out temporal arteritis"" is **Christina Saha** (MRN0018884, ID: [ID_3]), a 72-year-old female, on 2022-08-10 [S1].",27.607609510421753,1.4723091125488281,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,296,Which patient had a general medicine document about: Initial clinic visit for foreign body in left eye?,Julian Chaudhuri,False,"Based on the records, patient Julian Chaudhuri (MRN: MRN0002837) had the general medicine document regarding an initial clinic visit for a foreign body in the left eye on 2023-07-19 [S1].",43.935834646224976,1.1496496200561523,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,297,Which patient had a nephrology document about: The patient is being discharged for continued hemodialysis and rehab?,Maanav Meyer,False,"Patient Maanav Meyer (MRN MRN0014575, ID [ID_1]) had a nephrology document (Discharge Summary - Hemodialysis, dated 2023-01-14) containing this statement [S1].",43.508020877838135,2.2585413455963135,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,298,Which patient had a general medicine document about: Patient was found to have decrease in mental alertness?,Lesley Hegde,False,"Patient Lesley Hegde (MRN MRN0018024, ID [ID_2]) had a general medicine document (Gen Med Consult - 30, dated 2022-05-30) noting that the patient was found to have a decrease in mental alertness [S1, S2].",33.89915084838867,1.29610276222229,0.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,299,Which patient had a surgery document about: Repeat low transverse cervical cesarean section with delivery of a viable female neonate.  Bilateral tubal ligation and partial salpingectomy.  Lysis of adhesions?,Mason Faulkner,False,"The surgery document with that procedure was for Mason Faulkner (MRN0003805), a 36-year-old female, on 2021-08-15 [S1].",31.360525131225586,1.6014795303344727,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,300,Which patient had a surgery document about: The patient was found to have limitations to extension at the IP joint to the right thumb and he had full extension after release of A1 pulley?,Samarth Kala,False,"Patient Samarth Kala (MRN MRN0013247, ID: [ID_2]) had the surgery document regarding limitations to extension at the IP joint to the right thumb and full extension after release of the A1 pulley, dated 2023-11-02 [S1].",31.819886922836304,1.4945635795593262,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,301,Which patient had a soap / chart / progress notes document about: The patient is in complaining of headaches and dizzy spells?,Arthur Mistry,False,"Based on the records provided, **Patient Arthur Mistry** (MRN: MRN0015371) had a SOAP / Chart / Progress Notes document dated 2025-05-01 (Gen Med Progress Note - 4) with the summary and subjective complaint: ""The patient is in complaining of headaches and dizzy spells"" [S1].",33.55002045631409,1.4049630165100098,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,302,Which patient had a surgery document about: Bilateral myringotomies and insertion of Shepard grommet draining tubes?,Martyn Hunter,False,"Based on the records, the patient who had a surgery document for ""Bilateral myringotomies and insertion of Shepard grommet draining tubes"" is **Martyn Hunter** (MRN: MRN0000341, Patient ID: [ID_1]), on 2023-03-03 [S1, S2].",35.37354564666748,1.3807353973388672,0.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,303,"Which patient had a hematology - oncology document about: Progressive low-grade glioma, now more than 20 years since initially diagnosed.  She is status post craniotomy for debulking and has done well with the surgery?",Caroline Dube,False,"Based on the provided records, the patient with this Hematology - Oncology document is **Caroline Dube** (MRN0010231) [S1].",35.867345571517944,1.153458595275879,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,304,"Which patient had a surgery document about: Lumbar laminectomy for decompression with foraminotomies L3-L4, L4-L5, L5-S1 microtechniques and repair of CSF fistula, microtechniques L5-S1, application of DuraSeal.  Lumbar stenosis and cerebrospinal fluid fistula?",Gareth Sawhney,False,"Based on the provided records, the patient who had this surgery document (Lumbar Laminectomy on 2026-03-04) is:
+
+* **Patient:** Gareth Sawhney (ID: [ID_1], MRN: MRN0005524), an 83-year-old female [S1].",44.341586112976074,2.3024303913116455,1.0,0.0,1.0,1.0,1.0,1,1.0,0.5,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,305,"Which patient had a radiology document about: CT Brain: Suprasellar aneurysm, pre and post bleed?",Chatresh Jennings,False,The records do not contain this information.,15.561397790908813,1.0840890407562256,0.0,1.0,0.0,0.0,0.0,0,,,
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,306,"Which patient had a general medicine document about: The patient complaining of abdominal pain, has a long-standing history of diabetes treated with Micronase daily?",Vansha Valdez,False,"Based on the general medicine documents, **Vansha Valdez** (Patient ID: [ID_4], MRN: MRN0013109) had a document dated 2025-04-28 regarding acute cystitis and diabetes type II, with the specific history noting abdominal pain and a long-standing history of diabetes treated with Micronase daily [S1, S2].",34.81324601173401,1.6722469329833984,0.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0
+gemini:gemini-3.5-flash-lite,doc_transcription_semantic,documents,307,Which patient had a urology document about: Hypospadias repair (TIT and tissue flap relocation) and Nesbit tuck chordee release?,Logan Curtis,False,"Based on the records, **Patient_3** (Logan Curtis, MRN: MRN0015339, ID: [ID_3]) had the urology document dated 2026-01-16 regarding a hypospadias repair (TIT and tissue flap relocation) and Nesbit tuck chordee release [S1].",31.71872639656067,1.5987365245819092,1.0,0.0,1.0,1.0,1.0,1,1.0,1.0,0.0

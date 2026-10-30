@@ -2,7 +2,7 @@
  
 Everything done in this project, end to end: data collection, quality checks, cleaning, outside documents, chunking, embedding, indexing, retrieval, answering, evaluation (all question types and metrics), every experiment and result, problems hit along the way, fixes, deployment options and known limits. **Part I** (sections 1-28) describes what was done and the results; **Part II** (sections 29-59) is the technical deep dive: for every stage, the method, where it is in the code, how it works with sample code, and why it was chosen; **Part III** (sections 60-72) covers the practical and non-technical side. 
  
-Repository: https://github.com/nikhilhv414/medrag (branch `main`). Report date: 2026-10-28, benchmarks and the larger answer test in sections 20.8-20.11 added 2026-10-30. 
+Repository: https://github.com/nikhilhv317/medrag-project. (branch `main`). Report date: 2026-10-28, benchmarks and the larger answer test in sections 20.8-20.11 added 2026-10-30. 
  
 ## Executive summary 
  
@@ -3124,7 +3124,7 @@ About 27 hours from rebuild to the current state, most of it waiting for CPU-bou
  
 ```bash 
 # 1. get the code 
-git clone https://github.com/nikhilhv414/medrag.git 
+git clone https://github.com/nikhilhv317/medrag-project..git medrag 
 cd medrag 
  
 # 2. Python environment 

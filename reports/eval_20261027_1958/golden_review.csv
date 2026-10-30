@@ -1,0 +1,240 @@
+id,type,question,expected_answer,gold_evidence,reviewer_ok (y/n),reviewer_note
+204,hard_negative,Has Urmi Kapadia ever had stones in the gallbladder on any scan?,No: none of 15 studies report gallstones,,,
+157,hard_semantic_cohort,Which patients had a stone in the kidney on a MRI scan in June 2025?,Bhavika Kala (2025-06-26); Ronald Sharaf (2025-06-03),"Patient: Bhavika Kala | MRN: MRN0007433 | Patient ID: 7433 | male, age 59
+Study: MRI abdomen | Date: 2025-06-26 | Accession: ACC000033563 | Priority: routine | Report status: final
+Indication: Abdominal pain
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 15 mm calculus in the left renal pelvis with mild hydronephrosis.
+IMPRESSION: left renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'renal calculus' (confidence 0.70).
+---
+Patient: Ronald Sharaf | MRN: MRN0010279 | Patient ID: 10279 | female, age 33
+Study: MRI abdomen | Date: 2025-06-03 | Accession: ACC000046768 | Priority: routine | Report status: final
+Indication: Weight loss
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 10 mm calculus in the right renal pelvis with mild hydronephrosis.
+IMPRESSION: right renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'appendicitis' (confidence 0.68).",,
+219,hard_typo_name,What did the CT on 2024-03-07 show for Stewart Mahotra?,Indeterminate 25 mm pulmonary nodule.,"Patient: Stewart Malhotra | MRN: MRN0009330 | Patient ID: 9330 | male, age 75
+Study: CT chest | Date: 2024-03-07 | Accession: ACC000042405 | Priority: urgent | Report status: final
+Indication: Cough and fever
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: A 25 mm solid nodule in the right upper lobe, smooth margins.
+IMPRESSION: Indeterminate 25 mm pulmonary nodule.
+RECOMMENDATION: Follow-up CT chest in 6-12 months per Fleischner guidelines.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pulmonary nodule' (confidence 0.99).",,
+170,hard_trend,"On the follow-up scan of 2021-10-06, had Christie Badal's lump in the neck gland improved, worsened or stayed the same?",Interval progression,"Patient: Christie Badal | MRN: MRN0016578 | Patient ID: 16578 | female, age 82
+Study: Ultrasound thyroid | Date: 2021-10-06 | Accession: ACC000075801 | Priority: routine | Report status: final
+Indication: Palpable neck lump
+TECHNIQUE: High-resolution ultrasound of the thyroid gland and neck.
+COMPARISON: Interval progression compared with the prior study of 2021-03-16.
+FINDINGS: A 14 mm solid hypoechoic nodule in the left lobe with microcalcifications.
+IMPRESSION: left thyroid nodule, TI-RADS 5.
+RECOMMENDATION: Fine-needle aspiration recommended.
+AI MODEL (SonoAssist v1.8): predicted 'thyroid nodule' (confidence 1.00).",,
+226,hard_typo_name,What did the Ultrasound on 2026-05-13 show for Orinder Barl?,Cholelithiasis without cholecystitis.,"Patient: Orinder Baral | MRN: MRN0018303 | Patient ID: 18303 | male, age 20
+Study: Ultrasound abdomen | Date: 2026-05-13 | Accession: ACC000083896 | Priority: routine | Report status: final
+Indication: Haematuria
+TECHNIQUE: Grey-scale and colour Doppler ultrasound of the abdomen.
+COMPARISON: None available.
+FINDINGS: Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing. No wall thickening.
+IMPRESSION: Cholelithiasis without cholecystitis.
+RECOMMENDATION: Surgical opinion if symptomatic.
+AI MODEL (SonoAssist v1.8): predicted 'gallstones' (confidence 0.90).",,
+213,hard_negative,Has Janice Snyder ever had an enlarged heart on any scan?,No: none of 7 studies report cardiomegaly,,,
+230,hard_typo_name,What did the Ultrasound on 2026-02-26 show for Vansha Hege?,Cholelithiasis without cholecystitis.,"Patient: Vansha Hegde | MRN: MRN0016622 | Patient ID: 16622 | male, age 58
+Study: Ultrasound abdomen | Date: 2026-02-26 | Accession: ACC000075984 | Priority: routine | Report status: final
+Indication: Follow-up of liver lesion
+TECHNIQUE: Grey-scale and colour Doppler ultrasound of the abdomen.
+COMPARISON: None available.
+FINDINGS: Multiple mobile echogenic calculi in the gallbladder with posterior acoustic shadowing. No wall thickening.
+IMPRESSION: Cholelithiasis without cholecystitis.
+RECOMMENDATION: Surgical opinion if symptomatic.
+AI MODEL (SonoAssist v1.8): predicted 'gallstones' (confidence 0.92).",,
+208,hard_negative,Has Azad Bradford ever had cancer spread on any scan?,No: none of 10 studies report metastatic disease,,,
+192,hard_count_finding,How many patients had a spot on the lung reported on imaging in 2022?,402,,,
+128,hard_paraphrase_patient,"When did Isaiah Ahluwalia have imaging that showed a lung infection, and what kind of scan was it?",2023-04-14 X-ray chest: Findings consistent with left lower lobe pneumonia.,"Patient: Isaiah Ahluwalia | MRN: MRN0007700 | Patient ID: 7700 | male, age 15
+Study: X-ray chest | Date: 2023-04-14 | Accession: ACC000034896 | Priority: urgent | Report status: final
+Indication: Follow-up of lung nodule
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Patchy airspace consolidation in the left lower lobe with air bronchograms.
+IMPRESSION: Findings consistent with left lower lobe pneumonia.
+RECOMMENDATION: Clinical correlation and follow-up radiograph in 6 weeks after treatment.
+AI MODEL (ChestXR-Vision v3.0): predicted 'pneumonia' (confidence 0.90).",,
+184,hard_trend,"On the follow-up scan of 2026-04-14, had Chameli Espinoza's fluid around the lung improved, worsened or stayed the same?",Unchanged,"Patient: Chameli Espinoza | MRN: MRN0013344 | Patient ID: 13344 | male, age 37
+Study: X-ray chest | Date: 2026-04-14 | Accession: ACC000060959 | Priority: urgent | Report status: final
+Indication: Haemoptysis
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: Unchanged compared with the prior study of 2026-03-27.
+FINDINGS: Moderate right pleural effusion with adjacent compressive atelectasis.
+IMPRESSION: Moderate right pleural effusion.
+RECOMMENDATION: Consider diagnostic thoracentesis if clinically indicated.
+AI MODEL (ChestXR-Vision v3.0): predicted 'emphysema' (confidence 0.55).",,
+156,hard_semantic_cohort,Which patients had a ruptured cruciate ligament on a MRI scan in March 2025?,Ekaja Bhatia (2025-03-09),"Patient: Ekaja Bhatia | MRN: MRN0007123 | Patient ID: 7123 | male, age 58
+Study: MRI knee | Date: 2025-03-09 | Accession: ACC000032322 | Priority: routine | Report status: final
+Indication: Knee swelling
+TECHNIQUE: MRI right knee, proton density fat-saturated sequences in three planes.
+COMPARISON: None available.
+FINDINGS: Discontinuity of the anterior cruciate ligament fibres with bone marrow oedema of the lateral femoral condyle.
+IMPRESSION: Complete ACL tear.
+RECOMMENDATION: Sports orthopaedic referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'ACL tear' (confidence 1.00).",,
+225,hard_typo_name,What did the CT on 2021-02-14 show for Naksh Cardeas?,right renal calculus with mild hydronephrosis.,"Patient: Naksh Cardenas | MRN: MRN0011294 | Patient ID: 11294 | male, age 56
+Study: CT abdomen | Date: 2021-02-14 | Accession: ACC000051399 | Priority: stat | Report status: final
+Indication: Weight loss
+TECHNIQUE: CT abdomen and pelvis with oral and intravenous contrast, portal venous phase.
+COMPARISON: None available.
+FINDINGS: A 4 mm calculus in the right renal pelvis with mild hydronephrosis.
+IMPRESSION: right renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (DeepCT-Seg v4.2): predicted 'renal calculus' (confidence 0.85).",,
+131,hard_paraphrase_patient,"When did Kristi Meyer have imaging that showed a stone in the kidney, and what kind of scan was it?",2023-05-18 Ultrasound abdomen: left renal calculus with mild hydronephrosis.,"Patient: Kristi Meyer | MRN: MRN0003320 | Patient ID: 3320 | female, age 63
+Study: Ultrasound abdomen | Date: 2023-05-18 | Accession: ACC000014828 | Priority: urgent | Report status: final
+Indication: Abdominal pain
+TECHNIQUE: Grey-scale and colour Doppler ultrasound of the abdomen.
+COMPARISON: None available.
+FINDINGS: A 10 mm calculus in the left renal pelvis with mild hydronephrosis.
+IMPRESSION: left renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (SonoAssist v1.8): predicted 'renal calculus' (confidence 0.92).",,
+145,hard_semantic_cohort,Which patients had a suspected liver cancer on a MRI scan in June 2022?,Stewart Castro (2022-06-28); Christine Richards (2022-06-18); Baljiwan Valdez (2022-06-26),"Patient: Stewart Castro | MRN: MRN0003993 | Patient ID: 3993 | male, age 83
+Study: MRI abdomen | Date: 2022-06-28 | Accession: ACC000017861 | Priority: stat | Report status: final
+Indication: Right upper quadrant pain
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 4.4 cm arterially enhancing lesion in segment 7 of the liver with washout.
+IMPRESSION: Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+RECOMMENDATION: Multidisciplinary hepatobiliary review.
+AI MODEL (NeuroMR-Net v2.1): predicted 'liver lesion' (confidence 0.95).
+---
+Patient: Christine Richards | MRN: MRN0016182 | Patient ID: 16182 | female, age 39
+Study: MRI abdomen | Date: 2022-06-18 | Accession: ACC000073872 | Priority: stat | Report status: final
+Indication: Right upper quadrant pain
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 3.7 cm arterially enhancing lesion in segment 2 of the liver with washout.
+IMPRESSION: Arterially enhancing liver lesion with washout, LI-RADS 5, suspicious for hepatocellular carcinoma.
+RECOMMENDATION: Multidisciplinary hepatobiliary review.
+AI MODEL (NeuroMR-Net v2.1): predicted 'liver lesion' (confidence 0.85).
+---
+Patient: Baljiwan Valdez | MRN: MRN0018798 | Patient ID: 18798 | unknown, age 69
+Study: MRI abdomen | Date: 2022-06-26 | Accession: ACC000085971 | Priority: urgent | Repor",,
+139,hard_paraphrase_patient,"When did Mahika Watts have imaging that showed a stroke, and what kind of scan was it?",2020-12-25 CT head: Acute left MCA territory infarct.,"Patient: Mahika Watts | MRN: MRN0012923 | Patient ID: 12923 | male, age 54
+Study: CT head | Date: 2020-12-25 | Accession: ACC000058919 | Priority: stat | Report status: final
+Indication: Head injury
+TECHNIQUE: Non-contrast CT of the head with axial and coronal reformats.
+COMPARISON: None available.
+FINDINGS: Restricted diffusion / hypodensity in the left middle cerebral artery territory.
+IMPRESSION: Acute left MCA territory infarct.
+RECOMMENDATION: Stroke team activation.
+AI MODEL (DeepCT-Seg v4.2): predicted 'ischaemic stroke' (confidence 0.87).",,
+172,hard_trend,"On the follow-up scan of 2023-05-17, had Leanne Brar's enlarged heart improved, worsened or stayed the same?",Interval progression,"Patient: Leanne Brar | MRN: MRN0014362 | Patient ID: 14362 | male, age 53
+Study: X-ray chest | Date: 2023-05-17 | Accession: ACC000065681 | Priority: routine | Report status: final
+Indication: Chest pain
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: Interval progression compared with the prior study of 2021-05-09.
+FINDINGS: Cardiothoracic ratio is increased at 0.58. Mild pulmonary venous congestion.
+IMPRESSION: Cardiomegaly with mild pulmonary venous congestion.
+RECOMMENDATION: Echocardiography recommended.
+AI MODEL (ChestXR-Vision v3.0): predicted 'cardiomegaly' (confidence 0.92).",,
+185,hard_count_finding,How many patients had stones in the gallbladder reported on imaging in 2020?,72,,,
+221,hard_typo_name,What did the CT on 2022-06-25 show for Thomas Bihop?,Moderate left pleural effusion.,"Patient: Thomas Bishop | MRN: MRN0005351 | Patient ID: 5351 | female, age 43
+Study: CT chest | Date: 2022-06-25 | Accession: ACC000023998 | Priority: routine | Report status: final
+Indication: Follow-up of lung nodule
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: None available.
+FINDINGS: Moderate left pleural effusion with adjacent compressive atelectasis.
+IMPRESSION: Moderate left pleural effusion.
+RECOMMENDATION: Consider diagnostic thoracentesis if clinically indicated.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pleural effusion' (confidence 0.94).",,
+173,hard_trend,"On the follow-up scan of 2025-03-30, had Arjun Reid's collapsed lung improved, worsened or stayed the same?",Unchanged,"Patient: Arjun Reid | MRN: MRN0010153 | Patient ID: 10153 | male, age 40
+Study: CT chest | Date: 2025-03-30 | Accession: ACC000046253 | Priority: urgent | Report status: preliminary
+Indication: Follow-up of lung nodule
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: Unchanged compared with the prior study of 2022-01-01.
+FINDINGS: A left apical pneumothorax measuring approximately 4 mm.
+IMPRESSION: left pneumothorax.
+RECOMMENDATION: Immediate clinical review; consider chest drain.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pneumothorax' (confidence 0.91).",,
+194,hard_count_finding,How many patients had a lump in the neck gland reported on imaging in 2020?,104,,,
+138,hard_paraphrase_patient,"When did Deanna Raja have imaging that showed secondary tumours, and what kind of scan was it?",2021-06-20 PET-CT whole body: Widespread FDG-avid metastatic disease.,"Patient: Deanna Raja | MRN: MRN0008969 | Patient ID: 8969 | female, age 30
+Study: PET-CT whole body | Date: 2021-06-20 | Accession: ACC000040768 | Priority: stat | Report status: preliminary
+Indication: Unexplained weight loss
+TECHNIQUE: FDG PET-CT from skull base to mid-thigh, 60 minutes after 10 mCi FDG.
+COMPARISON: None available.
+FINDINGS: Multiple FDG-avid lesions in the liver and skeleton, SUVmax 4.3.
+IMPRESSION: Widespread FDG-avid metastatic disease.
+RECOMMENDATION: Oncology review.
+AI MODEL (PET-Lesion v1.3): predicted 'metastatic disease' (confidence 0.99).",,
+198,hard_negative,Has Arthur Chawla ever had a clot in the pulmonary arteries on any scan?,No: none of 5 studies report pulmonary embolism,,,
+214,hard_negative,Has Fitan Chan ever had fatty liver on any scan?,No: none of 8 studies report hepatic steatosis,,,
+126,hard_paraphrase_patient,"When did Ronald Gonzales have imaging that showed a big heart, and what kind of scan was it?",2022-07-18 X-ray chest: Cardiomegaly with mild pulmonary venous congestion.,"Patient: Ronald Gonzales | MRN: MRN0000878 | Patient ID: 878 | male, age 87
+Study: X-ray chest | Date: 2022-07-18 | Accession: ACC000004050 | Priority: urgent | Report status: final
+Indication: Follow-up of lung nodule
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Cardiothoracic ratio is increased at 0.58. Mild pulmonary venous congestion.
+IMPRESSION: Cardiomegaly with mild pulmonary venous congestion.
+RECOMMENDATION: Echocardiography recommended.
+AI MODEL (ChestXR-Vision v3.0): predicted 'cardiomegaly' (confidence 0.59).",,
+152,hard_semantic_cohort,Which patients had a kidney stone on a MRI scan in August 2022?,Sam Cooper (2022-08-17),"Patient: Sam Cooper | MRN: MRN0017787 | Patient ID: 17787 | male, age 43
+Study: MRI abdomen | Date: 2022-08-17 | Accession: ACC000081477 | Priority: urgent | Report status: preliminary
+Indication: Follow-up of liver lesion
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: A 21 mm calculus in the left renal pelvis with mild hydronephrosis.
+IMPRESSION: left renal calculus with mild hydronephrosis.
+RECOMMENDATION: Urology referral.
+AI MODEL (NeuroMR-Net v2.1): predicted 'normal' (confidence 0.49).",,
+177,hard_trend,"On the follow-up scan of 2025-09-25, had Abeer Ramaswamy's lung tumour improved, worsened or stayed the same?",Interval improvement,"Patient: Abeer Ramaswamy | MRN: MRN0012092 | Patient ID: 12092 | female, age 66
+Study: X-ray chest | Date: 2025-09-25 | Accession: ACC000055042 | Priority: stat | Report status: final
+Indication: Follow-up of lung nodule
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: Interval improvement compared with the prior study of 2025-03-14.
+FINDINGS: A 4.8 cm spiculated mass in the left upper lobe with ipsilateral hilar lymphadenopathy.
+IMPRESSION: Spiculated lung mass highly suspicious for primary lung malignancy.
+RECOMMENDATION: Urgent referral to thoracic oncology and tissue sampling.
+AI MODEL (ChestXR-Vision v3.0): predicted 'lung mass' (confidence 0.89).",,
+160,hard_semantic_cohort,Which patients had a slipped disc on a CT scan in February 2024?,Heather Ratti (2024-02-04); Nikita O'Connor (2024-02-23),"Patient: Heather Ratti | MRN: MRN0010165 | Patient ID: 10165 | unknown, age 69
+Study: CT spine | Date: 2024-02-04 | Accession: ACC000046296 | Priority: routine | Report status: final
+Indication: Low back pain
+TECHNIQUE: Non-contrast CT of the lumbar spine with sagittal and coronal reformats.
+COMPARISON: None available.
+FINDINGS: Posterior disc extrusion at L2-L3 compressing the traversing left nerve root.
+IMPRESSION: L2-L3 disc extrusion with left nerve root compression.
+RECOMMENDATION: Spine clinic referral; consider MRI-guided management.
+AI MODEL (DeepCT-Seg v4.2): predicted 'disc herniation' (confidence 0.82).
+---
+Patient: Nikita O'Connor | MRN: MRN0019529 | Patient ID: 19529 | male, age 57
+Study: CT spine | Date: 2024-02-23 | Accession: ACC000089352 | Priority: routine | Report status: final
+Indication: Sciatica
+TECHNIQUE: Non-contrast CT of the lumbar spine with sagittal and coronal reformats.
+COMPARISON: Interval improvement compared with the prior study of 2021-09-19.
+FINDINGS: Posterior disc extrusion at L3-L4 compressing the traversing right nerve root.
+IMPRESSION: L3-L4 disc extrusion with right nerve root compression.
+RECOMMENDATION: Spine clinic referral; consider MRI-guided management.
+AI MODEL (DeepCT-Seg v4.2): predicted 'disc herniation' (confidence 0.92).",,
+148,hard_semantic_cohort,Which patients had fat in the liver on a MRI scan in July 2022?,Preston Murphy (2022-07-11),"Patient: Preston Murphy | MRN: MRN0009237 | Patient ID: 9237 | female, age 61
+Study: MRI abdomen | Date: 2022-07-11 | Accession: ACC000041964 | Priority: routine | Report status: final
+Indication: Abdominal pain
+TECHNIQUE: MRI abdomen with hepatobiliary contrast and diffusion-weighted imaging.
+COMPARISON: None available.
+FINDINGS: Diffusely decreased hepatic attenuation/increased echogenicity in keeping with fatty infiltration.
+IMPRESSION: Hepatic steatosis.
+RECOMMENDATION: Lifestyle modification and liver function monitoring.
+AI MODEL (NeuroMR-Net v2.1): predicted 'splenomegaly' (confidence 0.53).",,
+174,hard_trend,"On the follow-up scan of 2023-12-17, had Jonathon Davis's collapsed lung improved, worsened or stayed the same?",Unchanged,"Patient: Jonathon Davis | MRN: MRN0017153 | Patient ID: 17153 | female, age 86
+Study: CT chest | Date: 2023-12-17 | Accession: ACC000078396 | Priority: urgent | Report status: final
+Indication: Pre-operative assessment
+TECHNIQUE: Contrast-enhanced CT of the chest with axial 1.25 mm reconstructions.
+COMPARISON: Unchanged compared with the prior study of 2021-10-25.
+FINDINGS: A left apical pneumothorax measuring approximately 9 mm.
+IMPRESSION: left pneumothorax.
+RECOMMENDATION: Immediate clinical review; consider chest drain.
+AI MODEL (DeepCT-Seg v4.2): predicted 'pulmonary embolism' (confidence 0.64).",,
