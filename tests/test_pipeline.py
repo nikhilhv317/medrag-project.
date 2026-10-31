@@ -202,17 +202,22 @@ def test_overview_questions_and_date_check():
     assert not is_overview("has danielle chang any critical condition", one)
     assert not is_overview("danielle chang CT scans", Filters(patient_ids=[7], patient_names=["Danielle Chang"], modality="CT"))
     assert not is_overview("tell me about pneumonia", Filters())
-    o = [{"mrn": "MRN7", "studies": [{"date": "2024-12-15", "modality": "MRI", "body_part": "brain", "finding": "Acute right MCA infarct."}],
+    o = [{"mrn": "MRN7", "studies": [{"date": "2024-12-15", "modality": "MRI", "body_part": "brain", "finding": "Acute right MCA infarct.",
+                                      "abnormal": True},
+                                     {"date": "2025-08-13", "modality": "PET-CT", "body_part": "whole body",
+                                      "finding": "No acute abnormality.", "abnormal": False}],
           "documents": [{"date": "2021-09-16", "title": "Gen Med Consult", "specialty": "General Medicine", "conclusion": ""}]}]
+    assert unverified_dates("On 2025-08-13, a PET-CT whole body revealed no acute abnormality.", o) == [
+        "2025-08-13 (a normal study, not an abnormal finding)"]  # listed among "the most important abnormal findings"
     assert unverified_dates("MRI brain on 2024-12-15: acute right MCA infarct. A 2021-09-16 consult is attached.", o) == []
     assert unverified_dates("On 2025-03-01 a CT showed a fracture.", o) == ["2025-03-01 (no such study or document)"]
     assert unverified_dates("On 2024-12-15 a mammogram showed a breast mass.", o) == [
         "2024-12-15 (does not match the record for that date)"]
     # two patients with one name: a date under the wrong MRN is caught
     two = [{"mrn": "MRN1", "studies": [{"date": "2025-01-25", "modality": "CT", "body_part": "head",
-                                         "finding": "Acute left basal ganglia haemorrhage."}], "documents": []},
+                                         "finding": "Acute left basal ganglia haemorrhage.", "abnormal": True}], "documents": []},
            {"mrn": "MRN2", "studies": [{"date": "2022-06-30", "modality": "Mammography", "body_part": "breast",
-                                         "finding": "Suspicious left breast calcifications."}], "documents": []}]
+                                         "finding": "Suspicious left breast calcifications.", "abnormal": True}], "documents": []}]
     assert unverified_dates("MRN1: 2025-01-25 CT head, haemorrhage.\nMRN2: 2022-06-30 breast calcifications.", two) == []
     assert unverified_dates("MRN2: 2025-01-25 CT head: acute left basal ganglia haemorrhage.", two) == [
         "2025-01-25 (belongs to the other patient, MRN1)"]

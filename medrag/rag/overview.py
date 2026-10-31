@@ -86,11 +86,19 @@ def _dated_words(o: dict) -> dict[str, set[str]]:
     return by_date
 
 
+def _normal_dates(overviews: list[dict]) -> set[str]:
+    """Dates on which every study was normal and nothing else (a document, an abnormal study) happened."""
+    busy = {s["date"] for o in overviews for s in o["studies"] if s["abnormal"]} | {d["date"] for o in overviews for d in o["documents"]}
+    return {s["date"] for o in overviews for s in o["studies"]} - busy
+
+
 def unverified_dates(text: str, overviews: list[dict]) -> list[str]:
     """Problems with the dates in an answer: a date with no study or document of the patient, a date that belongs
-    to another patient of the same name (each date is checked against the last MRN written before it), or a
-    sentence whose finding shares no word with the record for that date. Empty when everything checks out."""
+    to another patient of the same name (each date is checked against the last MRN written before it), a
+    sentence whose finding shares no word with the record for that date, or a normal study given as one of the
+    abnormal findings the overview asks for. Empty when everything checks out."""
     per_mrn = {o["mrn"].upper(): _dated_words(o) for o in overviews}
+    normal = _normal_dates(overviews)
     pooled: dict[str, set[str]] = {}
     for by_date in per_mrn.values():
         for date, words in by_date.items():
@@ -107,6 +115,8 @@ def unverified_dates(text: str, overviews: list[dict]) -> list[str]:
                 other = next((k for k, v in per_mrn.items() if token in v), None)
                 problems[token] = (f"{token} (belongs to the other patient, {other})" if other
                                    else f"{token} (no such study or document)")
+            elif token in normal:
+                problems.setdefault(token, f"{token} (a normal study, not an abnormal finding)")
             elif not (_words(DATE_RE.sub("", sentence)) & records[token]):
                 problems.setdefault(token, f"{token} (does not match the record for that date)")
     return sorted(problems.values())
