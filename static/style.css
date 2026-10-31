@@ -52,6 +52,14 @@ details { margin-top: 8px; }
 summary { cursor: pointer; color: var(--muted); font-size: 13px; }
 pre { white-space: pre-wrap; background: var(--code); padding: 10px; border-radius: 8px; font-size: 12.5px; overflow-x: auto; }
 .source { margin: 8px 0; }
+.record { margin: 8px 0 14px; }
+.record-head { margin-bottom: 6px; }
+.record h4 { margin: 10px 0 4px; font-size: 14px; }
+tr.abnormal td { background: var(--user); }
+ul.docs { padding-left: 18px; margin: 4px 0; font-size: 13px; }
+.flag { font-size: 13px; margin: 8px 0 0; padding: 6px 10px; border-radius: 6px; }
+.flag.ok { background: var(--code); color: var(--muted); }
+.flag.warn { background: var(--code); color: var(--error); border-left: 3px solid var(--error); }
 .source.flash pre { outline: 2px solid var(--accent); }
 
 .ask { display: flex; gap: 8px; padding: 12px 16px; border-top: 1px solid var(--border); background: var(--panel); }

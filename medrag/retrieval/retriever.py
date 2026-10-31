@@ -44,6 +44,7 @@ class Result:
     scope: pd.Series | None = None  # rows the user may see in computed facts (None = all); see security/access.py
     timings: dict[str, float] = field(default_factory=dict)  # seconds per retrieval stage (tracing)
     denied_patients: list[int] = field(default_factory=list)  # patients named in the question the user may not see
+    overview: list[dict] | None = None  # exact per-patient tables for "tell me about <patient>" (rag/overview.py)
 
 
 def rrf(rankings: dict[str, list[tuple[int, float]]], k: int = 60, weights: dict[str, float] | None = None) -> list[Hit]:
@@ -98,6 +99,7 @@ class Retriever:
         is_study = self.meta["doc_type"] == "study"
         imp = self.meta["impression"].fillna("").str.lower()
         self._abnormal = is_study & ~imp.str.contains("no acute abnormality") & (imp != "")
+        self._doc_modalities = set(self.meta.loc[self.meta["doc_type"] == "document", "modality"].dropna())
 
     @property
     def reranker(self) -> Reranker | None:
@@ -110,8 +112,6 @@ class Retriever:
         m = pd.Series(True, index=self.meta.index)
         if "patient" in use and f.patient_ids:
             m &= self.meta["patient_id"].isin(f.patient_ids)
-        if "modality" in use and f.modality:
-            m &= self.meta["modality"] == f.modality
         if "body_part" in use and f.body_part:
             m &= self.meta["body_part"] == f.body_part
         if "priority" in use and f.priority:
@@ -126,6 +126,15 @@ class Retriever:
             m &= self.meta["doc_type"].isin(["document", "patient"])
         if "documents" in use and f.specialty:
             m &= (self.meta["specialty"] == f.specialty) | (self.meta["doc_type"] == "patient")
+        if "modality" in use and f.modality:
+            # In a document question, a modality no document carries ("consult about an effusion on the CAT scan")
+            # describes the text, which search still matches. As a filter it emptied the documents, and the
+            # relaxation then searched CT studies instead. It stays a filter when no document matches the rest
+            # ("MRI report for MRN... dated ..." means the study) or for X-rays (Open-i reports are chest X-rays).
+            doc_content = (f.documents and "documents" in use and f.modality not in self._doc_modalities
+                           and (m & (self.meta["doc_type"] == "document")).any())
+            if not doc_content:
+                m &= self.meta["modality"] == f.modality
         return m
 
     def filter_rows(self, f: Filters, notes: list[str], allowed: pd.Series | None = None) -> np.ndarray | None:

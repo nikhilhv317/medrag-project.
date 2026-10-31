@@ -64,6 +64,10 @@ streamlit run app.py                           # older Streamlit UI, same tabs, 
 **Web UI** (`api.py` + `static/`): FastAPI loads the index and models once at start-up, and the plain JavaScript page
 streams each answer as it is written, with its filters, sources (citations link to them) and computed facts. Tabs:
 Chat, Patients, Data quality, Evaluation, Audit; sign-in and per-user access as in the Streamlit app (`USERS_FILE`).
+A patient overview ("tell me about <name>") shows the patient's exact record from the database (every study with its
+finding and recommendation, abnormal ones highlighted, and the linked documents), and the LLM adds only a short
+summary of the main findings; every date in that summary is checked against the record, including which patient it
+belongs to when two share a name. Questions about what a document or report says go through the full RAG path.
 Measured on the full index with `qwen2.5:3b` on a laptop GPU: sources in about 0.6-2 s, the whole answer in about 5 s.
 API: `GET /api/info`, `POST /api/ask` (NDJSON stream), `GET /api/patients?q=`, `GET /api/patients/{id}`,
 `GET /api/quality`, `GET /api/evals`, `GET /api/evals/{run}`, `GET /api/audit`, `POST /api/login`; docs at `/docs`.

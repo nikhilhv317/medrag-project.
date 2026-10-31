@@ -179,6 +179,8 @@ $("#ask-form").addEventListener("submit", async (e) => {
           if (!firstToken) firstToken = performance.now();
           text += ev.text;
           msg.querySelector(".answer").innerHTML = answerHTML(text, id);
+        } else if (ev.type === "check") {
+          showCheck(msg, ev.unverified_dates, text);
         } else if (ev.type === "error") {
           msg.querySelector(".answer").insertAdjacentHTML("beforeend", `<p class="error">Error: ${esc(ev.text)}</p>`);
         }
@@ -197,9 +199,38 @@ $("#ask-form").addEventListener("submit", async (e) => {
   }
 });
 
+// The exact record of each patient in an overview, straight from the database (the LLM only summarises it).
+function overviewHTML(o) {
+  const who = [o.gender, o.age != null ? `age ${o.age}` : ""].filter(Boolean).join(", ");
+  const rows = o.studies.map((s) => `<tr class="${s.abnormal ? "abnormal" : ""}"><td>${esc(s.date)}</td>
+      <td>${esc(s.modality)} ${esc(s.body_part)}</td><td>${esc(s.priority)}</td><td>${esc(s.finding)}</td>
+      <td>${esc(s.recommendation)}</td></tr>`).join("");
+  const docs = o.documents.length ? `<h4>Documents (${o.documents.length})</h4>
+      <p class="muted small">Public documents linked to this synthetic patient for testing; they may not match the patient.</p>
+      <ul class="docs">${o.documents.map((d) => `<li><b>${esc(d.date)}</b> · ${esc(d.title)} · ${esc(d.specialty)}
+        ${d.conclusion ? `<br><span class="muted">${esc(d.conclusion)}</span>` : ""}</li>`).join("")}</ul>` : "";
+  return `<div class="record"><div class="record-head"><b>${esc(o.name)}</b> · ${esc(o.mrn)}${who ? " · " + esc(who) : ""}
+      ${o.conditions ? `<br><span class="muted small">Conditions: ${esc(o.conditions)}</span>` : ""}
+      <br><span class="muted small">${o.studies.length} studies, ${o.abnormal} with abnormal findings (highlighted), newest first</span></div>
+      <div class="table-wrap"><table><thead><tr><th>Date</th><th>Study</th><th>Priority</th><th>Finding</th><th>Recommendation</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>${docs}</div>`;
+}
+
+function showCheck(msg, unverified, text) {
+  const mentioned = /\b\d{4}-\d{2}-\d{2}\b/.test(text);
+  const html = unverified.length
+    ? `<p class="flag warn">Check against the table below: ${unverified.map(esc).join("; ")}.</p>`
+    : mentioned ? '<p class="flag ok">Every date in this summary matches the patient\'s records.</p>' : "";
+  msg.querySelector(".answer").insertAdjacentHTML("afterend", html);
+}
+
 function showMeta(msg, ev, id, started) {
   const secs = ((performance.now() - started) / 1000).toFixed(1);
   msg.querySelector(".meta").textContent = `Filters: ${ev.filters}${ev.notes.length ? " · " + ev.notes.join(" ") : ""} · found in ${secs} s`;
+  if (ev.overview) {
+    msg.insertAdjacentHTML("beforeend", `<details class="records" open><summary>Patient record (exact, from the database)</summary>
+      ${ev.overview.map(overviewHTML).join("")}</details>`);
+  }
   const sources = ev.sources.map((s, i) => `<div class="source" id="${id}-s${i + 1}">
       <b>[S${i + 1}]</b> ${esc(s.doc_id)} <span class="muted small">(${esc(s.via)}, score ${Number(s.score).toFixed(3)})</span>
       <pre>${esc(s.text)}</pre></div>`).join("");

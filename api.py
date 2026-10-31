@@ -21,6 +21,7 @@ from medrag.data import catalog as C
 from medrag.index.store import Index
 from medrag.providers.llms import get_llm
 from medrag.rag.answer import RAG
+from medrag.rag.overview import unverified_dates
 from medrag.retrieval.retriever import MODES, Retriever
 from medrag.security import audit
 from medrag.security.access import LOCAL_ADMIN, User, auth_enabled, authenticate
@@ -153,15 +154,19 @@ def ask(body: Ask, user: User = Depends(current_user)):
 
     cols = ["doc_id", "via", "score", "patient_name", "mrn", "study_date", "modality", "body_part", "priority", "text"]
     meta = {"type": "meta", "filters": r.filters.describe(), "notes": r.notes, "facts": facts,
-            "sources": _records(r.hits[[c for c in cols if c in r.hits.columns]])}
+            "sources": _records(r.hits[[c for c in cols if c in r.hits.columns]]), "overview": r.overview}
 
     def lines():
         yield json.dumps(meta) + "\n"
+        text = ""
         try:
             for piece in stream:
+                text += piece
                 yield json.dumps({"type": "token", "text": piece}) + "\n"
         except Exception as e:  # the LLM failed mid-answer: say so instead of cutting the stream silently
             yield json.dumps({"type": "error", "text": str(e)[:300]}) + "\n"
+        if r.overview:  # dates the LLM wrote that match none of the patient's studies or documents
+            yield json.dumps({"type": "check", "unverified_dates": unverified_dates(text, r.overview)}) + "\n"
         yield json.dumps({"type": "done"}) + "\n"
 
     return StreamingResponse(lines(), media_type="application/x-ndjson")

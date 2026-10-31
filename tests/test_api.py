@@ -86,6 +86,22 @@ def test_unknown_or_misspelt_lower_case_name_is_not_searched(client, built):
     assert events[0]["sources"] == [] and not events[0]["facts"]  # no other patients' records shown with it
 
 
+def test_patient_overview_is_exact_and_checked(client, built):
+    _, cleaned, *_ = built
+    names = cleaned["patients"]["full_name"]
+    name = names[~names.duplicated(keep=False)].iloc[0]  # a name only one patient has
+    pid = int(cleaned["patients"].loc[cleaned["patients"]["full_name"] == name, "patient_id"].iloc[0])
+    events = _events(client.post("/api/ask", json={"question": f"tell me about {name.lower()}"}))
+    (o,) = events[0]["overview"]
+    studies = client.get(f"/api/patients/{pid}").json()["studies"]
+    assert o["patient_id"] == pid and len(o["studies"]) == len(studies)
+    assert [s["date"] for s in o["studies"]] == sorted((s["date"] for s in o["studies"]), reverse=True)  # newest first
+    assert {s["date"] for s in o["studies"]} == {s["study_date"][:10] for s in studies}
+    assert any(e["type"] == "check" and e["unverified_dates"] == [] for e in events)
+    # a specific question about the same patient is answered normally, without the overview
+    assert _events(client.post("/api/ask", json={"question": f"How many CT studies does {name} have?"}))[0]["overview"] is None
+
+
 def test_patients_search_and_detail(client, built):
     _, cleaned, *_ = built
     pt = cleaned["patients"].iloc[0]

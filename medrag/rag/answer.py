@@ -9,6 +9,7 @@ import pandas as pd
 from medrag.config import get_settings
 from medrag.data import catalog as C
 from medrag.providers.llms import LLM, get_llm
+from medrag.rag.overview import is_overview, patient_overview
 from medrag.retrieval.retriever import FILTER_ORDER, Result, Retriever
 from medrag.security import audit
 from medrag.security.access import LOCAL_ADMIN, User, auth_enabled
@@ -33,6 +34,13 @@ Rules:
 
 MAX_TIMELINE = 60
 MAX_HISTORY = 3  # earlier turns given to the LLM
+OVERVIEW_TOKENS = 300  # the LLM's part of a patient overview is a few sentences; the tables carry the details
+# Only findings and dates: age, recommendations and the rest are in the tables, and a small LLM got them wrong
+# (a fracture's "orthopaedic review" given to a breast mass, "no follow-up" for a stroke, a wrong age).
+OVERVIEW_TASK = """TASK: The user already sees exact tables of every study, finding, recommendation and document of
+the patient(s). In at most 3 sentences, name the most important abnormal findings, each with its date and study,
+using the finding's own words. Do not mention recommendations, age or anything else; the tables show them. If
+several patients share the name, write one short paragraph per patient, starting with their MRN."""
 # A question that points back at the conversation ("the above", "her", "that study") rather than standing alone.
 FOLLOW_UP = re.compile(r"\b(above|previous|earlier|that|this|those|these|it|its|them|they|he|she|him|his|her|hers|"
                        r"their|same|again|more|shorter|briefly|paragraph|summari[sz]e)\b", re.I)
@@ -144,7 +152,7 @@ def parent_context(hits: pd.DataFrame, meta: pd.DataFrame, max_words: int = 900)
     return res
 
 
-def build_prompt(question: str, r: Result, facts: str, history: list[dict] | None = None) -> str:
+def build_prompt(question: str, r: Result, facts: str, history: list[dict] | None = None, task: str = "") -> str:
     blocks, removed = [], 0
     for i, row in enumerate(r.hits.itertuples(), 1):
         text, n = neutralise(row.text)  # lines that look like instructions to the model are replaced
@@ -162,6 +170,8 @@ def build_prompt(question: str, r: Result, facts: str, history: list[dict] | Non
         r.hits.attrs["injection_lines"] = removed
         parts.append("CONVERSATION SO FAR:\n" + "\n\n".join(turns))
     parts.append(f"QUESTION: {question}")
+    if task:
+        parts.append(task)
     if r.notes:
         parts.append("NOTES: " + " ".join(r.notes))
     if facts:
@@ -226,9 +236,13 @@ class RAG:
                 ids = set(r.hits["patient_id"].dropna().astype(int)) | set(r.filters.patient_ids)
                 people = self.retriever.meta.loc[self.retriever.meta["patient_id"].isin(ids), ["patient_id", "patient_name", "mrn"]]
                 pseudo = Pseudonymiser(people)
+        # "Tell me about <patient>": exact tables from the index, and the LLM only writes a short overview on top.
+        if refusal is None and user.sees_records and is_overview(question, r.filters):
+            r.overview = [patient_overview(self.retriever, pid, r.scope) for pid in r.filters.patient_ids]
         # Earlier answers go to the LLM only for a follow-up: given with a new question, a small model copied one
         # patient's findings into the next patient's answer.
-        prompt = build_prompt(question, r, facts, history if search_q != question else None)
+        prompt = build_prompt(question, r, facts, history if search_q != question else None,
+                              OVERVIEW_TASK if r.overview else "")
         if pseudo:
             prompt = pseudo.apply(prompt)
             question = pseudo.apply(question)
@@ -263,7 +277,7 @@ class RAG:
 
         def gen():
             t0, buf, out = time.time(), "", []
-            for piece in self.llm.stream(SYSTEM, prompt):
+            for piece in self.llm.stream(SYSTEM, prompt, OVERVIEW_TOKENS if r.overview else 1500):
                 if not pseudo:
                     out.append(piece)
                     yield piece
@@ -290,7 +304,7 @@ class RAG:
             text = refusal
         else:
             try:
-                text = self.llm.complete(SYSTEM, prompt)
+                text = self.llm.complete(SYSTEM, prompt, OVERVIEW_TOKENS if r.overview else 1500)
             except Exception as e:
                 self._record(user, question, r, "", prompt, t_ret, time.time() - t0, pseudo, None, error=str(e)[:200])
                 raise

@@ -192,6 +192,51 @@ def test_short_modality_codes_only_in_capitals():
     assert qp.parse("Mr Smith had an ultrasound").modality == "US"
 
 
+def test_overview_questions_and_date_check():
+    from medrag.rag.overview import is_overview, unverified_dates
+    from medrag.retrieval.query_parser import Filters
+
+    one = Filters(patient_ids=[7], patient_names=["Danielle Chang"])
+    for q in ("tell me about danielle chang", "daniellie chang", "summary about Danielle Chang", "Danielle Chang summarize in 2 lines"):
+        assert is_overview(q, one), q
+    assert not is_overview("has danielle chang any critical condition", one)
+    assert not is_overview("danielle chang CT scans", Filters(patient_ids=[7], patient_names=["Danielle Chang"], modality="CT"))
+    assert not is_overview("tell me about pneumonia", Filters())
+    o = [{"mrn": "MRN7", "studies": [{"date": "2024-12-15", "modality": "MRI", "body_part": "brain", "finding": "Acute right MCA infarct."}],
+          "documents": [{"date": "2021-09-16", "title": "Gen Med Consult", "specialty": "General Medicine", "conclusion": ""}]}]
+    assert unverified_dates("MRI brain on 2024-12-15: acute right MCA infarct. A 2021-09-16 consult is attached.", o) == []
+    assert unverified_dates("On 2025-03-01 a CT showed a fracture.", o) == ["2025-03-01 (no such study or document)"]
+    assert unverified_dates("On 2024-12-15 a mammogram showed a breast mass.", o) == [
+        "2024-12-15 (does not match the record for that date)"]
+    # two patients with one name: a date under the wrong MRN is caught
+    two = [{"mrn": "MRN1", "studies": [{"date": "2025-01-25", "modality": "CT", "body_part": "head",
+                                         "finding": "Acute left basal ganglia haemorrhage."}], "documents": []},
+           {"mrn": "MRN2", "studies": [{"date": "2022-06-30", "modality": "Mammography", "body_part": "breast",
+                                         "finding": "Suspicious left breast calcifications."}], "documents": []}]
+    assert unverified_dates("MRN1: 2025-01-25 CT head, haemorrhage.\nMRN2: 2022-06-30 breast calcifications.", two) == []
+    assert unverified_dates("MRN2: 2025-01-25 CT head: acute left basal ganglia haemorrhage.", two) == [
+        "2025-01-25 (belongs to the other patient, MRN1)"]
+
+
+def test_modality_in_a_document_question_describes_the_text():
+    from medrag.retrieval.query_parser import Filters
+    from medrag.retrieval.retriever import Retriever
+
+    ret = Retriever.__new__(Retriever)  # only the filter logic, no index
+    ret.meta = pd.DataFrame({"doc_type": ["study", "document", "document", "patient"], "modality": ["CT", None, "XR", None],
+                             "patient_id": [1, 2, 3, 1], "body_part": [None] * 4, "priority": [None] * 4,
+                             "study_date": pd.to_datetime(["2024-01-01"] * 4), "specialty": [None] * 4})
+    ret._abnormal = pd.Series(False, index=ret.meta.index)
+    ret._doc_modalities = {"XR"}
+    use = {"documents", "modality", "patient"}
+    # "consult about an effusion on the CAT scan": the documents, not CT studies
+    assert list(ret._mask(Filters(documents=True, modality="CT"), use)) == [False, True, True, True]
+    # an X-ray report is a real filter (Open-i reports are chest X-rays)
+    assert list(ret._mask(Filters(documents=True, modality="XR"), use)) == [False, False, True, False]
+    # patient 1 has no documents: "CT report for patient 1" keeps the CT filter (it means the study)
+    assert not ret._mask(Filters(documents=True, modality="CT", patient_ids=[1]), use).any()
+
+
 def test_unknown_names_in_lower_case_are_caught_but_ordinary_words_are_not():
     from medrag.retrieval.query_parser import QueryParser
 
