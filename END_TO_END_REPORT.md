@@ -31,6 +31,7 @@ Repository: https://github.com/nikhilhv317/medrag-project. (the name ends in a d
 21. [Hardware, models, speed and cost](#21-hardware-models-speed-and-cost)
 22. [Limits, risks and next steps](#22-limits-risks-and-next-steps)
 23. [How to reproduce](#23-how-to-reproduce)
+24. [Bugs found in hands-on testing and how they were fixed](#24-bugs-found-in-hands-on-testing-and-how-they-were-fixed)
 
 ---
 
@@ -55,7 +56,8 @@ Repository: https://github.com/nikhilhv317/medrag-project. (the name ends in a d
 | D. Answers, 8 models × 54 questions, LLM judge | Gemini 3 Flash preview **96%** correct, Gemini 3.5 Flash 94%, NVIDIA Nemotron 3.5 Super 94%†, Gemini Flash-Lite 93%, Nemotron Lightning 89%, qwen3:1.7b 78%, qwen2.5:3b 67% |
 | Answer speed | NVIDIA 0.9-1.2 s median · Gemini 1.3-4.7 s · local 3B models on a laptop GPU about 4 s (43-57 s on CPU) |
 | E. Production controls | sign-in + 4 roles, patient-level access enforced before the LLM, audit log, PHI pseudonymisation for cloud LLMs, prompt-injection guard, metrics, caching, load test, quality gate |
-| Tests | **29 pass** |
+| Hands-on testing (§24) | 10 bugs found and fixed: follow-ups, a history leak between patients, unknown and misspelt names, model loops, patient summaries (now an exact database record plus a checked short summary), "CAT scan" document search, live addition of new patients |
+| Tests | **43 pass** |
 | Cost | **0**: free and open-source models, free API tiers, no paid service |
 
 † Nemotron 3.5 Super is also the judge; its independent keyword-check score is 91%.
@@ -652,7 +654,7 @@ No errors in 160 requests. The CPU is the limit: the slow tail is document quest
 
 ## 20. Engineering quality: tests, audit, problems solved
 
-**Tests:** 29, all passing (`.venv/Scripts/python -m pytest -q`). They build a small dataset with a hashing embedder (no downloads) and run the real pipeline: dirty raw data fails the checks and clean data passes; context headers; incremental rebuild reuses vectors; parser and retrieval; exact counts; metric formulas; query expansion; answer scoring; hard and document test sets; document cleaning and linking; long-text chunking; every audit fix; Bedrock streaming with a fake client; hidden-Unicode removal; production controls (roles, access mask, audit, pseudonymiser, injection guard, quality gate, retrieval floor).
+**Tests:** 43, all passing (`.venv/Scripts/python -m pytest -q`; 29 before the hands-on testing of §24, which added tests for the web API, follow-ups, names, overviews, document filters and live ingestion). They build a small dataset with a hashing embedder (no downloads) and run the real pipeline: dirty raw data fails the checks and clean data passes; context headers; incremental rebuild reuses vectors; parser and retrieval; exact counts; metric formulas; query expansion; answer scoring; hard and document test sets; document cleaning and linking; long-text chunking; every audit fix; Bedrock streaming with a fake client; hidden-Unicode removal; production controls (roles, access mask, audit, pseudonymiser, injection guard, quality gate, retrieval floor).
 
 **Code audit** (whole repository): 6 findings fixed with regression tests, each confirmed to fail on the old code:
 
@@ -771,3 +773,288 @@ python -m pytest -q
 ```
 
 Fixed seeds: data 7, document linking 13, test set 11 (hard +1, documents +2), review sample 5, bootstrap 0, "now" 2026-10-01. With the same code, data files, seeds and package versions, the data, chunks, questions and retrieval metrics come out the same; LLM answers can vary slightly even at temperature 0.1. `data/` and `reports/` (every evaluation run cited here) are in the repository; `indexes/` is git-ignored and rebuilt with the commands above.
+
+---
+
+## 24. Bugs found in hands-on testing and how they were fixed
+
+After the benchmarks, the system was put behind a new web interface (FastAPI backend `api.py` + plain JavaScript in
+`static/`, replacing the slower Streamlit page) and tested by hand the way a clinician would use it, including
+"monkey testing": misspelt and unknown names, follow-up questions, off-topic questions, shared names, document
+questions. Every problem found is listed here with its cause, the fix (with the actual code) and the evidence that
+the fix works. Tests went from 29 to 43.
+
+### 24.1 How each bug was handled
+
+The same five steps for every bug:
+
+1. **Reproduce** with the exact question that failed, on the full index (121,335 chunks).
+2. **Check against the ground truth.** The clean tables are the truth, so a short script looks up what the records
+   really say before any judgement. Example: the script that showed one patient's findings in another's answer.
+
+   ```python
+   st = studies.merge(reports[["study_id", "report_text"]], on="study_id")
+   for day in ["2024-12-24", "2024-11-07", "2023-06-22"]:      # the dates in the suspicious answer
+       hits = st[(st.study_date.dt.strftime("%Y-%m-%d") == day) & st.report_text.str.contains("effusion|haemorrhage")]
+       print(day, hits.patient_id.tolist())                     # -> all patient 14575 (Maanav Meyer), not Daksha Dubey
+   ```
+3. **Find the root cause in the code**, not in the symptom: which component (parser, filter, prompt, model) produced
+   the wrong output.
+4. **Smallest fix, then a regression test** that fails on the old code and passes on the new.
+5. **Prove it did not break anything else:** a false-positive check on hundreds of ordinary questions, an A/B
+   comparison on the same questions, or a replay of the user's whole session.
+
+### 24.2 Summary of the bugs
+
+| # | Symptom (user's question) | Root cause | Fix | Evidence |
+|---|---|---|---|---|
+| 1 | "summarize the above" summarised unrelated patients | each question was sent alone; no chat memory | chat history + follow-up detection | follow-up stays on the patient (test) |
+| 2 | answers showed raw `###` and `**` | answer rendered as plain text | sanitised Markdown rendering | browser check |
+| 3 | Daksha Dubey's answer had Maanav Meyer's findings | **introduced by fix 1**: history sent with every question | history only for follow-ups | replay: no foreign dates; regression test |
+| 4 | "roy ramesh" listed other patients | unknown names caught only when capitalised | lower-case name rule + "Did you mean" | 0 of 313 questions wrongly refused |
+| 5 | "lopa garden has CT scans" invented 8 scans | misspelt name inside a sentence not caught | near-miss name rule | 0 of 921 wrongly refused (first version: 26) |
+| 6 | "json igbal" printed 3 strangers' documents | first name misspelt too | whole-question fuzzy rule | 0 of 865 wrongly refused |
+| 7 | 77 s answer repeating one paragraph; ~40 invented studies | small model stuck in a loop | wider repetition window | Gagan James 77 s -> 20 s |
+| 8 | wrong "most recent", wrong recommendations, two patients mixed | small model rewriting long histories | exact record from the database + short checked summary | 20 of 20 summaries pass; 3.8 s median |
+| 9 | "consult about an effusion seen on the CAT scan" not found | "CAT scan" filtered documents by CT | modality matched in the text for documents | document MRR 0.921 -> 0.946 |
+| 10 | new patients needed a manual rebuild and restart | no ingest path; documents re-linked at random | ingest endpoint, document sync, background swap | full-scale run: searchable ~85 s after adding |
+| - | stricter answer instructions (tried) | - | **not adopted** | citations halved (qwen2.5 31% -> 7%) |
+
+### 24.3 Follow-up questions (bugs 1 and 3)
+
+**Bug 1.** The page sent each question on its own, so "summarize the above in a paragraph" had no patient and no
+filters; the search returned random documents. **Method:** the page now sends the last 3 turns, and a question that
+points back and names no patient of its own is searched together with the previous question.
+
+```python
+# medrag/rag/answer.py
+FOLLOW_UP = re.compile(r"\b(above|previous|earlier|that|this|those|these|it|its|them|they|he|she|him|his|her|hers|"
+                       r"their|same|again|more|shorter|briefly|paragraph|summari[sz]e)\b", re.I)
+
+def follow_up_search(question, history, retriever) -> str:
+    if not history or not FOLLOW_UP.search(question):
+        return question
+    f = retriever.parser.parse(question)
+    if f.patient_ids or f.unresolved_patient:      # names its own patient: a new question
+        return question
+    return f"{history[-1]['question']} {question}"  # search with the previous question too
+```
+
+**Bug 3, caused by the fix for bug 1.** The earlier answers were put into *every* prompt. With "daksha dubey" asked
+after "Maanav Meyer", the 3B model copied Maanav's three findings (2024-12-24, 2024-11-07, 2023-06-22) into
+Daksha's answer. Found by checking the answer against the records (script in 24.1). **Fix:** earlier answers reach
+the LLM only when the question is a follow-up.
+
+```python
+# Earlier answers go to the LLM only for a follow-up: given with a new question, a small model copied one
+# patient's findings into the next patient's answer.
+prompt = build_prompt(question, r, facts, history if search_q != question else None, ...)
+```
+
+Regression test: a standalone question sent with history must produce a prompt without "CONVERSATION SO FAR".
+
+### 24.4 Answer formatting (bug 2)
+
+Answers quote record text, so they cannot be inserted as raw HTML. They are now rendered as Markdown and **sanitised**
+before display, and `[S1]` citations become links to their source:
+
+```javascript
+// static/app.js
+function answerHTML(text, id) {
+  const cite = (s) => s.replace(/\[S(\d+)((?:\s*[,;]\s*S?\d+)*)\]/g, (m) =>
+    m.replace(/S?(\d+)/g, (n, d) => `<a class="cite" data-target="${id}-s${d}">S${d}</a>`));
+  if (window.marked && window.DOMPurify) return DOMPurify.sanitize(marked.parse(cite(text)));
+  return `<div class="plain">${cite(esc(text))}</div>`;   // escaped plain text without the libraries
+}
+```
+
+### 24.5 Unknown and misspelt patient names (bugs 4, 5, 6)
+
+If a name matches no patient, searching everyone is dangerous: the LLM then describes whoever the search returned.
+The right answer is "No patient matching ...", without calling the LLM. Three gaps were closed one after another.
+
+**Bug 4, lower case ("roy ramesh").** Unknown names were recognised only when capitalised. Lower-case words now count
+as a name only if they look like one, so ordinary phrases are not refused:
+
+```python
+# medrag/retrieval/query_parser.py
+def _looks_like_name(self, words) -> bool:
+    """A known first name and a known (or nearly known, i.e. misspelt) surname,
+    so "for urgent patients" or "of white matter" are not names."""
+    first, last = words[0].lower(), words[-1].lower()
+    return first in self.first_names and (last in self.last_names or bool(self.suggest(" ".join(words), limit=1)))
+```
+
+The refusal suggests close names, but only to users allowed to see every patient (names must not leak to a
+clinician restricted to their own patients), and carries no sources from the search over everyone:
+
+```python
+# medrag/rag/answer.py
+refusal = f"No patient matching '{r.filters.unresolved_patient}' was found in the records."
+if user.allowed_mask(self.retriever.meta) is None:          # may see every patient
+    close = self.retriever.parser.suggest(r.filters.unresolved_patient)
+    if close:
+        refusal += " Did you mean: " + ", ".join(close) + "?"
+r.hits, facts = r.hits.iloc[0:0], ""                        # nothing answered from that search
+```
+
+**Bug 5, inside a sentence ("lopa garden has CT scans").** The answer described 8 CT scans of a patient who does not
+exist (the real Lopa Gordon has 1). Every 2-word window is already fuzzy-matched against all 20,000 names; a
+window scoring 90%+ resolves to that patient. A window scoring **80-90%** is now treated as a misspelt, unknown name.
+
+```python
+hit = process.extractOne(cand, self.names, scorer=fuzz.ratio, score_cutoff=80)
+if hit and hit[1] >= 90:
+    best = (hit[1], hit[0])                          # a typo of a real patient: use them
+elif (hit and n == 2 and words[i].lower() in self.first_names
+      and words[i + 1].lower() not in STOP_AFTER_PATIENT):
+    near = (hit[1], cand)                            # "lopa garden": unknown, suggest "Lopa Gordon"
+```
+
+The first version had no first-name condition and **wrongly refused 26 of 921 ordinary questions** ("liver on" and
+"had stone" are 80% like some of the 20,000 names). That was found by running the parser over two test sets plus
+generic phrasings before shipping:
+
+```python
+wrong = [q for q in questions if p.parse(q).unresolved_patient and q_type != "not_found"]
+print(f"{len(questions)} ordinary questions: wrongly flagged as unknown patient: {len(wrong)}")   # 26 -> 0
+```
+
+**Bug 6, a bare name with both parts misspelt ("json igbal").** A question that is only 2-3 words, none of them
+ordinary words, and 80-90% like a full patient name, is now an unknown name with "Did you mean: Jason Iqbal?".
+Checked against 770 test questions plus about 95 short medical phrases ("chest xray", "fatty liver", "cat scan"):
+0 wrongly refused.
+
+### 24.6 The small local model (bugs 7 and 8)
+
+**Bug 7, loops.** qwen3:1.7b repeated one paragraph for 77 s; qwen2.5:3b listed about 40 invented studies with
+made-up study numbers, both until they ran out of tokens. Ollama's repetition penalty only looks back 64 tokens,
+less than one cycle of the loop:
+
+```python
+# medrag/providers/llms.py (Ollama)
+"options": {"temperature": 0.1, "num_ctx": 8192, "num_predict": max_tokens, "repeat_last_n": 256},
+```
+
+**Tried and rejected: stricter instructions.** Rules such as "use the recorded gender", "newest first" and
+"recommendations only for their own study" were measured on the 54-question set before adopting them. Keyword
+pass rates rose slightly, but citations halved (qwen2.5 31% -> 7%, qwen3 48% -> 24%), qwen3 said "not found" more
+often (29% -> 41%) and spot checks still showed the same errors. They were reverted: a fix is adopted only if the
+measurement supports it.
+
+**Bug 8, patient summaries.** Asked to rewrite a whole history, the small model picked the wrong "most recent"
+finding, gave one study's recommendation to another, got ages and pronouns wrong, and mixed two patients who share a
+name. The retrieval and the exact counts were right every time; the rewriting was the problem. **Method: split the
+work.** Facts that sit in database columns come from the database; the LLM writes only a short summary, and that
+summary is checked.
+
+```python
+# medrag/rag/overview.py: is this a plain patient overview?
+def is_overview(question, f) -> bool:
+    if not f.patient_ids or f.unresolved_patient:
+        return False
+    if f.modality or f.body_part or f.priority or f.findings or f.documents or f.aggregate or f.latest:
+        return False                                   # something narrower: the normal RAG path
+    name_words = {w for n in f.patient_names for w in n.lower().split()}
+    return all(w in OVERVIEW_WORDS or w in name_words or any(fuzz.ratio(w, n) >= 75 for n in name_words)
+               for w in re.findall(r"[a-z]+", question.lower()))
+```
+
+The page then shows the **exact record** (every study with its finding and the report's own recommendation,
+abnormal ones highlighted, the linked documents), and the LLM gets the abnormal findings already picked out and is
+asked only for the most important ones with their dates (at most 3 sentences, 300 tokens). Every date in the summary
+is then verified:
+
+```python
+# medrag/rag/overview.py (simplified)
+for sentence in sentences(text):
+    for token in mrns_and_dates_in_order(sentence):
+        if is_mrn(token):
+            mrn = token                                        # dates after an MRN belong to that patient
+        elif token not in records_of(mrn):
+            flag(token, "belongs to the other patient" if other_patient_has(token) else "no such study")
+        elif token in normal_dates_of_patients_with_findings:
+            flag(token, "a normal study, not an abnormal finding")
+        elif not shared_words(sentence, record_text(token)):
+            flag(token, "does not match the record for that date")
+```
+
+The checker itself was tested on the real wrong answers it had to catch: Gautami Miller's summary that put patient
+#11782's haemorrhage under #1527 ("2025-01-25 (belongs to the other patient, MRN0011782)") and Yadavi Sami's normal
+PET-CT listed as an abnormal finding. A first version flagged Sai Matthews' correct "all studies normal"; the rule was
+narrowed to patients who do have abnormal findings.
+
+| 10 overview patients x 2 runs (qwen2.5:3b) | Before | After |
+|---|---|---|
+| Summaries passing the check | several wrong (wrong patient, normal study, wrong recommendation) | **20 of 20** |
+| Median time | 7-46 s | **3.8 s** |
+
+### 24.7 Document search with "CAT scan" (bug 9)
+
+"Which patient had a consult about an effusion seen on the CAT scan?" did not find Deepa Washington's consult.
+"CAT scan" set a CT filter; documents carry no modality (only the Open-i X-ray reports do), so "CT + documents"
+matched nothing, and the filter relaxation dropped *documents* first and searched CT studies instead. **Fix:** in a
+document question, a modality that no document carries describes the text, which the search still matches:
+
+```python
+# medrag/retrieval/retriever.py, Retriever._mask
+if "modality" in use and f.modality:
+    doc_content = (f.documents and "documents" in use and f.modality not in self._doc_modalities
+                   and (m & (self.meta["doc_type"] == "document")).any())
+    if not doc_content:
+        m &= self.meta["modality"] == f.modality
+```
+
+The first version skipped the filter for every document question; a unit test caught that "MRI report for MRN...
+dated ..." (which means the **study**) would then lose its study. The last condition keeps the filter when no
+document matches the rest of the question. A/B on the same 80 document questions, run with the change stashed and
+restored:
+
+| | MRR | "which patient had a ... document about ..." |
+|---|---:|---:|
+| before | 0.921 | 0.90 |
+| after | **0.946** | **1.00** |
+
+### 24.8 New patients while the app is in use (bug 10)
+
+There was a `watch` command, but no way to send records in, new documents were not handled (the bulk loader links
+documents to random synthetic patients, so re-running it would move existing documents), and the first question
+after an update waited about 15 s for the new index to load. **Fixes:**
+
+- `POST /api/ingest` (admins) adds a patient, studies with their reports, documents and conditions to the raw
+  stage, and refuses what cleaning would silently drop (unknown modality, future date, no `IMPRESSION:` line,
+  a note under 15 words).
+- Ingested documents arrive with their patient and are added to the clean stage without touching existing ones.
+- `watch` runs clean -> document sync -> incremental index.
+- Table files are written to a temporary file and swapped in, so the watcher never reads a half-written table.
+- The app loads each new index version in a background thread and switches when it is ready:
+
+```python
+# api.py
+def _reload_loop(stop):
+    while not stop.wait(RELOAD_EVERY):                      # every 10 s
+        for key, (built, _) in list(_loaded.items()):
+            new = _manifest(Path(key))["built_at"]
+            if new != built:
+                fresh = Retriever(Index(Path(key)))         # loads next to the version in use
+                _loaded[key] = (new, fresh)                 # questions in flight finish on the old one
+```
+
+Measured on a copy of the full data: adding a patient 2.4 s; one sync 75 s (167 chunks embedded, 121,171 reused);
+the app switched 8 s later with no pause; the new patient's exact record, the new note, and a question about the
+note ("a PET-CT and CT-guided biopsy of the right upper lobe nodule") were all correct.
+
+### 24.9 What the testing taught
+
+- **Check answers against the database, not by reading them.** Several wrong answers read fluently (a patient with
+  another patient's findings, a made-up patient with 8 scans); only the comparison with the records showed them.
+- **Every fix is a new risk.** The follow-up fix caused the history leak (bug 3), the first misspelt-name rule
+  refused 26 ordinary questions, the first document fix would have broken study lookups. Each was caught by a
+  regression test or a false-positive check before it shipped.
+- **Measure before adopting.** The stricter instructions looked like an obvious improvement and made answers worse.
+- **Keep facts out of the small model.** The retrieval was right in almost every failure; errors came from a 3B
+  model rewriting facts it was given. Exact facts from the database plus a short, verified summary fixed what
+  prompt wording could not.
+- **Remaining:** a name with both parts misspelt inside a longer sentence ("tell me about yochal gayal") is still
+  searched normally (its answer was safe: "no information"), and documents are linked to synthetic patients for
+  testing, so a note can still not fit the patient it is attached to.
