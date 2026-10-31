@@ -92,15 +92,19 @@ class QueryParser:
         # Names: try every 2-3 word window against the patient name list.
         words = re.findall(r"[A-Za-z][A-Za-z'.-]+", q)
         best: tuple[float, str] | None = None
+        near: tuple[float, str] | None = None  # 80-90% like a patient's name: a misspelling, never resolved to them
         for n in (3, 2):
             for i in range(len(words) - n + 1):
                 cand = " ".join(words[i:i + n]).lower()
                 if cand in self.by_name:
                     best = (100.0, cand)
                     break
-                hit = process.extractOne(cand, self.names, scorer=fuzz.ratio, score_cutoff=90)
-                if hit and (best is None or hit[1] > best[0]):
+                hit = process.extractOne(cand, self.names, scorer=fuzz.ratio, score_cutoff=80)
+                if hit and hit[1] >= 90 and (best is None or hit[1] > best[0]):
                     best = (hit[1], hit[0])
+                elif (hit and hit[1] < 90 and n == 2 and (near is None or hit[1] > near[0])
+                      and words[i].lower() in self.first_names and words[i + 1].lower() not in STOP_AFTER_PATIENT):
+                    near = (hit[1], cand)  # a real first name + a near-miss surname; "liver on" or "had stone" are not
             if best and best[0] == 100.0:
                 break
         if best:
@@ -116,6 +120,10 @@ class QueryParser:
                 if len(cand) >= 2 and ((after_cue and all(w[0].isupper() for w in cand)) or self._looks_like_name(cand)):
                     f.unresolved_patient = " ".join(w[:1].upper() + w[1:] for w in cand)
                     break
+            # A misspelt name anywhere in the question ("lopa garden has CT scans"): searching everyone instead let
+            # the LLM describe a patient who does not exist.
+            if f.unresolved_patient is None and near:
+                f.unresolved_patient = " ".join(w[:1].upper() + w[1:] for w in near[1].split())
 
         f.patient_ids = sorted(set(ids))
         f.patient_names = [self.name_of[i] for i in f.patient_ids]

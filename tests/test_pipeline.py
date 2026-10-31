@@ -202,7 +202,11 @@ def test_unknown_names_in_lower_case_are_caught_but_ordinary_words_are_not():
     assert qp.parse("nikita shesadru").unresolved_patient == "Nikita Shesadru"  # a bare, misspelt name
     assert qp.suggest("Nikita Shesadru") == ["Nikita Seshadri"]
     assert qp.parse("nikita seshadri").patient_ids == [1]
-    for q in ("Latest CT Scans", "how many ct studies for urgent patients", "any findings of white matter disease"):
+    # a misspelt name inside a sentence, which an LLM otherwise answered about as if the patient existed
+    assert qp.parse("nikita shesadru has CT scans").unresolved_patient == "Nikita Shesadru"
+    assert qp.parse("nikita seshadru has CT scans").patient_ids == [1]  # one letter off: that patient
+    for q in ("Latest CT Scans", "how many ct studies for urgent patients", "any findings of white matter disease",
+              "Which patients had a stone in the kidney?", "How many had fatty liver reported on imaging?"):
         assert qp.parse(q).unresolved_patient is None, q
 
 
