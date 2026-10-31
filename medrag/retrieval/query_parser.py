@@ -64,6 +64,8 @@ class QueryParser:
         for pid, name in zip(people["patient_id"], people["patient_name"]):
             self.by_name.setdefault(name.lower(), []).append(int(pid))
         self.names = list(self.by_name)
+        self.first_names = {n.split()[0] for n in self.names}
+        self.last_names = {n.split()[-1] for n in self.names}
         acc = meta.dropna(subset=["study_id"]).copy()
         acc["acc"] = acc["text"].str.extract(r"Accession: (\S+)", expand=False)
         self.by_accession = dict(zip(acc["acc"].str.upper(), acc["patient_id"]))
@@ -104,16 +106,33 @@ class QueryParser:
         if best:
             ids.extend(self.by_name[best[1]])
         elif not ids:
-            for m in re.finditer(r"\b(?:patient|for|of|about)\s+([A-Za-z][a-z'.-]+(?:\s+[A-Za-z][a-z'.-]+){1,2})", q, re.I):
-                cand = [w.strip(".'-") for w in m.group(1).split() if w.lower().strip(".") not in STOP_AFTER_PATIENT]
-                if len(cand) >= 2 and all(w[0].isupper() for w in cand):
-                    f.unresolved_patient = " ".join(cand)
+            # An unknown name after "patient/for/of/about", or a question that is only a name ("nikita shesadru").
+            spans = [(m.group(1), True) for m in re.finditer(
+                r"\b(?:patient|for|of|about)\s+([A-Za-z][A-Za-z'.-]+(?:\s+[A-Za-z][A-Za-z'.-]+){1,2})", q, re.I)]
+            if 2 <= len(words) <= 3:
+                spans.append((" ".join(words), False))  # capitals alone do not make "Latest CT Scans" a name
+            for span, after_cue in spans:
+                cand = [w.strip(".'-") for w in span.split() if w.lower().strip(".") not in STOP_AFTER_PATIENT]
+                if len(cand) >= 2 and ((after_cue and all(w[0].isupper() for w in cand)) or self._looks_like_name(cand)):
+                    f.unresolved_patient = " ".join(w[:1].upper() + w[1:] for w in cand)
                     break
 
         f.patient_ids = sorted(set(ids))
         f.patient_names = [self.name_of[i] for i in f.patient_ids]
         if f.patient_ids:
             f.unresolved_patient = None
+
+    def _looks_like_name(self, words: list[str]) -> bool:
+        """Lower-case words count as a name only if they start with a known first name and end with a known surname,
+        or the whole name is close to a patient's (a misspelling), so "for urgent patients" or "of white matter"
+        are not names."""
+        first, last = words[0].lower(), words[-1].lower()
+        return first in self.first_names and (last in self.last_names or bool(self.suggest(" ".join(words), limit=1)))
+
+    def suggest(self, name: str, limit: int = 3) -> list[str]:
+        """Closest patient names to one that was not found (for "did you mean")."""
+        hits = process.extract(name.lower(), self.names, scorer=fuzz.ratio, score_cutoff=80, limit=limit)
+        return [self.name_of[self.by_name[n][0]] for n, _, _ in hits]
 
     # ---------------- everything else ----------------
     def parse(self, q: str, now: datetime | None = None) -> Filters:

@@ -210,6 +210,12 @@ class RAG:
         refusal = None
         if r.filters.unresolved_patient:
             refusal = f"No patient matching '{r.filters.unresolved_patient}' was found in the records."
+            if user.allowed_mask(self.retriever.meta) is None:  # only a user who may see every patient gets names
+                close = self.retriever.parser.suggest(r.filters.unresolved_patient)
+                if close:
+                    refusal += " Did you mean: " + ", ".join(close) + "?"
+            # Nothing was answered from the search, which ran over every patient: show no sources or counts with it.
+            r.hits, facts = r.hits.iloc[0:0], ""
         pseudo = None
         if self.is_cloud and refusal is None:
             phi = get_settings().phi_cloud
@@ -220,7 +226,9 @@ class RAG:
                 ids = set(r.hits["patient_id"].dropna().astype(int)) | set(r.filters.patient_ids)
                 people = self.retriever.meta.loc[self.retriever.meta["patient_id"].isin(ids), ["patient_id", "patient_name", "mrn"]]
                 pseudo = Pseudonymiser(people)
-        prompt = build_prompt(question, r, facts, history)
+        # Earlier answers go to the LLM only for a follow-up: given with a new question, a small model copied one
+        # patient's findings into the next patient's answer.
+        prompt = build_prompt(question, r, facts, history if search_q != question else None)
         if pseudo:
             prompt = pseudo.apply(prompt)
             question = pseudo.apply(question)

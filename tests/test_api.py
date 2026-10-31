@@ -69,6 +69,21 @@ def test_follow_up_question_reuses_the_previous_search(client, built):
     # a question that stands on its own is not tied to the previous one
     meta = _events(client.post("/api/ask", json={"question": "How many CT studies were done?", "history": history}))[0]
     assert same_patient not in meta["filters"] and not any(n.startswith("Follow-up") for n in meta["notes"])
+    # ...and its prompt has no earlier answers: a small model copied one patient's findings into the next answer
+    assert "CONVERSATION SO FAR" not in client.llm.prompts[-1] and "Two CT studies" not in client.llm.prompts[-1]
+
+
+def test_unknown_or_misspelt_lower_case_name_is_not_searched(client, built):
+    _, cleaned, *_ = built
+    names = cleaned["patients"]["full_name"]
+    names = names[(names.str.count(" ") == 1) & (names.str.len() == 14)]  # 2 wrong letters of 14 score about 86%:
+    name = names.iloc[0]  # below the 90% that resolves a typo to the patient, above the 80% for "did you mean"
+    first, last = name.split()
+    typo = f"{first} {last[:-2]}qq".lower()
+    events = _events(client.post("/api/ask", json={"question": f"tell me about {typo}"}))
+    text = "".join(e["text"] for e in events if e["type"] == "token")
+    assert text.startswith("No patient matching") and f"Did you mean: {name}" in text
+    assert events[0]["sources"] == [] and not events[0]["facts"]  # no other patients' records shown with it
 
 
 def test_patients_search_and_detail(client, built):

@@ -192,6 +192,20 @@ def test_short_modality_codes_only_in_capitals():
     assert qp.parse("Mr Smith had an ultrasound").modality == "US"
 
 
+def test_unknown_names_in_lower_case_are_caught_but_ordinary_words_are_not():
+    from medrag.retrieval.query_parser import QueryParser
+
+    meta = pd.DataFrame({"patient_id": [1, 2, 3], "patient_name": ["Nikita Seshadri", "Roy White", "Toby Ramesh"],
+                         "mrn": ["MRN1", "MRN2", "MRN3"], "study_id": [pd.NA] * 3, "text": ["x"] * 3, "specialty": [None] * 3})
+    qp = QueryParser(meta)
+    assert qp.parse("tell me about roy ramesh").unresolved_patient == "Roy Ramesh"  # known first name, unknown person
+    assert qp.parse("nikita shesadru").unresolved_patient == "Nikita Shesadru"  # a bare, misspelt name
+    assert qp.suggest("Nikita Shesadru") == ["Nikita Seshadri"]
+    assert qp.parse("nikita seshadri").patient_ids == [1]
+    for q in ("Latest CT Scans", "how many ct studies for urgent patients", "any findings of white matter disease"):
+        assert qp.parse(q).unresolved_patient is None, q
+
+
 def test_clean_keeps_patients_without_mrn():
     from medrag.data.clean import clean
     from medrag.data.store import COLUMNS
