@@ -43,7 +43,8 @@ class OllamaLLM(LLM):
         body = {
             "model": self.model, "stream": True, "think": False,
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-            "options": {"temperature": 0.1, "num_ctx": 8192, "num_predict": max_tokens},
+            # repeat_last_n 256 (default 64): qwen3:1.7b looped over a long paragraph until it ran out of tokens
+            "options": {"temperature": 0.1, "num_ctx": 8192, "num_predict": max_tokens, "repeat_last_n": 256},
         }
         in_think = False
         with httpx.stream("POST", f"{get_settings().ollama_url}/api/chat", json=body, timeout=600) as r:
