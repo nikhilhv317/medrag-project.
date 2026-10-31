@@ -2,19 +2,22 @@
 
 The index and models load once at start-up and stay in memory, so only the question's own work runs per request.
 Answers stream as NDJSON lines: {"type": "meta", ...sources and facts}, then {"type": "token", "text": ...}, then "done".
+New records: POST /api/ingest writes them to the raw stage; `python -m medrag watch` indexes them; a background
+thread here loads each new index version and switches to it when ready, so no question waits for a reload.
 """
 import json
 import secrets
 import threading
+import time
 from contextlib import asynccontextmanager
-from functools import lru_cache
+from datetime import date, datetime
 from pathlib import Path
 
 import pandas as pd
 from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 from medrag.config import get_settings
 from medrag.data import catalog as C
@@ -30,6 +33,10 @@ STATIC = Path(__file__).parent / "static"
 s = get_settings()
 _sessions: dict[str, User] = {}  # sign-in token -> user, in memory: a restart signs everyone out
 _search_lock = threading.Lock()  # the retriever's caches and the reranker are shared by every request
+_ingest_lock = threading.Lock()  # one addition at a time: each rewrites raw tables
+_loaded: dict[str, tuple[str, Retriever]] = {}  # index path -> (built_at, retriever) in use
+_load_lock = threading.Lock()
+RELOAD_EVERY = 10  # seconds between checks for a new index version
 
 
 def _indexes() -> list[Path]:
@@ -40,12 +47,9 @@ def _manifest(path: Path) -> dict:
     return json.loads((path / "manifest.json").read_text())
 
 
-@lru_cache(maxsize=2)
-def _retriever(path: str, built_at: str) -> Retriever:  # built_at in the key: a rebuilt index is loaded again
-    return Retriever(Index(Path(path)))
-
-
 def retriever(name: str | None = None) -> Retriever:
+    """The loaded retriever for an index. Loaded here only the first time; newer versions are swapped in by
+    _reload_loop, so a question never waits for a rebuilt index to load."""
     found = _indexes()
     if not found:
         raise HTTPException(503, "No index found. Build one first: python -m medrag pipeline")
@@ -53,7 +57,29 @@ def retriever(name: str | None = None) -> Retriever:
     path = next((p for p in found if p.name == name), None) if name else default
     if path is None:
         raise HTTPException(404, f"Unknown index {name!r}")
-    return _retriever(str(path), _manifest(path)["built_at"])
+    key = str(path)
+    if key not in _loaded:
+        with _load_lock:
+            if key not in _loaded:
+                built = _manifest(path)["built_at"]
+                _loaded[key] = (built, Retriever(Index(path)))
+    return _loaded[key][1]
+
+
+def _reload_loop(stop: threading.Event) -> None:
+    """Load each new index version (written by `python -m medrag watch`) next to the one in use, then swap.
+    Questions in flight finish on the version they started with."""
+    while not stop.wait(RELOAD_EVERY):
+        for key, (built, _) in list(_loaded.items()):
+            try:
+                new = _manifest(Path(key))["built_at"]
+                if new != built:
+                    t0 = time.time()
+                    fresh = Retriever(Index(Path(key)))
+                    _loaded[key] = (new, fresh)
+                    print(f"[{datetime.now():%H:%M:%S}] switched to index built {new} (loaded in {time.time() - t0:.0f}s)")
+            except Exception as e:  # a build still being written, or a disk hiccup: keep the version in use
+                print(f"[{datetime.now():%H:%M:%S}] index reload skipped: {e}")
 
 
 def current_user(authorization: str | None = Header(None)) -> User:
@@ -74,7 +100,10 @@ def _records(df: pd.DataFrame) -> list[dict]:
 async def lifespan(_app):
     if _indexes():
         retriever()  # load the default index before the first question, not during it
+    stop = threading.Event()
+    threading.Thread(target=_reload_loop, args=(stop,), daemon=True, name="index-reload").start()
     yield
+    stop.set()
 
 
 app = FastAPI(title="MedRAG", lifespan=lifespan)
@@ -116,7 +145,8 @@ def info(user: User = Depends(current_user)):
     return {
         "user": {"username": user.username, "role": user.role, "sees_records": user.sees_records},
         "auth": auth_enabled(),
-        "indexes": [{"name": p.name, **{k: _manifest(p).get(k) for k in ("chunks", "dim", "built_at")}} for p in found],
+        "indexes": [{"name": p.name, **{k: _manifest(p).get(k) for k in ("chunks", "dim", "built_at")},
+                     "in_use": _loaded[str(p)][0] if str(p) in _loaded else None} for p in found],
         "default_index": next((p.name for p in found if p == s.index_path()), found[0].name if found else None),
         "llm": f"{s.llm_provider}:{s.llm_model}",
         "modes": list(MODES),
@@ -170,6 +200,87 @@ def ask(body: Ask, user: User = Depends(current_user)):
         yield json.dumps({"type": "done"}) + "\n"
 
     return StreamingResponse(lines(), media_type="application/x-ndjson")
+
+
+# ---------------- new records ----------------
+# Checked here because cleaning would otherwise drop them silently (unknown modality, future date, no text).
+class NewPatient(BaseModel):
+    mrn: str = Field(pattern=r"^[A-Za-z0-9-]{3,30}$")
+    full_name: str = Field(min_length=2, max_length=120)
+    gender: str | None = None
+    date_of_birth: date | None = None
+    blood_group: str | None = None
+    city: str | None = None
+
+
+class NewStudy(BaseModel):
+    study_date: datetime
+    modality: str
+    body_part: str = Field(min_length=2, max_length=40)
+    priority: str = "routine"
+    indication: str | None = None
+    referring_physician: str | None = None
+    radiologist: str | None = None
+    status: str = "final"
+    report_text: str = Field(min_length=20, max_length=20000)
+
+    @field_validator("modality")
+    @classmethod
+    def known_modality(cls, v: str) -> str:
+        if v.strip().lower() not in C.MODALITY_SYNONYMS and v.strip().upper() not in C.MODALITIES:
+            raise ValueError(f"unknown modality; use one of {', '.join(C.MODALITIES)}")
+        return v.strip()
+
+    @field_validator("study_date")
+    @classmethod
+    def not_future(cls, v: datetime) -> datetime:
+        if v.replace(tzinfo=None) > datetime.now():
+            raise ValueError("study_date is in the future")
+        return v.replace(tzinfo=None)
+
+    @field_validator("report_text")
+    @classmethod
+    def has_impression(cls, v: str) -> str:
+        if not any(line.upper().startswith("IMPRESSION:") for line in v.splitlines()):
+            raise ValueError("report_text needs an 'IMPRESSION:' line (the finding shown in tables and counts)")
+        return v
+
+
+class NewDocument(BaseModel):
+    title: str = Field(min_length=2, max_length=200)
+    specialty: str | None = None
+    doc_date: date
+    text: str = Field(max_length=100000)
+    description: str | None = None
+
+    @field_validator("text")
+    @classmethod
+    def long_enough(cls, v: str) -> str:
+        if len(v.split()) < 15:
+            raise ValueError("document text needs at least 15 words")
+        return v
+
+
+class Ingest(BaseModel):
+    patient: NewPatient
+    studies: list[NewStudy] = Field(default_factory=list, max_length=50)
+    documents: list[NewDocument] = Field(default_factory=list, max_length=20)
+    conditions: list[str] = Field(default_factory=list, max_length=20)
+
+
+@app.post("/api/ingest")
+def ingest(body: Ingest, user: User = Depends(current_user)):
+    """Add a patient (or more records for an existing MRN). Searchable after the next sync by `python -m medrag watch`."""
+    if user.role != "admin":
+        raise HTTPException(403, "Only admins can add records.")
+    from medrag.ingest.live import add_records
+
+    with _ingest_lock:
+        ids = add_records(body.patient.model_dump(), [x.model_dump() for x in body.studies],
+                          [x.model_dump() for x in body.documents], body.conditions)
+    audit.append("audit", {"user": user.username, "role": user.role, "event": "ingest", "patient_id": ids["patient_id"],
+                           "study_ids": ids["study_ids"], "document_ids": ids["document_ids"]})
+    return ids | {"next": "Searchable after the next sync: `python -m medrag watch` checks for changes every 30 s."}
 
 
 # ---------------- patients ----------------

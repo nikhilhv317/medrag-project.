@@ -68,6 +68,22 @@ A patient overview ("tell me about <name>") shows the patient's exact record fro
 finding and recommendation, abnormal ones highlighted, and the linked documents), and the LLM adds only a short
 summary of the main findings; every date in that summary is checked against the record, including which patient it
 belongs to when two share a name. Questions about what a document or report says go through the full RAG path.
+
+**New records while doctors use it.** Run the web app and the watcher side by side:
+
+```bash
+uvicorn api:app --port 8000          # the app
+python -m medrag watch --interval 30 # checks the raw tables every 30 s
+```
+
+Add records with `POST /api/ingest` (admins; a patient by MRN, studies with their report, notes, conditions; anything
+cleaning would drop, such as an unknown modality, a future date or a report without an `IMPRESSION:` line, is
+refused with a reason), or write them into the raw tables from another system. On a change, `watch` cleans, adds new
+documents (each keeps the patient it arrived with; existing links never move), and re-indexes incrementally. The
+app checks every 10 s for a new index version, loads it in the background and switches when ready, so no question
+waits; the sidebar shows when the index was last updated. Measured on the full data (121,338 chunks, laptop GPU):
+adding a patient 2.4 s, sync 75 s (167 chunks embedded, 121,171 reused; 53 s of it is rebuilding chunk text), switch
+8 s later. `python -m medrag watch --once` runs a single sync.
 Measured on the full index with `qwen2.5:3b` on a laptop GPU: sources in about 0.6-2 s, the whole answer in about 5 s.
 API: `GET /api/info`, `POST /api/ask` (NDJSON stream), `GET /api/patients?q=`, `GET /api/patients/{id}`,
 `GET /api/quality`, `GET /api/evals`, `GET /api/evals/{run}`, `GET /api/audit`, `POST /api/login`; docs at `/docs`.

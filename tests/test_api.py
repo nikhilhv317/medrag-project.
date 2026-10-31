@@ -29,11 +29,12 @@ def client(env, built):
     mp.setattr(api, "s", env)
     llm = FakeLLM()
     mp.setattr(api, "get_llm", lambda spec: llm)
+    api._loaded.clear()
     with TestClient(api.app) as c:
         c.llm = llm
         yield c
     mp.undo()
-    api._retriever.cache_clear()  # release the memory-mapped index: Windows cannot delete an open file in later tests
+    api._loaded.clear()  # release the memory-mapped index: Windows cannot delete an open file in later tests
     gc.collect()
 
 

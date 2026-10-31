@@ -5,6 +5,7 @@ Two stages:
   clean -> after cleaning, used for indexing     (postgres schema medrag)
 """
 import io
+import os
 from contextlib import contextmanager
 
 import pandas as pd
@@ -38,6 +39,9 @@ COLUMNS = {
         "specialty": "text", "doc_date": "timestamp", "text": "text", "labels": "text", "description": "text",
     },
 }
+# Documents added while the app runs (ingest/live.py) arrive with their patient; kept apart from the bulk
+# Open-i / MTSamples load so re-running that load never moves them.
+COLUMNS["documents_ingested"] = COLUMNS["documents"]
 CORE_TABLES = ["patients", "conditions", "studies", "ai_analysis", "reports"]  # documents are optional
 DATE_COLS = {"date_of_birth", "diagnosed_on", "study_date", "signed_at", "doc_date"}
 
@@ -73,7 +77,9 @@ def write_table(stage: str, name: str, df: pd.DataFrame) -> None:
     if s.data_backend == "parquet":
         out = s.data_dir / stage
         out.mkdir(parents=True, exist_ok=True)
-        df.to_parquet(out / f"{name}.parquet", index=False)
+        tmp = out / f"{name}.parquet.tmp"  # write then swap: `watch` may read the table at any moment
+        df.to_parquet(tmp, index=False)
+        os.replace(tmp, out / f"{name}.parquet")
         return
 
     schema = SCHEMAS[stage]

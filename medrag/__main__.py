@@ -75,6 +75,9 @@ def cmd_documents(a):
     s.reports_dir.mkdir(parents=True, exist_ok=True)
     (s.reports_dir / "quality_documents.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines[:len(before) + 4] + [""] + log))
+    from medrag.ingest.live import sync_documents
+
+    print("\n".join(sync_documents()))  # this load replaced the clean documents: add the ingested ones back
     print(f"\n{len(docs):,} clean documents written. Next: python -m medrag index")
 
 
@@ -126,19 +129,32 @@ def _raw_signature() -> str:
     return hashlib.md5(json.dumps(sig, default=str).encode()).hexdigest()
 
 
+def sync(a) -> None:
+    """One update: clean the raw stage, add new ingested documents, index the new or changed chunks."""
+    from medrag.ingest.live import sync_documents
+
+    t0 = time.time()
+    cmd_clean(a)
+    print("\n".join(sync_documents()))
+    cmd_index(a)
+    print(f"[{datetime.now():%H:%M:%S}] sync done in {time.time() - t0:.0f}s")
+
+
 def cmd_watch(a):
-    """Keep the index in sync with the database: re-clean and re-index (incrementally) when raw data changes."""
+    """Keep the index in sync with the database: re-clean and re-index (incrementally) when raw data changes.
+    The web app (api.py) loads each new index version in the background and switches to it when ready."""
     last = None
     while True:
         try:
             sig = _raw_signature()
             if sig != last:
-                print(f"[{datetime.now():%H:%M:%S}] change detected -> clean + index")
-                cmd_clean(a)
-                cmd_index(a)
+                print(f"[{datetime.now():%H:%M:%S}] change detected -> clean + documents + index")
+                sync(a)
                 last = sig
         except Exception as e:  # keep the watcher alive through transient DB errors
             print(f"[{datetime.now():%H:%M:%S}] sync failed: {e}")
+        if a.once:
+            return
         time.sleep(a.interval)
 
 
@@ -333,6 +349,7 @@ def main():
     p.set_defaults(fn=cmd_ask)
     p = sub.add_parser("watch", help="poll the database and keep the index in sync")
     p.add_argument("--interval", type=int, default=30)
+    p.add_argument("--once", action="store_true", help="run one sync and exit")
     index_args(p)
     p.set_defaults(fn=cmd_watch)
     p = sub.add_parser("eval", help="evaluate retrieval and answers, compare models")

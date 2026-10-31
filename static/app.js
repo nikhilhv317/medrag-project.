@@ -96,8 +96,16 @@ async function start() {
 
 function showIndexInfo() {
   const i = state.info.indexes.find((x) => x.name === $("#index").value);
-  $("#index-info").textContent = i ? `${i.chunks.toLocaleString()} chunks · ${i.dim}-d · built ${i.built_at}` : "";
+  if (!i) { $("#index-info").textContent = ""; return; }
+  const pending = i.in_use && i.in_use !== i.built_at ? " · newer version loading…" : "";
+  $("#index-info").textContent = `${i.chunks.toLocaleString()} chunks · ${i.dim}-d · updated ${(i.in_use || i.built_at).replace("T", " ")}${pending}`;
 }
+
+// New records are indexed in the background (python -m medrag watch); keep the "updated" label current.
+setInterval(async () => {
+  if (!state.info || document.hidden) return;
+  try { state.info = { ...state.info, indexes: (await getJSON("/api/info")).indexes }; showIndexInfo(); } catch { /* next time */ }
+}, 30000);
 $("#index").addEventListener("change", () => { showIndexInfo(); state.loaded = {}; });
 $("#topk").addEventListener("input", (e) => { $("#topk-value").textContent = e.target.value; });
 

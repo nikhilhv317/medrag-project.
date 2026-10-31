@@ -30,7 +30,9 @@ README.md explains the pipeline; PROJECT_REPORT.md is the full write-up with all
 - Data and reports come with `git pull`. Indexes are not in git: take them from `medrag_transfer.tar` (unpack
   in the repo root) or rebuild with the pipeline commands in README.md.
 - Many files have CRLF line endings: edit with the Edit tool, not multi-line string replacement scripts.
-- Tests: `.venv/Scripts/python -m pytest -q` (40 pass).
+- Tests: `.venv/Scripts/python -m pytest -q` (43 pass).
+- Live updates: `POST /api/ingest` -> `python -m medrag watch` (clean + documents + incremental index) -> the app swaps
+  in the new index in the background. Ingested documents live in raw `documents_ingested` and keep their patient.
 - Web UI: `uvicorn api:app --port 8000` (FastAPI `api.py` + plain JavaScript in `static/`); the Streamlit `app.py`
   still works but is slower.
 
