@@ -240,8 +240,8 @@ def test_modality_in_a_document_question_describes_the_text():
 def test_unknown_names_in_lower_case_are_caught_but_ordinary_words_are_not():
     from medrag.retrieval.query_parser import QueryParser
 
-    meta = pd.DataFrame({"patient_id": [1, 2, 3], "patient_name": ["Nikita Seshadri", "Roy White", "Toby Ramesh"],
-                         "mrn": ["MRN1", "MRN2", "MRN3"], "study_id": [pd.NA] * 3, "text": ["x"] * 3, "specialty": [None] * 3})
+    meta = pd.DataFrame({"patient_id": [1, 2, 3, 4], "patient_name": ["Nikita Seshadri", "Roy White", "Toby Ramesh", "Jason Iqbal"],
+                         "mrn": ["MRN1", "MRN2", "MRN3", "MRN4"], "study_id": [pd.NA] * 4, "text": ["x"] * 4, "specialty": [None] * 4})
     qp = QueryParser(meta)
     assert qp.parse("tell me about roy ramesh").unresolved_patient == "Roy Ramesh"  # known first name, unknown person
     assert qp.parse("nikita shesadru").unresolved_patient == "Nikita Shesadru"  # a bare, misspelt name
@@ -250,6 +250,10 @@ def test_unknown_names_in_lower_case_are_caught_but_ordinary_words_are_not():
     # a misspelt name inside a sentence, which an LLM otherwise answered about as if the patient existed
     assert qp.parse("nikita shesadru has CT scans").unresolved_patient == "Nikita Shesadru"
     assert qp.parse("nikita seshadru has CT scans").patient_ids == [1]  # one letter off: that patient
+    # a question that is only a name, misspelt in the first name too
+    assert qp.parse("json igbal").unresolved_patient == "Json Igbal" and qp.suggest("Json Igbal") == ["Jason Iqbal"]
+    for q in ("chest xray", "fatty liver", "thank you"):
+        assert qp.parse(q).unresolved_patient is None, q
     for q in ("Latest CT Scans", "how many ct studies for urgent patients", "any findings of white matter disease",
               "Which patients had a stone in the kidney?", "How many had fatty liver reported on imaging?"):
         assert qp.parse(q).unresolved_patient is None, q

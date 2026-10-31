@@ -115,6 +115,11 @@ class QueryParser:
                 r"\b(?:patient|for|of|about)\s+([A-Za-z][A-Za-z'.-]+(?:\s+[A-Za-z][A-Za-z'.-]+){1,2})", q, re.I)]
             if 2 <= len(words) <= 3:
                 spans.append((" ".join(words), False))  # capitals alone do not make "Latest CT Scans" a name
+                # A question that is only a misspelt name, first name included ("json igbal" for Jason Iqbal).
+                if f.unresolved_patient is None and near is None and not any(w.lower() in STOP_AFTER_PATIENT for w in words):
+                    whole = process.extractOne(" ".join(words).lower(), self.names, scorer=fuzz.ratio, score_cutoff=80)
+                    if whole:
+                        near = (whole[1], " ".join(words).lower())
             for span, after_cue in spans:
                 cand = [w.strip(".'-") for w in span.split() if w.lower().strip(".") not in STOP_AFTER_PATIENT]
                 if len(cand) >= 2 and ((after_cue and all(w[0].isupper() for w in cand)) or self._looks_like_name(cand)):
