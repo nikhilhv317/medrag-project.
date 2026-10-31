@@ -209,6 +209,8 @@ def test_overview_questions_and_date_check():
           "documents": [{"date": "2021-09-16", "title": "Gen Med Consult", "specialty": "General Medicine", "conclusion": ""}]}]
     assert unverified_dates("On 2025-08-13, a PET-CT whole body revealed no acute abnormality.", o) == [
         "2025-08-13 (a normal study, not an abnormal finding)"]  # listed among "the most important abnormal findings"
+    only_normal = [{"mrn": "MRN8", "studies": [o[0]["studies"][1]], "documents": []}]  # nothing abnormal to list instead
+    assert unverified_dates("MRN8: 2025-08-13 PET-CT whole body, no acute abnormality.", only_normal) == []
     assert unverified_dates("MRI brain on 2024-12-15: acute right MCA infarct. A 2021-09-16 consult is attached.", o) == []
     assert unverified_dates("On 2025-03-01 a CT showed a fracture.", o) == ["2025-03-01 (no such study or document)"]
     assert unverified_dates("On 2024-12-15 a mammogram showed a breast mass.", o) == [

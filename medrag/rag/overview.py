@@ -87,9 +87,14 @@ def _dated_words(o: dict) -> dict[str, set[str]]:
 
 
 def _normal_dates(overviews: list[dict]) -> set[str]:
-    """Dates on which every study was normal and nothing else (a document, an abnormal study) happened."""
-    busy = {s["date"] for o in overviews for s in o["studies"] if s["abnormal"]} | {d["date"] for o in overviews for d in o["documents"]}
-    return {s["date"] for o in overviews for s in o["studies"]} - busy
+    """Dates on which every study was normal and nothing else (a document, an abnormal study) happened, for patients
+    who do have abnormal findings: those belong in the summary instead. With none, "all normal" is the right answer."""
+    dates: set[str] = set()
+    for o in overviews:
+        if any(s["abnormal"] for s in o["studies"]):
+            busy = {s["date"] for s in o["studies"] if s["abnormal"]} | {d["date"] for d in o["documents"]}
+            dates |= {s["date"] for s in o["studies"]} - busy
+    return dates
 
 
 def unverified_dates(text: str, overviews: list[dict]) -> list[str]:

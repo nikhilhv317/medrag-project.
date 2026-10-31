@@ -38,8 +38,9 @@ OVERVIEW_TOKENS = 300  # the LLM's part of a patient overview is a few sentences
 # Only findings and dates: age, recommendations and the rest are in the tables, and a small LLM got them wrong
 # (a fracture's "orthopaedic review" given to a breast mass, "no follow-up" for a stroke, a wrong age).
 OVERVIEW_TASK = """TASK: The user already sees exact tables of every study, finding, recommendation and document of
-the patient(s). In at most 3 sentences, name the most important abnormal findings, each with its date and study,
-using the finding's own words. Do not mention recommendations, age or anything else; the tables show them. If
+the patient(s). In at most 3 sentences, name the most important of the ABNORMAL FINDINGS listed below, each with its
+date and study, using the finding's own words; if there are none, say the studies showed no abnormal findings. Do
+not mention normal studies, recommendations, age or anything else; the tables show them. If
 several patients share the name, write one short paragraph per patient, starting with their MRN."""
 # A question that points back at the conversation ("the above", "her", "that study") rather than standing alone.
 FOLLOW_UP = re.compile(r"\b(above|previous|earlier|that|this|those|these|it|its|them|they|he|she|him|his|her|hers|"
@@ -172,6 +173,10 @@ def build_prompt(question: str, r: Result, facts: str, history: list[dict] | Non
     parts.append(f"QUESTION: {question}")
     if task:
         parts.append(task)
+    if task and r.overview:  # picked out from the exact record: a small LLM left alone listed normal studies
+        for o in r.overview:
+            found = [f"- {s['date']} {s['modality']} {s['body_part']}: {s['finding']}" for s in o["studies"] if s["abnormal"]]
+            parts.append(f"ABNORMAL FINDINGS of {o['name']} ({o['mrn']}), newest first:\n" + ("\n".join(found) or "- none"))
     if r.notes:
         parts.append("NOTES: " + " ".join(r.notes))
     if facts:
