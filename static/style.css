@@ -39,7 +39,12 @@ main { display: flex; flex-direction: column; min-width: 0; height: 100vh; }
 .empty { margin: 40px auto; max-width: 520px; text-align: center; }
 .msg { max-width: 900px; margin: 0 auto 16px; padding: 12px 14px; border-radius: 10px; background: var(--panel); border: 1px solid var(--border); }
 .msg.user { background: var(--user); }
-.msg .answer { white-space: pre-wrap; }
+.msg .answer .plain { white-space: pre-wrap; }
+.msg .answer > :first-child { margin-top: 0; }
+.msg .answer > :last-child { margin-bottom: 0; }
+.msg .answer h1, .msg .answer h2, .msg .answer h3 { font-size: 16px; margin: 12px 0 6px; }
+.msg .answer ul, .msg .answer ol { padding-left: 22px; margin: 6px 0; }
+.msg .answer p { margin: 6px 0; }
 .msg .meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
 .msg .timing { font-size: 12px; color: var(--muted); margin-top: 6px; }
 .cite { font-size: 11px; padding: 0 5px; border-radius: 4px; background: var(--code); color: var(--accent); cursor: pointer; text-decoration: none; }

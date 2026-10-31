@@ -124,12 +124,18 @@ def info(user: User = Depends(current_user)):
 
 
 # ---------------- chat ----------------
+class Turn(BaseModel):
+    question: str = Field(max_length=2000)
+    answer: str = Field(max_length=20000)
+
+
 class Ask(BaseModel):
     question: str = Field(min_length=1, max_length=2000)
     llm: str | None = None
     mode: str = "hybrid+rerank"
     top_k: int | None = Field(None, ge=1, le=20)
     index: str | None = None
+    history: list[Turn] = Field(default_factory=list, max_length=10)  # earlier turns, oldest first, for follow-ups
 
 
 @app.post("/api/ask")
@@ -140,7 +146,8 @@ def ask(body: Ask, user: User = Depends(current_user)):
     try:
         rag = RAG(ret, get_llm(body.llm or f"{s.llm_provider}:{s.llm_model}"))
         with _search_lock:
-            r, facts, stream = rag.stream(body.question, body.mode, user=user, k=body.top_k)
+            r, facts, stream = rag.stream(body.question, body.mode, user=user, k=body.top_k,
+                                          history=[t.model_dump() for t in body.history])
     except (ValueError, PermissionError) as e:
         raise HTTPException(400, str(e))
 

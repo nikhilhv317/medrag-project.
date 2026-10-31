@@ -1,6 +1,7 @@
 // MedRAG UI: talks to api.py. No build step, no framework.
 const $ = (sel) => document.querySelector(sel);
-const state = { token: sessionStorage.getItem("medrag-token") || "", info: null, loaded: {} };
+const state = { token: sessionStorage.getItem("medrag-token") || "", info: null, loaded: {}, history: [] };
+const HISTORY_TURNS = 3; // earlier questions and answers sent with each question, so follow-ups work
 
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -119,10 +120,13 @@ function addMessage(role, html) {
   return div;
 }
 
-// Answer text is shown as text (never as HTML, since it quotes records); [S1]-style citations become links.
+// [S1]-style citations become links to their source. Answers quote records, so the Markdown is rendered and then
+// sanitised (DOMPurify); without the libraries the answer is shown as escaped plain text.
 function answerHTML(text, id) {
-  return esc(text).replace(/\[S(\d+)((?:\s*[,;]\s*S?\d+)*)\]/g, (m) =>
+  const cite = (s) => s.replace(/\[S(\d+)((?:\s*[,;]\s*S?\d+)*)\]/g, (m) =>
     m.replace(/S?(\d+)/g, (n, d) => `<a class="cite" data-target="${id}-s${d}">S${d}</a>`));
+  if (window.marked && window.DOMPurify) return DOMPurify.sanitize(marked.parse(cite(text)));
+  return `<div class="plain">${cite(esc(text))}</div>`;
 }
 
 $("#messages").addEventListener("click", (e) => {
@@ -142,6 +146,7 @@ $("#question").addEventListener("keydown", (e) => {
 
 $("#clear").addEventListener("click", () => {
   $("#messages").innerHTML = '<div class="empty muted">Chat cleared.</div>';
+  state.history = [];
 });
 
 $("#ask-form").addEventListener("submit", async (e) => {
@@ -156,7 +161,8 @@ $("#ask-form").addEventListener("submit", async (e) => {
   const started = performance.now();
   let text = "", firstToken = 0;
   try {
-    const res = await api("/api/ask", { method: "POST", body: JSON.stringify({ question, ...settings() }) });
+    const res = await api("/api/ask", { method: "POST",
+      body: JSON.stringify({ question, history: state.history.slice(-HISTORY_TURNS), ...settings() }) });
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
     let buffer = "";
@@ -178,6 +184,7 @@ $("#ask-form").addEventListener("submit", async (e) => {
         }
       }
     }
+    if (text) state.history = [...state.history, { question, answer: text }].slice(-HISTORY_TURNS);
     const total = ((performance.now() - started) / 1000).toFixed(1);
     msg.querySelector(".answer").insertAdjacentHTML("afterend",
       `<div class="timing">${firstToken ? `first words after ${((firstToken - started) / 1000).toFixed(1)} s · ` : ""}done in ${total} s</div>`);

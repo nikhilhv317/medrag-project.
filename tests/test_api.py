@@ -13,8 +13,10 @@ class FakeLLM(LLM):
 
     def __init__(self):
         super().__init__("fake")
+        self.prompts = []
 
     def stream(self, system, user, max_tokens=1500):
+        self.prompts.append(user)
         yield "The records show "
         yield "a finding [S1]."
 
@@ -25,8 +27,10 @@ def client(env, built):
 
     mp = pytest.MonkeyPatch()
     mp.setattr(api, "s", env)
-    mp.setattr(api, "get_llm", lambda spec: FakeLLM())
+    llm = FakeLLM()
+    mp.setattr(api, "get_llm", lambda spec: llm)
     with TestClient(api.app) as c:
+        c.llm = llm
         yield c
     mp.undo()
     api._retriever.cache_clear()  # release the memory-mapped index: Windows cannot delete an open file in later tests
@@ -51,6 +55,20 @@ def test_ask_streams_sources_then_answer(client):
     assert "".join(tokens) == "The records show a finding [S1]." and events[-1]["type"] == "done"
     assert client.post("/api/ask", json={"question": "x", "mode": "nonsense"}).status_code == 400
     assert client.post("/api/ask", json={"question": ""}).status_code == 422
+
+
+def test_follow_up_question_reuses_the_previous_search(client, built):
+    _, cleaned, *_ = built
+    pt = cleaned["patients"].iloc[0]
+    first = f"Summarise the imaging history of {pt['mrn']}"
+    history = [{"question": first, "answer": "Two CT studies, both normal [S1]."}]
+    meta = _events(client.post("/api/ask", json={"question": "summarize the above in a paragraph", "history": history}))[0]
+    same_patient = f"(id {pt['patient_id']})"
+    assert same_patient in meta["filters"] and any(n.startswith("Follow-up") for n in meta["notes"])
+    assert "CONVERSATION SO FAR" in client.llm.prompts[-1] and "Two CT studies, both normal" in client.llm.prompts[-1]
+    # a question that stands on its own is not tied to the previous one
+    meta = _events(client.post("/api/ask", json={"question": "How many CT studies were done?", "history": history}))[0]
+    assert same_patient not in meta["filters"] and not any(n.startswith("Follow-up") for n in meta["notes"])
 
 
 def test_patients_search_and_detail(client, built):
