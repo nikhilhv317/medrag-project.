@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedRAG</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- Markdown for the report tabs; without them the reports show as plain text -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js" defer></script>
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div id="login" class="login hidden">
+    <form id="login-form" class="card">
+      <h2>Sign in</h2>
+      <label>User name <input name="username" autocomplete="username" required></label>
+      <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+      <button type="submit">Sign in</button>
+      <p id="login-error" class="error"></p>
+    </form>
+  </div>
+
+  <div id="app" class="layout hidden">
+    <aside class="sidebar">
+      <h1>MedRAG</h1>
+      <p class="muted small">Questions over imaging records, answered from the records with sources.</p>
+
+      <label>Embedding index <select id="index"></select></label>
+      <p id="index-info" class="muted small"></p>
+      <label>LLM (provider:model) <input id="llm" list="llm-options" spellcheck="false"></label>
+      <datalist id="llm-options">
+        <option value="ollama:qwen2.5:3b"><option value="ollama:qwen3:1.7b">
+        <option value="gemini:gemini-3.5-flash-lite"><option value="gemini:gemini-3-flash-preview">
+        <option value="nvidia:nvidia/nemotron-3.5-super-vl-120b-a12b">
+      </datalist>
+      <label>Retrieval mode <select id="mode"></select></label>
+      <label>Sources per answer <span id="topk-value"></span>
+        <input id="topk" type="range" min="3" max="20">
+      </label>
+      <button id="clear" class="secondary">Clear chat</button>
+      <p id="whoami" class="muted small"></p>
+      <button id="logout" class="secondary hidden">Sign out</button>
+    </aside>
+
+    <main>
+      <nav class="tabs" role="tablist">
+        <button data-tab="chat" class="active">Chat</button>
+        <button data-tab="patients">Patients</button>
+        <button data-tab="quality">Data quality</button>
+        <button data-tab="eval">Evaluation</button>
+        <button data-tab="audit">Audit</button>
+      </nav>
+
+      <section id="tab-chat" class="tab active">
+        <div id="messages" class="messages">
+          <div class="empty muted">Ask about a patient, a study or the whole cohort, for example
+            <em>"How many stat MRI studies were performed in 2023?"</em></div>
+        </div>
+        <form id="ask-form" class="ask">
+          <textarea id="question" rows="2" placeholder="Ask about a patient, a study, or the whole cohort..." required></textarea>
+          <button id="send" type="submit">Ask</button>
+        </form>
+      </section>
+
+      <section id="tab-patients" class="tab">
+        <form id="patient-form" class="row">
+          <input id="patient-q" placeholder="Search by name, MRN or patient ID">
+          <button type="submit">Search</button>
+        </form>
+        <div id="patient-results"></div>
+      </section>
+
+      <section id="tab-quality" class="tab"><div id="quality"></div></section>
+
+      <section id="tab-eval" class="tab">
+        <label class="row">Run <select id="eval-run"></select></label>
+        <div id="eval"></div>
+      </section>
+
+      <section id="tab-audit" class="tab"><div id="audit"></div></section>
+    </main>
+  </div>
+</body>
+</html>

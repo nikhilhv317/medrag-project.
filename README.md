@@ -57,8 +57,16 @@ python -m medrag pipeline --patients 20000     # generate -> check -> clean -> i
 python -m medrag check --stage clean           # quality report on the cleaned data
 python -m medrag ask "What was the most recent imaging study for MRN0000042?"
 python -m medrag ask                           # interactive
-streamlit run app.py                           # web UI: chat, patient lookup, data quality, evaluation
+uvicorn api:app --port 8000                    # web UI at http://localhost:8000 (FastAPI + JavaScript)
+streamlit run app.py                           # older Streamlit UI, same tabs, slower
 ```
+
+**Web UI** (`api.py` + `static/`): FastAPI loads the index and models once at start-up, and the plain JavaScript page
+streams each answer as it is written, with its filters, sources (citations link to them) and computed facts. Tabs:
+Chat, Patients, Data quality, Evaluation, Audit; sign-in and per-user access as in the Streamlit app (`USERS_FILE`).
+Measured on the full index with `qwen2.5:3b` on a laptop GPU: sources in about 0.6-2 s, the whole answer in about 5 s.
+API: `GET /api/info`, `POST /api/ask` (NDJSON stream), `GET /api/patients?q=`, `GET /api/patients/{id}`,
+`GET /api/quality`, `GET /api/evals`, `GET /api/evals/{run}`, `GET /api/audit`, `POST /api/login`; docs at `/docs`.
 
 Or run each step on its own:
 

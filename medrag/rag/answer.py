@@ -213,9 +213,10 @@ class RAG:
             "tokens_in": t_in if prompt else 0, "tokens_out": t_out if prompt else 0,
             "cost_usd": (t_in * s.llm_price_in + t_out * s.llm_price_out) / 1e6 if prompt and not refusal else 0.0, "error": error})
 
-    def stream(self, question: str, mode: str = "hybrid+rerank", user: User | None = None) -> tuple[Result, str, Iterator[str]]:
+    def stream(self, question: str, mode: str = "hybrid+rerank", user: User | None = None,
+               k: int | None = None) -> tuple[Result, str, Iterator[str]]:
         user = self._user(user)
-        r, facts, prompt, t_ret, pseudo, refusal = self.prepare(question, mode, user=user)
+        r, facts, prompt, t_ret, pseudo, refusal = self.prepare(question, mode, k=k, user=user)
         if refusal:
             self._record(user, question, r, refusal, "", t_ret, 0.0, None, refusal)
             return r, facts, iter([refusal])

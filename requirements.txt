@@ -26,6 +26,8 @@ google-genai
 boto3
 
 # UI / tests
+fastapi
+uvicorn
 streamlit
 pytest
 defusedxml
